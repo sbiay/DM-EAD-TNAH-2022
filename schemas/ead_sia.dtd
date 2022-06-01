@@ -1,0 +1,477 @@
+<!--::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::-->
+<!--DTD EAD SIA-->
+<!--Archives nationales - Mission Projet Pierrefites - Système d'Information Archivistique -->
+
+<!--DTD utilisee par le SIA pour la production des instruments de recherche des archives nationales.-->
+<!--Basee sur la DTD EAD 2002 : +//ISBN 1-931666-00-8//DTD ead.dtd (Encoded Archival Description (EAD) Version 2002)//EN -->
+<!--Version beta du 20-09-2010 : Initialisation --> 
+<!--Version ceta du 28-09-2010 : Corrections suites aux remarques du chantier de dématérialisation --> 
+<!--Version 1.0 du 06-10-2010: Corrections suite aux remarques du chantier de dématérialisation ainsi que celles de la SIAF-->
+<!--Version 2.0 du 18-04-2011: Proposition Logica minimale et strict SIA, facilite la validation de la structure d'un IR SIA--> 
+<!--:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::-->
+
+
+<!--STRUCTURE GENERALE DE l'IR -->
+<!ELEMENT ead (eadheader, frontmatter?, archdesc) >
+
+<!-- En-tete EAD -->
+<!ELEMENT eadheader (eadid, filedesc,  profiledesc, revisiondesc?)>
+<!ATTLIST eadheader dateencoding NMTOKEN "iso8601">
+<!ATTLIST eadheader langencoding NMTOKEN "iso639-2b">
+<!ATTLIST eadheader countryencoding NMTOKEN "iso3166-1">
+<!ATTLIST eadheader encodinganalog CDATA #IMPLIED>
+<!ATTLIST eadheader findaidstatus NMTOKEN #IMPLIED>
+<!ATTLIST eadheader relatedencoding CDATA #IMPLIED>
+<!ATTLIST eadheader repositoryencoding NMTOKEN "iso15511">
+<!ATTLIST eadheader scriptencoding NMTOKEN "iso15924">
+
+<!-- Preliminaires -->
+<!--<!ELEMENT frontmatter (div+)>-->
+<!ELEMENT frontmatter (div)>
+
+<!-- Description archivistique -->
+<!--<!ELEMENT archdesc (did,  accessrestrict, userestrict, altformavail?, originalsloc?, phystech?, acqinfo, bioghist?, custodhist?, appraisal?, arrangement?, fileplan?, accruals?, scopecontent?, separatedmaterial?, relatedmaterial?, otherfindaid?,  bibliography?, processinfo?, controlaccess?, dsc?)>-->
+<!ELEMENT archdesc (did,  accessrestrict, userestrict, altformavail?, originalsloc?, phystech?,acqinfo, bioghist?, custodhist?, appraisal?, arrangement?, accruals?, scopecontent?, separatedmaterial?, relatedmaterial?, otherfindaid?,  bibliography?, daogrp?,processinfo?, controlaccess?, dsc?)>
+<!ATTLIST archdesc level (class | collection | file | fonds | item | otherlevel | recordgrp | series | subfonds | subgrp | subseries) #REQUIRED>
+<!ATTLIST archdesc otherlevel NMTOKEN #IMPLIED>
+<!ATTLIST archdesc audience (external | internal) #IMPLIED>
+<!ATTLIST archdesc encodinganalog CDATA #IMPLIED>
+<!ATTLIST archdesc relatedencoding CDATA #IMPLIED>
+
+<!-- Conditions d'acces -->
+<!--<!ELEMENT accessrestrict (p | list)+>-->
+<!ATTLIST accessrestrict encodinganalog CDATA #IMPLIED>
+<!ELEMENT accessrestrict (p | list)+>
+
+<!-- Accroissement  -->
+<!--<!ELEMENT accruals (p | list)+>-->
+<!ATTLIST accruals encodinganalog CDATA #IMPLIED>
+<!ELEMENT accruals (p | list)+>
+
+<!-- Modalites d'entree -->
+<!--<!ELEMENT acqinfo (p | list)+>-->
+<!ATTLIST acqinfo encodinganalog CDATA #IMPLIED>
+<!ATTLIST acqinfo audience (external | internal) #IMPLIED>
+<!ELEMENT acqinfo (p | list)+>
+
+<!-- Adresse -->
+<!--<!ELEMENT address (addressline+)>-->
+<!ELEMENT address (addressline)>
+
+<!--Ligne d'adresse -->
+<!--<!ELEMENT addressline (#PCDATA |emph)*>-->
+<!ELEMENT addressline (#PCDATA)>
+
+<!-- Documents de substitution -->
+<!--<!ELEMENT altformavail (p | list)+>-->
+<!ATTLIST altformavail encodinganalog CDATA #IMPLIED>
+<!ELEMENT altformavail (p | list)+>
+
+<!-- Information sur l'evaluation -->
+<!--<!ELEMENT appraisal (p | list)+>-->
+<!ATTLIST appraisal encodinganalog CDATA #IMPLIED>
+<!ELEMENT appraisal (p | list)+>
+
+<!-- Reference a d'autres documents d'archives -->
+<!--<!ELEMENT archref (#PCDATA |emph)*>-->
+<!ELEMENT archref (#PCDATA)>
+<!ATTLIST archref href CDATA #IMPLIED>
+
+<!-- Classement -->
+<!--<!ELEMENT arrangement (p | list)+>-->
+<!ATTLIST arrangement encodinganalog CDATA #IMPLIED>
+<!ELEMENT arrangement (p | list)+>
+
+<!-- Auteur de l'instrument de recherche -->
+<!--<!ELEMENT author (#PCDATA | emph)*>-->
+<!ATTLIST author encodinganalog CDATA #IMPLIED>
+<!ELEMENT author (#PCDATA)>
+
+<!-- Bibliographie -->
+<!--<!ELEMENT bibliography (p | list | bibref)+>-->
+<!ATTLIST bibliography encodinganalog CDATA #IMPLIED>
+<!ELEMENT bibliography (p | list)+>
+
+<!-- Reference bibliographique -->
+<!-- <!ELEMENT bibref (#PCDATA | emph | ref)*> -->
+<!-- <!ATTLIST bibref encodinganalog CDATA #IMPLIED> -->
+<!-- <!ATTLIST bibref href CDATA #IMPLIED> -->
+<!-- <!ATTLIST bibref role CDATA #IMPLIED> -->
+
+<!-- Biographie ou histoire -->
+<!--<!ELEMENT bioghist (p | list | dao)+>-->
+<!ATTLIST bioghist encodinganalog CDATA #IMPLIED>
+<!ATTLIST bioghist audience (external | internal) #IMPLIED>
+<!ELEMENT bioghist (p | list)+>
+
+<!-- Composant -->
+<!--<!ELEMENT c (did,  accessrestrict?, userestrict?, altformavail?, originalsloc?, phystech?, acqinfo?, bioghist?, custodhist?, appraisal?, arrangement?, fileplan?, accruals?, scopecontent?, separatedmaterial?, relatedmaterial?, otherfindaid?,  bibliography?, daogrp?, controlaccess?, c*)>-->
+<!ATTLIST c encodinganalog CDATA #IMPLIED>
+<!ELEMENT c (did,  accessrestrict?, userestrict?, altformavail?, originalsloc?,phystech?, acqinfo?, bioghist?, custodhist?, appraisal?, arrangement?, accruals?, scopecontent?, separatedmaterial?, relatedmaterial?, otherfindaid?,  bibliography?, daogrp?, processinfo?, controlaccess?, c*)>
+<!ATTLIST c level (class | collection | file | fonds | item | otherlevel | recordgrp | series | subfonds | subgrp | subseries) #IMPLIED>
+<!ATTLIST c audience (external | internal) #IMPLIED>
+<!ATTLIST c otherlevel NMTOKEN #IMPLIED>
+<!-- F. Clavaud, 31 mars 2022 : suppression de cette ligne trop contraignante dans le cadre du devoir d'encodage <!ATTLIST c id ID #REQUIRED>-->
+<!-- FClavaud, 31 mars 2022 : ajout de la ligne suivante rendant l'attr. id optionnel -->
+<!ATTLIST c id ID #IMPLIED>
+
+<!-- Modification -->
+<!ELEMENT change (date, item)>
+<!ATTLIST change encodinganalog CDATA #IMPLIED>
+
+<!-- Vedettes et acces controles -->
+<!ATTLIST controlaccess encodinganalog CDATA #IMPLIED>
+<!ATTLIST controlaccess audience (external | internal) #IMPLIED>
+<!ELEMENT controlaccess (corpname | famname | genreform | geogname | occupation | function | persname | subject | title)+>
+
+<!-- Collectivites -->
+<!ATTLIST corpname role CDATA #IMPLIED>
+<!ATTLIST corpname encodinganalog CDATA #IMPLIED>
+<!--<!ATTLIST corpname rules NMTOKEN #IMPLIED>-->
+<!ELEMENT corpname (#PCDATA)>
+<!ATTLIST corpname authfilenumber CDATA #IMPLIED>
+<!ATTLIST corpname source CDATA #IMPLIED>
+<!ATTLIST corpname normal CDATA #IMPLIED>
+
+<!-- Creation -->
+<!--<!ELEMENT creation (#PCDATA | emph | date)*>-->
+<!ATTLIST creation encodinganalog CDATA #IMPLIED>
+<!ELEMENT creation (#PCDATA)>
+
+<!-- Historique de la conservation -->
+<!--<!ELEMENT custodhist (p | list)+>-->
+<!ATTLIST custodhist encodinganalog CDATA #IMPLIED>
+<!ATTLIST custodhist audience (external | internal) #IMPLIED>
+<!ELEMENT custodhist (p | list)+>
+
+<!-- Objet archivistique numerique -->
+<!--<!ELEMENT dao (daodesc)>-->
+<!--<!ATTLIST dao href CDATA #IMPLIED>-->
+<!--<!ATTLIST dao role CDATA #IMPLIED>-->
+<!--<!ATTLIST dao xpointer CDATA #IMPLIED> -->
+
+<!-- Description d'objet archivistique numerique -->
+<!--<!ELEMENT daodesc (p+)>-->
+
+<!-- Groupe d'objets archivistiques numeriques -->
+<!ELEMENT daogrp (daoloc+)>
+<!ATTLIST daogrp role CDATA #IMPLIED>
+
+<!-- Emplacement d'objet archivistique numerique -->
+<!--<!ATTLIST daoloc role CDATA #IMPLIED>-->
+<!--<!ATTLIST daoloc xpointer CDATA #IMPLIED>-->
+<!ELEMENT daoloc EMPTY>
+<!ATTLIST daoloc href CDATA #IMPLIED>
+<!ATTLIST daoloc xpointer CDATA #IMPLIED>
+
+<!-- Date -->
+<!ATTLIST date certainty CDATA #IMPLIED>
+<!ATTLIST date encodinganalog CDATA #IMPLIED>
+<!ELEMENT date (#PCDATA)>
+<!ATTLIST date calendar NMTOKEN "gregorian">
+<!ATTLIST date era NMTOKEN "ce">
+<!ATTLIST date normal CDATA #IMPLIED>
+
+<!-- Element d'une liste de definition -->
+<!--<!ELEMENT defitem (label, item)>-->
+
+<!-- Regles de description-->
+<!--<!ELEMENT descrules (#PCDATA | emph)*>-->
+<!ATTLIST descrules encodinganalog CDATA #IMPLIED>
+<!ELEMENT descrules (#PCDATA)>
+
+<!-- Identification et description-->
+<!--<!ELEMENT did (unitid+, unittitle, unitdate*, ( origination? , physdesc? , langmaterial? , repository? , physloc?, materialspec?))>-->
+<!ATTLIST did encodinganalog CDATA #IMPLIED>
+<!ELEMENT did (unitid*, unittitle, unitdate*, origination? , physdesc? , langmaterial? , repository? , physloc?, materialspec?)>
+
+<!-- Dimensions -->
+<!--<!ATTLIST dimensions unit CDATA #IMPLIED>-->
+<!ATTLIST dimensions encodinganalog CDATA #IMPLIED>
+<!ELEMENT dimensions (#PCDATA)>
+
+<!-- Subdivision du texte-->
+<!--<!ELEMENT div (div | list | p)+>-->
+<!ELEMENT div (p | list)+>
+
+<!-- Description des sous-composants -->
+<!ATTLIST dsc encodinganalog CDATA #IMPLIED>
+<!-- <!ELEMENT dsc (c+)> -->
+<!ELEMENT dsc (c*)>
+<!ATTLIST dsc audience (internal | external) #IMPLIED>
+
+<!-- Identifiant EAD -->
+
+<!ELEMENT eadid (#PCDATA)>
+<!ATTLIST eadid countrycode NMTOKEN #IMPLIED>
+<!ATTLIST eadid mainagencycode NMTOKEN #IMPLIED>
+<!ATTLIST eadid encodinganalog CDATA #IMPLIED>
+
+<!-- Edition-->
+
+<!--<!ELEMENT edition (#PCDATA | emph)*>-->
+<!ATTLIST edition encodinganalog CDATA #IMPLIED>
+<!ELEMENT edition (#PCDATA)>
+
+<!-- Mention d'edition-->
+<!ATTLIST editionstmt encodinganalog CDATA #IMPLIED>
+<!ELEMENT editionstmt (edition)>
+
+<!-- Mise en valeur-->
+<!--<!ATTLIST emph render (bold | italic | super | underline) #IMPLIED>-->
+<!ELEMENT emph (#PCDATA | emph)*>
+<!ATTLIST emph render (bold | italic | underline) #IMPLIED>
+
+<!-- Importance materielle-->
+<!--<!ATTLIST extent unit CDATA #IMPLIED>-->
+<!ATTLIST extent encodinganalog CDATA #IMPLIED>
+<!ELEMENT extent (#PCDATA)>
+
+<!-- Reférence externe: element de lien -->
+<!ATTLIST extref role CDATA #IMPLIED>
+<!ELEMENT extref (#PCDATA)>
+<!ATTLIST extref href CDATA #REQUIRED>
+<!ATTLIST extref xpointer CDATA #IMPLIED>
+
+<!-- Nom de famille-->
+<!--<!ATTLIST famname role CDATA #IMPLIED>-->
+<!ATTLIST famname encodinganalog CDATA #IMPLIED>
+<!--<!ATTLIST famname rules CDATA #IMPLIED>-->
+<!ELEMENT famname (#PCDATA)>
+<!ATTLIST famname authfilenumber CDATA #IMPLIED>
+<!ATTLIST famname source  NMTOKEN #IMPLIED>
+<!ATTLIST famname normal CDATA #IMPLIED>
+
+<!-- Description du fichier-->
+<!ATTLIST filedesc encodinganalog CDATA #IMPLIED>
+<!ELEMENT filedesc (titlestmt, editionstmt, publicationstmt, notestmt?)>
+
+<!-- Plan de classement -->
+<!-- Conservé en cas d'import -->
+<!ELEMENT fileplan (p | list)+>
+<!ATTLIST fileplan encodinganalog CDATA #IMPLIED>
+
+<!-- Fonctions administratives  -->
+<!ATTLIST function encodinganalog CDATA #IMPLIED>
+<!--<!ATTLIST function rules NMTOKEN #IMPLIED>-->
+<!ELEMENT function (#PCDATA)>
+<!ATTLIST function authfilenumber CDATA #IMPLIED>
+<!ATTLIST function source CDATA #IMPLIED>
+<!ATTLIST function normal CDATA #IMPLIED>
+
+<!-- Genre et caracteristiques physiques  -->
+<!--<!ATTLIST genreform type CDATA #IMPLIED>-->
+<!ATTLIST genreform encodinganalog CDATA #IMPLIED>
+<!--<!ATTLIST genreform rules NMTOKEN #IMPLIED>-->
+<!ELEMENT genreform (#PCDATA)>
+<!ATTLIST genreform authfilenumber CDATA #IMPLIED>
+<!ATTLIST genreform source CDATA #IMPLIED>
+<!ATTLIST genreform normal CDATA #IMPLIED>
+
+<!-- Nom geographique -->
+<!--<!ATTLIST geogname role CDATA #IMPLIED>-->
+<!ATTLIST geogname encodinganalog CDATA #IMPLIED>
+<!--<!ATTLIST geogname rules NMTOKEN #IMPLIED>-->
+<!ELEMENT geogname (#PCDATA)>
+<!ATTLIST geogname authfilenumber CDATA #IMPLIED>
+<!ATTLIST geogname source CDATA #IMPLIED>
+<!ATTLIST geogname normal CDATA #IMPLIED>
+
+<!-- Item -->
+<!--<!ELEMENT item (#PCDATA | emph | list)*>-->
+<!ELEMENT item (#PCDATA | emph)*>
+
+<!-- Etiquette -->
+<!--<!ELEMENT label (#PCDATA | emph)*>-->
+
+<!-- Langue des unites documentaires -->
+<!ATTLIST langmaterial encodinganalog CDATA #IMPLIED>
+<!ELEMENT langmaterial (language+)>
+
+<!-- Langue utilisee -->
+<!ATTLIST langusage encodinganalog CDATA #IMPLIED>
+<!ELEMENT langusage (language+)>
+
+<!-- Langue -->
+<!ATTLIST language encodinganalog CDATA #IMPLIED>
+<!ELEMENT language (#PCDATA)>
+<!ATTLIST language langcode NMTOKEN #IMPLIED>
+
+<!-- Liste -->
+<!--<!ELEMENT list (defitem | item)+>-->
+<!--<!ATTLIST list type (simple | deflist | marked | ordered) #IMPLIED>-->
+<!ELEMENT list (item)+>
+
+<!-- Particularites de certains types de documents  -->
+<!ATTLIST materialspec encodinganalog CDATA #IMPLIED>
+<!ELEMENT materialspec (#PCDATA)>
+
+<!-- Note -->
+<!--<!ATTLIST note type CDATA #IMPLIED>-->
+<!ATTLIST note encodinganalog CDATA #IMPLIED>
+<!ELEMENT note (p+)>
+
+<!-- Mention de note -->
+<!ATTLIST notestmt encodinganalog CDATA #IMPLIED>
+<!ELEMENT notestmt (note+)>
+
+<!-- Fonction -->
+<!ATTLIST occupation encodinganalog CDATA #IMPLIED>
+<!--<!ATTLIST occupation rules NMTOKEN #IMPLIED>-->
+<!ELEMENT occupation (#PCDATA)>
+<!ATTLIST occupation authfilenumber CDATA #IMPLIED>
+<!ATTLIST occupation source CDATA #IMPLIED>
+<!ATTLIST occupation normal CDATA #IMPLIED>
+
+<!-- Existence et lieu de conservation des documents originaux -->
+<!--<!ELEMENT originalsloc (p | list)+>-->
+<!ATTLIST originalsloc encodinganalog CDATA #IMPLIED>
+<!ELEMENT originalsloc (p | list)+>
+
+<!-- Origine-->
+<!ATTLIST origination encodinganalog CDATA #IMPLIED>
+<!ELEMENT origination (corpname | famname | persname)+>
+
+<!-- Autre instrument de recherche -->
+<!--<!ELEMENT otherfindaid (archref | bibref | p | list)+>-->
+<!ATTLIST otherfindaid encodinganalog CDATA #IMPLIED>
+<!ELEMENT otherfindaid (p | list)+>
+
+<!-- Paragraphe -->
+<!--<!ELEMENT p (#PCDATA | date | emph | extref | list | ref | archref)*>-->
+<!ELEMENT p (#PCDATA | date | emph | ref |list)*>
+<!ATTLIST p altrender CDATA #IMPLIED>
+
+<!-- Nom de personne -->
+
+<!--<!ATTLIST persname audience (external | internal) #IMPLIED>-->
+<!ATTLIST persname encodinganalog CDATA #IMPLIED>
+<!--<!ATTLIST persname rules NMTOKEN #IMPLIED>-->
+<!ELEMENT persname (#PCDATA)>
+<!ATTLIST persname authfilenumber CDATA #IMPLIED>
+<!ATTLIST persname role CDATA #IMPLIED>
+<!ATTLIST persname source CDATA #IMPLIED>
+<!ATTLIST persname normal CDATA #IMPLIED>
+
+<!-- Description physique -->
+<!--<!ELEMENT physdesc (#PCDATA | dimensions | emph | extent | physfacet)*>-->
+<!ATTLIST physdesc source CDATA #IMPLIED>
+<!ATTLIST physdesc encodinganalog CDATA #IMPLIED>
+<!--<!ELEMENT physdesc (dimensions?, extent?, physfacet*)>-->
+<!ELEMENT physdesc (dimensions | extent | physfacet)*>
+
+<!-- Particularite physique -->
+<!ATTLIST physfacet encodinganalog CDATA #IMPLIED>
+<!ELEMENT physfacet (#PCDATA)>
+<!ATTLIST physfacet source CDATA #IMPLIED>
+<!ATTLIST physfacet type CDATA #IMPLIED>
+
+<!-- Localisation physique-->
+<!ATTLIST physloc encodinganalog CDATA #IMPLIED>
+<!ELEMENT physloc (#PCDATA)>
+
+<!-- Caracteristiques materielles et contraintes techniques -->
+<!ELEMENT phystech (p | list)+>
+<!ATTLIST phystech encodinganalog CDATA #IMPLIED>
+
+<!-- Informations sur le traitement -->
+<!ELEMENT processinfo (p | list | note)+>
+<!ATTLIST processinfo encodinganalog CDATA #IMPLIED>
+
+<!-- Description du profil -->
+<!--<!ELEMENT profiledesc (creation, descrules?, langusage)>-->
+<!ATTLIST profiledesc encodinganalog CDATA #IMPLIED>
+<!ELEMENT profiledesc (creation, langusage, descrules?)>
+
+<!-- Mention de publication -->
+<!ATTLIST publicationstmt encodinganalog CDATA #IMPLIED>
+<!ELEMENT publicationstmt (publisher, address, date)>
+
+<!-- Editeur -->
+<!ATTLIST publisher encodinganalog CDATA #IMPLIED>
+<!ELEMENT publisher (#PCDATA)>
+
+<!-- Reference: lien interne -->
+<!--<!ELEMENT ref (#PCDATA)>-->
+<!--<!ATTLIST ref target IDREF #IMPLIED>-->
+<!ELEMENT ref (#PCDATA | extref | archref)*>
+<!ATTLIST ref role CDATA #REQUIRED>
+
+<!-- Documents en relation -->
+<!--<!ELEMENT relatedmaterial (p | list)+>-->
+<!ATTLIST relatedmaterial encodinganalog CDATA #IMPLIED>
+<!ELEMENT relatedmaterial (p | list)+>
+
+<!-- Organisme responsable de l'acces intellectuel -->
+<!--<!ELEMENT repository (#PCDATA | address | corpname | emph)*>-->
+<!ATTLIST repository encodinganalog CDATA #IMPLIED>
+<!ELEMENT repository (#PCDATA)>
+
+<!-- Description des revisions -->
+<!ATTLIST revisiondesc encodinganalog CDATA #IMPLIED>
+<!ELEMENT revisiondesc (change+)>
+
+<!-- Presentation du contenu -->
+<!--<!ELEMENT scopecontent ( p | list | dao)+> -->
+<!ATTLIST scopecontent encodinganalog CDATA #IMPLIED>
+<!ATTLIST scopecontent audience (external | internal) #IMPLIED>
+<!ELEMENT scopecontent (p | list)+>
+
+<!-- Documents separes -->
+<!--<!ELEMENT separatedmaterial ( p | list)+>-->
+<!ATTLIST separatedmaterial encodinganalog CDATA #IMPLIED>
+<!ELEMENT separatedmaterial (p | list)+>
+
+<!-- Mot-matiere -->
+<!ATTLIST subject encodinganalog CDATA #IMPLIED>
+<!ATTLIST subject rules NMTOKEN #IMPLIED>
+<!ELEMENT subject (#PCDATA)>
+<!ATTLIST subject authfilenumber CDATA #IMPLIED>
+<!ATTLIST subject normal CDATA #IMPLIED>
+<!ATTLIST subject source CDATA #IMPLIED>
+
+<!-- Sous-titre de l'instrument de recherche -->
+<!ATTLIST subtitle encodinganalog CDATA #IMPLIED>
+<!ELEMENT subtitle (#PCDATA)>
+
+<!-- Titre -->
+<!ATTLIST title encodinganalog CDATA #IMPLIED>
+<!--<!ATTLIST title rules NMTOKEN #IMPLIED>-->
+<!ELEMENT title (#PCDATA)>
+<!ATTLIST title authfilenumber CDATA #IMPLIED>
+
+<!-- Titre propre de l'instrument de recherche -->
+<!--<!ATTLIST titleproper type CDATA #IMPLIED>-->
+<!ATTLIST titleproper encodinganalog CDATA #IMPLIED>
+<!ELEMENT titleproper (#PCDATA)>
+
+<!-- Mention de titre -->
+<!ATTLIST titlestmt encodinganalog CDATA #IMPLIED>
+<!ELEMENT titlestmt (titleproper, subtitle, author)>
+
+<!-- Date de l'unite documentaire -->
+<!ATTLIST unitdate certainty CDATA #IMPLIED>
+<!--<!ATTLIST unitdate datechar CDATA #IMPLIED>-->
+<!ATTLIST unitdate encodinganalog CDATA #IMPLIED>
+<!ELEMENT unitdate (#PCDATA)>
+<!ATTLIST unitdate calendar NMTOKEN "gregorian">
+<!ATTLIST unitdate era NMTOKEN "ce">
+<!ATTLIST unitdate normal CDATA #IMPLIED>
+
+<!-- Identifiant de l'unite documentaire -->
+<!ATTLIST unitid countrycode NMTOKEN #IMPLIED>
+<!ATTLIST unitid repositorycode NMTOKEN #IMPLIED>
+<!ATTLIST unitid encodinganalog CDATA #IMPLIED>
+<!ELEMENT unitid (#PCDATA)>
+<!ATTLIST unitid type (cote-de-consultation | identifiant | pieces) #REQUIRED>
+
+<!-- Intitule de l'unite documentaire -->
+<!ATTLIST unittitle encodinganalog CDATA #IMPLIED>
+<!-- Lacune : ici la DTD tolère <unittitle>blabla<geoname>geogname 1</geogname>blabla<persname>persname</personame>etc.</unittile> -->
+<!-- Les DTD ne permettent pas de spécifier (#PCDATA | (geogname | persname | unitdate | corpname)+) -->
+<!ELEMENT unittitle (#PCDATA | geogname | persname | unitdate | corpname)*>
+
+<!-- Conditions d'utilisation -->
+<!--<!ELEMENT userestrict ( p | list)+>-->
+<!ATTLIST userestrict encodinganalog CDATA #IMPLIED>
+<!ELEMENT userestrict (p | list)+>
