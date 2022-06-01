@@ -9,4 +9,6 @@ TNAH 2022 : devoir collectif d'EAD
 - **referentiels/** : référentiels à utiliser pour l’indexation
 
 # Branches
-Merci de nommer les branches sur le modèle suivant : `groupeN-CHABADOU` (ex. `groupe1-Zoe-encodage-genial-du-header`)
+Merci de nommer les branches sur le modèle suivant : `groupeN-CHABADOU`
+
+=> Ex. `groupe1-Zoe-encodage-genial-du-header`
