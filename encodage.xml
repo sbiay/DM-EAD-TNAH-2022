@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ead SYSTEM "./schemas/ead_sia.dtd">
+<ead>
+    <eadheader>
+        <eadid></eadid>
+        <filedesc>
+            <titlestmt>
+                <titleproper></titleproper>
+                <subtitle></subtitle>
+                <author></author>
+            </titlestmt>
+            <editionstmt>
+                <edition></edition>
+            </editionstmt>
+            <publicationstmt>
+                <publisher></publisher>
+                <address>
+                    <addressline></addressline>
+                </address>
+                <date></date>
+            </publicationstmt>
+        </filedesc>
+        <profiledesc>
+            <creation></creation>
+            <langusage>
+                <language></language>
+            </langusage>
+        </profiledesc>
+    </eadheader>
+    <archdesc level="">
+        <did>
+            <unittitle></unittitle>
+        </did>
+        <accessrestrict></accessrestrict>
+        <userestrict></userestrict>
+        <acqinfo></acqinfo>
+    </archdesc>
+</ead>
