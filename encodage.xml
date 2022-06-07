@@ -41,7 +41,7 @@
             </change>
         </revisiondesc>
     </eadheader>
-    <archdesc level="recordgrp"> <!-- vérifier niveau recordgrp ou autre -->
+    <archdesc level="recordgrp"> <!-- Recordgroup ou Series ? -->
         <did>
             <unitid type="cote-de-consultation">20110282/1-20110282/74</unitid> <!-- quel type choisir ? -->
             <unittitle>Conservation régionale des monuments historiques d'Île-de-France : 
@@ -90,9 +90,11 @@
             <p>C'est la suppression du service qui a déclenché le versement des archives de la CRMH aux Archives
                 nationales.</p>
         </custodhist>
-        <arrangement> <!-- Présentation du contenu -->
+        <arrangement> <!-- Présentation du contenu et Mode de classement -->
             <p>Ce versement contient :</p>
             <list>
+                <item>Les dossiers sont classés par ordre minéralogique de département, puis par ordre alphabétique de ville et de 
+                    nom d'édifice, puis chronologiquement.</item>
                 <item>les dossiers de programmation des travaux, qui retracent les choix faits par le service 
                     en fonction de l'état des immeubles à restaurer ou à construire : correspondance, notes, 
                     comptes rendus de réunion, tableaux chiffrés (art. 1-13).</item>
@@ -139,10 +141,7 @@
             <!-- ! appraisal peut-être aussi?  On peut séparer les infos, chacune dans un encodage spécifique, mais
              peut-être pas nécessaie vu le peu d'infos qui sont données sur la gestion des docume,ts-->
             <p>Les éliminations ont principalement porté sur les doubles, les dossiers de consultation d'entreprises (DCE), 
-                la documentation reçue à  titre d'information, les documents comptables relatifs au fonctionnement du service.</p>
-            
-            <p>Les dossiers sont classés par ordre minéralogique de département, puis par ordre alphabétique de ville et de 
-                nom d'édifice, puis chronologiquement.</p> <!-- peut-être pas dans processinfos mais dans arrangement -->
+                la documentation reçue à  titre d'information, les documents comptables relatifs au fonctionnement du service.</p>            
         </processinfo>
     </archdesc>
 </ead>
