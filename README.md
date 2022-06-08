@@ -13,6 +13,8 @@ Merci de nommer les branches sur le modèle suivant : `groupeN-CHABADOU`
 
 => Ex. `groupe1-Zoe-encodage-genial-du-header`
 
+Selon vos préférences pour le travail en groupe, il est aussi possible de travailler sur une seule branche pour l'ensemble de votre groupe. Dans ce cas, on nommera la branche de la façon suivante: `groupeN`
+
 # Fonctionnement de l'encodage en groupe
 - L'encodage en EAD sera à faire entièrement dans le document **encodage.xml** afin d'éviter d'avoir trop de fichiers à gérer (sauf pour l'EAC-CPF). Le fait qu'on travaille tous sur des parties différentes devrait éviter les conflits. S'il y a trop de problèmes, on envisagera une autre solution.
 - Pour le groupe 2: il pourra bientôt se lancer dans l'encodage du `<archdesc>`, en se focalisant en particulier sur l'indexation.

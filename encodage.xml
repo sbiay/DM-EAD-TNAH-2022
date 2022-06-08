@@ -26,7 +26,7 @@
         </filedesc>
         <profiledesc>
             <creation>Instrument de recherche en XML/EAD produit à l'aide du logiciel oXygen par 
-                conversion manuelle du fichier Word, en juin 2022. Auteurs de la conersion: étudiants du 
+                conversion manuelle du fichier Word, en juin 2022. Auteurs de la conversion: étudiants du 
                 Master 2 "Technologies numériques appliquées à l'histoire", promotion 2022.</creation>
             <langusage>
                 <language langcode="fre">français</language>
@@ -137,9 +137,9 @@
             </list>
         </relatedmaterial>
         <processinfo> <!-- informations sur le traitement, correspondrait à "Évaluation, tris et
-            éliminations", probablement aussi au mode de classement --> 
+            éliminations" --> 
             <!-- ! appraisal peut-être aussi?  On peut séparer les infos, chacune dans un encodage spécifique, mais
-             peut-être pas nécessaie vu le peu d'infos qui sont données sur la gestion des docume,ts-->
+             peut-être pas nécessaire vu le peu d'infos qui sont données sur la gestion des docume,ts-->
             <p>Les éliminations ont principalement porté sur les doubles, les dossiers de consultation d'entreprises (DCE), 
                 la documentation reçue à  titre d'information, les documents comptables relatifs au fonctionnement du service.</p>            
         </processinfo>
