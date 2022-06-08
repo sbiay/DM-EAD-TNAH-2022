@@ -2,37 +2,146 @@
 <!DOCTYPE ead SYSTEM "./schemas/ead_sia.dtd">
 <ead>
     <eadheader>
-        <eadid></eadid>
+        <eadid>20110282_CRMHIDF</eadid>
         <filedesc>
             <titlestmt>
-                <titleproper></titleproper>
-                <subtitle></subtitle>
-                <author></author>
+                <titleproper>Conservation régionale des monuments historiques d'Île-de-France : 
+                    programmation et conduite de travaux sur des édifices publics (1956-1993)</titleproper>
+                <subtitle>Répertoire numérique</subtitle>
+                <author>Établi par Arnaud de Castelbaiac, Service interministériel des archives de France;
+                    Danièle Kriser, Service national des travaux; Marie Castaing; 
+                    Anne Briqueler; Audrey Poirier</author> <!-- Un seul élément pour tous les noms d'après la DTD SIA-->
             </titlestmt>
             <editionstmt>
-                <edition></edition>
+                <edition>1ere édition électronique</edition>
             </editionstmt>
             <publicationstmt>
-                <publisher></publisher>
+                <publisher>Archives nationales</publisher>
                 <address>
-                    <addressline></addressline>
+                    <addressline>2 rue des Archives, 77300 Fontainebleau</addressline> <!-- adresse de 
+                    la localisation physique ? utiliser plutôt un physloc ? -->
                 </address>
-                <date></date>
+                <date normal="2011">2011</date>
             </publicationstmt>
         </filedesc>
         <profiledesc>
-            <creation></creation>
+            <creation>Instrument de recherche en XML/EAD produit à l'aide du logiciel oXygen par 
+                conversion manuelle du fichier Word, en juin 2022. Auteurs de la conversion: étudiants du 
+                Master 2 "Technologies numériques appliquées à l'histoire", promotion 2022.</creation>
             <langusage>
-                <language></language>
+                <language langcode="fre">français</language>
             </langusage>
+            <descrules>Conforme à la norme ISAD(G) et aux règles d'application de la DTD EAD 
+                (version 2022) aux Archives nationales.</descrules>
         </profiledesc>
+        <revisiondesc>
+            <change>
+                <date></date>
+                <item></item>
+            </change>
+        </revisiondesc>
     </eadheader>
-    <archdesc level="">
+    <archdesc level="recordgrp"> <!-- Recordgroup ou Series ? -->
         <did>
-            <unittitle></unittitle>
+            <unitid type="cote-de-consultation">20110282/1-20110282/74</unitid> <!-- quel type choisir ? -->
+            <unittitle>Conservation régionale des monuments historiques d'Île-de-France : 
+                programmation et conduite de travaux sur des édifices publics.</unittitle>
+            <unitdate normal="1956/1993">XXe siècle</unitdate>
+            <origination>
+                <corpname>Conservation régionale des monuments historiques d'Île-de-France, N1 = 5181</corpname>
+            </origination>
+            <physdesc>
+                <extent>74 cartons de type dimab</extent> <!-- pas néessaire de mettre le type dans un physfacet ?  -->
+                <dimensions>25 mètres linéaires</dimensions>
+            </physdesc>
         </did>
-        <accessrestrict></accessrestrict>
-        <userestrict></userestrict>
-        <acqinfo></acqinfo>
+        <accessrestrict> <!-- Conditions d'accès -->
+            <p>Communicables selon les dispositions du code du patrimoine</p>
+        </accessrestrict>
+        <userestrict> <!-- Conditions d'utilisation -->
+            <p>La reproduction peut être autorisée lorsque l'état matériel des documents le permet,
+                sous réserve des droits de propriété littéraire et artistique attachés à certains 
+                de ces documents.</p>
+        </userestrict>
+        <acqinfo>
+            <p>Versement effectué le <date>31 mai 2011</date></p>
+        </acqinfo>
+        <bioghist> <!-- historique du producteur -->
+            <p>Les premières conservations régionales des bâtiments de France ont été créées à la Libération.
+                Elles ont pris le nom de conservations régionales des monuments historiques en 1979.
+                La Conservation régionale des monuments historiques d’Ile-de-France (CRMH) est chargée 
+                de recenser, protéger et restaurer les monuments historiques franciliens.</p>
+            <p>Pour les administrations qui exerçaient des attributions similaires avant la création du ministère 
+                de la Culture (1959), on peut consulter par exemple un Tableau succinct de l’histoire administrative 
+                des Bâtiments civils (1792-1990) rédigé par Nadine Gastaldi, conservateur aux Archives nationales, 
+                en novembre 2010.</p>
+        </bioghist>
+        <custodhist> <!-- historique de la conservation -->
+            <p>Avant leur versement, ces documents étaient conservés dans les caves de la Grande Ecurie 
+                du Roi, à Versailles. Le département des travaux de la CRMH Ile-de-France se trouvait en effet
+                dans ce bâtiment jusqu'en 1990, date à laquelle le service a cédé la conduite des travaux portant
+                sur les principaux édifices classés d’Ile-de-France appartenant à l’Etat à un nouveau service 
+                à compétence nationale du ministère de la Culture, le Service national des travaux (SNT).</p>
+            <p>En application d’une décision du Conseil de modernisation des politiques publiques de juin 2008,
+                le SNT et l'Etablissement public de maîtrise d'ouvrage des travaux culturels (EMOC), chargé de 
+                missions voisines, ont fusionné en 2010 dans un établissement public à caractère administratif,
+                l’Opérateur du patrimoine et des projets immobiliers de la Culture (OPPIC) (décret n°2010-818 du 
+                14 juillet 2010).</p>
+            <p>C'est la suppression du service qui a déclenché le versement des archives de la CRMH aux Archives
+                nationales.</p>
+        </custodhist>
+        <arrangement> <!-- Présentation du contenu et Mode de classement -->
+            <p>Ce versement contient :</p>
+            <list>
+                <item>Les dossiers sont classés par ordre minéralogique de département, puis par ordre alphabétique de ville et de 
+                    nom d'édifice, puis chronologiquement.</item>
+                <item>les dossiers de programmation des travaux, qui retracent les choix faits par le service 
+                    en fonction de l'état des immeubles à restaurer ou à construire : correspondance, notes, 
+                    comptes rendus de réunion, tableaux chiffrés (art. 1-13).</item>
+                <item>les dossiers de maîtrise d'ouvrage et de conduite de travaux : projets architecturaux,
+                    cahiers des clauses techniques particulières, plans, photographies, comptes rendus de chantier,
+                    notes, correspondance (art. 14-74).</item>
+            </list>
+        </arrangement>
+        <!-- autres versements ? -> otherfindaid ? ou plutôt relatedmaterial ?  le premier est lié par la provenance, pas
+        le second... donc probablement le premier, mais pas de IR ? Peut aussi être separatedmaterial, mais pas même fonds ? (séparation
+         de pièces d'un même fonds pour celui-ci)
+         Selon mon avis:
+        - le premier type de versement = separatedmaterial car semblerait que le producteur soit le même et dates similaires, donc un 
+        bout du fonds lié mais séparé
+        - le deuxième type de versement = relatedmaterial = en lien avec le fonds mais pas le même producteur (producteur != créateur, ici 
+        les archives sont issues du même organisme mais le versement est effectué par le Service national des travaux aux 
+        Archives de Paris, qui en est donc le producteur)
+        --> 
+        <separatedmaterial> <!-- Autres versements en lien avec le fonds mais avec le même producteur  -->
+            <p>Autres versements d'archives de la Conservation régionale des bâtiments de France, puis
+                Conservation régionale des monuments historiques aux Archives nationales :</p>
+            <list>
+                <item>19760342 : dossiers du bureau du contrôle des travaux des bâtiments civils. s.d. 
+                    (accessible par un fichier cote 20060196 et par un fichier informatique).</item>
+                <item>19950177, art. 1 : dossiers individuels d'agents ayant quitté leurs fonctions 
+                    de 1954 à 1988.</item>
+                <item>19950178, art. 1-11: service départemental d'architecture de Paris : devis 
+                    et règlements pour travaux d'entretien des bâtiments de France. 1946-1988</item>
+            </list>
+        </separatedmaterial>
+        <relatedmaterial> <!-- Autres versements en lien avec le fonds mais avec un producteur différent -->
+            <p>Versements d'archives de la Conservation régionale des bâtiments de France, puis Conservation 
+                régionale des monuments historiques effectués par le Service national des travaux aux Archives
+                de Paris :</p>
+            <list>
+                <item>1486 W, art. 1-2320 : dossiers de programmation et de travaux. 1945-1992</item>
+                <item>1543 W, art. 1-676 : dossiers de programmation et de travaux. 1951-1988</item>
+                <item>3546 W, art. 1-24 : dossiers de travaux réalisés sur des monuments historiques 
+                    d’Ile-de-France n’appartenant pas à l’Etat. 1967-1990</item>
+            </list>
+        </relatedmaterial>
+        <processinfo> <!-- informations sur le traitement, correspondrait à "Évaluation, tris et
+            éliminations" --> 
+            <!-- ! appraisal peut-être aussi?  On peut séparer les infos, chacune dans un encodage spécifique, mais
+             peut-être pas nécessaire vu le peu d'infos qui sont données sur la gestion des docume,ts-->
+            <p>Les éliminations ont principalement porté sur les doubles, les dossiers de consultation d'entreprises (DCE), 
+                la documentation reçue à  titre d'information, les documents comptables relatifs au fonctionnement du service.</p>            
+        </processinfo>
     </archdesc>
 </ead>
