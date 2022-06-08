@@ -9,11 +9,12 @@ TNAH 2022 : devoir collectif d'EAD
 - **referentiels/** : référentiels à utiliser pour l’indexation
 
 # Branches
-Merci de nommer les branches sur le modèle suivant : `groupeN-CHABADOU`
 
-=> Ex. `groupe1-Zoe-encodage-genial-du-header`
+Le fonctionnement des branches se fera de la façon suivante: chaque groupe aura une branche sur laquelle il pourra déposer son travail, ce qui permettra une meilleure gestion des différents travaux. Libre à vous de vous organiser comme vous le souhaitez pour avancer au mieux au sein de votre groupe !
 
-Selon vos préférences pour le travail en groupe, il est aussi possible de travailler sur une seule branche pour l'ensemble de votre groupe. Dans ce cas, on nommera la branche de la façon suivante: `groupeN`
+Merci de nommer les branches sur le modèle suivant : `groupeN`, le "N" correspondant à votre numéro de groupe.
+
+=> Ex: `groupe2`, `groupe3` ...
 
 # Fonctionnement de l'encodage en groupe
 - L'encodage en EAD sera à faire entièrement dans le document **encodage.xml** afin d'éviter d'avoir trop de fichiers à gérer (sauf pour l'EAC-CPF). Le fait qu'on travaille tous sur des parties différentes devrait éviter les conflits. S'il y a trop de problèmes, on envisagera une autre solution.
