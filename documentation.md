@@ -4,8 +4,8 @@
 
 **IR = instrument de recherche**
 
-## Le <eadheader>
-### Le <filedesc> : IR d'origine
+## Le eadheader
+### Le filedesc : IR d'origine
 
 `<eadid>` : identifiant de l'IR
 
@@ -23,7 +23,7 @@
 
 `<date>` : date de rédaction du premier IR
 
-### Le <profiledesc> : IR en EAD
+### Le profiledesc : IR en EAD
 
 `<creation>` : présentation du contexte de création en EAD, pour les auteurs: on met le nom de la promotion comme dans l'encodage actuel ou on met les noms de chaque élève ?
 
@@ -33,7 +33,7 @@
 
 `<revisiondesc>` : étant donné que nous sommes en création de l'IR, nous n'utiliserons probablement pas cette partie, qui sert au suivi des modifications qui ont lieu après la création
 
-## Le <archdesc>
+## Le archdesc
 
 `<unitid>` : choix u type de cote
 
@@ -59,6 +59,6 @@
 
 `<processinfo>` : informations sur le traitement des archives physiques, correspondrait à "Évaluation, tris et éliminations"
 
-## Le <dsc>
+## Le dsc
 
 Structure de l'instrument de recherche, à définir (`<c>` et @types de `<c>`) 
