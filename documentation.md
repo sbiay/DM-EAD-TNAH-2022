@@ -37,7 +37,7 @@ La documentation de l'encodage se base sur l'*Abrégé d'archivistique. Principe
 
 ## Le archdesc
 
-`<unitid>` : choix u type de cote
+`<unitid>` : choix du type de cote
 
 `<unttitle>` et `<unitdate>`: reprise du type et des dates
 
@@ -70,27 +70,25 @@ L'élément `<dsc>` (description des sous-composants) contient les éléments `<
 
 Chaque élément `<c>` a un attribut `@type` qui précise le niveau de l'élément. 
 
-- Le plan de classement du fonds est divisé en deux grandes parties: la "Programmation" et la "Conduite de travaux."" Il a donc été décidé de reprendre cette structure sous la forme de séries organiques, selon la définition du [*Dictionnaire de terminologie archivistique*](https://francearchives.fr/file/4575c619ab1e1e738d81d2249ff8dd4115a3d8cb/ARCHIVES_DE_FRANCE_Dictionnaire_de_terminologie_archivistique.pdf):
+- Le plan de classement du fonds est divisé en deux grandes parties: la "Programmation" et la "Conduite de travaux. Il a donc été décidé de reprendre cette structure sous la forme de **séries organiques**, selon la définition du [*Dictionnaire de terminologie archivistique*](https://francearchives.fr/file/4575c619ab1e1e738d81d2249ff8dd4115a3d8cb/ARCHIVES_DE_FRANCE_Dictionnaire_de_terminologie_archivistique.pdf):
 
-> Série organique : Division organique du *fonds*, identifiée par *l'archiviste* lors de son *classement*, qui constitue un ensemble de *dossiers* maintenus groupés parce qu'ils résultent d'une même activité, se rapportent à une même fonction ou à un même sujet, ou revêtent une même forme.	
+	> Série organique : Division organique du *fonds*, identifiée par *l'archiviste* lors de son *classement*, qui constitue un ensemble de *dossiers* maintenus groupés parce qu'ils résultent d'une même activité, se rapportent à une même fonction ou à un même sujet, ou revêtent une même forme (*DTA*).	
 
 Ainsi, les deux éléments à la racine du `<dsc>` sont des `<c level="series>` qui décrivent les deux séries organiques du plan de classement (Programmation et Conduite de travaux).
 
-- Les composants `<c level="subseries">` servent à décrire ce qui correspond à des sous-séries dans le plan de classement, c'est-à-dire les regroupements par lieux (Paris, Yvelines, Val-d'Oise...). C'est à l'intérieur de ces sous-séries que l'on trouvera les dossiers et les articles. 
+- Les composants `<c level="subseries">` servent à décrire ce qui correspond à des **sous-séries** dans le plan de classement, c'est-à-dire les regroupements par lieux (Paris, Yvelines, Val-d'Oise...). C'est à l'intérieur de ces sous-séries que l'on trouvera les dossiers et les articles. 
 
-> Sous-série organique : Subdivision de la série organique
->> *Dictionnaire de terminologie archivistique*
+	> Sous-série organique : Subdivision de la série organique (*DTA*).
 
-- Les composants `<c level="file">` servent à décrire les dossiers des sous-séries, qui correspondent aux édifices dans le plan de classement. Par exemple, pour Paris, on pourra trouver un dossier pour l'Arc de Triomphe, un autre pour les Archives nationales... 
+- Les composants `<c level="file">` servent à décrire les dossiers des **dossiers**, qui correspondent aux édifices dans le plan de classement. Par exemple, pour Paris, on pourra trouver un dossier pour l'Arc de Triomphe, un autre pour les Archives nationales... 
 	
-	S'il n'y a pas de dossier correspondant à un édifice particulier, on passera directement à la description par item.
+	- S'il n'y a pas de dossier correspondant à un édifice particulier, on passera directement à la description par **item**.
 	
-	Si la boîte correspond à un seul édifice, on se contente d'un composant de ce type. **Possibilité d'utiliser un level="subgroup" pour un sous-groupe de documents ? ou est-ce que subgroup est en lien avec recordgroup ?**
+	- Si la boîte correspond à un seul édifice, on se contente d'un composant de ce type. **Question : Possibilité d'utiliser un level="subgroup" pour un sous-groupe de documents ? ou est-ce que subgroup est en lien avec recordgroup ?**
 	
-	S'il y a plusieurs édifices dans une boîte, on créera de nouveaux `<c level="file">` dans ledit composant afin de créer des sous-dossiers (il n'y pas d'attribut `@type` qui y corresponde.) 
+	- S'il y a plusieurs édifices dans une boîte, on créera de nouveaux `<c level="file">` dans ledit composant afin de créer des sous-dossiers (il n'y pas d'attribut `@type` qui y corresponde.) 
 
-> Dossier : Ensemble de *documents* constitués, soit organiquement par le *producteur d'archives* pour la conduite ou le traitement d'une affaire, soit par regroupement logique lors du *classement* dans le *service d'archives*.
->> *Dictionnaire de terminologie archivistique*
+> Dossier : Ensemble de *documents* constitués, soit organiquement par le *producteur d'archives* pour la conduite ou le traitement d'une affaire, soit par regroupement logique lors du *classement* dans le *service d'archives* (*DTA*).
 
 - Les composants `<c level="item">` servent à décrire les articles (les pièces) qui composent un dossier, ce qui correspond au plus petit niveau de description du plan de classement à encoder. Ce sont des éléments tels que "Dorure de la grille principale (1982)" ou "Réféction des couvertures, versant nord (1981-1982)"
 
