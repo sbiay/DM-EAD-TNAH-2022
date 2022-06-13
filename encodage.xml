@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE ead SYSTEM "./schemas/ead_sia.dtd">
 <ead>
+    <!-- Groupe 1 : début de l'encodage -->
     <eadheader>
         <eadid>20110282_CRMHIDF</eadid>
         <filedesc>
@@ -41,6 +42,8 @@
             </change>
         </revisiondesc>
     </eadheader>
+    <!-- Groupe 1 : fin de l'encodage -->
+    <!-- Groupe 2 : début de l'encodage -->
     <archdesc level="recordgrp"> <!-- Recordgroup ou Series ? -->
         <did>
             <unitid type="cote-de-consultation">20110282/1-20110282/74</unitid> <!-- quel type choisir ? -->
@@ -143,5 +146,6 @@
             <p>Les éliminations ont principalement porté sur les doubles, les dossiers de consultation d'entreprises (DCE), 
                 la documentation reçue à  titre d'information, les documents comptables relatifs au fonctionnement du service.</p>            
         </processinfo>
+        <!-- Groupe 2 : fin de l'encodage -->
     </archdesc>
 </ead>

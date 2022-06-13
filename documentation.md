@@ -4,36 +4,39 @@
 
 **IR = instrument de recherche**
 
-La documentation de l'encodage se base sur l'*Abrégé d'archivistique. Principes et pratiques du métier d'archiviste*, 4e édition, refondue et augmentée, Association des archivistes français, Paris, 2020, et l'[*Encoded Archival Description Tag Library*](https://francearchives.fr/file/0def64f5a10f3f1ae03fdea59399a3e0755ef157/static_1066.pdf), version 2002, Society of American Archivists, 2004
+La documentation de l'encodage de l'instrument de recherche en XML-EAD et EAC-CPF selon les normes ISAD(G) et ISAAR(CPF) se base sur l'*Abrégé d'archivistique. Principes et pratiques du métier d'archiviste*, 4e édition, refondue et augmentée, Association des archivistes français, Paris, 2020, et l'[*Encoded Archival Description Tag Library*](https://francearchives.fr/file/0def64f5a10f3f1ae03fdea59399a3e0755ef157/static_1066.pdf), version 2002, Society of American Archivists, 2004
 
 ## Le eadheader
-### Le filedesc : IR d'origine
 
-`<eadid>` : identifiant de l'IR
+L'élément `<eadid>`, en tête de fichier, est obligatoire: il sert à indiquer l'identifiant unique de l'instrument de recherche encodé.
 
-`<titleproper>` : titre complet de l'IR
+### Le filedesc : Description de l'instrument de recherche d'origine
 
-`<subtitle>` : précision sur le type d'IR
+L'élément `<filedesc>` sert à donner des renseignements sur l'instrument de recherche d'origine, qui est encodé en XML-EAD.
 
-`<author>` : auteurs de l'IR d'origine (en docx), tous dans un seul élément selon la DTD SIA
+- Au sein de cet élément, on retrouve l'élément `<titlestmt>`. Il englobe l'élément `<titleproper>` (obligatoire), il contient le titre complet de l'instrument de recherche; ainsi que l'élément `<subtitle>`, qui est utilisé pour donner des informations complémentaires sur le type d'instrument de recherche qui est encodé (dans notre cas : "Répertoire numérique"). On y trouve aussi l'élément `<author>` qui sert à décrire les auteurs de l'instrument de recherche d'origine : selon la DTD SIA, ils sont tous regroupés dans un seul élément.
 
-`<editionstmt>` : première édition éléctronique vu qu'on parle du fichier d'origine et non de l'édition en EAD, à vérifier
+- Vient ensuite l'élément `<editionstmt>` dans lequel se trouve `<edition>`: facultatif, il permet de donner des informations sur la forme de l'instrument de recherche encodé (dans notre cas, une première édition électronique).
 
-`<publisher>` : AN, car ce sont eux qui ont produit le doc suite au versement et pas le producteur
+- Le `<publicationstmt>` donne des informations sur la publication ou la diffusion de l'instrument de recherche. Il contient l'élément `<publisher>`, qui donne le nom du responsable de publication, son adresse dans un élément `<address>`, et la date de publication dans un élément `<date>`, qui est enrichi d'un attribut `@normal` dans lequel on trouve ladite date sous sa forme normalisée.
 
-`<address>` : à vérifier, probablement plutôt celle de l'IR (Paris), et celle de Fontainebleau serait dans un `<physloc>` car correspond à la localisation des archives physiques
 
-`<date>` : date de rédaction du premier IR
+### Le profiledesc : Description de l'instrument de recherche encodé en XML-EAD
 
-### Le profiledesc : IR en EAD
+L'élément `<profiledesc>` sert à donner des renseignements sur l'instrument de recherche encodé en XML-EAD à partir de sa première forme (dans notre cas, donc, une première édition éléctronique).
 
-`<creation>` : présentation du contexte de création en EAD, pour les auteurs: on met le nom de la promotion comme dans l'encodage actuel ou on met les noms de chaque élève ?
+Il comprend un premier élément `<creation>`, dans lequel est présenté le contexte de création de l'instrument de recherche en XML-EAD, ainsi que ses auteurs. **pour les auteurs: on met le nom de la promotion comme dans l'encodage actuel ou on met les noms de chaque élève ?**
 
-`<langusage>` : encodage & IR en français
+On y trouve aussi l'élément `<langusage>`, dans lequel on précise la langue utilisée pour l'encodage de l'instrument de recherche dans un (ou des) élément(s) `<language>`. Cet élément doit prendre pour attribut `@langcode` le code (en trois caractères) de langue utilisée selon la norme ISO639-2b.
 
-`<descrules>` : présentation des normes et règles suivies
+L'élément `<descrules>` est utilisé pour présentater les normes et règles suivies pour l'encodage de l'instrument de recherche.
 
-`<revisiondesc>` : étant donné que nous sommes en création de l'IR, nous n'utiliserons probablement pas cette partie, qui sert au suivi des modifications qui ont lieu après la création
+
+### Le revisiondesc : Suivi des versions
+
+L'élément `<revisiondesc>` sert à suivre les différentes modifications qui peuvent être effectuées sur l'instrument de recherche encodé en XML-EAD après sa première publication, ce qui permet un meilleur suivi de ses différentes versions. Dans le cas du présent travail d'encodage, il n'est pas utilisé car l'instrument de recherche est en cours de rédaction, mais il y est placé en prévision des futures modifications qu'il subira.
+
+Chaque modification devra y être indiquée dans un élément `<change>`, dans lequel on en indiquera la date dans un élément `<date>`, et son objet dans un élément `<item>`.
 
 ## Le archdesc
 
