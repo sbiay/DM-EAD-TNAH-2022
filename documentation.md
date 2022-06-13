@@ -38,31 +38,41 @@ L'élément `<revisiondesc>` sert à suivre les différentes modifications qui p
 
 Chaque modification devra y être indiquée dans un élément `<change>`, dans lequel on en indiquera la date dans un élément `<date>`, et son objet dans un élément `<item>`.
 
-## Le archdesc
+## Le archdesc :  description de l'ensemble documentaire
 
-`<unitid>` : choix du type de cote
+L'élément `<archdesc>` sert à décrire le fonds dans son ensemble. Il prend un attribut `@level` (obligatoire) qui permet de préciser le niveau description du fonds: dans le cas de la présente édition, le niveau choisi est celui des séries organiques d'après la structure du plan de classement, qui correspond à la définition qu'en donne l'*Abrégé d'archivistique*:
+	> La **série organique** est une division organique, constituée par un ensemble de dossiers ou de documents (pièces) réunis ensemble et maintenus groupés parce qu'ils résultent d'une même activité, se rapportent à une même fonction ou à un même sujet ou revêtent une même forme. 
 
-`<unttitle>` et `<unitdate>`: reprise du type et des dates
+Il comprend en premier lieu un élément `<did>` dans lequel se trouvent les principales informations de description du fonds:
 
-`<origination>`, `<corpname>`: producteur, "N1 = 5181 ?"
+- L'élément `<unitid>` dans lequel sont indiquées les cotes extrêmes des unités documentaires du fonds. Son attribut `@type` permet de donner une indication supplémentaire sur le type de cote dont il s'agit.
 
-`<physdesc>` description du conditionnement des documents physiques
+- L'élément`<unttitle>` sert à indiquer l'intitulé du fonds.
 
-`<accessrestrict>` et `<userestrict>` : conditions d'accès et d'utilisation
+- L'élément `<unitdate>` sert à indiquer les dates du fonds, ou la période qui le concerne, avec les dates extrêmes dans un attribut `@normal`, dans leur forme normalisée.
 
-`<acqinfo>` : histoire du fonds liée aux versements aux AN
+- Dans un élément `<origination>`, on décrit le producteur. Celui du fonds étant une organisation et non une personne physique, c'est l'élément `<corpname>` qui a été utilisé pour le décrire.
 
-`<bioghist>` : histoire du producteur
+- Dans le `<physdesc>`, on décrit les documents physiques et leur conditionnement: dans le cas présent, on utilise un élément `<extent>` pour donner des informations sur l'importance matérielle du fonds, et un élément `<dimensions>` pour en préciser les dimensions en mètres linéaires. 
 
-`<custodhist>` : historique de la conservation (avant versement)
+Après le `<did>`, un élément `<accessrestrict>` est utilisé pour préciser les conditions d'accès et de communicabilité aux documents du fonds, qui sont renseignées dans un élément `<p>` (paragraphe).
 
-`<arrangement>` : informations sur la façon dont les archives sont classées
+Les conditions d'utilisations sont ensuite précisées dans un autre élément `<userestrict>`, au sein d'éléments `<p>`.
 
-`<separatedmaterial>` : autres versements en lien avec le fonds mais avec le même producteur
+L'élément `<acqinfo>` sert à décrire l'historique des versements du fonds aux Archives nationales. Chaque versement y est indiqué dans un élément `<p>` distinct s'il y a besoin d'en indiqué plusieurs, et les dates de versements sont indiquées dans des éléments `<date>`.
 
-`<relatedmaterial>` : autres versements en lien avec le fonds mais avec un producteur différent
+L'élément `<bioghist>` sert à donner des renseignements sur l'histoire du producteur. Le texte y est structuré en un ou plusieurs paragraphes `<p>` au sein de cet élément.
 
-`<processinfo>` : informations sur le traitement des archives physiques, correspondrait à "Évaluation, tris et éliminations"
+L'élément `<custodhist>` sert à retracer l'historique de la conservation des documents avant leur versement aux Archives nationales. Chaque étape est indiquée dans un `<p>` distinct.
+
+L'élément `<arrangement>` sert à donner des informations sur la façon dont les archives sont organisées selon le plan de classement. Les différentes explications sont données dans un élément englobant `<list>`, avec un élément `<item>` pour chaque explication.
+
+Les différents types de versements liés au fonds décrit dans l'instrument de recherche sont répartis dans deux types d'éléments:
+- Le premier est l'élément `<separatedmaterial>` : il concerne les autres versements liés au fonds décrit qui ont le même producteur.
+
+- Le second est l'élément `<relatedmaterial>` : il concerne les autres versements liés au fonds décrit, mais avec un producteur différent.
+
+Enfin, l'élément`<processinfo>` permet de donner des informations sur le traitement des archives physiques, par exemple sur des éliminations ou des opérations de tri. Chaque type d'information est donné dans un `<p>` distinct.
 
 ## Le dsc
 
