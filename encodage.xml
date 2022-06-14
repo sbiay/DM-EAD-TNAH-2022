@@ -129,10 +129,951 @@
                     d’Ile-de-France n’appartenant pas à l’Etat. 1967-1990</item>
             </list>
         </relatedmaterial>
-        <processinfo> 
+        <processinfo>
             <p>Les éliminations ont principalement porté sur les doubles, les dossiers de consultation d'entreprises (DCE), 
                 la documentation reçue à  titre d'information, les documents comptables relatifs au fonctionnement du service.</p>            
         </processinfo>
         <!-- Groupe 2 : fin de l'encodage -->
+        <dsc>
+            <!-- Groupe 3 : début de l'encodage -->
+            <c level="series">
+                <did>
+                    <unitid type="identifiant"><!--compléter--></unitid>
+                    <unittitle>I-Programmation</unittitle>
+                    <unitdate normal=""><!--compléter--></unitdate>
+                </did>
+                <c level="subseries">
+                    <did>
+                        <unitid type="identifiant"><!--compléter--></unitid>
+                        <unittitle>Paris</unittitle>
+                        <unitdate normal=""><!--compléter--></unitdate>
+                    </did>
+                </c>
+                <c level="subseries">
+                    <did>
+                        <unitid type="identifiant"><!--compléter--></unitid>
+                        <unittitle>Seine-et-Marne</unittitle>
+                        <unitdate normal=""><!--compléter--></unitdate>
+                    </did>
+                </c>
+                <c level="subseries">
+                    <did>
+                        <unitid type="identifiant"><!--compléter--></unitid>
+                        <unittitle>Yvelines</unittitle>
+                        <unitdate normal=""><!--compléter--></unitdate>
+                    </did>
+                </c>
+                <c level="subseries">
+                    <did>
+                        <unitid type="identifiant"><!--compléter--></unitid>
+                        <unittitle>Hauts-de-Seine</unittitle>
+                        <unitdate normal=""><!--compléter--></unitdate>
+                    </did>
+                </c>
+                <c level="subseries">
+                    <did>
+                        <unitid type="identifiant"><!--compléter--></unitid>
+                        <unittitle>Val-de-Marne</unittitle>
+                        <unitdate normal=""><!--compléter--></unitdate>
+                    </did>
+                </c>
+                <c level="subseries">
+                    <did>
+                        <unitid type="identifiant"><!--compléter--></unitid>
+                        <unittitle>Val-d'Oise</unittitle>
+                        <unitdate normal=""><!--compléter--></unitdate>
+                    </did>
+                </c>
+                <c level="subseries">
+                    <did>
+                        <unitid type="identifiant"><!--compléter--></unitid>
+                        <unittitle>Dossiers divers</unittitle>
+                        <unitdate normal=""><!--compléter--></unitdate>
+                    </did>
+                </c>
+            </c>
+            <c level="series">
+                <did>
+                    <unitid type="identifiant"><!--compléter--></unitid>
+                    <unittitle>II - Dossiers de travaux</unittitle>
+                    <unitdate normal=""><!--compléter--></unitdate>
+                </did>
+                <c level="subseries">
+                    <did>
+                        <unitid type="identifiant"><!--compléter--></unitid>
+                        <unittitle>Paris</unittitle>
+                        <unitdate normal=""><!--compléter--></unitdate>
+                    </did>
+                    <c level="file">
+                        <did>
+                            <unitid type="identifiant"><!--compléter--></unitid>
+                            <unittitle>Arc de Triomphe </unittitle>
+                            <unitdate normal=""><!--compléter--></unitdate>
+                        </did>
+                    </c>
+                    <c level="file">
+                        <did>
+                            <unitid type="identifiant"><!--compléter--></unitid>
+                            <unittitle>Archives nationales</unittitle>
+                            <unitdate normal=""><!--compléter--></unitdate>
+                        </did>
+                        <c level="item">
+                            <did>
+                                <unitid type="identifiant"><!--compléter--></unitid>
+                                <unittitle>Hôtel de Rohan </unittitle>
+                                <unitdate normal=""><!--compléter--></unitdate>
+                            </did>
+                        </c>
+                        <c level="item">
+                            <did>
+                                <unitid type="identifiant"><!--compléter--></unitid>
+                                <unittitle>Hôtel de Soubise </unittitle>
+                                <unitdate normal=""><!--compléter--></unitdate>
+                            </did>
+                        </c>
+                        <c level="item">
+                            <did>
+                                <unitid type="identifiant"><!--compléter--></unitid>
+                                <unittitle>Hôtels d'Assy, de Breteuil et de Fontenay</unittitle>
+                                <unitdate normal=""><!--compléter--></unitdate>
+                            </did>
+                        </c>
+                        <c level="item">
+                            <did>
+                                <unitid type="identifiant"><!--compléter--></unitid>
+                                <unittitle>Hôtel de Boisgelin </unittitle>
+                                <unitdate normal=""><!--compléter--></unitdate>
+                            </did>
+                        </c>
+                        <c level="item">
+                            <did>
+                                <unitid type="identifiant"><!--compléter--></unitid>
+                                <unittitle>Hôtel de Jaucourt </unittitle>
+                                <unitdate normal=""><!--compléter--></unitdate>
+                            </did>
+                        </c>
+                        <c level="item">
+                            <did>
+                                <unitid type="identifiant"><!--compléter--></unitid>
+                                <unittitle>Grands dépôts</unittitle>
+                                <unitdate normal=""><!--compléter--></unitdate>
+                            </did>
+                        </c>
+                        <c level="item">
+                            <did>
+                                <unitid type="identifiant"><!--compléter--></unitid>
+                                <unittitle>Galeries de liaison souterraines</unittitle>
+                                <unitdate normal=""><!--compléter--></unitdate>
+                            </did>
+                        </c>
+                        <c level="item">
+                            <did>
+                                <unitid type="identifiant"><!--compléter--></unitid>
+                                <unittitle>Centre d'accueil et de recherche des Archives nationales (CARAN)</unittitle>
+                                <unitdate normal=""><!--compléter--></unitdate>
+                            </did>
+                        </c>
+                    </c>
+                    <!-- Groupe 3 : fin de l'encodage -->
+                    <!-- Groupe 4 : début de l'encodage -->
+                    <c level="file">
+                        <did>
+                            <unitid type="identifiant"><!--compléter--></unitid>
+                            <unittitle>Bibliothèque nationale</unittitle>
+                            <unitdate normal=""><!--compléter--></unitdate>
+                        </did>
+                    </c>
+                    <c level="file">
+                        <did>
+                            <unitid type="identifiant"><!--compléter--></unitid>
+                            <unittitle>Bibliothèque de l'Arsenal</unittitle>
+                            <unitdate normal=""><!--compléter--></unitdate>
+                        </did>
+                    </c>
+                    <c level="file">
+                        <did>
+                            <unitid type="identifiant"><!--compléter--></unitid>
+                            <unittitle>Cathédrale Notre-Dame de Paris </unittitle>
+                            <unitdate normal=""><!--compléter--></unitdate>
+                        </did>
+                    </c>
+                    <c level="file">
+                        <did>
+                            <unitid type="identifiant"><!--compléter--></unitid>
+                            <unittitle>Chapelle expiatoire</unittitle>
+                            <unitdate normal=""><!--compléter--></unitdate>
+                        </did>
+                    </c>
+                    <c level="file">
+                        <did>
+                            <unitid type="identifiant"><!--compléter--></unitid>
+                            <unittitle>Collège de France</unittitle>
+                            <unitdate normal=""><!--compléter--></unitdate>
+                        </did>
+                    </c>
+                    <c level="file">
+                        <did>
+                            <unitid type="identifiant"><!--compléter--></unitid>
+                            <unittitle>Conciergerie</unittitle>
+                            <unitdate normal=""><!--compléter--></unitdate>
+                        </did>
+                    </c>
+                    <c level="file">
+                        <did>
+                            <unitid type="identifiant"><!--compléter--></unitid>
+                            <unittitle>Conservatoire national supérieur d'art dramatique (CNSAD)</unittitle>
+                            <unitdate normal=""><!--compléter--></unitdate>
+                        </did>
+                        <c level="item">
+                            <did>
+                                <unitid type="identifiant"><!--compléter--></unitid>
+                                <unittitle>Restauration de la salle de spectacle et restructuration de la scène</unittitle>
+                                <unitdate normal=""><!--compléter--></unitdate>
+                            </did>
+                        </c>
+                    </c>
+                    <c level="file">
+                        <did>
+                            <unitid type="identifiant"><!--compléter--></unitid>
+                            <unittitle>Conservatoire national supérieur de musique</unittitle>
+                            <unitdate normal=""><!--compléter--></unitdate>
+                        </did>
+                    </c>
+                    <c level="file">
+                        <did>
+                            <unitid type="identifiant"><!--compléter--></unitid>
+                            <unittitle>Ecole militaire[^3]</unittitle>
+                            <unitdate normal=""><!--compléter--></unitdate>
+                        </did>
+                    </c>
+                    <c level="file">
+                        <did>
+                            <unitid type="identifiant"><!--compléter--></unitid>
+                            <unittitle>Ecole nationale supérieure des Beaux-Arts (ENSBA)</unittitle>
+                            <unitdate normal=""><!--compléter--></unitdate>
+                        </did>
+                    </c>
+                    <c level="file">
+                        <did>
+                            <unitid type="identifiant"><!--compléter--></unitid>
+                            <unittitle>Ecole nationale supérieure de création industrielle (ENSCI) - Ateliers de création industrielle</unittitle>
+                            <unitdate normal=""><!--compléter--></unitdate>
+                        </did>
+                    </c>
+                    <c level="file">
+                        <did>
+                            <unitid type="identifiant"><!--compléter--></unitid>
+                            <unittitle>Grand Palais</unittitle>
+                            <unitdate normal=""><!--compléter--></unitdate>
+                        </did>
+                    </c>
+                </c>
+                <c level="subseries">
+                    <did>
+                        <unitid type="identifiant"><!--compléter--></unitid>
+                        <unittitle>Hôpital de la Salpêtrière</unittitle>
+                        <unitdate normal=""><!--compléter--></unitdate>
+                    </did>
+                    <c level="file">
+                        <did>
+                            <unitid type="identifiant"><!--compléter--></unitid>
+                            <unittitle>Hôtel de Croisilles</unittitle>
+                            <unitdate normal=""><!--compléter--></unitdate>
+                        </did>
+                    </c>
+                    <c level="file">
+                        <did>
+                            <unitid type="identifiant"><!--compléter--></unitid>
+                            <unittitle>Hôtel Kunsky</unittitle>
+                            <unitdate normal=""><!--compléter--></unitdate>
+                        </did>
+                    </c>
+                    <c level="file">
+                        <did>
+                            <unitid type="identifiant"><!--compléter--></unitid>
+                            <unittitle>Hôtel national des Invalides^[^4]^ </unittitle>
+                            <unitdate normal=""><!--compléter--></unitdate>
+                        </did>
+                        <c level="item">
+                            <did>
+                                <unitid type="identifiant"><!--compléter--></unitid>
+                                <unittitle>Musée des plans reliefs</unittitle>
+                                <unitdate normal=""><!--compléter--></unitdate>
+                            </did>
+                        </c>
+                        <c level="item">
+                            <did>
+                                <unitid type="identifiant"><!--compléter--></unitid>
+                                <unittitle>Eglise royale</unittitle>
+                                <unitdate normal=""><!--compléter--></unitdate>
+                            </did>
+                        </c>
+                    </c>
+                    <c level="file">
+                        <did>
+                            <unitid type="identifiant"><!--compléter--></unitid>
+                            <unittitle>Hôtel Salé (musée Picasso)</unittitle>
+                            <unitdate normal=""><!--compléter--></unitdate>
+                        </did>
+                    </c>
+                    <c level="file">
+                        <did>
+                            <unitid type="identifiant"><!--compléter--></unitid>
+                            <unittitle>Hôtel de Vigny</unittitle>
+                            <unitdate normal=""><!--compléter--></unitdate>
+                        </did>
+                    </c>
+                    <c level="file">
+                        <did>
+                            <unitid type="identifiant"><!--compléter--></unitid>
+                            <unittitle>Lycée Lamartine</unittitle>
+                            <unitdate normal=""><!--compléter--></unitdate>
+                        </did>
+                    </c>
+                    <c level="file">
+                        <did>
+                            <unitid type="identifiant"><!--compléter--></unitid>
+                            <unittitle>Manufacture des Gobelins</unittitle>
+                            <unitdate normal=""><!--compléter--></unitdate>
+                        </did>
+                    </c>
+                    <c level="file">
+                        <did>
+                            <unitid type="identifiant"><!--compléter--></unitid>
+                            <unittitle>Mobilier national</unittitle>
+                            <unitdate normal=""><!--compléter--></unitdate>
+                        </did>
+                    </c>
+                    <c level="file">
+                        <did>
+                            <unitid type="identifiant"><!--compléter--></unitid>
+                            <unittitle>Ministère de la Culture</unittitle>
+                            <unitdate normal=""><!--compléter--></unitdate>
+                        </did>
+                        <c level="item">
+                            <did>
+                                <unitid type="identifiant"><!--compléter--></unitid>
+                                <unittitle>4 rue de la Banque </unittitle>
+                                <unitdate normal=""><!--compléter--></unitdate>
+                            </did>
+                        </c>
+                        <c level="item">
+                            <did>
+                                <unitid type="identifiant"><!--compléter--></unitid>
+                                <unittitle>27 avenue de l'Opéra </unittitle>
+                                <unitdate normal=""><!--compléter--></unitdate>
+                            </did>
+                        </c>
+                        <c level="item">
+                            <did>
+                                <unitid type="identifiant"><!--compléter--></unitid>
+                                <unittitle>65, rue de Richelieu </unittitle>
+                                <unitdate normal=""><!--compléter--></unitdate>
+                            </did>
+                        </c>
+                    </c>
+                    <c level="file">
+                        <did>
+                            <unitid type="identifiant"><!--compléter--></unitid>
+                            <unittitle>Musée Delacroix</unittitle>
+                            <unitdate normal=""><!--compléter--></unitdate>
+                        </did>
+                    </c>
+                    <c level="file">
+                        <did>
+                            <unitid type="identifiant"><!--compléter--></unitid>
+                            <unittitle>Musée d'Ennery</unittitle>
+                            <unitdate normal=""><!--compléter--></unitdate>
+                        </did>
+                    </c>
+                    <c level="file">
+                        <did>
+                            <unitid type="identifiant"><!--compléter--></unitid>
+                            <unittitle>Palais de la Porte Dorée, Musée des arts africains et océaniens</unittitle>
+                            <unitdate normal=""><!--compléter--></unitdate>
+                        </did>
+                    </c>
+                    <c level="file">
+                        <did>
+                            <unitid type="identifiant"><!--compléter--></unitid>
+                            <unittitle>Musée national des arts et traditions populaires</unittitle>
+                            <unitdate normal=""><!--compléter--></unitdate>
+                        </did>
+                    </c>
+                    <c level="file">
+                        <did>
+                            <unitid type="identifiant"><!--compléter--></unitid>
+                            <unittitle>Musée d'Orsay</unittitle>
+                            <unitdate normal=""><!--compléter--></unitdate>
+                        </did>
+                    </c>
+                    <c level="file">
+                        <did>
+                            <unitid type="identifiant"><!--compléter--></unitid>
+                            <unittitle>Musée Guimet</unittitle>
+                            <unitdate normal=""><!--compléter--></unitdate>
+                        </did>
+                    </c>
+                    <c level="file">
+                        <did>
+                            <unitid type="identifiant"><!--compléter--></unitid>
+                            <unittitle>Musée Gustave Moreau</unittitle>
+                            <unitdate normal=""><!--compléter--></unitdate>
+                        </did>
+                    </c>
+                    <c level="file">
+                        <did>
+                            <unitid type="identifiant"><!--compléter--></unitid>
+                            <unittitle>Musée Jean-Jacques Henner</unittitle>
+                            <unitdate normal=""><!--compléter--></unitdate>
+                        </did>
+                    </c>
+                    <!-- Groupe 4 : fin de l'encodage -->
+                    <!-- Groupe 5 : début de l'encodage -->
+                    <c level="file">
+                        <did>
+                            <unitid type="identifiant"><!--compléter--></unitid>
+                            <unittitle>Musée national du Moyen-Age, Thermes et Hôtel de Cluny^[^5]^</unittitle>
+                            <unitdate normal=""><!--compléter--></unitdate>
+                        </did>
+                    </c>
+                    <c level="file">
+                        <did>
+                            <unitid type="identifiant"><!--compléter--></unitid>
+                            <unittitle>Musée Nissim de Camondo</unittitle>
+                            <unitdate normal=""><!--compléter--></unitdate>
+                        </did>
+                    </c>
+                    <c level="file">
+                        <did>
+                            <unitid type="identifiant"><!--compléter--></unitid>
+                            <unittitle>Musée Rodin</unittitle>
+                            <unitdate normal=""><!--compléter--></unitdate>
+                        </did>
+                    </c>
+                    <c level="file">
+                        <did>
+                            <unitid type="identifiant"><!--compléter--></unitid>
+                            <unittitle>Observatoire de Paris</unittitle>
+                            <unitdate normal=""><!--compléter--></unitdate>
+                        </did>
+                    </c>
+                    <c level="file">
+                        <did>
+                            <unitid type="identifiant"><!--compléter--></unitid>
+                            <unittitle>Opéra Comique, Salle Favart</unittitle>
+                            <unitdate normal=""><!--compléter--></unitdate>
+                        </did>
+                    </c>
+                    <c level="file">
+                        <did>
+                            <unitid type="identifiant"><!--compléter--></unitid>
+                            <unittitle>Opéra Garnier</unittitle>
+                            <unitdate normal=""><!--compléter--></unitdate>
+                        </did>
+                    </c>
+                    <c level="file">
+                        <did>
+                            <unitid type="identifiant"><!--compléter--></unitid>
+                            <unittitle>Palais de Chaillot</unittitle>
+                            <unitdate normal=""><!--compléter--></unitdate>
+                        </did>
+                        <c level="item">
+                            <did>
+                                <unitid type="identifiant"><!--compléter--></unitid>
+                                <unittitle>Parvis</unittitle>
+                                <unitdate normal=""><!--compléter--></unitdate>
+                            </did>
+                        </c>
+                        <c level="item">
+                            <did>
+                                <unitid type="identifiant"><!--compléter--></unitid>
+                                <unittitle>Aile de Paris </unittitle>
+                                <unitdate normal=""><!--compléter--></unitdate>
+                            </did>
+                        </c>
+                        <c level="item">
+                            <did>
+                                <unitid type="identifiant"><!--compléter--></unitid>
+                                <unittitle>Aile de Passy </unittitle>
+                                <unitdate normal=""><!--compléter--></unitdate>
+                            </did>
+                        </c>
+                    </c>
+                    <c level="file">
+                        <did>
+                            <unitid type="identifiant"><!--compléter--></unitid>
+                            <unittitle>Palais d'Iéna</unittitle>
+                            <unitdate normal=""><!--compléter--></unitdate>
+                        </did>
+                    </c>
+                    <c level="file">
+                        <did>
+                            <unitid type="identifiant"><!--compléter--></unitid>
+                            <unittitle>Palais de l'Alma</unittitle>
+                            <unitdate normal=""><!--compléter--></unitdate>
+                        </did>
+                    </c>
+                    <c level="file">
+                        <did>
+                            <unitid type="identifiant"><!--compléter--></unitid>
+                            <unittitle>Palais de l'Elysée</unittitle>
+                            <unitdate normal=""><!--compléter--></unitdate>
+                        </did>
+                    </c>
+                    <c level="file">
+                        <did>
+                            <unitid type="identifiant"><!--compléter--></unitid>
+                            <unittitle>Palais-Royal</unittitle>
+                            <unitdate normal=""><!--compléter--></unitdate>
+                        </did>
+                        <c level="item">
+                            <did>
+                                <unitid type="identifiant"><!--compléter--></unitid>
+                                <unittitle>Comédie Française</unittitle>
+                                <unitdate normal=""><!--compléter--></unitdate>
+                            </did>
+                        </c>
+                        <c level="item">
+                            <did>
+                                <unitid type="identifiant"><!--compléter--></unitid>
+                                <unittitle>Conseil constitutionnel</unittitle>
+                                <unitdate normal=""><!--compléter--></unitdate>
+                            </did>
+                        </c>
+                        <c level="item">
+                            <did>
+                                <unitid type="identifiant"><!--compléter--></unitid>
+                                <unittitle>Conseil d'Etat</unittitle>
+                                <unitdate normal=""><!--compléter--></unitdate>
+                            </did>
+                        </c>
+                        <c level="item">
+                            <did>
+                                <unitid type="identifiant"><!--compléter--></unitid>
+                                <unittitle>Ministère de la Culture</unittitle>
+                                <unitdate normal=""><!--compléter--></unitdate>
+                            </did>
+                        </c>
+                    </c>
+                    <c level="file">
+                        <did>
+                            <unitid type="identifiant"><!--compléter--></unitid>
+                            <unittitle>Palais du Louvre et Tuileries</unittitle>
+                            <unitdate normal=""><!--compléter--></unitdate>
+                        </did>
+                        <c level="item">
+                            <did>
+                                <unitid type="identifiant"><!--compléter--></unitid>
+                                <unittitle>Union centrale des arts décoratifs (UCAD)</unittitle>
+                                <unitdate normal=""><!--compléter--></unitdate>
+                            </did>
+                        </c>
+                        <c level="item">
+                            <did>
+                                <unitid type="identifiant"><!--compléter--></unitid>
+                                <unittitle>Aile Rivoli-Finances</unittitle>
+                                <unitdate normal=""><!--compléter--></unitdate>
+                            </did>
+                        </c>
+                        <c level="item">
+                            <did>
+                                <unitid type="identifiant"><!--compléter--></unitid>
+                                <unittitle>Musée du Louvre</unittitle>
+                                <unitdate normal=""><!--compléter--></unitdate>
+                            </did>
+                        </c>
+                        <c level="item">
+                            <did>
+                                <unitid type="identifiant"><!--compléter--></unitid>
+                                <unittitle>Jardin des Tuileries</unittitle>
+                                <unitdate normal=""><!--compléter--></unitdate>
+                            </did>
+                        </c>
+                        <c level="item">
+                            <did>
+                                <unitid type="identifiant"><!--compléter--></unitid>
+                                <unittitle>Orangerie</unittitle>
+                                <unitdate normal=""><!--compléter--></unitdate>
+                            </did>
+                        </c>
+                    </c>
+                    <c level="file">
+                        <did>
+                            <unitid type="identifiant"><!--compléter--></unitid>
+                            <unittitle>Palais de Tokyo</unittitle>
+                            <unitdate normal=""><!--compléter--></unitdate>
+                        </did>
+                    </c>
+                    <c level="file">
+                        <did>
+                            <unitid type="identifiant"><!--compléter--></unitid>
+                            <unittitle>Panthéon</unittitle>
+                            <unitdate normal=""><!--compléter--></unitdate>
+                        </did>
+                    </c>
+                    <c level="file">
+                        <did>
+                            <unitid type="identifiant"><!--compléter--></unitid>
+                            <unittitle>Sainte-Chapelle</unittitle>
+                            <unitdate normal=""><!--compléter--></unitdate>
+                        </did>
+                    </c>
+                    <c level="file">
+                        <did>
+                            <unitid type="identifiant"><!--compléter--></unitid>
+                            <unittitle>Théâtre de l'Est parisien (TEP)</unittitle>
+                            <unitdate normal=""><!--compléter--></unitdate>
+                        </did>
+                    </c>
+                    <c level="file">
+                        <did>
+                            <unitid type="identifiant"><!--compléter--></unitid>
+                            <unittitle>Théâtre national de l'Odéon</unittitle>
+                            <unitdate normal=""><!--compléter--></unitdate>
+                        </did>
+                    </c>
+                    <c level="file">
+                        <did>
+                            <unitid type="identifiant"><!--compléter--></unitid>
+                            <unittitle>Val-de-Grâce</unittitle>
+                            <unitdate normal=""><!--compléter--></unitdate>
+                        </did>
+                        <c level="item">
+                            <did>
+                                <unitid type="identifiant"><!--compléter--></unitid>
+                                <unittitle>Chapelle dite du Saint-Sacrement</unittitle>
+                                <unitdate normal=""><!--compléter--></unitdate>
+                            </did>
+                        </c>
+                    </c>
+                </c>
+                <!-- Groupe 5 : fin de l'encodage -->
+                <!-- Groupe 6 : début de l'encodage -->
+                <c level="subseries">
+                    <did>
+                        <unitid type="identifiant"><!--compléter--></unitid>
+                        <unittitle>Seine-et-Marne (77)</unittitle>
+                        <unitdate normal=""><!--compléter--></unitdate>
+                    </did>
+                    <c level="file">
+                        <did>
+                            <unitid type="identifiant"><!--compléter--></unitid>
+                            <unittitle>Champs-sur-Marne -- Domaine national</unittitle>
+                            <unitdate normal=""><!--compléter--></unitdate>
+                        </did>
+                    </c>
+                    <c level="file">
+                        <did>
+                            <unitid type="identifiant"><!--compléter--></unitid>
+                            <unittitle>Fontainebleau -- Archives nationales, Cité interministérielle des archives, puis Cité des archives contemporaines</unittitle>
+                            <unitdate normal=""><!--compléter--></unitdate>
+                        </did>
+                    </c>
+                    <c level="file">
+                        <did>
+                            <unitid type="identifiant"><!--compléter--></unitid>
+                            <unittitle>Fontainebleau -- Domaine national</unittitle>
+                            <unitdate normal=""><!--compléter--></unitdate>
+                        </did>
+                    </c>
+                    <c level="file">
+                        <did>
+                            <unitid type="identifiant"><!--compléter--></unitid>
+                            <unittitle>Jossigny -- Château</unittitle>
+                            <unitdate normal=""><!--compléter--></unitdate>
+                        </did>
+                    </c>
+                    <c level="file">
+                        <did>
+                            <unitid type="identifiant"><!--compléter--></unitid>
+                            <unittitle>Meaux -- Cathédrale</unittitle>
+                            <unitdate normal=""><!--compléter--></unitdate>
+                        </did>
+                    </c>
+                    <c level="file">
+                        <did>
+                            <unitid type="identifiant"><!--compléter--></unitid>
+                            <unittitle>Provins -- Ancien couvent des Cordelières (Bibliothèque nationale)</unittitle>
+                            <unitdate normal=""><!--compléter--></unitdate>
+                        </did>
+                    </c>
+                </c>
+                <c level="subseries">
+                    <did>
+                        <unitid type="identifiant"><!--compléter--></unitid>
+                        <unittitle>Yvelines (78)</unittitle>
+                        <unitdate normal=""><!--compléter--></unitdate>
+                    </did>
+                    <c level="file">
+                        <did>
+                            <unitid type="identifiant"><!--compléter--></unitid>
+                            <unittitle>Bois d'Arcy -- Batterie (Centre national de la cinématographie)</unittitle>
+                            <unitdate normal=""><!--compléter--></unitdate>
+                        </did>
+                    </c>
+                    <c level="file">
+                        <did>
+                            <unitid type="identifiant"><!--compléter--></unitid>
+                            <unittitle>Magny-les-Hameaux -- Musée des Granges de Port-Royal</unittitle>
+                            <unitdate normal=""><!--compléter--></unitdate>
+                        </did>
+                    </c>
+                    <c level="file">
+                        <did>
+                            <unitid type="identifiant"><!--compléter--></unitid>
+                            <unittitle>Marly-le-Roi -- Domaine national</unittitle>
+                            <unitdate normal=""><!--compléter--></unitdate>
+                        </did>
+                    </c>
+                    <c level="file">
+                        <did>
+                            <unitid type="identifiant"><!--compléter--></unitid>
+                            <unittitle>Montigny-le-Bretonneux -- Fort de Saint-Cyr</unittitle>
+                            <unitdate normal=""><!--compléter--></unitdate>
+                        </did>
+                        <c level="item">
+                            <did>
+                                <unitid type="identifiant"><!--compléter--></unitid>
+                                <unittitle>Archives photographiques</unittitle>
+                                <unitdate normal=""><!--compléter--></unitdate>
+                            </did>
+                        </c>
+                        <c level="item">
+                            <did>
+                                <unitid type="identifiant"><!--compléter--></unitid>
+                                <unittitle>Centre national de la cinématographie</unittitle>
+                                <unitdate normal=""><!--compléter--></unitdate>
+                            </did>
+                        </c>
+                        <c level="item">
+                            <did>
+                                <unitid type="identifiant"><!--compléter--></unitid>
+                                <unittitle>Centre de calcul du ministère de la Culture</unittitle>
+                                <unitdate normal=""><!--compléter--></unitdate>
+                            </did>
+                        </c>
+                    </c>
+                    <c level="file">
+                        <did>
+                            <unitid type="identifiant"><!--compléter--></unitid>
+                            <unittitle>Poissy -- Villa Savoye</unittitle>
+                            <unitdate normal=""><!--compléter--></unitdate>
+                        </did>
+                    </c>
+                    <c level="file">
+                        <did>
+                            <unitid type="identifiant"><!--compléter--></unitid>
+                            <unittitle>Rambouillet - Château</unittitle>
+                            <unitdate normal=""><!--compléter--></unitdate>
+                        </did>
+                    </c>
+                    <c level="file">
+                        <did>
+                            <unitid type="identifiant"><!--compléter--></unitid>
+                            <unittitle>Saint-Arnoult-en-Yvelines -- Moulin de Villeneuve (Fondation Elsa Triolet -- Aragon)</unittitle>
+                            <unitdate normal=""><!--compléter--></unitdate>
+                        </did>
+                    </c>
+                    <c level="file">
+                        <did>
+                            <unitid type="identifiant"><!--compléter--></unitid>
+                            <unittitle>Saint-Germain-en-Laye -- Domaine national</unittitle>
+                            <unitdate normal=""><!--compléter--></unitdate>
+                        </did>
+                    </c>
+                    <c level="file">
+                        <did>
+                            <unitid type="identifiant"><!--compléter--></unitid>
+                            <unittitle>Thiverval-Grignon -- Institut national agronomique</unittitle>
+                            <unitdate normal=""><!--compléter--></unitdate>
+                        </did>
+                    </c>
+                    <c level="file">
+                        <did>
+                            <unitid type="identifiant"><!--compléter--></unitid>
+                            <unittitle>Versailles -- Camp de Satory </unittitle>
+                            <unitdate normal=""><!--compléter--></unitdate>
+                        </did>
+                    </c>
+                    <c level="file">
+                        <did>
+                            <unitid type="identifiant"><!--compléter--></unitid>
+                            <unittitle>Versailles -- Domaine national</unittitle>
+                            <unitdate normal=""><!--compléter--></unitdate>
+                        </did>
+                        <c level="item">
+                            <did>
+                                <unitid type="identifiant"><!--compléter--></unitid>
+                                <unittitle>Service des eaux et fontaines</unittitle>
+                                <unitdate normal=""><!--compléter--></unitdate>
+                            </did>
+                        </c>
+                    </c>
+                </c>
+                <c level="subseries">
+                    <did>
+                        <unitid type="identifiant"><!--compléter--></unitid>
+                        <unittitle>Essonne (91)</unittitle>
+                        <unitdate normal=""><!--compléter--></unitdate>
+                    </did>
+                    <c level="file">
+                        <did>
+                            <unitid type="identifiant"><!--compléter--></unitid>
+                            <unittitle>Chamarande - Château</unittitle>
+                            <unitdate normal=""><!--compléter--></unitdate>
+                        </did>
+                    </c>
+                    <c level="file">
+                        <did>
+                            <unitid type="identifiant"><!--compléter--></unitid>
+                            <unittitle>Souzy-la-Briche -- Château (RP)</unittitle>
+                            <unitdate normal=""><!--compléter--></unitdate>
+                        </did>
+                    </c>
+                </c>
+                <c level="subseries">
+                    <did>
+                        <unitid type="identifiant"><!--compléter--></unitid>
+                        <unittitle>Hauts-de-Seine (92)</unittitle>
+                        <unitdate normal=""><!--compléter--></unitdate>
+                    </did>
+                    <c level="file">
+                        <did>
+                            <unitid type="identifiant"><!--compléter--></unitid>
+                            <unittitle>Meudon -- Domaine national</unittitle>
+                            <unitdate normal=""><!--compléter--></unitdate>
+                        </did>
+                    </c>
+                    <c level="file">
+                        <did>
+                            <unitid type="identifiant"><!--compléter--></unitid>
+                            <unittitle>Meudon -- Villa des Brillants</unittitle>
+                            <unitdate normal=""><!--compléter--></unitdate>
+                        </did>
+                    </c>
+                    <c level="file">
+                        <did>
+                            <unitid type="identifiant"><!--compléter--></unitid>
+                            <unittitle></unittitle>
+                            <unitdate normal=""><!--compléter--></unitdate>
+                        </did>
+                    </c>
+                    <c level="file">
+                        <did>
+                            <unitid type="identifiant"><!--compléter--></unitid>
+                            <unittitle>Rueil-Malmaison -- Domaine national de Malmaison</unittitle>
+                            <unitdate normal=""><!--compléter--></unitdate>
+                        </did>
+                    </c>
+                    <c level="file">
+                        <did>
+                            <unitid type="identifiant"><!--compléter--></unitid>
+                            <unittitle>Saint-Cloud -- Domaine national</unittitle>
+                            <unitdate normal=""><!--compléter--></unitdate>
+                        </did>
+                    </c>
+                    <c level="file">
+                        <did>
+                            <unitid type="identifiant"><!--compléter--></unitid>
+                            <unittitle>Sèvres -- Manufacture</unittitle>
+                            <unitdate normal=""><!--compléter--></unitdate>
+                        </did>
+                    </c>
+                    <c level="file">
+                        <did>
+                            <unitid type="identifiant"><!--compléter--></unitid>
+                            <unittitle>Suresnes -- Fort du Mont-Valérien</unittitle>
+                            <unitdate normal=""><!--compléter--></unitdate>
+                        </did>
+                    </c>
+                </c>
+                <c level="subseries">
+                    <did>
+                        <unitid type="identifiant"><!--compléter--></unitid>
+                        <unittitle>Val-de-Marne (94)</unittitle>
+                        <unitdate normal=""><!--compléter--></unitdate>
+                    </did>
+                    <c level="file">
+                        <did>
+                            <unitid type="identifiant"><!--compléter--></unitid>
+                            <unittitle>Vincennes -- Château</unittitle>
+                            <unitdate normal=""><!--compléter--></unitdate>
+                        </did>
+                        <c level="item">
+                            <did>
+                                <unitid type="identifiant"><!--compléter--></unitid>
+                                <unittitle>Donjon</unittitle>
+                                <unitdate normal=""><!--compléter--></unitdate>
+                            </did>
+                        </c>
+                        <c level="item">
+                            <did>
+                                <unitid type="identifiant"><!--compléter--></unitid>
+                                <unittitle>Sainte-Chapelle</unittitle>
+                                <unitdate normal=""><!--compléter--></unitdate>
+                            </did>
+                        </c>
+                        <c level="item">
+                            <did>
+                                <unitid type="identifiant"><!--compléter--></unitid>
+                                <unittitle>Tour du Roi</unittitle>
+                                <unitdate normal=""><!--compléter--></unitdate>
+                            </did>
+                        </c>
+                        <c level="item">
+                            <did>
+                                <unitid type="identifiant"><!--compléter--></unitid>
+                                <unittitle>Tour du Village</unittitle>
+                                <unitdate normal=""><!--compléter--></unitdate>
+                            </did>
+                        </c>
+                        <c level="item">
+                            <did>
+                                <unitid type="identifiant"><!--compléter--></unitid>
+                                <unittitle>Pavillon de la Reine</unittitle>
+                                <unitdate normal=""><!--compléter--></unitdate>
+                            </did>
+                        </c>
+                        <c level="item">
+                            <did>
+                                <unitid type="identifiant"><!--compléter--></unitid>
+                                <unittitle>Pavillon du Roi</unittitle>
+                                <unitdate normal=""><!--compléter--></unitdate>
+                            </did>
+                        </c>
+                    </c>
+                </c>
+                <c level="subseries">
+                    <did>
+                        <unitid type="identifiant"><!--compléter--></unitid>
+                        <unittitle>Val-d'Oise (95)</unittitle>
+                        <unitdate normal=""><!--compléter--></unitdate>
+                    </did>
+                    <c level="file">
+                        <did>
+                            <unitid type="identifiant"><!--compléter--></unitid>
+                            <unittitle>Ecouen -- Château</unittitle>
+                            <unitdate normal=""><!--compléter--></unitdate>
+                        </did>
+                    </c>
+                    <c level="file">
+                        <did>
+                            <unitid type="identifiant"><!--compléter--></unitid>
+                            <unittitle>Ecouen -- Fort</unittitle>
+                            <unitdate normal=""><!--compléter--></unitdate>
+                        </did>
+                    </c>
+                    <c level="file">
+                        <did>
+                            <unitid type="identifiant"><!--compléter--></unitid>
+                            <unittitle>Saint-Ouen-l'Aumône -- Abbaye de Maubuisson</unittitle>
+                            <unitdate normal=""><!--compléter--></unitdate>
+                        </did>
+                    </c>
+                </c>
+            </c>
+            <!-- Groupe 6 : fin de l'encodage -->
+        </dsc>
     </archdesc>
 </ead>
