@@ -95,9 +95,9 @@ Ainsi, les deux éléments à la racine du `<dsc>` sont des `<c level="series>` 
 	
 	- S'il n'y a pas de dossier correspondant à un édifice particulier, on passera directement à la description par **item**.
 	
-	- Si la boîte correspond à un seul édifice, on se contente d'un composant de ce type. **Question : Possibilité d'utiliser un level="subgroup" pour un sous-groupe de documents ? ou est-ce que subgroup est en lien avec recordgroup ?**
+	- Si le dossier correspond à un seul édifice, on se contente d'un composant de ce type.
 	
-	- S'il y a plusieurs édifices dans une boîte, on créera de nouveaux `<c level="file">` dans ledit composant afin de créer des sous-dossiers (il n'y pas d'attribut `@type` qui y corresponde.) 
+	- S'il y a plusieurs édifices dans un lieu, on créera de nouveaux `<c level="file">` dans ledit composant afin de créer des sous-dossiers.  
 
 	> Dossier : Ensemble de *documents* constitués, soit organiquement par le *producteur d'archives* pour la conduite ou le traitement d'une affaire, soit par regroupement logique lors du *classement* dans le *service d'archives* (*DTA*).
 
@@ -155,11 +155,12 @@ Structure de dossier complexe:
 		</did>
 		<c level="file">
 			<did>
-				<unitid>20110282/15</unitid>
+				<unitid>20110282/15-20110282/21</unitid>
 				<unittitle>Archives nationales</unittitle>
 			</did>
 			<c level="file">
 				<did>
+					<unitid>20110282/15</unitid>
 					<unittitle>Hotel de Rohan</unittitle>
 				</did>
 				<c level="item">
@@ -175,6 +176,7 @@ Structure de dossier complexe:
 			</c>
 			<c level="file">
 				<did>
+					<unitid>20110282/15</unitid>
 					<unittitle>Hotel de Soubise</unittitle>
 				</did>
 				<c level="item">
