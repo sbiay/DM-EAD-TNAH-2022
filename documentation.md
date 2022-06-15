@@ -112,7 +112,7 @@ Chaque élément `<c>` a un attribut `@type` qui précise le niveau de l'éléme
 
 *Les exemples seront enrichis avec les productions des groupes*
 
-#### Structure de dossier simple
+#### Structure de dossier pour la série Programmation
 
 ```XML
 <c level="series">
@@ -155,7 +155,7 @@ Chaque élément `<c>` a un attribut `@type` qui précise le niveau de l'éléme
 </c>
 ```
 
-#### Structure de dossier complexe
+#### Structure de dossier pour la série Dossiers de travaux
 
 ```XML
 <c level="series">
