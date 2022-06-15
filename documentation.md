@@ -126,22 +126,24 @@ Chaque élément `<c>` a un attribut `@type` qui précise le niveau de l'éléme
         	<unitdate normal=""><!--compléter--></unitdate>
     	</did>
     	<c level="recordgrp">
-        	<did>
-            	<unitid>20110282/1</unittitle>
-            	<unitdate normal=""><!--compléter--></unitdate>
-        	</did>
-        	<scopecontent>
-            	<list>
-                	<item>Arc de triomphe (1968-1987).</item>
-                	<item>Archives nationales (1968-1987)</item>
-                	<!--compléter la liste-->
-            	</list>
-        	</scopecontent>
-    	</c>
+            <did>
+                <unitid type="identifiant">20110282/1</unitid>
+                <unittitle></unittitle>
+                <unitdate normal=""><!--compléter--></unitdate>
+            </did>
+            <scopecontent>
+                <list>
+                    <item>Arc de triomphe (1968-1987).</item>
+                    <item>Archives nationales (1968-1987)</item>
+                    <!--compléter la liste-->
+                </list>
+            </scopecontent>
+        </c>
 	    <c level="recordgrp">
 	        <did>
-	            <unitid>20110282/2</unittitle>
-	            <unitdate normal=""><!--compléter--></unitdate>
+	            <unitid>20110282/2</unitid>
+	            <unittitle></unittitle>
+				<unitdate normal=""><!--compléter--></unitdate>
 	        </did>
 	        <scopecontent>
 	            <list>
@@ -156,6 +158,32 @@ Chaque élément `<c>` a un attribut `@type` qui précise le niveau de l'éléme
 ```
 
 #### Structure de dossier pour la série Dossiers de travaux
+
+##### Quand un dossier ne comporte qu'un édifice
+
+```xml
+<c level="subseries">
+    <did>
+        <unittitle>Paris</unittitle>
+    </did>
+    <c level="file">
+        <did>
+            <unitid type="identifiant">20110282/14</unitid>
+            <unittitle>Arc de Triomphe </unittitle>
+            <unitdate normal=""><!--compléter--></unitdate>
+        </did>
+        <scopecontent>
+            <list>
+                <item>Crypte Kléber, comptoir de vente et rénovation des circulations (1972).</item>
+                <item>Plaque commémorative pour les militaires morts en Afrique du Nord (1972).</item>
+                <!--Compléter la liste-->
+            </list>
+        </scopecontent>
+    </c>
+</c>
+```
+
+##### Quand un dossier comporte plusieurs édifices
 
 ```XML
 <c level="series">

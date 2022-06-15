@@ -20,7 +20,7 @@
                 <publisher>Archives nationales</publisher>
                 <address>
                     <addressline>2 rue des Archives, 77300 Fontainebleau</addressline> <!-- adresse de 
-                    la localisation physique ? utiliser plutôt un physloc ? -->
+                        la localisation physique ? utiliser plutôt un physloc ? -->
                 </address>
                 <date normal="2011">2011</date>
             </publicationstmt>
@@ -148,6 +148,34 @@
                         <unittitle>Paris</unittitle>
                         <unitdate normal=""><!--compléter--></unitdate>
                     </did>
+                    <c level="recordgrp">
+                        <did>
+                            <unitid type="identifiant">20110282/1</unitid>
+                            <unittitle></unittitle>
+                            <unitdate normal=""><!--compléter--></unitdate>
+                        </did>
+                        <scopecontent>
+                            <list>
+                                <item>Arc de triomphe (1968-1987).</item>
+                                <item>Archives nationales (1968-1987)</item>
+                                <!--compléter la liste-->
+                            </list>
+                        </scopecontent>
+                    </c>
+                    <c level="recordgrp">
+                        <did>
+                            <unitid type="identifiant">20110282/2</unitid>
+                            <unittitle></unittitle>
+                            <unitdate normal=""><!--compléter--></unitdate>
+                        </did>
+                        <scopecontent>
+                            <list>
+                                <item>Conservatoire national supérieur de musique</item>
+                                <item>Conservatoire national des arts et métiers</item>
+                                <!--compléter la liste-->
+                            </list>
+                        </scopecontent>
+                    </c>
                 </c>
                 <c level="subseries">
                     <did>
@@ -200,75 +228,83 @@
                 </did>
                 <c level="subseries">
                     <did>
-                        <unitid type="identifiant"><!--compléter--></unitid>
                         <unittitle>Paris</unittitle>
-                        <unitdate normal=""><!--compléter--></unitdate>
                     </did>
                     <c level="file">
                         <did>
-                            <unitid type="identifiant"><!--compléter--></unitid>
+                            <unitid type="identifiant">20110282/14</unitid>
                             <unittitle>Arc de Triomphe </unittitle>
                             <unitdate normal=""><!--compléter--></unitdate>
                         </did>
+                        <scopecontent>
+                            <list>
+                                <item>Crypte Kléber, comptoir de vente et rénovation des circulations (1972).</item>
+                                <item>Plaque commémorative pour les militaires morts en Afrique du Nord (1972).</item>
+                                <!--Compléter la liste-->
+                            </list>
+                        </scopecontent>
                     </c>
                     <c level="file">
                         <did>
-                            <unitid type="identifiant"><!--compléter--></unitid>
+                            <unitid type="identifiant">20110282/15-20110282/21</unitid>
                             <unittitle>Archives nationales</unittitle>
-                            <unitdate normal=""><!--compléter--></unitdate>
                         </did>
-                        <c level="item">
+                        <c level="recordgrp">
                             <did>
-                                <unitid type="identifiant"><!--compléter--></unitid>
                                 <unittitle>Hôtel de Rohan </unittitle>
                                 <unitdate normal=""><!--compléter--></unitdate>
                             </did>
+                            <scopecontent>
+                                <list>
+                                    <item>Dorure de la grille principale (1982).</item>
+                                    <item>Réfection du parquet des salons (1982).</item>
+                                    <!--compléter la liste-->
+                                </list>
+                            </scopecontent>
                         </c>
-                        <c level="item">
+                        <c level="recordgrp">
                             <did>
-                                <unitid type="identifiant"><!--compléter--></unitid>
                                 <unittitle>Hôtel de Soubise </unittitle>
                                 <unitdate normal=""><!--compléter--></unitdate>
                             </did>
+                            <scopecontent>
+                                <list>
+                                    <item><!-- compléter la liste --></item>
+                                </list>
+                            </scopecontent>
                         </c>
-                        <c level="item">
+                        <c level="recordgrp">
                             <did>
-                                <unitid type="identifiant"><!--compléter--></unitid>
                                 <unittitle>Hôtels d'Assy, de Breteuil et de Fontenay</unittitle>
                                 <unitdate normal=""><!--compléter--></unitdate>
                             </did>
                         </c>
-                        <c level="item">
+                        <c level="recordgrp">
                             <did>
-                                <unitid type="identifiant"><!--compléter--></unitid>
                                 <unittitle>Hôtel de Boisgelin </unittitle>
                                 <unitdate normal=""><!--compléter--></unitdate>
                             </did>
                         </c>
-                        <c level="item">
+                        <c level="recordgrp">
                             <did>
-                                <unitid type="identifiant"><!--compléter--></unitid>
                                 <unittitle>Hôtel de Jaucourt </unittitle>
                                 <unitdate normal=""><!--compléter--></unitdate>
                             </did>
                         </c>
-                        <c level="item">
+                        <c level="recordgrp">
                             <did>
-                                <unitid type="identifiant"><!--compléter--></unitid>
                                 <unittitle>Grands dépôts</unittitle>
                                 <unitdate normal=""><!--compléter--></unitdate>
                             </did>
                         </c>
-                        <c level="item">
+                        <c level="recordgrp">
                             <did>
-                                <unitid type="identifiant"><!--compléter--></unitid>
                                 <unittitle>Galeries de liaison souterraines</unittitle>
                                 <unitdate normal=""><!--compléter--></unitdate>
                             </did>
                         </c>
-                        <c level="item">
+                        <c level="recordgrp">
                             <did>
-                                <unitid type="identifiant"><!--compléter--></unitid>
                                 <unittitle>Centre d'accueil et de recherche des Archives nationales (CARAN)</unittitle>
                                 <unitdate normal=""><!--compléter--></unitdate>
                             </did>
@@ -324,9 +360,8 @@
                             <unittitle>Conservatoire national supérieur d'art dramatique (CNSAD)</unittitle>
                             <unitdate normal=""><!--compléter--></unitdate>
                         </did>
-                        <c level="item">
+                        <c level="recordgrp">
                             <did>
-                                <unitid type="identifiant"><!--compléter--></unitid>
                                 <unittitle>Restauration de la salle de spectacle et restructuration de la scène</unittitle>
                                 <unitdate normal=""><!--compléter--></unitdate>
                             </did>
@@ -394,16 +429,14 @@
                             <unittitle>Hôtel national des Invalides^[^4]^ </unittitle>
                             <unitdate normal=""><!--compléter--></unitdate>
                         </did>
-                        <c level="item">
+                        <c level="recordgrp">
                             <did>
-                                <unitid type="identifiant"><!--compléter--></unitid>
                                 <unittitle>Musée des plans reliefs</unittitle>
                                 <unitdate normal=""><!--compléter--></unitdate>
                             </did>
                         </c>
-                        <c level="item">
+                        <c level="recordgrp">
                             <did>
-                                <unitid type="identifiant"><!--compléter--></unitid>
                                 <unittitle>Eglise royale</unittitle>
                                 <unitdate normal=""><!--compléter--></unitdate>
                             </did>
@@ -450,23 +483,20 @@
                             <unittitle>Ministère de la Culture</unittitle>
                             <unitdate normal=""><!--compléter--></unitdate>
                         </did>
-                        <c level="item">
+                        <c level="recordgrp">
                             <did>
-                                <unitid type="identifiant"><!--compléter--></unitid>
                                 <unittitle>4 rue de la Banque </unittitle>
                                 <unitdate normal=""><!--compléter--></unitdate>
                             </did>
                         </c>
-                        <c level="item">
+                        <c level="recordgrp">
                             <did>
-                                <unitid type="identifiant"><!--compléter--></unitid>
                                 <unittitle>27 avenue de l'Opéra </unittitle>
                                 <unitdate normal=""><!--compléter--></unitdate>
                             </did>
                         </c>
-                        <c level="item">
+                        <c level="recordgrp">
                             <did>
-                                <unitid type="identifiant"><!--compléter--></unitid>
                                 <unittitle>65, rue de Richelieu </unittitle>
                                 <unitdate normal=""><!--compléter--></unitdate>
                             </did>
@@ -578,23 +608,20 @@
                             <unittitle>Palais de Chaillot</unittitle>
                             <unitdate normal=""><!--compléter--></unitdate>
                         </did>
-                        <c level="item">
+                        <c level="recordgrp">
                             <did>
-                                <unitid type="identifiant"><!--compléter--></unitid>
                                 <unittitle>Parvis</unittitle>
                                 <unitdate normal=""><!--compléter--></unitdate>
                             </did>
                         </c>
-                        <c level="item">
+                        <c level="recordgrp">
                             <did>
-                                <unitid type="identifiant"><!--compléter--></unitid>
                                 <unittitle>Aile de Paris </unittitle>
                                 <unitdate normal=""><!--compléter--></unitdate>
                             </did>
                         </c>
-                        <c level="item">
+                        <c level="recordgrp">
                             <did>
-                                <unitid type="identifiant"><!--compléter--></unitid>
                                 <unittitle>Aile de Passy </unittitle>
                                 <unitdate normal=""><!--compléter--></unitdate>
                             </did>
@@ -627,30 +654,26 @@
                             <unittitle>Palais-Royal</unittitle>
                             <unitdate normal=""><!--compléter--></unitdate>
                         </did>
-                        <c level="item">
+                        <c level="recordgrp">
                             <did>
-                                <unitid type="identifiant"><!--compléter--></unitid>
                                 <unittitle>Comédie Française</unittitle>
                                 <unitdate normal=""><!--compléter--></unitdate>
                             </did>
                         </c>
-                        <c level="item">
+                        <c level="recordgrp">
                             <did>
-                                <unitid type="identifiant"><!--compléter--></unitid>
                                 <unittitle>Conseil constitutionnel</unittitle>
                                 <unitdate normal=""><!--compléter--></unitdate>
                             </did>
                         </c>
-                        <c level="item">
+                        <c level="recordgrp">
                             <did>
-                                <unitid type="identifiant"><!--compléter--></unitid>
                                 <unittitle>Conseil d'Etat</unittitle>
                                 <unitdate normal=""><!--compléter--></unitdate>
                             </did>
                         </c>
-                        <c level="item">
+                        <c level="recordgrp">
                             <did>
-                                <unitid type="identifiant"><!--compléter--></unitid>
                                 <unittitle>Ministère de la Culture</unittitle>
                                 <unitdate normal=""><!--compléter--></unitdate>
                             </did>
@@ -662,37 +685,32 @@
                             <unittitle>Palais du Louvre et Tuileries</unittitle>
                             <unitdate normal=""><!--compléter--></unitdate>
                         </did>
-                        <c level="item">
+                        <c level="recordgrp">
                             <did>
-                                <unitid type="identifiant"><!--compléter--></unitid>
                                 <unittitle>Union centrale des arts décoratifs (UCAD)</unittitle>
                                 <unitdate normal=""><!--compléter--></unitdate>
                             </did>
                         </c>
-                        <c level="item">
+                        <c level="recordgrp">
                             <did>
-                                <unitid type="identifiant"><!--compléter--></unitid>
                                 <unittitle>Aile Rivoli-Finances</unittitle>
                                 <unitdate normal=""><!--compléter--></unitdate>
                             </did>
                         </c>
-                        <c level="item">
+                        <c level="recordgrp">
                             <did>
-                                <unitid type="identifiant"><!--compléter--></unitid>
                                 <unittitle>Musée du Louvre</unittitle>
                                 <unitdate normal=""><!--compléter--></unitdate>
                             </did>
                         </c>
-                        <c level="item">
+                        <c level="recordgrp">
                             <did>
-                                <unitid type="identifiant"><!--compléter--></unitid>
                                 <unittitle>Jardin des Tuileries</unittitle>
                                 <unitdate normal=""><!--compléter--></unitdate>
                             </did>
                         </c>
-                        <c level="item">
+                        <c level="recordgrp">
                             <did>
-                                <unitid type="identifiant"><!--compléter--></unitid>
                                 <unittitle>Orangerie</unittitle>
                                 <unitdate normal=""><!--compléter--></unitdate>
                             </did>
@@ -739,9 +757,8 @@
                             <unittitle>Val-de-Grâce</unittitle>
                             <unitdate normal=""><!--compléter--></unitdate>
                         </did>
-                        <c level="item">
+                        <c level="recordgrp">
                             <did>
-                                <unitid type="identifiant"><!--compléter--></unitid>
                                 <unittitle>Chapelle dite du Saint-Sacrement</unittitle>
                                 <unitdate normal=""><!--compléter--></unitdate>
                             </did>
@@ -832,23 +849,20 @@
                             <unittitle>Montigny-le-Bretonneux -- Fort de Saint-Cyr</unittitle>
                             <unitdate normal=""><!--compléter--></unitdate>
                         </did>
-                        <c level="item">
+                        <c level="recordgrp">
                             <did>
-                                <unitid type="identifiant"><!--compléter--></unitid>
                                 <unittitle>Archives photographiques</unittitle>
                                 <unitdate normal=""><!--compléter--></unitdate>
                             </did>
                         </c>
-                        <c level="item">
+                        <c level="recordgrp">
                             <did>
-                                <unitid type="identifiant"><!--compléter--></unitid>
                                 <unittitle>Centre national de la cinématographie</unittitle>
                                 <unitdate normal=""><!--compléter--></unitdate>
                             </did>
                         </c>
-                        <c level="item">
+                        <c level="recordgrp">
                             <did>
-                                <unitid type="identifiant"><!--compléter--></unitid>
                                 <unittitle>Centre de calcul du ministère de la Culture</unittitle>
                                 <unitdate normal=""><!--compléter--></unitdate>
                             </did>
@@ -902,9 +916,8 @@
                             <unittitle>Versailles -- Domaine national</unittitle>
                             <unitdate normal=""><!--compléter--></unitdate>
                         </did>
-                        <c level="item">
+                        <c level="recordgrp">
                             <did>
-                                <unitid type="identifiant"><!--compléter--></unitid>
                                 <unittitle>Service des eaux et fontaines</unittitle>
                                 <unitdate normal=""><!--compléter--></unitdate>
                             </did>
@@ -1000,44 +1013,38 @@
                             <unittitle>Vincennes -- Château</unittitle>
                             <unitdate normal=""><!--compléter--></unitdate>
                         </did>
-                        <c level="item">
+                        <c level="recordgrp">
                             <did>
-                                <unitid type="identifiant"><!--compléter--></unitid>
                                 <unittitle>Donjon</unittitle>
                                 <unitdate normal=""><!--compléter--></unitdate>
                             </did>
                         </c>
-                        <c level="item">
+                        <c level="recordgrp">
                             <did>
-                                <unitid type="identifiant"><!--compléter--></unitid>
                                 <unittitle>Sainte-Chapelle</unittitle>
                                 <unitdate normal=""><!--compléter--></unitdate>
                             </did>
                         </c>
-                        <c level="item">
+                        <c level="recordgrp">
                             <did>
-                                <unitid type="identifiant"><!--compléter--></unitid>
                                 <unittitle>Tour du Roi</unittitle>
                                 <unitdate normal=""><!--compléter--></unitdate>
                             </did>
                         </c>
-                        <c level="item">
+                        <c level="recordgrp">
                             <did>
-                                <unitid type="identifiant"><!--compléter--></unitid>
                                 <unittitle>Tour du Village</unittitle>
                                 <unitdate normal=""><!--compléter--></unitdate>
                             </did>
                         </c>
-                        <c level="item">
+                        <c level="recordgrp">
                             <did>
-                                <unitid type="identifiant"><!--compléter--></unitid>
                                 <unittitle>Pavillon de la Reine</unittitle>
                                 <unitdate normal=""><!--compléter--></unitdate>
                             </did>
                         </c>
-                        <c level="item">
+                        <c level="recordgrp">
                             <did>
-                                <unitid type="identifiant"><!--compléter--></unitid>
                                 <unittitle>Pavillon du Roi</unittitle>
                                 <unitdate normal=""><!--compléter--></unitdate>
                             </did>
