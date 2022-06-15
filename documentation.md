@@ -39,7 +39,8 @@ Chaque modification devra y être indiquée dans un élément `<change>`, dans l
 ## Le archdesc :  description de l'ensemble documentaire
 
 L'élément `<archdesc>` sert à décrire le fonds dans son ensemble. Il prend un attribut `@level` (obligatoire) qui permet de préciser le niveau description du fonds: dans le cas de la présente édition, le niveau choisi est celui des séries organiques d'après la structure du plan de classement, qui correspond à la définition qu'en donne l'*Abrégé d'archivistique*:
-	> La **série organique** est une division organique, constituée par un ensemble de dossiers ou de documents (pièces) réunis ensemble et maintenus groupés parce qu'ils résultent d'une même activité, se rapportent à une même fonction ou à un même sujet ou revêtent une même forme. 
+
+> La **série organique** est une division organique, constituée par un ensemble de dossiers ou de documents (pièces) réunis ensemble et maintenus groupés parce qu'ils résultent d'une même activité, se rapportent à une même fonction ou à un même sujet ou revêtent une même forme. 
 
 Il comprend en premier lieu un élément `<did>` dans lequel se trouvent les principales informations de description du fonds:
 
@@ -47,9 +48,9 @@ Il comprend en premier lieu un élément `<did>` dans lequel se trouvent les pri
 
 - L'élément`<unttitle>` sert à indiquer l'intitulé du fonds.
 
-- L'élément `<unitdate>` sert à indiquer les dates du fonds, ou la période qui le concerne, avec les dates extrêmes dans un attribut `@normal`, dans leur forme normalisée.
+- L'élément `<unitdate>` sert à indiquer les dates du fonds, ou la période qui le concerne, avec les dates extrêmes, dont la forme normalisée est donnée par l'attribut `@normal`.
 
-- Dans un élément `<origination>`, on décrit le producteur. Celui du fonds étant une organisation et non une personne physique, c'est l'élément `<corpname>` qui a été utilisé pour le décrire.
+- Dans un élément `<origination>`, on décrit le producteur. Celui du présent fonds étant une organisation et non une personne physique, c'est l'élément `<corpname>` qui a été utilisé pour le décrire.
 
 - Dans le `<physdesc>`, on décrit les documents physiques et leur conditionnement: dans le cas présent, on utilise un élément `<extent>` pour donner des informations sur l'importance matérielle du fonds, et un élément `<dimensions>` pour en préciser les dimensions en mètres linéaires. 
 
@@ -57,7 +58,7 @@ Après le `<did>`, un élément `<accessrestrict>` est utilisé pour préciser l
 
 Les conditions d'utilisations sont ensuite précisées dans un autre élément `<userestrict>`, au sein d'éléments `<p>`.
 
-L'élément `<acqinfo>` sert à décrire l'historique des versements du fonds aux Archives nationales. Chaque versement y est indiqué dans un élément `<p>` distinct s'il y a besoin d'en indiqué plusieurs, et les dates de versements sont indiquées dans des éléments `<date>`.
+L'élément `<acqinfo>` sert à décrire l'historique des versements du fonds aux Archives nationales. Chaque versement y est indiqué dans un élément `<p>` distinct s'il y a besoin d'en indiquer plusieurs, et les dates de versements sont indiquées dans des éléments `<date>`.
 
 L'élément `<bioghist>` sert à donner des renseignements sur l'histoire du producteur. Le texte y est structuré en un ou plusieurs paragraphes `<p>` au sein de cet élément.
 
@@ -66,6 +67,7 @@ L'élément `<custodhist>` sert à retracer l'historique de la conservation des 
 L'élément `<arrangement>` sert à donner des informations sur la façon dont les archives sont organisées selon le plan de classement. Les différentes explications sont données dans un élément englobant `<list>`, avec un élément `<item>` pour chaque explication.
 
 Les différents types de versements liés au fonds décrit dans l'instrument de recherche sont répartis dans deux types d'éléments:
+
 - Le premier est l'élément `<separatedmaterial>` : il concerne les autres versements liés au fonds décrit qui ont le même producteur.
 
 - Le second est l'élément `<relatedmaterial>` : il concerne les autres versements liés au fonds décrit, mais avec un producteur différent.
@@ -73,7 +75,6 @@ Les différents types de versements liés au fonds décrit dans l'instrument de 
 Enfin, l'élément`<processinfo>` permet de donner des informations sur le traitement des archives physiques, par exemple sur des éliminations ou des opérations de tri. Chaque type d'information est donné dans un `<p>` distinct.
 
 ## Le dsc
-
 
 L'élément `<dsc>` (description des sous-composants) contient les éléments `<c>` (composant) qui servent à retranscrire la hiérarchie du plan de classement.
 
@@ -85,13 +86,13 @@ Chaque élément `<c>` a un attribut `@type` qui précise le niveau de l'éléme
 
 	> Série organique : Division organique du *fonds*, identifiée par *l'archiviste* lors de son *classement*, qui constitue un ensemble de *dossiers* maintenus groupés parce qu'ils résultent d'une même activité, se rapportent à une même fonction ou à un même sujet, ou revêtent une même forme (*DTA*).	
 
-Ainsi, les deux éléments à la racine du `<dsc>` sont des `<c level="series>` qui décrivent les deux séries organiques du plan de classement (Programmation et Conduite de travaux).
+	Ainsi, les deux éléments à la racine du `<dsc>` sont des `<c level="series>` qui décrivent les deux séries organiques du plan de classement (Programmation et Conduite de travaux).
 
 - Les composants `<c level="subseries">` servent à décrire ce qui correspond à des **sous-séries** dans le plan de classement, c'est-à-dire les regroupements par lieux (Paris, Yvelines, Val-d'Oise...). C'est à l'intérieur de ces sous-séries que l'on trouvera les dossiers et les articles. 
 
 	> Sous-série organique : Subdivision de la série organique (*DTA*).
 
-- Les composants `<c level="file">` servent à décrire les dossiers des **dossiers**, qui correspondent aux édifices dans le plan de classement. Par exemple, pour Paris, on pourra trouver un dossier pour l'Arc de Triomphe, un autre pour les Archives nationales... 
+- Les composants `<c level="file">` servent à décrire les **dossiers**, qui correspondent aux édifices dans le plan de classement. Par exemple, pour Paris, on pourra trouver un dossier pour l'Arc de Triomphe, un autre pour les Archives nationales... 
 	
 	- S'il n'y a pas de dossier correspondant à un édifice particulier, on passera directement à la description par **item**.
 	
@@ -107,11 +108,11 @@ Ainsi, les deux éléments à la racine du `<dsc>` sont des `<c level="series>` 
 	> Pièce : La plus petite *unité de description* indivisible à la fois matériellement et intellectuellement (feuillet simple ou double, plusieurs feuillets agrafés, cahier, registre...) (*DTA*).
 
 
-**Exemples:**
+### Exemples
 
 *Les exemples seront enrichis avec les productions des groupes*
 
-Structure de dossier simple:
+#### Structure de dossier simple
 
 ```XML
 <c level="series">
@@ -141,8 +142,8 @@ Structure de dossier simple:
 	</c>
 </c>
 ```
-Structure de dossier complexe:
 
+#### Structure de dossier complexe
 
 ```XML
 <c level="series">
@@ -203,8 +204,10 @@ La description des composants `<c>` se fait principalement dans l'élément `<di
 
 - L'élément `<unitid>` contient une cote, ou identifiant. On peut y renseigner les cotes extrêmes d'un regroupement de dossiers par exemple, ou la cote d'un dossier dans lequel on trouvera plusieurs items.
 
-- L'élément `<unittitle>` sert à renseigner l'intitulé de l'élément décrit. Par exemple, dans le cas de "Dorure de la grille principale (1982)", l'intitulé sera: "Dorure de la grille principale", et la date sera placée dans un élément `<unitdate>`
-- L'élément `<unitdate>` correspond à une date (pour un item sur une date précise par exemple), ou à des dates extrêmes (par exemple sur toute l'étendue d'un dossier). Il est à utiliser une seule fois par composant. Les dates sont aussi à préciser dans son attribut `@normal` selon la norme ISO 8601 (par exemple AAAA-MM-JJ pour un jour particulier ou AAAA/AAAA pour un intervalle de dates).
+- L'élément `<unittitle>` sert à renseigner l'intitulé de l'élément décrit. Par exemple, dans le cas de "Dorure de la grille principale (1982)", l'intitulé sera: "Dorure de la grille principale", et la date sera placée dans un élément `<unitdate>`.
+
+- L'élément `<unitdate>` correspond à une date (pour un item sur une date précise par exemple), ou à des dates extrêmes (par exemple sur toute l'étendue d'un dossier). Il est à utiliser une seule fois par composant. Les dates sont aussi à préciser dans son attribut `@normal` selon la norme [ISO 8601](https://fr.wikipedia.org/wiki/ISO_8601#La_notation_abr%C3%A9g%C3%A9e) (par exemple AAAA-MM-JJ pour un jour particulier ou AAAA/AAAA pour un intervalle de dates).
+
 - D'autres éléments peuvent aussi y être utilisés si nécessaire: `<langmaterial>` (langue des unités documentaires), `<materialspec>` (particularités de certains types de documents), `<origination>` (origine des documents, comme un producteur), `<physdesc>` (description physique des documents), `<physloc>` (localisation physique des documents), `<repository>` (organisme responsable de l'accès intellectuel).
 
 Après le `<did>`, il est possible, si nécessaire, d'ajouter des informations complémentaires dans les éléments suivants : `<accessrestrict>` (restrictions d'accès), `<accruals>` (accroissements), `<acqinfo>` (informations sur les modalités d'entrée), `<altformavail>` (documents de susbtitution), `<appraisal>` (informations sur l'évaluation des documents), `<arrangement>` (classement), `<bibliography>` (bibliographie), `<bioghist>` (biographie ou histoire), `<controlaccess>` (vedettes et accès contrôlés), `<custodhist>` (historique de la conservation), `<originalsloc>` (existence et lieu de conservation des documents originaux), `<otherfindaid>` (autre instrument de recherche), `<phystech>` (caractéristiques matérielles et contraintes techniques), `<processinfo>` (informations sur le traitement), `<relatedmaterial>` (documents en relation),`<scopecontent>` (présentation du contenu),  `<separatedmaterial>` (documents séparés), `<userestrict>` (restrictions d'utilisation). L'encodage doit cependant rester le plus léger possible : dans la plupart des cas, ces éléments ne sont pas utilisés car ces informations sont renseignées à un plus haut niveau. En cas d'information complémentaire, il est souvent plus simple de se contenter d'un `<scopecontent>`.
