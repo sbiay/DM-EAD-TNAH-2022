@@ -1,64 +1,249 @@
-# Documentation de l'encodage
+# Documentation de l'encodage : le fichier EAD
 
 *En cours de rédaction*
 
-**IR = instrument de recherche**
+La documentation de l'encodage de l'instrument de recherche en XML-EAD et EAC-CPF selon les normes ISAD(G) et ISAAR(CPF) se base sur l'*Abrégé d'archivistique. Principes et pratiques du métier d'archiviste*, 4e édition, refondue et augmentée, Association des archivistes français, Paris, 2020, et l'[*Encoded Archival Description Tag Library*](https://francearchives.fr/file/0def64f5a10f3f1ae03fdea59399a3e0755ef157/static_1066.pdf), version 2002, Society of American Archivists, 2004
 
 ## Le eadheader
-### Le filedesc : IR d'origine
 
-`<eadid>` : identifiant de l'IR
+L'élément `<eadid>`, en tête de fichier, est obligatoire: il sert à indiquer l'identifiant unique de l'instrument de recherche encodé.
 
-`<titleproper>` : titre complet de l'IR
+### Le filedesc : Description de l'instrument de recherche d'origine
 
-`<subtitle>` : précision sur le type d'IR
+L'élément `<filedesc>` sert à donner des renseignements sur l'instrument de recherche d'origine, qui est encodé en XML-EAD.
 
-`<author>` : auteurs de l'IR d'origine (en docx), tous dans un seul élément selon la DTD SIA
+- Au sein de cet élément, on retrouve l'élément `<titlestmt>`. Il englobe l'élément `<titleproper>` (obligatoire), il contient le titre complet de l'instrument de recherche; ainsi que l'élément `<subtitle>`, qui est utilisé pour donner des informations complémentaires sur le type d'instrument de recherche qui est encodé (dans notre cas : "Répertoire numérique"). On y trouve aussi l'élément `<author>` qui sert à décrire les auteurs de l'instrument de recherche d'origine : selon la DTD SIA, ils sont tous regroupés dans un seul élément.
 
-`<editionstmt>` : première édition éléctronique vu qu'on parle du fichier d'origine et non de l'édition en EAD, à vérifier
+- Vient ensuite l'élément `<editionstmt>` dans lequel se trouve `<edition>`: facultatif, il permet de donner des informations sur la forme de l'instrument de recherche encodé (dans notre cas, une première édition électronique).
 
-`<publisher>` : AN, car ce sont eux qui ont produit le doc suite au versement et pas le producteur
+- Le `<publicationstmt>` donne des informations sur la publication ou la diffusion de l'instrument de recherche. Il contient l'élément `<publisher>`, qui donne le nom du responsable de publication, son adresse dans un élément `<address>`, et la date de publication dans un élément `<date>`, qui est enrichi d'un attribut `@normal` dans lequel on trouve ladite date sous sa forme normalisée.
 
-`<address>` : à vérifier, probablement plutôt celle de l'IR (Paris), et celle de Fontainebleau serait dans un `<physloc>` car correspond à la localisation des archives physiques
 
-`<date>` : date de rédaction du premier IR
+### Le profiledesc : Description de l'instrument de recherche encodé en XML-EAD
 
-### Le profiledesc : IR en EAD
+L'élément `<profiledesc>` sert à donner des renseignements sur l'instrument de recherche encodé en XML-EAD à partir de sa première forme (dans notre cas, donc, une première édition éléctronique).
 
-`<creation>` : présentation du contexte de création en EAD, pour les auteurs: on met le nom de la promotion comme dans l'encodage actuel ou on met les noms de chaque élève ?
+Il comprend un premier élément `<creation>`, dans lequel est présenté le contexte de création de l'instrument de recherche en XML-EAD, ainsi que ses auteurs. **pour les auteurs: on met le nom de la promotion comme dans l'encodage actuel ou on met les noms de chaque élève ?**
 
-`<langusage>` : encodage & IR en français
+On y trouve aussi l'élément `<langusage>`, dans lequel on précise la langue utilisée pour l'encodage de l'instrument de recherche dans un (ou des) élément(s) `<language>`. Cet élément doit prendre pour attribut `@langcode` le code (en trois caractères) de langue utilisée selon la norme ISO639-2b.
 
-`<descrules>` : présentation des normes et règles suivies
+L'élément `<descrules>` est utilisé pour présentater les normes et règles suivies pour l'encodage de l'instrument de recherche.
 
-`<revisiondesc>` : étant donné que nous sommes en création de l'IR, nous n'utiliserons probablement pas cette partie, qui sert au suivi des modifications qui ont lieu après la création
 
-## Le archdesc
+### Le revisiondesc : Suivi des versions
 
-`<unitid>` : choix u type de cote
+L'élément `<revisiondesc>` sert à suivre les différentes modifications qui peuvent être effectuées sur l'instrument de recherche encodé en XML-EAD après sa première publication, ce qui permet un meilleur suivi de ses différentes versions. Dans le cas du présent travail d'encodage, il n'est pas utilisé car l'instrument de recherche est en cours de rédaction, mais il y est placé en prévision des futures modifications qu'il subira.
 
-`<unttitle>` et <unitdate>: reprise du type et des dates
+Chaque modification devra y être indiquée dans un élément `<change>`, dans lequel on en indiquera la date dans un élément `<date>`, et son objet dans un élément `<item>`.
 
-`<origination>`, `<corpname>`: producteur, "N1 = 5181 ?"
+## Le archdesc :  description de l'ensemble documentaire
 
-`<physdesc>` description du conditionnement des documents physiques
+L'élément `<archdesc>` sert à décrire le fonds dans son ensemble. Il prend un attribut `@level` (obligatoire) qui permet de préciser le niveau description du fonds: dans le cas de la présente édition, le niveau choisi est celui des séries organiques d'après la structure du plan de classement, qui correspond à la définition qu'en donne l'*Abrégé d'archivistique*:
 
-`<accessrestrict>` et `<userestrict>` : conditions d'accès et d'utilisation
+> La **série organique** est une division organique, constituée par un ensemble de dossiers ou de documents (pièces) réunis ensemble et maintenus groupés parce qu'ils résultent d'une même activité, se rapportent à une même fonction ou à un même sujet ou revêtent une même forme. 
 
-`<acqinfo>` : histoire du fonds liée aux versements aux AN
+Il comprend en premier lieu un élément `<did>` dans lequel se trouvent les principales informations de description du fonds:
 
-`<bioghist>` : histoire du producteur
+- L'élément `<unitid>` dans lequel sont indiquées les cotes extrêmes des unités documentaires du fonds. Son attribut `@type` permet de donner une indication supplémentaire sur le type de cote dont il s'agit.
 
-`<custodhist>` : historique de la conservation (avant versement)
+- L'élément`<unttitle>` sert à indiquer l'intitulé du fonds.
 
-`<arrangement>` : informations sur la façon dont les archives sont classées
+- L'élément `<unitdate>` sert à indiquer les dates du fonds, ou la période qui le concerne, avec les dates extrêmes, dont la forme normalisée est donnée par l'attribut `@normal`.
 
-`<separatedmaterial>` : autres versements en lien avec le fonds mais avec le même producteur
+- Dans un élément `<origination>`, on décrit le producteur. Celui du présent fonds étant une organisation et non une personne physique, c'est l'élément `<corpname>` qui a été utilisé pour le décrire.
 
-`<relatedmaterial>` : autres versements en lien avec le fonds mais avec un producteur différent
+- Dans le `<physdesc>`, on décrit les documents physiques et leur conditionnement: dans le cas présent, on utilise un élément `<extent>` pour donner des informations sur l'importance matérielle du fonds, et un élément `<dimensions>` pour en préciser les dimensions en mètres linéaires. 
 
-`<processinfo>` : informations sur le traitement des archives physiques, correspondrait à "Évaluation, tris et éliminations"
+Après le `<did>`, un élément `<accessrestrict>` est utilisé pour préciser les conditions d'accès et de communicabilité aux documents du fonds, qui sont renseignées dans un élément `<p>` (paragraphe).
+
+Les conditions d'utilisations sont ensuite précisées dans un autre élément `<userestrict>`, au sein d'éléments `<p>`.
+
+L'élément `<acqinfo>` sert à décrire l'historique des versements du fonds aux Archives nationales. Chaque versement y est indiqué dans un élément `<p>` distinct s'il y a besoin d'en indiquer plusieurs, et les dates de versements sont indiquées dans des éléments `<date>`.
+
+L'élément `<bioghist>` sert à donner des renseignements sur l'histoire du producteur. Le texte y est structuré en un ou plusieurs paragraphes `<p>` au sein de cet élément.
+
+L'élément `<custodhist>` sert à retracer l'historique de la conservation des documents avant leur versement aux Archives nationales. Chaque étape est indiquée dans un `<p>` distinct.
+
+L'élément `<arrangement>` sert à donner des informations sur la façon dont les archives sont organisées selon le plan de classement. Les différentes explications sont données dans un élément englobant `<list>`, avec un élément `<item>` pour chaque explication.
+
+Les différents types de versements liés au fonds décrit dans l'instrument de recherche sont répartis dans deux types d'éléments:
+
+- Le premier est l'élément `<separatedmaterial>` : il concerne les autres versements liés au fonds décrit qui ont le même producteur.
+
+- Le second est l'élément `<relatedmaterial>` : il concerne les autres versements liés au fonds décrit, mais avec un producteur différent.
+
+Enfin, l'élément`<processinfo>` permet de donner des informations sur le traitement des archives physiques, par exemple sur des éliminations ou des opérations de tri. Chaque type d'information est donné dans un `<p>` distinct.
 
 ## Le dsc
 
-Structure de l'instrument de recherche, à définir (`<c>` et @types de `<c>`) 
+L'élément `<dsc>` (description des sous-composants) contient les éléments `<c>` (composant) qui servent à retranscrire la hiérarchie du plan de classement.
+
+### Les composants
+
+Chaque élément `<c>` a un attribut `@type` qui précise le niveau de l'élément. 
+
+- Le plan de classement du fonds est divisé en deux grandes parties: la "Programmation" et la "Conduite de travaux. Il a donc été décidé de reprendre cette structure sous la forme de **séries organiques**, selon la définition du [*Dictionnaire de terminologie archivistique*](https://francearchives.fr/file/4575c619ab1e1e738d81d2249ff8dd4115a3d8cb/ARCHIVES_DE_FRANCE_Dictionnaire_de_terminologie_archivistique.pdf):
+
+	> Série organique : Division organique du *fonds*, identifiée par *l'archiviste* lors de son *classement*, qui constitue un ensemble de *dossiers* maintenus groupés parce qu'ils résultent d'une même activité, se rapportent à une même fonction ou à un même sujet, ou revêtent une même forme (*DTA*).	
+
+	Ainsi, les deux éléments à la racine du `<dsc>` sont des `<c level="series>` qui décrivent les deux séries organiques du plan de classement (Programmation et Conduite de travaux).
+
+- Les composants `<c level="subseries">` servent à décrire ce qui correspond à des **sous-séries** dans le plan de classement, c'est-à-dire les regroupements par lieux (Paris, Yvelines, Val-d'Oise...). C'est à l'intérieur de ces sous-séries que l'on trouvera les dossiers et les articles. 
+
+	> Sous-série organique : Subdivision de la série organique (*DTA*).
+
+- Les composants `<c level="file">` servent à décrire les **dossiers**, qui correspondent aux édifices dans le plan de classement. Par exemple, pour Paris, on pourra trouver un dossier pour l'Arc de Triomphe, un autre pour les Archives nationales... 
+	
+	- S'il y a des édifices dans un lieu, on crée un dossier pour chacun d'entre eux.
+
+	- S'il n'y a pas de dossier correspondant à un édifice particulier, on passera directement à la description par **recordgrp**.
+
+	> Dossier : Ensemble de *documents* constitués, soit organiquement par le *producteur d'archives* pour la conduite ou le traitement d'une affaire, soit par regroupement logique lors du *classement* dans le *service d'archives* (*DTA*).
+
+- Les composants `<c level="recordgrp">` s'insèrent ou dans les **subseries**, ou dans les **dossiers** selon le niveau de description. Ils servent à décrire les groupes de documents, qui ne correspondent ni à des dossiers, ni à des pièces. Leur contenu sera renseigné dans un élément `<scopecontent>`, qui contiendra une `<list>` de tous ses `<items>`.
+
+- *Les composants `<c level="item">` ne sont pas utilisés ici car ils servent à décrire les articles (les pièces) qui composent un dossier, ce qui correspond au plus petit niveau de description du plan de classement à encoder. Le niveau de description du fonds de l'instrument de recherche ne va pas jusqu'à la pièce, et s'arrête à des groupes de documents.*
+
+	> Article : Ensemble de *pièces* de même *provenance*, se rapportant à un même *objet* ou à une même affaire et dont l'importance matérielle n'excède pas la capacité d'une *unité matérielle de conditionnement*. L'article  constitue tout à la fois une *unité (intellectuelle) de description* et l'*unité (matérielle)* pour la *cotation*, le *rangement* et la *communication* des *documents d'archives*. 
+	> Pièce : La plus petite *unité de description* indivisible à la fois matériellement et intellectuellement (feuillet simple ou double, plusieurs feuillets agrafés, cahier, registre...) (*DTA*).
+
+
+### Exemples
+
+*Les exemples seront enrichis avec les productions des groupes*
+
+#### Structure de dossier pour la série Programmation
+
+```XML
+<c level="series">
+	<did>
+		<unittitle>Programmation</unittitle>
+	</did>
+	<c level="subseries">
+    	<did>
+        	<unitid type="identifiant"><!--compléter--></unitid>
+        	<unittitle>Paris</unittitle>
+        	<unitdate normal=""><!--compléter--></unitdate>
+    	</did>
+    	<c level="recordgrp">
+            <did>
+                <unitid type="identifiant">20110282/1</unitid>
+                <unittitle></unittitle>
+                <unitdate normal=""><!--compléter--></unitdate>
+            </did>
+            <scopecontent>
+                <list>
+                    <item>Arc de triomphe (1968-1987).</item>
+                    <item>Archives nationales (1968-1987)</item>
+                    <!--compléter la liste-->
+                </list>
+            </scopecontent>
+        </c>
+	    <c level="recordgrp">
+	        <did>
+	            <unitid>20110282/2</unitid>
+	            <unittitle></unittitle>
+				<unitdate normal=""><!--compléter--></unitdate>
+	        </did>
+	        <scopecontent>
+	            <list>
+	                <item>Conservatoire national supérieur de musique</item>
+	                <item>Conservatoire national des arts et métiers</item>
+	                <!--compléter la liste-->
+	            </list>
+	        </scopecontent>
+	    </c>
+	</c
+</c>
+```
+
+#### Structure de dossier pour la série Dossiers de travaux
+
+##### Quand un dossier ne comporte qu'un édifice
+
+```xml
+<c level="subseries">
+    <did>
+        <unittitle>Paris</unittitle>
+    </did>
+    <c level="file">
+        <did>
+            <unitid type="identifiant">20110282/14</unitid>
+            <unittitle>Arc de Triomphe </unittitle>
+            <unitdate normal=""><!--compléter--></unitdate>
+        </did>
+        <scopecontent>
+            <list>
+                <item>Crypte Kléber, comptoir de vente et rénovation des circulations (1972).</item>
+                <item>Plaque commémorative pour les militaires morts en Afrique du Nord (1972).</item>
+                <!--Compléter la liste-->
+            </list>
+        </scopecontent>
+    </c>
+</c>
+```
+
+##### Quand un dossier comporte plusieurs édifices
+
+```XML
+<c level="series">
+	<did>
+		<unittitle>Conduite de travaux</unittitle>
+	</did>
+	<c level="subseries">
+		<did>
+			<unittitle>Paris</unittitle>
+		</did>
+		<c level="file">
+			<did>
+				<unitid>20110282/15-20110282/21</unitid>
+				<unittitle>Archives nationales</unittitle>
+			</did>
+			<c level="recordgrp">
+		        <did>
+		            <unittitle>Hôtel de Rohan </unittitle>
+		            <unitdate normal=""><!--compléter--></unitdate>
+		        </did>
+		        <scopecontent>
+		            <list>
+		                <item>Dorure de la grille principale (1982).</item>
+		                <item>Réfection du parquet des salons (1982).</item>
+		                <!--compléter la liste-->
+		            </list>
+		        </scopecontent>
+		    </c>
+		    <c level="recordgrp">
+		        <did>
+		            <unittitle>Hôtel de Soubise </unittitle>
+		            <unitdate normal=""><!--compléter--></unitdate>
+		        </did>
+		        <scopecontent>
+		        	<list>
+		        		<!-- compléter la liste -->
+		        	</list>
+		        </scopecontent>
+		    </c>
+		</c>
+	</c>
+</c>
+```
+
+### La description des composants
+
+Il est important d'éviter la redondance des informations, ainsi on préfèrera préciser un maximum de choses au plus haut niveau (composant) possible, sans les répéter - sauf si c'est nécessaire - dans ses composants internes. 
+
+La description des composants `<c>` se fait principalement dans l'élément `<did>` (identification et description), qui s'y place en première position. Il contient obligatoirement au moins un élément `<unitid>` ou un élément `<unittitle>`.
+
+- L'élément `<unitid>` contient une cote, ou identifiant. On peut y renseigner les cotes extrêmes d'un regroupement de dossiers par exemple, ou la cote d'un dossier dans lequel on trouvera plusieurs items.
+
+- L'élément `<unittitle>` sert à renseigner l'intitulé de l'élément décrit. Par exemple, dans le cas de "Dorure de la grille principale (1982)", l'intitulé sera: "Dorure de la grille principale", et la date sera placée dans un élément `<unitdate>`.
+
+- L'élément `<unitdate>` correspond à une date (pour un item sur une date précise par exemple), ou à des dates extrêmes (par exemple sur toute l'étendue d'un dossier). Il est à utiliser une seule fois par composant. Les dates sont aussi à préciser dans son attribut `@normal` selon la norme [ISO 8601](https://fr.wikipedia.org/wiki/ISO_8601#La_notation_abr%C3%A9g%C3%A9e) (par exemple AAAA-MM-JJ pour un jour particulier ou AAAA/AAAA pour un intervalle de dates).
+
+- D'autres éléments peuvent aussi y être utilisés si nécessaire: `<langmaterial>` (langue des unités documentaires), `<materialspec>` (particularités de certains types de documents), `<origination>` (origine des documents, comme un producteur), `<physdesc>` (description physique des documents), `<physloc>` (localisation physique des documents), `<repository>` (organisme responsable de l'accès intellectuel).
+
+Après le `<did>`, il est possible, si nécessaire, d'ajouter des informations complémentaires dans les éléments suivants : `<accessrestrict>` (restrictions d'accès), `<accruals>` (accroissements), `<acqinfo>` (informations sur les modalités d'entrée), `<altformavail>` (documents de susbtitution), `<appraisal>` (informations sur l'évaluation des documents), `<arrangement>` (classement), `<bibliography>` (bibliographie), `<bioghist>` (biographie ou histoire), `<controlaccess>` (vedettes et accès contrôlés), `<custodhist>` (historique de la conservation), `<originalsloc>` (existence et lieu de conservation des documents originaux), `<otherfindaid>` (autre instrument de recherche), `<phystech>` (caractéristiques matérielles et contraintes techniques), `<processinfo>` (informations sur le traitement), `<relatedmaterial>` (documents en relation),`<scopecontent>` (présentation du contenu),  `<separatedmaterial>` (documents séparés), `<userestrict>` (restrictions d'utilisation). L'encodage doit cependant rester le plus léger possible : dans la plupart des cas, ces éléments ne sont pas utilisés car ces informations sont renseignées à un plus haut niveau. En cas d'information complémentaire, il est souvent plus simple de se contenter d'un `<scopecontent>`.
+
+Les composants `<c>` sont à imbriquer à la suite du `<did>`, ainsi que des informations complémentaires s'il y en a.
+
+# Documentation de l'encodage : le fichier EAC-CPF
