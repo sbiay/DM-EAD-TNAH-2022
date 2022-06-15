@@ -94,15 +94,15 @@ Chaque élément `<c>` a un attribut `@type` qui précise le niveau de l'éléme
 
 - Les composants `<c level="file">` servent à décrire les **dossiers**, qui correspondent aux édifices dans le plan de classement. Par exemple, pour Paris, on pourra trouver un dossier pour l'Arc de Triomphe, un autre pour les Archives nationales... 
 	
-	- S'il n'y a pas de dossier correspondant à un édifice particulier, on passera directement à la description par **item**.
-	
-	- Si le dossier correspond à un seul édifice, on se contente d'un composant de ce type.
-	
-	- S'il y a plusieurs édifices dans un lieu, on créera de nouveaux `<c level="file">` dans ledit composant afin de créer des sous-dossiers.  
+	- S'il y a des édifices dans un lieu, on crée un dossier pour chacun d'entre eux.
+
+	- S'il n'y a pas de dossier correspondant à un édifice particulier, on passera directement à la description par **recordgrp**.
 
 	> Dossier : Ensemble de *documents* constitués, soit organiquement par le *producteur d'archives* pour la conduite ou le traitement d'une affaire, soit par regroupement logique lors du *classement* dans le *service d'archives* (*DTA*).
 
-- Les composants `<c level="item">` servent à décrire les articles (les pièces) qui composent un dossier, ce qui correspond au plus petit niveau de description du plan de classement à encoder. Ce sont des éléments tels que "Dorure de la grille principale (1982)" ou "Réféction des couvertures, versant nord (1981-1982)"
+- Les composants `<c level="recordgrp">` s'insèrent ou dans les **subseries**, ou dans les **dossiers** selon le niveau de description. Ils servent à décrire les groupes de documents, qui ne correspondent ni à des dossiers, ni à des pièces. Leur contenu sera renseigné dans un élément `<scopecontent>`, qui contiendra une `<list>` de tous ses `<items>`.
+
+- *Les composants `<c level="item">` ne sont pas utilisés ici car ils servent à décrire les articles (les pièces) qui composent un dossier, ce qui correspond au plus petit niveau de description du plan de classement à encoder. Le niveau de description du fonds de l'instrument de recherche ne va pas jusqu'à la pièce, et s'arrête à des groupes de documents.*
 
 	> Article : Ensemble de *pièces* de même *provenance*, se rapportant à un même *objet* ou à une même affaire et dont l'importance matérielle n'excède pas la capacité d'une *unité matérielle de conditionnement*. L'article  constitue tout à la fois une *unité (intellectuelle) de description* et l'*unité (matérielle)* pour la *cotation*, le *rangement* et la *communication* des *documents d'archives*. 
 	> Pièce : La plus petite *unité de description* indivisible à la fois matériellement et intellectuellement (feuillet simple ou double, plusieurs feuillets agrafés, cahier, registre...) (*DTA*).
@@ -117,29 +117,41 @@ Chaque élément `<c>` a un attribut `@type` qui précise le niveau de l'éléme
 ```XML
 <c level="series">
 	<did>
-		<unittitle>Conduite de travaux</unittitle>
+		<unittitle>Programmation</unittitle>
 	</did>
 	<c level="subseries">
-		<did>
-			<unittitle>Paris</unittitle>
-		</did>
-		<c level="file">
-			<did>
-				<unitid>20110282/14</unitid>
-				<unittitle>Arc de Triomphe</unittitle>
-			</did>
-			<c level="item">
-				<did>
-					<unittitle>Crypte Kléber....</unittitle>
-				</did>
-			</c>
-			<c level="item">
-				<did>
-					<unittitle>Plaque commémorative...</unittitle>
-				</did>
-			</c>
-		</c>
-	</c>
+    	<did>
+        	<unitid type="identifiant"><!--compléter--></unitid>
+        	<unittitle>Paris</unittitle>
+        	<unitdate normal=""><!--compléter--></unitdate>
+    	</did>
+    	<c level="recordgrp">
+        	<did>
+            	<unitid>20110282/1</unittitle>
+            	<unitdate normal=""><!--compléter--></unitdate>
+        	</did>
+        	<scopecontent>
+            	<list>
+                	<item>Arc de triomphe (1968-1987).</item>
+                	<item>Archives nationales (1968-1987)</item>
+                	<!--compléter la liste-->
+            	</list>
+        	</scopecontent>
+    	</c>
+	    <c level="recordgrp">
+	        <did>
+	            <unitid>20110282/2</unittitle>
+	            <unitdate normal=""><!--compléter--></unitdate>
+	        </did>
+	        <scopecontent>
+	            <list>
+	                <item>Conservatoire national supérieur de musique</item>
+	                <item>Conservatoire national des arts et métiers</item>
+	                <!--compléter la liste-->
+	            </list>
+	        </scopecontent>
+	    </c>
+	</c
 </c>
 ```
 
@@ -159,38 +171,30 @@ Chaque élément `<c>` a un attribut `@type` qui précise le niveau de l'éléme
 				<unitid>20110282/15-20110282/21</unitid>
 				<unittitle>Archives nationales</unittitle>
 			</did>
-			<c level="file">
-				<did>
-					<unitid>20110282/15</unitid>
-					<unittitle>Hotel de Rohan</unittitle>
-				</did>
-				<c level="item">
-					<did>
-						<unittitle>Dorure de la grille principale...</unittitle>
-					</did>
-				</c>
-				<c level="item">
-					<did>
-						<unittitle>Réfection du parquet des salons...</unittitle>
-					</did>
-				</c>
-			</c>
-			<c level="file">
-				<did>
-					<unitid>20110282/15</unitid>
-					<unittitle>Hotel de Soubise</unittitle>
-				</did>
-				<c level="item">
-					<did>
-						<unittitle>Réfection des couvertures...</unittitle>
-					</did>
-				</c>
-				<c level="item">
-					<did>
-						<unittitle>Réfection des chéneaux...</unittitle>
-					</did>
-				</c>
-			</c>
+			<c level="recordgrp">
+		        <did>
+		            <unittitle>Hôtel de Rohan </unittitle>
+		            <unitdate normal=""><!--compléter--></unitdate>
+		        </did>
+		        <scopecontent>
+		            <list>
+		                <item>Dorure de la grille principale (1982).</item>
+		                <item>Réfection du parquet des salons (1982).</item>
+		                <!--compléter la liste-->
+		            </list>
+		        </scopecontent>
+		    </c>
+		    <c level="recordgrp">
+		        <did>
+		            <unittitle>Hôtel de Soubise </unittitle>
+		            <unitdate normal=""><!--compléter--></unitdate>
+		        </did>
+		        <scopecontent>
+		        	<list>
+		        		<!-- compléter la liste -->
+		        	</list>
+		        </scopecontent>
+		    </c>
 		</c>
 	</c>
 </c>
