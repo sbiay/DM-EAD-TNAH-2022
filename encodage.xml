@@ -176,6 +176,25 @@
                             </list>
                         </scopecontent>
                     </c>
+                    <!-- Commencer ici -->
+                    <c level="recordgrp">
+                        <did>
+                            <unitid type="identifiant">20110282/8</unitid>
+                            <unittitle></unittitle>
+                            <unitdate normal="1968/1989">1968-1989</unitdate>
+                        </did>
+                        <scopecontent>
+                            <list>
+                                <item>Parc zoologique de Paris, 1974.</item>
+                                <item>Résidences présidentielles : dossier général (1969-1986), Palais de l'Elysée (1968-1984), Hôtel Marigny (1972-1977), 2 et 14 rue de l’Elysée (1971-1977), Palais de l'Alma (1969-1985).</item>
+                                <item>Statue de Jeanne d’Arc place des Pyramides (1986-1989).</item>
+                                <item>Théâtre de l'Est parisien (1969-1986) et magasins de décor (1969-1983).</item>
+                                <item>Théâtre national de l'Odéon (1969-1988).</item>
+                                <item>Unité pédagogique d'architecture n° 1 (ancien hôpital Villemin, ancien couvent des Récollets) (1974-1981).</item>
+                                <item>Val-de-Grâce (1973-1987).</item>
+                            </list>
+                        </scopecontent>
+                    </c>
                 </c>
                 <c level="subseries">
                     <did>
@@ -183,6 +202,32 @@
                         <unittitle>Seine-et-Marne</unittitle>
                         <unitdate normal=""><!--compléter--></unitdate>
                     </did>
+                    <c level="recordgrp">
+                        <did>
+                            <unitid type="identifiant">20110282/9</unitid>
+                            <unittitle></unittitle>
+                            <unitdate normal="1974/1990">1974-1990</unitdate>
+                        </did>
+                        <scopecontent>
+                            <list>
+                                <item>Fontainebleau : Archives nationales - Cité interministérielle des archives (1974-1984).</item>
+                                <item>Domaine national (1958-1990).</item>
+                            </list>
+                        </scopecontent>
+                    </c>
+                    <c level="recordgrp">
+                        <did>
+                            <unitid type="identifiant">20110282/10</unitid>
+                            <unittitle></unittitle>
+                            <unitdate normal="1957/1987">1957-1987</unitdate>
+                        </did>
+                        <scopecontent>
+                            <list>
+                                <item>Champs-sur-Marne : château (photographies) (1967-1986).</item>
+                                <item>Melun : cité administrative (1967-1978).</item>
+                            </list>
+                        </scopecontent>
+                    </c>
                 </c>
                 <c level="subseries">
                     <did>
@@ -190,6 +235,37 @@
                         <unittitle>Yvelines</unittitle>
                         <unitdate normal=""><!--compléter--></unitdate>
                     </did>
+                    <c level="recordgrp">
+                        <did>
+                            <unitid type="identifiant">20110282/10</unitid>
+                            <unittitle></unittitle>
+                            <unitdate normal="1957/1987">1957-1987</unitdate>
+                        </did>
+                        <scopecontent>
+                            <list>
+                                <item>Magny-les-Hameaux : Musée national des Granges de Port-Royal (photographies) (1957-1987).</item>
+                                <item>Maisons-Laffitte : château et domaine (1967-1987).</item>
+                                <item>Marly-le-Roi : Domaine national (1967-1986).</item>
+                                <item>Montigny-le-Bretonneux : Fort de Saint-Cyr (1981-1987).</item>
+                                <item>Poissy : Villa Savoye (1970-1987).</item>
+                                <item>Rambouillet : domaine national (1966-1977).</item>
+                            </list>
+                        </scopecontent>
+                    </c>
+                    <c level="recordgrp">
+                        <did>
+                            <unitid type="identifiant">20110282/11</unitid>
+                            <unittitle></unittitle>
+                            <unitdate normal="1957/1991">1957-1991</unitdate>
+                        </did>
+                        <scopecontent>
+                            <list>
+                                <item>Saint-Germain-en-Laye : Domaine national (1966-1988), Musée des Antiquités nationales (1978-1988) et Pavillon de la Muette (1967-1987) ; Centre de protection des œuvres d'art (1966-1985).</item>
+                                <item>Thiverval-Grignon : Institut national de la recherche agronomique et Institut national agronomique Paris-Grignon (1967-1987).</item>
+                                <item>Versailles : Domaine national (1957-1991), dont Pavillon de la Lanterne, 1966-1989, Domaine de Chèvreloup, 1968-1989, annexe de la Bibliothèque nationale à la Grande Ecurie, 1957-1981, et une liste des documents concernant les jardins de Versailles et des Trianons conservés aux service d'architecture du château, s.d. ; Lycée Hoche (1957-1973).</item>
+                            </list>
+                        </scopecontent>
+                    </c>
                 </c>
                 <c level="subseries">
                     <did>
@@ -197,6 +273,35 @@
                         <unittitle>Hauts-de-Seine</unittitle>
                         <unitdate normal=""><!--compléter--></unitdate>
                     </did>
+                    <c level="recordgrp">
+                        <did>
+                            <unitid type="identifiant">20110282/12</unitid>
+                            <unittitle></unittitle>
+                            <unitdate normal="1956/1988">1956-1988</unitdate>
+                        </did>
+                        <scopecontent>
+                            <list>
+                                <item>Châtenay-Malabry : Ecole nationale supérieure de l’éducation physique (ENSEP) (1969-1974).</item>
+                                <item>Meudon : Observatoire, orangerie et grande perspective (1967-1985) ; Hangar Y, création d'un musée de l'aérostation (1982) ; Domaine de Chalais (1971-1974) ; Villa des Brillants (annexe du musée Rodin) (1956-1984).</item>
+                                <item>Nanterre : Unité pédagogique d'architecture (1970-1981).</item>
+                                <item>Rueil-Malmaison : Domaine national de Malmaison, château de Bois-Préau (1959-1988).</item>
+                            </list>
+                        </scopecontent>
+                    </c>
+                    <c level="recordgrp">
+                        <did>
+                            <unitid type="identifiant">20110282/13</unitid>
+                            <unittitle></unittitle>
+                            <unitdate normal="1964/1990">1964-1990</unitdate>
+                        </did>
+                        <scopecontent>
+                            <list>
+                                <item>Saint-Cloud : Domaine national (dont photographies des dégâts d'un orage, 1982, et dossier sur les travaux forestiers dans les domaines nationaux) (1964-1989).</item>
+                                <item>Sèvres : Manufacture et Musée national de la Céramique (1965-1987).</item>
+                                <item>Vaucresson : Pavillon du Butard (1966-1968).</item>
+                            </list>
+                        </scopecontent>
+                    </c>
                 </c>
                 <c level="subseries">
                     <did>
@@ -204,6 +309,20 @@
                         <unittitle>Val-de-Marne</unittitle>
                         <unitdate normal=""><!--compléter--></unitdate>
                     </did>
+                    <c level="recordgrp">
+                        <did>
+                            <unitid type="identifiant">20110282/13</unitid>
+                            <unittitle></unittitle>
+                            <unitdate normal="1964/1990">1964-1990</unitdate>
+                        </did>
+                        <scopecontent>
+                            <list>
+                                <item>Charenton : ancien séminaire, projet d'implantation d'une unité pédagogique d'architecture (1978-1979).</item>
+                                <item>Nogent-sur-Marne : Maison nationale des artistes (1969-1982).</item>
+                                <item>Saint-Maur : Observatoire (1968). Vincennes : château (1985-1990).</item>
+                            </list>
+                        </scopecontent>
+                    </c>
                 </c>
                 <c level="subseries">
                     <did>
@@ -211,6 +330,19 @@
                         <unittitle>Val-d'Oise</unittitle>
                         <unitdate normal=""><!--compléter--></unitdate>
                     </did>
+                    <c level="recordgrp">
+                        <did>
+                            <unitid type="identifiant">20110282/13</unitid>
+                            <unittitle></unittitle>
+                            <unitdate normal="1964/1990">1964-1990</unitdate>
+                        </did>
+                        <scopecontent>
+                            <list>
+                                <item>Cergy-Pontoise : antenne pédagogique / Ecole nationale d’arts (1969-1978).</item>
+                                <item>Ecouen : Château (1986-1988).</item>
+                            </list>
+                        </scopecontent>
+                    </c>
                 </c>
                 <c level="subseries">
                     <did>
@@ -218,6 +350,19 @@
                         <unittitle>Dossiers divers</unittitle>
                         <unitdate normal=""><!--compléter--></unitdate>
                     </did>
+                    <c level="recordgrp">
+                        <did>
+                            <unitid type="identifiant">20110282/13</unitid>
+                            <unittitle></unittitle>
+                            <unitdate normal="1964/1990">1964-1990</unitdate>
+                        </did>
+                        <scopecontent>
+                            <list>
+                                <item>Logements de fonction (1989-1990).</item>
+                                <item>Loi-programme parcs et jardins (1988-1989).</item>
+                            </list>
+                        </scopecontent>
+                    </c>
                 </c>
             </c>
             <c level="series">
@@ -234,16 +379,23 @@
                         <did>
                             <unitid type="identifiant">20110282/14</unitid>
                             <unittitle>Arc de Triomphe </unittitle>
-                            <unitdate normal=""><!--compléter--></unitdate>
+                            <unitdate normal="1970/1989">1970-1989</unitdate>
                         </did>
                         <scopecontent>
                             <list>
                                 <item>Crypte Kléber, comptoir de vente et rénovation des circulations (1972).</item>
                                 <item>Plaque commémorative pour les militaires morts en Afrique du Nord (1972).</item>
-                                <!--Compléter la liste-->
+                                <item>Protection anti-suicide (1970-1974).</item>
+                                <item>Pavage de l'esplanade (1984).</item>
+                                <item>Restauration des grilles et chéneaux en pierre de la terrasse (1986-1987).</item>
+                                <item>Remise en état des fosses à fleurs (1987).</item>
+                                <item>Etudes destinées à assurer la stabilité et à permettre la restauration de l’édifice (1987-1988).</item>
+                                <item>Ravalement et restauration des façades et des voûtes (1987-1988).</item>
+                                <item>Etudes préparatoires à la restauration de l’édifice : étude géotechnique, investigations topographiques, mesures de vibration, mesures altimétriques, auscultation, procès-verbaux d’essais (1987-1989).</item>
                             </list>
                         </scopecontent>
                     </c>
+                    <!-- Fin de mon encodage -->
                     <c level="file">
                         <did>
                             <unitid type="identifiant">20110282/15-20110282/21</unitid>
