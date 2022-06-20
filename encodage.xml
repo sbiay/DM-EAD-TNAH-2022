@@ -965,89 +965,193 @@
                             <unitdate normal=""><!--compléter--></unitdate>
                         </did>
                     </c>
-                    <c level="file">
+                    <!-- <c level="file">
                         <did>
-                            <unitid type="identifiant"><!--compléter--></unitid>
+                            <unitid type="identifiant"><-compléter-></unitid>
                             <unittitle></unittitle>
-                            <unitdate normal=""><!--compléter--></unitdate>
+                            <unitdate normal=""><-compléter-></unitdate>
                         </did>
-                    </c>
+                    </c> -->
                     <c level="file">
                         <did>
-                            <unitid type="identifiant"><!--compléter--></unitid>
+                            <unitid type="identifiant"><!--compléter--></unitid> <!-- HMMM -->
                             <unittitle>Rueil-Malmaison -- Domaine national de Malmaison</unittitle>
-                            <unitdate normal=""><!--compléter--></unitdate>
+                            <unitdate normal="1975/1993">1975-1993</unitdate>
                         </did>
+                        <scopecontent>
+                            <list>
+                                <item>Parc : réseau d’arrosage et réfection d’allées (1982).</item>
+                                <item>Remise en état du parc de Bois Préau, restauration des ouvrages des sources (1982).</item>
+                                <item>Reconstitution de la terrasse sud de la roseraie (1982-1983).</item>
+                                <item>Elagage et restauration des jardins de Malmaison (1983-1985).</item>
+                                <item>Orangerie des Œillets : réfection des couvertures et maçonneries (1983-1985).</item>
+                                <item>Remise en état des menuiseries extérieures de la façade du château 
+                                    et de la façade de la première conciergerie de Bois-Préau (1984).</item>
+                                <item>Pavillon des Œillets : aménagements de divers locaux communs 
+                                    aux services d’architecture et à la conservation du musée (1984-1985), 
+                                    réfection du terrasson central et du lanterneau (1984-1986).</item>
+                                <item>Château de Malmaison : restauration du décor peint de la salle à manger (1985).</item>
+                                <item>Parc : restauration de la statue de Neptune (1985).</item>
+                                <item>Etude préalable au réaménagement de l’Orangerie de Bois-Préau (1988-1989).</item>
+                                <item>Remise en état du mur nord de la cour d’honneur (1989).</item>
+                                <item>Bois-Préau : réfection du plancher haut de la salle Gérardot de Sermoise (1989-1990).</item>
+                                <item>Remise en état du parc et des bâtiments 
+                                    après la tempête du 3 février 1990 [photographies] (1990-1991).</item>
+                                <item>Parc : réfection du pont sur la rivière anglaise (1990-1993).</item>
+                                <item>Pavillon d’été : réfection extérieure (1990-1991).</item>
+                            </list>
+                        </scopecontent>
                     </c>
                     <c level="file">
                         <did>
-                            <unitid type="identifiant"><!--compléter--></unitid>
-                            <unittitle>Saint-Cloud -- Domaine national</unittitle>
-                            <unitdate normal=""><!--compléter--></unitdate>
+                            <unitid type="identifiant">20110282/72</unitid>
+                            <unittitle></unittitle>
+                            <unitdate normal="1973/1990">1973-1990</unitdate>
                         </did>
-                    </c>
-                    <c level="file">
-                        <did>
-                            <unitid type="identifiant"><!--compléter--></unitid>
-                            <unittitle>Sèvres -- Manufacture</unittitle>
-                            <unitdate normal=""><!--compléter--></unitdate>
-                        </did>
-                    </c>
-                    <c level="file">
-                        <did>
-                            <unitid type="identifiant"><!--compléter--></unitid>
-                            <unittitle>Suresnes -- Fort du Mont-Valérien</unittitle>
-                            <unitdate normal=""><!--compléter--></unitdate>
-                        </did>
+                        <c level="recordgrp">
+                            <did>
+                                <unittitle>Saint-Cloud – Domaine national</unittitle>
+                                <!-- mettre un unittdate ? -->
+                            </did>
+                            <scopecontent>
+                                <list>
+                                    <item>Réhabilitation du parc et de l’étang de Villeneuve (1983-1984).</item>
+                                    <item>Remise en état de la serre n°3 de Sèvres (1984).</item>
+                                    <item>Remise en état du bassin de Breteuil (1984-1985).</item>
+                                    <item>Travaux forestiers (1984-1986). Réfection des 
+                                        intérieurs du pavillon de la « Grille de combat » (1989).</item>
+                                    <item>Reconstruction du pont de Chamillard (1986-1987).</item>
+                                    <item>Reconstruction du pont de Chamillard (1987-1990).</item>
+                                </list>
+                            </scopecontent>
+                        </c>
+                        <c level="recordgrp">
+                            <did>
+                                <unittitle>Sèvres – Manufacture</unittitle>
+                                <!-- mettre un unittdate ? -->
+                            </did>
+                            <scopecontent>
+                                <list>
+                                    <item>Projet de salle audiovisuelle (1979-1980).</item>
+                                    <item>Aménagement de deux salles au 1er étage de l’escalier 
+                                        nord, côté manufacture et côté Seine (1981).</item>
+                                    <item>Remise en état des menuiseries du bâtiment 7 (1987-1988).</item>
+                                    <item>Contrat d’étude préalable à la restauration 
+                                        de la salle du Traité et de l’escalier principal (1988-1989).</item>
+                                </list>
+                            </scopecontent>
+                        </c>
+                        <c level="recordgrp">
+                            <did>
+                                <unittitle>Suresnes – Fort du Mont-Valérien</unittitle>
+                                <!-- mettre un unittdate ? -->
+                            </did>
+                            <scopecontent>
+                                <list>
+                                    <item>Bâtiment 1812 : remise en état de l’aile ouest (1973), 
+                                        travaux de couverture et restauration des façades (1977).</item>
+                                </list>
+                            </scopecontent>
+                        </c>
                     </c>
                 </c>
                 <c level="subseries">
                     <did>
-                        <unitid type="identifiant"><!--compléter--></unitid>
+                        <unitid type="identifiant">20110282/73</unitid>
                         <unittitle>Val-de-Marne (94)</unittitle>
-                        <unitdate normal=""><!--compléter--></unitdate>
+                        <unitdate normal="1969/1988">1969-1988</unitdate>
                     </did>
                     <c level="file">
                         <did>
-                            <unitid type="identifiant"><!--compléter--></unitid>
+                            <!-- <unitid type="identifiant"></unitid>-->
                             <unittitle>Vincennes -- Château</unittitle>
-                            <unitdate normal=""><!--compléter--></unitdate>
+                            <!-- <unitdate normal=""></unitdate> -->
                         </did>
                         <c level="recordgrp">
                             <did>
                                 <unittitle>Donjon</unittitle>
-                                <unitdate normal=""><!--compléter--></unitdate>
                             </did>
+                            <scopecontent>
+                                <list>
+                                    <item>Travaux sur les fossés (1970-1973 et 1980).</item>
+                                    <item>Restauration des 4ème et 5ème étages (1971).</item>
+                                    <item>Aménagement des casemates et remise en état du sol de la cour (1971).</item>
+                                    <item>Restauration des trois premiers niveaux visitables (1980).</item>
+                                    <item>Restauration du grand portail (1980).</item>
+                                    <item>Reconstruction du mur d’enceinte du fossé nord (courtine nord) (1980-1988).</item>
+                                    <item>Remise en état du tablier du pont-levis (1982-1983).</item>
+                                    <item>Pavage de la cour (1983-1984). Mise en conformité 
+                                        du grand chemin de ronde du premier étage (1986-1988).</item>
+                                </list>
+                            </scopecontent>
                         </c>
                         <c level="recordgrp">
                             <did>
                                 <unittitle>Sainte-Chapelle</unittitle>
-                                <unitdate normal=""><!--compléter--></unitdate>
                             </did>
+                            <scopecontent>
+                                <list>
+                                    <item>Interventions diverses (1970-1973).</item>
+                                    <item>Restauration des vitraux (1980-1981).</item>
+                                    <item>Alimentation électrique (1983-1984).</item>
+                                    <item>Restauration de la façade ouest (1984-1986).</item>
+                                    <item>Consolidation des torchères (1987).</item>
+                                </list>
+                            </scopecontent>
                         </c>
                         <c level="recordgrp">
                             <did>
                                 <unittitle>Tour du Roi</unittitle>
-                                <unitdate normal=""><!--compléter--></unitdate>
                             </did>
+                            <scopecontent>
+                                <list>
+                                    <item>Travaux de restauration sur les façades (1982-1985).</item>
+                                </list>
+                            </scopecontent>
                         </c>
                         <c level="recordgrp">
                             <did>
                                 <unittitle>Tour du Village</unittitle>
                                 <unitdate normal=""><!--compléter--></unitdate>
                             </did>
+                            <scopecontent>
+                                <list>
+                                    <item>Interventions diverses (1970-1972).</item>
+                                    <item>Installation du CNRS (1986-1987).</item>
+                                </list>
+                            </scopecontent>
                         </c>
                         <c level="recordgrp">
                             <did>
                                 <unittitle>Pavillon de la Reine</unittitle>
-                                <unitdate normal=""><!--compléter--></unitdate>
                             </did>
+                            <scopecontent>
+                                <list>
+                                    <item>Restauration des façades (1979).</item>
+                                    <item>Restauration de la chambre et du cabinet 
+                                        de travail de Mazarin (1982-1987).</item>
+                                </list>
+                            </scopecontent>
                         </c>
                         <c level="recordgrp">
                             <did>
                                 <unittitle>Pavillon du Roi</unittitle>
-                                <unitdate normal=""><!--compléter--></unitdate>
                             </did>
+                            <scopecontent>
+                                <list>
+                                    <item>Interventions diverses (1969-1976).</item>
+                                    <item>Reconstitution des appartements d'apparat (1970-1972).</item>
+                                    <item>Restauration intérieure escalier nord et prolongement 
+                                        de la galerie technique centrale au sous-sol (1972).</item>
+                                    <item>Restauration et aménagement du deuxième salon, au premier étage (1976-1978).</item>
+                                    <item>Restauration d’une armoire du XVIIIème siècle 
+                                        provenant du garde-meuble de la Couronne (1979-1981). </item>
+                                    <item>Restauration des éléments du décor du XVIIème siècle dans le salon d’honneur (1988).</item>
+                                    <item>Projet de restauration du garde-corps du chemin de 
+                                        ronde entre le pavillon de la Reine et la Tour du Bois (1988).</item>
+                                    <item>Mise en conformité des paratonnerres (1988).</item>
+                                </list>
+                            </scopecontent>
                         </c>
                     </c>
                 </c>
