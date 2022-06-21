@@ -967,16 +967,16 @@
                     </c>
                     <!-- <c level="file">
                         <did>
-                            <unitid type="identifiant"><-compléter-></unitid>
-                            <unittitle></unittitle>
-                            <unitdate normal=""><-compléter-></unitdate>
+                        <unitid type="identifiant"><-compléter-></unitid>
+                        <unittitle></unittitle>
+                        <unitdate normal=""><-compléter-></unitdate>
                         </did>
-                    </c> -->
+                        </c> -->
                     <c level="file">
                         <did>
-                            <unitid type="identifiant"><!--compléter--></unitid> <!-- HMMM -->
+                            <unitid type="identifiant">201102802/71</unitid>
                             <unittitle>Rueil-Malmaison -- Domaine national de Malmaison</unittitle>
-                            <unitdate normal="1975/1993">1975-1993</unitdate>
+                            <unitdate normal="1975/1993">1975-1993</unitdate> <!-- on peut faire remonter au niveau de la sous-série -->
                         </did>
                         <scopecontent>
                             <list>
@@ -1005,67 +1005,61 @@
                     <c level="file">
                         <did>
                             <unitid type="identifiant">20110282/72</unitid>
-                            <unittitle></unittitle>
+                            <unittitle>Saint-Cloud -- Domaine national</unittitle>
                             <unitdate normal="1973/1990">1973-1990</unitdate>
                         </did>
-                        <c level="recordgrp">
-                            <did>
-                                <unittitle>Saint-Cloud – Domaine national</unittitle>
-                                <!-- mettre un unittdate ? -->
-                            </did>
-                            <scopecontent>
-                                <list>
-                                    <item>Réhabilitation du parc et de l’étang de Villeneuve (1983-1984).</item>
-                                    <item>Remise en état de la serre n°3 de Sèvres (1984).</item>
-                                    <item>Remise en état du bassin de Breteuil (1984-1985).</item>
-                                    <item>Travaux forestiers (1984-1986). Réfection des 
-                                        intérieurs du pavillon de la « Grille de combat » (1989).</item>
-                                    <item>Reconstruction du pont de Chamillard (1986-1987).</item>
-                                    <item>Reconstruction du pont de Chamillard (1987-1990).</item>
-                                </list>
-                            </scopecontent>
-                        </c>
-                        <c level="recordgrp">
-                            <did>
-                                <unittitle>Sèvres – Manufacture</unittitle>
-                                <!-- mettre un unittdate ? -->
-                            </did>
-                            <scopecontent>
-                                <list>
-                                    <item>Projet de salle audiovisuelle (1979-1980).</item>
-                                    <item>Aménagement de deux salles au 1er étage de l’escalier 
-                                        nord, côté manufacture et côté Seine (1981).</item>
-                                    <item>Remise en état des menuiseries du bâtiment 7 (1987-1988).</item>
-                                    <item>Contrat d’étude préalable à la restauration 
-                                        de la salle du Traité et de l’escalier principal (1988-1989).</item>
-                                </list>
-                            </scopecontent>
-                        </c>
-                        <c level="recordgrp">
-                            <did>
-                                <unittitle>Suresnes – Fort du Mont-Valérien</unittitle>
-                                <!-- mettre un unittdate ? -->
-                            </did>
-                            <scopecontent>
-                                <list>
-                                    <item>Bâtiment 1812 : remise en état de l’aile ouest (1973), 
-                                        travaux de couverture et restauration des façades (1977).</item>
-                                </list>
-                            </scopecontent>
-                        </c>
+                        <scopecontent>
+                            <list>
+                                <item>Réhabilitation du parc et de l’étang de Villeneuve (1983-1984).</item>
+                                <item>Remise en état de la serre n°3 de Sèvres (1984).</item>
+                                <item>Remise en état du bassin de Breteuil (1984-1985).</item>
+                                <item>Travaux forestiers (1984-1986). Réfection des 
+                                    intérieurs du pavillon de la « Grille de combat » (1989).</item>
+                                <item>Reconstruction du pont de Chamillard (1986-1987).</item>
+                                <item>Reconstruction du pont de Chamillard (1987-1990).</item>
+                            </list>
+                        </scopecontent>
+                    </c>
+                    <c level="file">
+                        <did>
+                            <unitid type="identifiant">20110282/72</unitid>
+                            <unittitle>Sèvres -- Manufacture</unittitle>
+                            <unitdate normal="1973/1990">1973-1990</unitdate>
+                        </did>
+                        <scopecontent>
+                            <list>
+                                <item>Projet de salle audiovisuelle (1979-1980).</item>
+                                <item>Aménagement de deux salles au 1er étage de l’escalier 
+                                    nord, côté manufacture et côté Seine (1981).</item>
+                                <item>Remise en état des menuiseries du bâtiment 7 (1987-1988).</item>
+                                <item>Contrat d’étude préalable à la restauration 
+                                    de la salle du Traité et de l’escalier principal (1988-1989).</item>
+                            </list>
+                        </scopecontent>
+                    </c>
+                    <c level="file">
+                        <did>
+                            <unitid type="identifiant">20110282/72</unitid>
+                            <unittitle>Suresnes -- Fort du Mont-Valérien</unittitle>
+                            <unitdate normal="1973/1990">1973-1990</unitdate>
+                        </did>
+                        <scopecontent>
+                            <list>
+                                <item>Bâtiment 1812 : remise en état de l’aile ouest (1973), 
+                                    travaux de couverture et restauration des façades (1977).</item>
+                            </list>
+                        </scopecontent>
                     </c>
                 </c>
                 <c level="subseries">
                     <did>
-                        <unitid type="identifiant">20110282/73</unitid>
                         <unittitle>Val-de-Marne (94)</unittitle>
                         <unitdate normal="1969/1988">1969-1988</unitdate>
                     </did>
                     <c level="file">
                         <did>
-                            <!-- <unitid type="identifiant"></unitid>-->
+                            <unitid type="identifiant">20110282/73</unitid>
                             <unittitle>Vincennes -- Château</unittitle>
-                            <!-- <unitdate normal=""></unitdate> -->
                         </did>
                         <c level="recordgrp">
                             <did>
@@ -1112,7 +1106,6 @@
                         <c level="recordgrp">
                             <did>
                                 <unittitle>Tour du Village</unittitle>
-                                <unitdate normal=""><!--compléter--></unitdate>
                             </did>
                             <scopecontent>
                                 <list>
@@ -1157,30 +1150,60 @@
                 </c>
                 <c level="subseries">
                     <did>
-                        <unitid type="identifiant"><!--compléter--></unitid>
                         <unittitle>Val-d'Oise (95)</unittitle>
-                        <unitdate normal=""><!--compléter--></unitdate>
+                        <unitdate normal="1975/1989">1975-1989</unitdate>
                     </did>
                     <c level="file">
                         <did>
-                            <unitid type="identifiant"><!--compléter--></unitid>
+                            <unitid type="identifiant">20110282/74</unitid>
                             <unittitle>Ecouen -- Château</unittitle>
-                            <unitdate normal=""><!--compléter--></unitdate>
                         </did>
+                        <scopecontent>
+                            <list>
+                                <item>Aménagement de salles et de réserves visitables dans les combles (1977-1985).</item>
+                                <item>Aménagement de la conservation au deuxième étage de l’aile sud (1981-1983).</item>
+                                <item>Restauration du pont sur la douve ouest (1982) (photographies).</item>
+                                <item>Modification d’éléments sculptés (1982).</item>
+                                <item>Réfection de murs d’enceinte et maçonneries diverses (1982-1983).</item>
+                                <item>Consolidation du tunnel nord, de la douve occidentale et des clôtures (1977-1981).</item>
+                                <item>Restauration des logements de gardien (1980-1982) (photographies).</item>
+                                <item>Réfection de l’escalier sud-ouest du premier étage 
+                                    jusqu’aux combles [photographies] (1982-1983).</item>
+                                <item>Reprise du mur de soutènement à l’entrée du château (1983-1985).</item>
+                                <item>Pavillon nord-est, cheminée du « Sacrifice de Saül » : 
+                                    restauration de peintures (1983-1985).</item>
+                                <item>Couverture du pavillon nord-est (1983).</item>
+                                <item>Assainissement de la cour d’honneur (1983-1984).</item>
+                                <item>Réfection du mur de clôture (1987).</item>
+                                <item>Projet de création d’un système chauffage dans la chapelle (1988).</item>
+                                <item>Création de deux allées dans le parc (1988).</item>
+                                <item>Aménagement des combles nord du musée en réserves (1988).</item>
+                                <item>Etude préalable à la réfection des couvertures du comble nord (1988-1989).</item>
+                                <item>Restauration des parquets des appartements de Madeleine de Savoie (1989).</item>
+                            </list>
+                        </scopecontent>
                     </c>
                     <c level="file">
                         <did>
-                            <unitid type="identifiant"><!--compléter--></unitid>
+                            <unitid type="identifiant">20110282/74</unitid>
                             <unittitle>Ecouen -- Fort</unittitle>
-                            <unitdate normal=""><!--compléter--></unitdate>
                         </did>
+                        <scopecontent>
+                            <list>
+                                <item>Construction d’un logement de gardien (1975-1982).</item>
+                            </list>
+                        </scopecontent>
                     </c>
                     <c level="file">
                         <did>
-                            <unitid type="identifiant"><!--compléter--></unitid>
+                            <unitid type="identifiant">20110282/74</unitid>
                             <unittitle>Saint-Ouen-l'Aumône -- Abbaye de Maubuisson</unittitle>
-                            <unitdate normal=""><!--compléter--></unitdate>
                         </did>
+                        <scopecontent>
+                            <list>
+                                <item>Plans (1979).</item>
+                            </list>
+                        </scopecontent>
                     </c>
                 </c>
             </c>
