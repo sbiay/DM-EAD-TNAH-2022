@@ -38,9 +38,7 @@ Chaque modification devra y être indiquée dans un élément `<change>`, dans l
 
 ## Le archdesc :  description de l'ensemble documentaire
 
-L'élément `<archdesc>` sert à décrire le fonds dans son ensemble. Il prend un attribut `@level` (obligatoire) qui permet de préciser le niveau description du fonds: dans le cas de la présente édition, le niveau choisi est celui des séries organiques d'après la structure du plan de classement, qui correspond à la définition qu'en donne l'*Abrégé d'archivistique*:
-
-> La **série organique** est une division organique, constituée par un ensemble de dossiers ou de documents (pièces) réunis ensemble et maintenus groupés parce qu'ils résultent d'une même activité, se rapportent à une même fonction ou à un même sujet ou revêtent une même forme. 
+L'élément `<archdesc>` sert à décrire le fonds dans son ensemble. Il prend un attribut `@level` (obligatoire) qui permet de préciser le niveau description : dans le cas de la présente édition, il s'agit d'une description au niveau du fonds. L'élément se présente donc ainsi : `<archdesc level="fonds">`.
 
 Il comprend en premier lieu un élément `<did>` dans lequel se trouvent les principales informations de description du fonds:
 
@@ -174,8 +172,8 @@ Chaque élément `<c>` a un attribut `@type` qui précise le niveau de l'éléme
         </did>
         <scopecontent>
             <list>
-                <item>Crypte Kléber, comptoir de vente et rénovation des circulations (1972).</item>
-                <item>Plaque commémorative pour les militaires morts en Afrique du Nord (1972).</item>
+                <item>Crypte Kléber, comptoir de vente et rénovation des circulations (<date normal="1972">1972</date>).</item>
+                <item>Plaque commémorative pour les militaires morts en Afrique du Nord (<date normal="1972">1972</date>).</item>
                 <!--Compléter la liste-->
             </list>
         </scopecontent>
@@ -229,7 +227,7 @@ Chaque élément `<c>` a un attribut `@type` qui précise le niveau de l'éléme
 ```
 
 ### La description des composants
-
+#### Le did
 Il est important d'éviter la redondance des informations, ainsi on préfèrera préciser un maximum de choses au plus haut niveau (composant) possible, sans les répéter - sauf si c'est nécessaire - dans ses composants internes. 
 
 La description des composants `<c>` se fait principalement dans l'élément `<did>` (identification et description), qui s'y place en première position. Il contient obligatoirement au moins un élément `<unitid>` ou un élément `<unittitle>`.
@@ -242,8 +240,20 @@ La description des composants `<c>` se fait principalement dans l'élément `<di
 
 - D'autres éléments peuvent aussi y être utilisés si nécessaire: `<langmaterial>` (langue des unités documentaires), `<materialspec>` (particularités de certains types de documents), `<origination>` (origine des documents, comme un producteur), `<physdesc>` (description physique des documents), `<physloc>` (localisation physique des documents), `<repository>` (organisme responsable de l'accès intellectuel).
 
+#### Après le did
+
 Après le `<did>`, il est possible, si nécessaire, d'ajouter des informations complémentaires dans les éléments suivants : `<accessrestrict>` (restrictions d'accès), `<accruals>` (accroissements), `<acqinfo>` (informations sur les modalités d'entrée), `<altformavail>` (documents de susbtitution), `<appraisal>` (informations sur l'évaluation des documents), `<arrangement>` (classement), `<bibliography>` (bibliographie), `<bioghist>` (biographie ou histoire), `<controlaccess>` (vedettes et accès contrôlés), `<custodhist>` (historique de la conservation), `<originalsloc>` (existence et lieu de conservation des documents originaux), `<otherfindaid>` (autre instrument de recherche), `<phystech>` (caractéristiques matérielles et contraintes techniques), `<processinfo>` (informations sur le traitement), `<relatedmaterial>` (documents en relation),`<scopecontent>` (présentation du contenu),  `<separatedmaterial>` (documents séparés), `<userestrict>` (restrictions d'utilisation). L'encodage doit cependant rester le plus léger possible : dans la plupart des cas, ces éléments ne sont pas utilisés car ces informations sont renseignées à un plus haut niveau. En cas d'information complémentaire, il est souvent plus simple de se contenter d'un `<scopecontent>`.
 
 Les composants `<c>` sont à imbriquer à la suite du `<did>`, ainsi que des informations complémentaires s'il y en a.
 
+Les sous-dossiers et articles faisant partie des dossiers (dans les longs parapgraphes sous forme d'énumération d'items) sont à renseigner dans une `<list>` dans un `<scopecontent>` au sein du composant concerné. Chaque élément distinct correspond à un `<item>`. Si les `<item>` ont des dates, elles sont à renseigner dans un élément `<date>` (et non un `<unitdate>` qui est à utiliser pour la description de l'unité documentaire, dans ce cas la date du composant englobant la liste) qui prend un attribut `@normal` dans lequel on renseigne les dates de chaque item sous forme normalisée. *Pour illustration, voir l'exemple ci-dessus "Quand un dossier ne comporte qu'un édifice"*
+
+*Astuce : pour ajouter les éléments `<date>` de façon automatique dans une liste déjà constituée, il est possible d'utiliser ces regex:
+	- rechercher `\((\d{4}?)\)` et `\((\d{4})-(\d{4})\)`
+	- remplacer respectivement par `<date normal="$1">$1</date>` et `<date normal="$1/$2">$1-$2</date>`*
+
 # Documentation de l'encodage : le fichier EAC-CPF
+
+Norme ISAAR(CPF) : https://www.ica.org/sites/default/files/CBPS_Guidelines_ISAAR_Second-edition_FR.pdf
+
+EAC-CPF Tag Library : https://eac.staatsbibliothek-berlin.de/schema/taglibrary/cpfTagLibrary2019_EN.html
