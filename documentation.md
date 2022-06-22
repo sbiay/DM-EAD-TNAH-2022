@@ -249,8 +249,8 @@ Les composants `<c>` sont à imbriquer à la suite du `<did>`, ainsi que des inf
 Les sous-dossiers et articles faisant partie des dossiers (dans les longs parapgraphes sous forme d'énumération d'items) sont à renseigner dans une `<list>` dans un `<scopecontent>` au sein du composant concerné. Chaque élément distinct correspond à un `<item>`. Si les `<item>` ont des dates, elles sont à renseigner dans un élément `<date>` (et non un `<unitdate>` qui est à utiliser pour la description de l'unité documentaire, dans ce cas la date du composant englobant la liste) qui prend un attribut `@normal` dans lequel on renseigne les dates de chaque item sous forme normalisée. *Pour illustration, voir l'exemple ci-dessus "Quand un dossier ne comporte qu'un édifice"*
 
 *Astuce : pour ajouter les éléments `<date>` de façon automatique dans une liste déjà constituée, il est possible d'utiliser ces regex:
-	- rechercher `\((\d{4}?)\)` et `\((\d{4})-(\d{4})\)`
-	- remplacer respectivement par `<date normal="$1">$1</date>` et `<date normal="$1/$2">$1-$2</date>`*
+- rechercher `\((\d{4}?)\)` et `\((\d{4})-(\d{4})\)`
+- remplacer respectivement par `<date normal="$1">$1</date>` et `<date normal="$1/$2">$1-$2</date>`*
 
 # Documentation de l'encodage : le fichier EAC-CPF
 
