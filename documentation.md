@@ -172,8 +172,8 @@ Chaque élément `<c>` a un attribut `@type` qui précise le niveau de l'éléme
         </did>
         <scopecontent>
             <list>
-                <item>Crypte Kléber, comptoir de vente et rénovation des circulations (<date normal="1972">1972</date>).</item>
-                <item>Plaque commémorative pour les militaires morts en Afrique du Nord (<date normal="1972">1972</date>).</item>
+                <item>Crypte Kléber, comptoir de vente et rénovation des circulations (1972.</item>
+                <item>Plaque commémorative pour les militaires morts en Afrique du Nord (1972).</item>
                 <!--Compléter la liste-->
             </list>
         </scopecontent>
@@ -246,11 +246,7 @@ Après le `<did>`, il est possible, si nécessaire, d'ajouter des informations c
 
 Les composants `<c>` sont à imbriquer à la suite du `<did>`, ainsi que des informations complémentaires s'il y en a.
 
-Les sous-dossiers et articles faisant partie des dossiers (dans les longs parapgraphes sous forme d'énumération d'items) sont à renseigner dans une `<list>` dans un `<scopecontent>` au sein du composant concerné. Chaque élément distinct correspond à un `<item>`. Si les `<item>` ont des dates, elles sont à renseigner dans un élément `<date>` (et non un `<unitdate>` qui est à utiliser pour la description de l'unité documentaire, dans ce cas la date du composant englobant la liste) qui prend un attribut `@normal` dans lequel on renseigne les dates de chaque item sous forme normalisée. *Pour illustration, voir l'exemple ci-dessus "Quand un dossier ne comporte qu'un édifice"*
-
-*Astuce : pour ajouter les éléments `<date>` de façon automatique dans une liste déjà constituée, il est possible d'utiliser ces regex:*
-- *rechercher `\((\d{4}?)\)` et `\((\d{4})-(\d{4})\)`*
-- *remplacer respectivement par `<date normal="$1">$1</date>` et `<date normal="$1/$2">$1-$2</date>`*
+Les sous-dossiers et articles faisant partie des dossiers (dans les longs parapgraphes sous forme d'énumération d'items) sont à renseigner dans une `<list>` dans un `<scopecontent>` au sein du composant concerné. Chaque élément distinct correspond à un `<item>`. *Pour illustration, voir les exemples ci-dessus.*
 
 # Documentation de l'encodage : le fichier EAC-CPF
 
