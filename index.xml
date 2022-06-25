@@ -106,6 +106,17 @@
             <mh id="d3nzuqbmmw--ec855ok25fd6">Orangerie</mh>
             <mh id="d3nzupbhqf-1pkg7um521s1c">Sainte-Chapelle</mh>
             <mh>Chapelle dite du Saint-Sacrement</mh>
+            <mh>Palais des Etudes</mh>
+            <mh>Galeries nationales</mh>
+            <mh>église Saint-Louis</mh>
+            <mh>Opéra de Paris</mh>
+            <mh>Rotonde Zambelli</mh>
+            <mh>Grand théâtre</mh>
+            <mh>Musée de la Marine</mh>
+            <mh>Musée de l’Homme</mh>
+            <mh>Pavillon de Marsan</mh>
+            <mh>Palais de Charles V</mh>
+            <mh>Ecole du Louvre</mh>
         </commune>
     </departement>
     <departement id="d3ntb8r1j8-pfqcs6tkazic">
@@ -114,6 +125,7 @@
             <nom>Fontainebleau</nom>
             <mh>Archives nationales - Cité interministérielle des archives</mh>
             <mh>Domaine national</mh>
+            <mh>Chapelle de la Trinité</mh>
         </commune>
         <commune id="d3ntte10rq--15dakaxruqxyi">
             <nom>Champs-sur-Marne</nom>
@@ -261,6 +273,9 @@
             <mh>jardins des Trianons</mh>
             <mh>Lycée Hoche</mh>
             <mh>Camp de Satory</mh>
+            <mh>Mur des Fédérés</mh>
+            <mh>Hôtel Pompadour</mh>
+            <mh>Trianon</mh>
         </commune>
         <commune id="d3nttiy0pj--ecjd8arhk0qc">
             <nom>Bois d’Arcy</nom>
