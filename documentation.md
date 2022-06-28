@@ -125,7 +125,7 @@ Chaque élément `<c>` a un attribut `@type` qui précise le niveau de l'éléme
     	</did>
     	<c level="recordgrp">
             <did>
-                <unitid type="identifiant">20110282/1</unitid>
+                <unitid type="cote-de-consultation">20110282/1</unitid>
                 <unittitle></unittitle>
                 <unitdate normal=""><!--compléter--></unitdate>
             </did>
@@ -139,7 +139,7 @@ Chaque élément `<c>` a un attribut `@type` qui précise le niveau de l'éléme
         </c>
 	    <c level="recordgrp">
 	        <did>
-	            <unitid>20110282/2</unitid>
+	            <unitid type="cote-de-consultation">20110282/2</unitid>
 	            <unittitle></unittitle>
 				<unitdate normal=""><!--compléter--></unitdate>
 	        </did>
@@ -166,7 +166,7 @@ Chaque élément `<c>` a un attribut `@type` qui précise le niveau de l'éléme
     </did>
     <c level="file">
         <did>
-            <unitid type="identifiant">20110282/14</unitid>
+            <unitid type="cote-de-consultation">20110282/14</unitid>
             <unittitle>Arc de Triomphe </unittitle>
             <unitdate normal=""><!--compléter--></unitdate>
         </did>
@@ -194,7 +194,7 @@ Chaque élément `<c>` a un attribut `@type` qui précise le niveau de l'éléme
 		</did>
 		<c level="file">
 			<did>
-				<unitid>20110282/15-20110282/21</unitid>
+				<unitid type="identifiant">20110282/15-20110282/21</unitid>
 				<unittitle>Archives nationales</unittitle>
 			</did>
 			<c level="recordgrp">
@@ -232,7 +232,7 @@ Il est important d'éviter la redondance des informations, ainsi on préfèrera 
 
 La description des composants `<c>` se fait principalement dans l'élément `<did>` (identification et description), qui s'y place en première position. Il contient obligatoirement au moins un élément `<unitid>` ou un élément `<unittitle>`.
 
-- L'élément `<unitid>` contient une cote, ou identifiant. On peut y renseigner les cotes extrêmes d'un regroupement de dossiers par exemple, ou la cote d'un dossier dans lequel on trouvera plusieurs items.
+- L'élément `<unitid>` contient une cote, ou identifiant. On peut y renseigner les cotes extrêmes d'un regroupement de dossiers par exemple, ou la cote d'un dossier dans lequel on trouvera plusieurs items. S'il s'agit d'un intervalle de cotes (par exemple : "20110282/15-20110282/21"), on ajoutera un attribut `@type="identifiant` à l'`<unitid>`. S'il s'agit d'une cote simple (par exempe : "20110282/15"), on ajoutera un attribut `@type="cote-de-consultation"`.
 
 - L'élément `<unittitle>` sert à renseigner l'intitulé de l'élément décrit. Par exemple, dans le cas de "Dorure de la grille principale (1982)", l'intitulé sera: "Dorure de la grille principale", et la date sera placée dans un élément `<unitdate>`.
 
