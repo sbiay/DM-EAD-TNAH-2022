@@ -74,6 +74,17 @@ Les différents types de versements liés au fonds décrit dans l'instrument de 
 
 Enfin, l'élément`<processinfo>` permet de donner des informations sur le traitement des archives physiques, par exemple sur des éliminations ou des opérations de tri. Chaque type d'information est donné dans un `<p>` distinct.
 
+### L'indexation
+
+L'indexation des entités contenu dans l'instrument de recherche est détenu au sein de la balise `controlaccess`. Les unités décrites sont les principaux points d'accès aux documents décrits et permet une recherche contrôlée par l'autorité (l'archiviste) au sein de l'instrument. Dans ce cas précis, seul les entités géographiques ont été indéxés et divisés en deux répertoires : les monuments historiques et les localités.
+
+Chaque item est décrit de la façon suivante :
+```XML
+<geogname authfilenumber="d3ntu4jjz1-ql9ye8czj03i" source="FRAN_RI_005"
+                >Rambouillet</geogname>
+```
+`geoname` correspond à l'unité géographique indexée. Deux attributs peuvent lui être attachés si l'élément est décrit au sein d'un référentiel SIA émis par les Archives Nationales. L'attribut `@authfilenumber` correspond à son identifiant au sein de la notice d'autorité et `@source` à l'identifiant de la notice.
+
 ## Le dsc
 
 L'élément `<dsc>` (description des sous-composants) contient les éléments `<c>` (composant) qui servent à retranscrire la hiérarchie du plan de classement.
