@@ -135,6 +135,7 @@
                 la documentation reçue à  titre d'information, les documents comptables relatifs au fonctionnement du service.</p>            
         </processinfo>
         <controlaccess>
+            <head>Index des localités</head>
             <geogname authfilenumber="d3ntb8r1j8-pfqcs6tkazic" source="FRAN_RI_005"
                 >Seine-et-Marne</geogname>
             <geogname authfilenumber="d3ntb7xgvv-17sbqf1hi4qgj" source="FRAN_RI_005"
@@ -213,6 +214,9 @@
                 >Chamarande</geogname>
             <geogname authfilenumber="d3ntxe2sg5-boi3yh49zcu4" source="FRAN_RI_005"
                 >Souzy-la-Briche</geogname>
+        </controlaccess>
+        <controlaccess>
+            <head>Index des monuments historiques</head>
             <geogname>Chapelle de la Trinité</geogname>
             <geogname authfilenumber="d3m08ze5l29--izyjqmhu2zvq" source="FRAN_RI_005"
                 >Château</geogname>
