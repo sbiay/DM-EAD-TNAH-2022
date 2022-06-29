@@ -76,14 +76,14 @@ Enfin, l'élément`<processinfo>` permet de donner des informations sur le trait
 
 ### L'indexation
 
-L'indexation des entités contenu dans l'instrument de recherche est détenu au sein de la balise `controlaccess`. Les unités décrites sont les principaux points d'accès aux documents décrits et permet une recherche contrôlée par l'autorité (l'archiviste) au sein de l'instrument. Dans ce cas précis, seul les entités géographiques ont été indéxés et divisés en deux répertoires : les monuments historiques et les localités.
+L'indexation des entités contenu dans l'instrument de recherche est détenu au sein de la balise `controlaccess`. Les unités décrites sont les principaux points d'accès aux documents décrits et permet une recherche contrôlée par l'autorité (l'archiviste) au sein de l'instrument. Dans ce cas précis, seules les entités géographiques ont été indéxées, c'est-à-dire les départements, les communes et les monuments historiques.
 
 Chaque item est décrit de la façon suivante :
 ```XML
 <geogname authfilenumber="d3ntu4jjz1-ql9ye8czj03i" source="FRAN_RI_005"
                 >Rambouillet</geogname>
 ```
-`geoname` correspond à l'unité géographique indexée. Deux attributs peuvent lui être attachés si l'élément est décrit au sein d'un référentiel SIA émis par les Archives Nationales. L'attribut `@authfilenumber` correspond à son identifiant au sein de la notice d'autorité et `@source` à l'identifiant de la notice.
+`geogname` correspond à l'unité géographique indexée. Deux attributs peuvent lui être attachés si l'élément est décrit au sein d'un référentiel SIA émis par les Archives Nationales. L'attribut `@authfilenumber` correspond à son identifiant au sein de la notice d'autorité et `@source` à l'identifiant de la notice. Tous les monuments mentionnés ne sont pas présents dans la notice d'autorité. Parmis ceux qui n'y sont pas, nous avons fait le choix ici de ne retenir uniquement les monuments qui sont ancrés dans un lieu et d'exclure les entités dont le nom correspond à une institution, un organe administratif ou une étendue indéfinie.
 
 ## Le dsc
 
