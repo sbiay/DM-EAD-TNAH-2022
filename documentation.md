@@ -228,43 +228,6 @@ Chaque élément `<c>` a un attribut `@type` qui précise le niveau de l'éléme
 </c>
 ```
 
-##### Quand un édifice est décrit à travers plusieurs dossiers
-
-```XML
-<!-- les dossiers sont réunis dans un seul élément
-     <c level="file"/> ; si il y a plusieurs édifices,
-     ils sont décrites dans des <c level="recordgrp"/> -->
-<c level="file">
-    <did>
-        <unitid type="identifiant">20110282/62-20110282/63</unitid>
-        <unittitle>Fontainebleau -- Domaine national</unittitle>
-        <unitdate normal="1979/1988">1979-1988</unitdate>
-    </did>
-    <c level="recordgrp">
-        <did>
-            <unitid type="identifiant">20110282/62-20110282/63</unitid>
-            <unittitle>Château</unittitle>
-        </did>
-        <scopecontent>
-            <list>
-                <item>...</item>
-            </list>
-        </scopecontent>
-    </c>
-    <c level="recordgrp">
-        <did>
-            <unitid type="identifiant">20110282/63</unitid>
-            <unittitle>Parc</unittitle>
-        </did>
-        <scopecontent>
-            <list>
-                <item>...</item>
-            </list>
-        </scopecontent>
-    </c>
-</c>
-```
-
 ### La description des composants
 
 Il est important d'éviter la redondance des informations, ainsi on préfèrera préciser un maximum de choses au plus haut niveau (composant) possible, sans les répéter - sauf si c'est nécessaire - dans ses composants internes. 
