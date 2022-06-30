@@ -176,7 +176,6 @@
                             </list>
                         </scopecontent>
                     </c>
-                    <!-- Commencer ici -->
                     <c level="recordgrp">
                         <did>
                             <unitid type="identifiant">20110282/8</unitid>
@@ -198,9 +197,9 @@
                 </c>
                 <c level="subseries">
                     <did>
-                        <unitid type="identifiant"><!--compléter--></unitid>
+                        <unitid type="identifiant"></unitid>
                         <unittitle>Seine-et-Marne</unittitle>
-                        <unitdate normal=""><!--compléter--></unitdate>
+                        <unitdate normal=""></unitdate>
                     </did>
                     <c level="recordgrp">
                         <did>
@@ -231,9 +230,9 @@
                 </c>
                 <c level="subseries">
                     <did>
-                        <unitid type="identifiant"><!--compléter--></unitid>
+                        <unitid type="identifiant"></unitid>
                         <unittitle>Yvelines</unittitle>
-                        <unitdate normal=""><!--compléter--></unitdate>
+                        <unitdate normal=""></unitdate>
                     </did>
                     <c level="recordgrp">
                         <did>
@@ -269,9 +268,9 @@
                 </c>
                 <c level="subseries">
                     <did>
-                        <unitid type="identifiant"><!--compléter--></unitid>
+                        <unitid type="identifiant"></unitid>
                         <unittitle>Hauts-de-Seine</unittitle>
-                        <unitdate normal=""><!--compléter--></unitdate>
+                        <unitdate normal=""></unitdate>
                     </did>
                     <c level="recordgrp">
                         <did>
@@ -305,9 +304,9 @@
                 </c>
                 <c level="subseries">
                     <did>
-                        <unitid type="identifiant"><!--compléter--></unitid>
+                        <unitid type="identifiant"></unitid>
                         <unittitle>Val-de-Marne</unittitle>
-                        <unitdate normal=""><!--compléter--></unitdate>
+                        <unitdate normal=""></unitdate>
                     </did>
                     <c level="recordgrp">
                         <did>
@@ -326,9 +325,9 @@
                 </c>
                 <c level="subseries">
                     <did>
-                        <unitid type="identifiant"><!--compléter--></unitid>
+                        <unitid type="identifiant"></unitid>
                         <unittitle>Val-d'Oise</unittitle>
-                        <unitdate normal=""><!--compléter--></unitdate>
+                        <unitdate normal=""></unitdate>
                     </did>
                     <c level="recordgrp">
                         <did>
@@ -346,9 +345,9 @@
                 </c>
                 <c level="subseries">
                     <did>
-                        <unitid type="identifiant"><!--compléter--></unitid>
+                        <unitid type="identifiant"></unitid>
                         <unittitle>Dossiers divers</unittitle>
-                        <unitdate normal=""><!--compléter--></unitdate>
+                        <unitdate normal=""></unitdate>
                     </did>
                     <c level="recordgrp">
                         <did>
@@ -367,9 +366,9 @@
             </c>
             <c level="series">
                 <did>
-                    <unitid type="identifiant"><!--compléter--></unitid>
+                    <unitid type="identifiant"></unitid>
                     <unittitle>II - Dossiers de travaux</unittitle>
-                    <unitdate normal=""><!--compléter--></unitdate>
+                    <unitdate normal=""></unitdate>
                 </did>
                 <c level="subseries">
                     <did>
@@ -395,7 +394,6 @@
                             </list>
                         </scopecontent>
                     </c>
-                    <!-- Fin de mon encodage -->
                     <c level="file">
                         <did>
                             <unitid type="identifiant">20110282/15-20110282/21</unitid>
