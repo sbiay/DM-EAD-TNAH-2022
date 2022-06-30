@@ -312,89 +312,258 @@
                     </c>
                     <!-- Groupe 3 : fin de l'encodage -->
                     <!-- Groupe 4 : début de l'encodage -->
+                    <!-- Esteban -->
                     <c level="file">
                         <did>
-                            <unitid type="identifiant"><!--compléter--></unitid>
+                            <unitid type="cote-de-consultation">20110282/22</unitid>
                             <unittitle>Bibliothèque nationale</unittitle>
-                            <unitdate normal=""><!--compléter--></unitdate>
+                            <unitdate normal="1976/1987">1976-1987</unitdate>
                         </did>
-                    </c>
+                        <scopecontent>
+                            <list>
+                                <item>Rénovation du musée du département des médailles (1976).</item>
+                                <item>Restauration des fresques de la galerie Mazarine (1977).</item>
+                                <item>Travaux de couverture du magasin central (1982).</item>
+                                <item>Aménagement des immeubles à l’angle des rues Vivienne et des Petits-Champs (1982-1985).</item>
+                                <item>Aménagement dans l’aile Richelieu du service d’accueil des lecteurs, de la salle des microfiches et de la salle de lecture de la réserve : DCE (1986-1987).</item>
+                            </list>
+                        </scopecontent>
+                    </c>               
                     <c level="file">
                         <did>
-                            <unitid type="identifiant"><!--compléter--></unitid>
+                            <unitid type="cote-de-consultation">20110282/23</unitid>
                             <unittitle>Bibliothèque de l'Arsenal</unittitle>
-                            <unitdate normal=""><!--compléter--></unitdate>
+                            <unitdate normal="1970/1988">1970-1988</unitdate>
                         </did>
+                        <scopecontent>
+                            <list>
+                                <item>Ravalement de la façade sur le boulevard Morland (1982-1984).
+                                </item>
+                            </list>
+                        </scopecontent>
                     </c>
                     <c level="file">
                         <did>
-                            <unitid type="identifiant"><!--compléter--></unitid>
+                            <unitid type="cote-de-consultation">20110282/23</unitid>
                             <unittitle>Cathédrale Notre-Dame de Paris </unittitle>
-                            <unitdate normal=""><!--compléter--></unitdate>
+                            <unitdate normal="1970/1988">1970-1988</unitdate>
                         </did>
+                        <scopecontent>
+                            <list>
+                                <item>Remise en état du 6ème contrefort de l’abside (1980-1982).</item>
+                                <item>Remise en état du faîtage du transept sud (1982-1984).</item>
+                                <item>Nettoyage et remise en état des dernières travées droites jusqu’à l’abside (1982-1984).</item>
+                                <item>Devis d’inventaire concernant les boiseries et ferronneries du positif de la tribune d’orgue (1983-1984).</item>
+                                <item>Restauration du grand orgue (1983-1985).</item>
+                                <item>Restauration de vitraux de la tour sud, d’une baie haute du cœur et de deux panneaux du cloître (1988).</item>
+                            </list>
+                        </scopecontent>
                     </c>
                     <c level="file">
                         <did>
-                            <unitid type="identifiant"><!--compléter--></unitid>
+                            <unitid type="cote-de-consultation">20110282/23</unitid>
                             <unittitle>Chapelle expiatoire</unittitle>
-                            <unitdate normal=""><!--compléter--></unitdate>
+                            <unitdate normal="1970/1988">1970-1988</unitdate>
                         </did>
+                        <scopecontent>
+                            <list>
+                                <item>Réfection des grilles des galeries (1982).</item>
+                                <item>Remise en état de la façade de l’entrée principale du monument coté rue Pasquier (1984).</item>
+                            </list>
+                        </scopecontent>
                     </c>
                     <c level="file">
                         <did>
-                            <unitid type="identifiant"><!--compléter--></unitid>
+                            <unitid type="cote-de-consultation">20110282/23</unitid>
                             <unittitle>Collège de France</unittitle>
-                            <unitdate normal=""><!--compléter--></unitdate>
+                            <unitdate normal="1970/1988">1970-1988</unitdate>
                         </did>
+                        <scopecontent>
+                            <list>
+                                <item>Aménagement de laboratoires : plans (1970).</item>
+                                <item>Construction d’une annexe au 3 rue d’Ulm (1972-1985).</item>
+                                <item>Aménagement de laboratoires (1982-1983).</item>
+                            </list>
+                        </scopecontent>
                     </c>
                     <c level="file">
                         <did>
-                            <unitid type="identifiant"><!--compléter--></unitid>
+                            <unitid type="cote-de-consultation">20110282/24</unitid>
                             <unittitle>Conciergerie</unittitle>
-                            <unitdate normal=""><!--compléter--></unitdate>
+                            <unitdate normal="1976/1988">1976-1988</unitdate>
                         </did>
+                        <scopecontent>
+                            <list>
+                                <item>Restauration et réaménagement de la partie révolutionnaire (dossier photographique) (1987-1988).</item>
+                            </list>
+                        </scopecontent>
                     </c>
                     <c level="file">
                         <did>
-                            <unitid type="identifiant"><!--compléter--></unitid>
+                            <unitid type="identifiant">20110282/24-20110282/26</unitid>
                             <unittitle>Conservatoire national supérieur d'art dramatique (CNSAD)</unittitle>
-                            <unitdate normal=""><!--compléter--></unitdate>
+                            <unitdate normal=""/>
                         </did>
                         <c level="recordgrp">
                             <did>
-                                <unittitle>Restauration de la salle de spectacle et restructuration de la scène</unittitle>
-                                <unitdate normal=""><!--compléter--></unitdate>
+                                <unitid type="cote-de-consultation">20110282/24</unitid>
+                                <unittitle/>
+                                <unitdate normal="1976/1988">1976-1988</unitdate>
                             </did>
+                            <scopecontent>
+                                <list>
+                                    <item>Travaux de sécurité et de surélévation (1976).</item>
+                                    <item>Chauffage : plans (1983).</item>
+                                    <item>Restauration des locaux d’enseignement et du hall d’honneur (1984).</item>
+                                    <item>Tableau synoptique des travaux (1983-1984).</item>
+                                    <item>Ravalement de la façade sur rue Sainte-Cécile (1987).</item>
+                                    <item>Création d’un accès direct à la régie du studio 3 (1987).</item>
+                                    <item>Restauration du hall d’honneur et restitution du décor ancien (1987-1988).</item>
+                                </list>
+                            </scopecontent>
+                        </c>
+                        <c level="recordgrp">
+                            <did>
+                                <unitid type="cote-de-consultation">20110282/24</unitid>
+                                <unittitle>Restauration de la salle de spectacle et restructuration de la scène</unittitle>
+                                <unitdate normal="1976/1988">1976-1988</unitdate>
+                            </did>
+                            <scopecontent>
+                                <list>
+                                    <item>Avant-projets (1984).</item>
+                                    <item>Architecture intérieure : relevés (1984).</item>
+                                    <item>Plans (1984-1986).</item>
+                                </list>
+                            </scopecontent>
+                        </c>
+                        <c level="recordgrp">
+                            <did>
+                                <unitid type="cote-de-consultation">20110282/25</unitid>
+                                <unittitle/>
+                                <unitdate normal="1984/1987">1984-1987</unitdate>
+                            </did>
+                            <scopecontent>
+                                <list>
+                                    <item>Marchés de travaux (exercices 1984 à 1987).</item>
+                                </list>
+                            </scopecontent>
+                        </c>
+                        <c level="recordgrp">
+                            <did>
+                                <unitid type="cote-de-consultation">20110282/26</unitid>
+                                <unittitle/>
+                                <unitdate normal="1988/1990">1988-1990</unitdate>
+                            </did>
+                            <scopecontent>
+                                <list>
+                                    <item>Marchés de travaux et réception des travaux (exercices 1988 à 1990).</item>
+                                </list>
+                            </scopecontent>
+                        </c>                        
+                    </c>     
+                    <c level="file">
+                        <did>
+                            <unitid type="cote-de-consultation">20110282/27</unitid>
+                            <unittitle>Conservatoire national supérieur de musique</unittitle>
+                            <unitdate normal="1970-1989">1970-1989</unitdate>
+                        </did>
+                        <scopecontent>
+                            <list>
+<!--l'item qui suit ne possède pas de "." à la fin de l'item conformément à l'original-->
+                                <item>Bâtiment Madrid : aménagement d’une unité de concours et de studios de musique dans les combles (1982-1985)</item>
+                                <item>Amélioration de l’acoustique des salles d’enseignement musical (1982).</item>
+                                <item>Création de deux salles souterraines sous les jardins (1983-1984).</item>
+                                <item>Restauration de l’orgue (1983).</item>
+                                <item>Transformation du chauffage central à vapeur pour l’alimentation en eau chaude (1983).</item>
+                            </list>
+                        </scopecontent>
+                    </c>
+                    <c level="file">
+                        <did>
+                            <unitid type="cote-de-consultation">20110282/27</unitid>
+<!--attention : note de bas de page-->
+                            <unittitle>Ecole militaire[^3]</unittitle>
+                            <unitdate normal="1970-1989">1970-1989</unitdate>
+                        </did>
+                        <scopecontent>
+                            <list>
+                                <item>Travaux divers de rénovation (1970-1982).</item>
+                                <item>Bâtiment 001 : restauration des couvertures des terrassons nord et ouest, restauration et protection de la corniche, des balustrades et réfection du chéneau, façade Champ de mars. Bâtiment M : réfection des toitures (1979-1981).</item>
+                                <item>Bâtiment A : restauration des lucarnes en plomb du dôme (1981).</item>
+                                <item>Bâtiments A1 et 001 : réparation de corniches et balustrades (1979-1984).</item>
+                                <item>Bâtiment 002 : réfection des couvertures (1984).</item>
+                                <item>Restauration des maçonneries et réfection de l’étanchéité du bâtiment 004, restauration de la guérite du garde à cheval, déplacement de la statue de Louis XV (1983-1984).</item>
+                                <item>Bâtiment 011 : réparation de la charpente et de la couverture de l’aile nord-est (1983), recouvrement d’entablement de corniches, réception des eaux pluviales du dôme et peinture et vitrerie des lucarnes (1983-1985), travaux complémentaires de pierre de taille sur l’acrotère et la corniche du dôme (1984).</item>
+                                <item>Bâtiment 022 : restauration des couvertures (1986-1987).</item>
+                                <item>Bâtiment A1 et 001 : réparation des corniches et de la balustrade (1988-1989).</item>
+                                <item>Bâtiment 044 : restauration des maçonneries hautes et des couvertures (1988-1989).</item>
+                                <item>Commission interministérielle de rénovation (1984-1989).</item>
+                                <item>Travaux divers (1988-1989).</item>
+                            </list>
+                        </scopecontent>
+                    </c>
+                    <c level="file">
+                        <did>
+                            <unitid type="cote-de-consultation">20110282/27</unitid>
+                            <unittitle>Ecole nationale supérieure des Beaux-Arts (ENSBA)</unittitle>
+                            <unitdate normal="1970-1989">1970-1989</unitdate>
+                        </did>
+                        <scopecontent>
+                            <list>
+                                <item>Restauration des éléments restant au centre de la cour Bonaparte (1981).</item>
+                                <item>Restauration de la cour Bonaparte (1983).</item>
+                                <item>Aménagement de l’atelier des matériaux nouveaux (1983-1984).</item>
+                                <item>Aménagement d’un espace d’animation au rez-de-chaussée du palais des études (1982-1984).</item>
+                                <item>Remise en état de la verrière du Palais des Etudes (1983).</item>
+<!--pas de point "." dans l'item suivant conformément à l'original--> 
+                                <item>Réfection amphithéâtre n°3 (1983)</item>
+                                <item>Réfection de la verrière de l’atelier de sculpture (1987).</item>
+                                <item>Reprise des structures façade quai Malaquais après ravalement (1988).</item>
+                                <item>Restauration de la peinture de Paul Delaroche dans l’amphithéâtre d’Honneur (1988).</item>
+                                <item>Réfection d’un amphithéâtre du bâtiment des Loges (1982-1984).</item>
+                                <item>Couverture du bâtiment fond de cour 15 quai Malaquais versant sud (1985).</item>
+                            </list>
+                        </scopecontent>
+                    </c>
+                    <c level="file">
+                        <did>
+                            <unitid type="identifiant">20110282/28-29</unitid>
+                            <unittitle>Ecole nationale supérieure de création industrielle (ENSCI) - Ateliers de création industrielle</unittitle>
+                            <unitdate normal=""/>
+                        </did>
+                        <c level="recordgrp">
+                            <did>
+                                <unitid type="cote-de-consultation">20110282/28</unitid>
+                                <unittitle/>
+                                <unitdate normal="1982/1991">1982-1991</unitdate>
+                            </did>
+                            <scopecontent>
+                                <list>
+                                    <item>Aménagements provisoires (1982).</item>
+                                    <item>Diagnostic des structures (1983-1985).</item>
+                                    <item>(1985-1991).</item>
+                                    <item>Aménagement d’une plate-forme fonctionnelle (les ateliers) : DCE (1985).</item>
+                                </list>
+                            </scopecontent>
+                        </c>
+                        <c level="recordgrp">
+                            <did>
+                                <unitid type="cote-de-consultation">20110282/29</unitid>
+                                <unittitle/>
+                                <unitdate normal="1983/1990">1983-1990</unitdate>
+                            </did>
+                            <scopecontent>
+                                <list>
+                                    <item>Aménagement des ateliers (1983-1985) et extension (1989) : plans et diagnostic technique.</item>
+                                    <item>Chauffage : DOE (1987).</item>
+                                    <item>Cloisonnement des ailes nord et sud (1988).</item>
+                                    <item>Extension de la plate-forme fonctionnelle : DOE (1989).</item>
+                                    <item>Réhabilitation du bâtiment Saint-Sabin : DOE (1990).</item>
+                                </list>
+                            </scopecontent>
                         </c>
                     </c>
-                    <c level="file">
-                        <did>
-                            <unitid type="identifiant"><!--compléter--></unitid>
-                            <unittitle>Conservatoire national supérieur de musique</unittitle>
-                            <unitdate normal=""><!--compléter--></unitdate>
-                        </did>
-                    </c>
-                    <c level="file">
-                        <did>
-                            <unitid type="identifiant"><!--compléter--></unitid>
-                            <unittitle>Ecole militaire[^3]</unittitle>
-                            <unitdate normal=""><!--compléter--></unitdate>
-                        </did>
-                    </c>
-                    <c level="file">
-                        <did>
-                            <unitid type="identifiant"><!--compléter--></unitid>
-                            <unittitle>Ecole nationale supérieure des Beaux-Arts (ENSBA)</unittitle>
-                            <unitdate normal=""><!--compléter--></unitdate>
-                        </did>
-                    </c>
-                    <c level="file">
-                        <did>
-                            <unitid type="identifiant"><!--compléter--></unitid>
-                            <unittitle>Ecole nationale supérieure de création industrielle (ENSCI) - Ateliers de création industrielle</unittitle>
-                            <unitdate normal=""><!--compléter--></unitdate>
-                        </did>
-                    </c>
+                    <!-- Esteban -->
                     <c level="file">
                         <did>
                             <unitid type="identifiant"><!--compléter--></unitid>
@@ -559,6 +728,21 @@
                         </did>
                     </c>
                     <!-- Groupe 4 : fin de l'encodage -->
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+ 
+                    
+                    
                     <!-- Groupe 5 : début de l'encodage -->
                     <c level="file">
                         <did>
