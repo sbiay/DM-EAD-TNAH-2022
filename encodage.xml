@@ -152,13 +152,17 @@
                         <did>
                             <unitid type="identifiant">20110282/1</unitid>
                             <unittitle></unittitle>
-                            <unitdate normal=""><!--compléter--></unitdate>
+                            <unitdate normal="1967/1987">1967-1987</unitdate>
                         </did>
                         <scopecontent>
                             <list>
                                 <item>Arc de triomphe (1968-1987).</item>
                                 <item>Archives nationales (1968-1987)</item>
-                                <!--compléter la liste-->
+                                <item>Bibliothèque nationale (1970-1985)</item>
+                                <item>Chapelle expiatoire (1983-1986)</item>
+                                <item>Collège de France (1967-1984)</item>
+                                <item>Colonne d'Austerlitz, place Vendôme (1969-1981)</item>
+                                <item>Colonne de Juillet, place de la Bastille (1971-1986</item>
                             </list>
                         </scopecontent>
                     </c>
@@ -166,13 +170,234 @@
                         <did>
                             <unitid type="identifiant">20110282/2</unitid>
                             <unittitle></unittitle>
-                            <unitdate normal=""><!--compléter--></unitdate>
+                            <unitdate normal="1968/1988">1968-1988</unitdate>
                         </did>
                         <scopecontent>
                             <list>
-                                <item>Conservatoire national supérieur de musique</item>
-                                <item>Conservatoire national des arts et métiers</item>
-                                <!--compléter la liste-->
+                                <item>Conservatoire national supérieur de musique (1970-1986)</item>
+                                <item>Conservatoire national des arts et métiers (photographies) (1970-1981)</item>
+                                <item>Conservatoire national supérieur d'art dramatique (1968-1985)</item>
+                                <item>Cour des comptes (1968-1977)</item>
+                                <item>Ecole nationale supérieure des arts décoratifs (ENSAD) (1969-1986)</item>
+                                <item>Ecole nationale supérieure des Beaux-Arts, porte du château d'Anet et vestiges de l'Hôtel de la Trémoille (1969-1988)</item>
+                            </list>
+                        </scopecontent>
+                    </c>
+                    <c level="recordgrp">
+                        <did>
+                            <unitid type="identifiant">20110282/3</unitid>
+                            <unittitle></unittitle>
+                            <unitdate normal="1967/1988">1967-1988</unitdate>
+                        </did>
+                        <scopecontent>
+                            <list>
+                                <item>Gare d'Orsay (1974-1980)</item>
+                                <item>Hôtel de Béthune-Sully (1967-1974)</item>
+                                <item>Hôtel de Castries (1968-1978)</item>
+                                <item>Hôtel national des Invalides : Institution nationale des Invalides (1970-1975) et Musée des plans-reliefs (1971-1981)</item>
+                                <item>Hôtel de la Marine et annexes avenue Octave Gérard et avenue de Suffren (1968-1976)</item>
+                                <item>Hôtel Montesquiou-Fezensac (1969-1977)</item>
+                                <item>Hôtel de Noirmoutier (1968-1970)</item>
+                                <item> Hôtel Salé - Musée Picasso (1973-1988)</item>
+                                <item>Hôtel Salomon de Rothschild – Fondation nationale des arts graphiques et plastiques (1968-1983)</item>
+                                <item>Hôtel de Vigny (1974-1985)</item>
+                                <item>Institut de l'environnement (1974)</item>
+                                <item>Institut international d'administration publique (IIAP) (1968-1976)</item>
+                                <item>Institut national des sports (1968-1969)</item>
+                            </list>
+                        </scopecontent>
+                    </c>
+                    <c level="recordgrp">
+                        <did>
+                            <unitid type="identifiant">20110282/3</unitid>
+                            <unittitle>Hôtel national des Invalides </unittitle>
+                            <unitdate normal="1967/1988">1967-1988</unitdate>
+                        </did>
+                        <scopecontent>
+                            <list>
+                                <item>Institution nationale des Invalides (1970-1975)</item>
+                                <item>Musée des plans-reliefs (1971-1981)</item>
+                            </list>
+                        </scopecontent>
+                    </c>
+
+                    <c level="recordgrp">
+                        <did>
+                            <unitid type="identifiant">20110282/4</unitid>
+                            <unittitle></unittitle>
+                            <unitdate normal="1968/1988">1968-1988</unitdate>
+                        </did>
+                        <scopecontent>
+                            <list>
+                                <item>Ministère des Affaires culturelles :  Association technique pour l'action culturelle 19 rue du Renard (1968-1988), Palais-Royal (1970-1982), 35 rue Saint-Didier (1975), 15 rue du Colonel Driant (1974), 4 rue de la Banque (1976-1982), 4 rue d'Aboukir (1972-1986), 2 rue Jean Lantier (1983), 1 rue d'Ulm (1972-1984), Hôtel Kunsky 53 rue Saint-Dominique (1969-1988)</item>
+                                <item>Ministère des Affaires étrangères : Hôtel du Quai d'Orsay (1970-1982)</item>
+                                <item>Ministère du Commerce et de l'artisanat : Hôtel de Seignelay (1984-1985)</item>
+                                <item>Ministère des Anciens combattants 37 rue de Bellechasse (1970-1975)</item>
+                                <item> Ministère de l'Equipement : 244 boulevard Saint-Germain, dont Hôtel de Roquelaure et Hôtel Le Play (1968-1975), Ecole nationale des Ponts et Chaussées 28 rue des Saints-Pères (1968) et Commissariat au tourisme 8 avenue de l’Opéra (1968)</item>
+                                <item>Ministère de la Santé 8, avenue de Ségur (1977)</item>
+                                <item>Ministère de la Justice : bâtiments divers (photographies) (1968-1978)</item>
+                                <item>Ministère de la Défense – Ilot Saint-Germain-Saint-Dominique (1970-1979)</item>
+                                <item>Mobilier national (1968-1984) et Manufacture des Gobelins (1969-1986)</item>
+                            </list>
+                        </scopecontent>
+                    </c>
+                     <c level="recordgrp">
+                        <did>
+                            <unitid type="identifiant">20110282/4</unitid>
+                            <unittitle>Ministère des Affaires culturelles</unittitle>
+                            <unitdate normal="1968/1988">1968-1988</unitdate>
+                        </did>
+                        <scopecontent>
+                            <list>
+                                <item>Association technique pour l'action culturelle 19 rue du Renard (1968-1988)</item>
+                                <item>Palais-Royal (1970-1982)</item>
+                                <item>35 rue Saint-Didier (1975)</item>
+                                <item>15 rue du Colonel Driant (1974)</item>
+                                <item>4 rue de la Banque (1976-1982)</item>
+                                <item>4 rue d'Aboukir (1972-1986)</item>
+                                <item>2 rue Jean Lantier (1983)</item>
+                                <item>1 rue d'Ulm (1972-1984)</item>
+                                <item>Hôtel Kunsky 53 rue Saint-Dominique (1969-1988)</item>
+                            </list>
+                        </scopecontent>
+                    </c>
+                    <c level="recordgrp">
+                        <did>
+                            <unitid type="identifiant">20110282/4</unitid>
+                            <unittitle>Ministère de l'Equipement</unittitle>
+                            <unitdate normal="1968/1988">1968-1988</unitdate>
+                        </did>
+                        <scopecontent>
+                            <list>
+                                <item>Hôtel de Roquelaure et Hôtel Le Play (1968-1975)</item>
+                                <item>Ecole nationale des Ponts et Chaussées 28 rue des Saints-Pères (1968)</item>
+                                <item>Commissariat au tourisme 8 avenue de l’Opéra (1968)</item>
+                            </list>
+                        </scopecontent>
+                    </c>
+                    <c level="recordgrp">
+                        <did>
+                            <unitid type="identifiant">20110282/5</unitid>
+                            <unittitle></unittitle>
+                            <unitdate normal="1966/1989">1966-1989</unitdate>
+                        </did>
+                        <scopecontent>
+                            <list>
+                                <item>Musée des arts africains et océaniens (1968-1988)</item>
+                                <item>Musée des arts décoratifs (1972-1987)</item>
+                                <item>Musée des arts et traditions populaires (1969-1988)</item>
+                                <item>Musée d'Ennery (1969-1981)</item>
+                                <item>Musée Eugène Delacroix (1971-1975)</item>
+                                <item>Musée Guimet (1968-1988)</item>
+                                <item>Musée Gustave Moreau (1969-1987)</item>
+                                <item>Musée Henner (1966-1988)</item>
+                                <item>Musée du Jeu de Paume (1978, 1987-1989)</item>
+                                <item>Musée du Luxembourg (1974-1980)</item>
+                                <item>Musée du Moyen-Age - Hôtel et thermes de Cluny (1969-1988)</item>
+                            </list>
+                        </scopecontent>
+                    </c>
+                    <c level="recordgrp">
+                        <did>
+                            <unitid type="identifiant">20110282/6</unitid>
+                            <unittitle></unittitle>
+                            <unitdate normal="1968/1988">1968-1988</unitdate>
+                        </did>
+                        <scopecontent>
+                            <list>
+                                <item>Musée Nissim de Camondo (1969-1985)</item>
+                                <item>Musée Rodin (1968-1983)</item>
+                                <item>Muséum national d'histoire naturelle (1969-1984)</item>
+                                <item>Observatoire de Paris : ateliers d'artistes (1977-1988)</item>
+                                <item>Opéra Garnier (1969-1984), Opéra Comique (1968-1974), magasins de décor de l'Opéra, de l'Opéra Comique et du Théâtre de l'Odéon situés Boulevard Berthier (1968-1980), Opéra Bastille : locaux de la mission de préfiguration (1982-1983)</item>
+                                <item>Palais de Chaillot : Théâtre national populaire et Cinémathèque française (1969-1975), Musée des monuments français (1968-1983).</item>
+                            </list>
+                        </scopecontent>
+                    </c>
+                    <c level="recordgrp">
+                        <did>
+                            <unitid type="identifiant">20110282/6</unitid>
+                            <unittitle>Palais de Chaillot</unittitle>
+                            <unitdate normal="1968/1988">1968-1988</unitdate>
+                        </did>
+                        <scopecontent>
+                            <list>
+                                <item>Théâtre national populaire et Cinémathèque française (1969-1975)</item>
+                                <item>Musée des monuments français (1968-1983).</item>
+                            </list>
+                        </scopecontent>
+                    </c>
+                    <c level="recordgrp">
+                        <did>
+                            <unitid type="identifiant">20110282/7</unitid>
+                            <unittitle></unittitle>
+                            <unitdate normal="1968/1987">1968-1987</unitdate>
+                        </did>
+                        <scopecontent>
+                            <list>
+                                <item>Palais d'Iéna - Conseil économique et social (1968-1982)</item>
+                                <item>Palais de Justice : Cour de cassation (1968-1979) et Cour d'appel (1968-1975)</item>
+                            </list>
+                        </scopecontent>
+                    </c>
+                    <c level="recordgrp">
+                        <did>
+                            <unitid type="identifiant">20110282/7</unitid>
+                            <unittitle>Palais du Louvre</unittitle>
+                            <unitdate normal="1968/1987">1968-1987</unitdate> <!-- j'ai une date différente dans le doc : (1975-1986), j'en fait quoi ? -->
+                        </did>
+                        <scopecontent>
+                            <list>
+                                <item>Remise en état des candélabres de la Cour Napoléon (1974-1977)</item>
+                                <item>Extension du réseau téléphonique (1975-1977)</item>
+                                <item>Aménagement de la crypte Osiris dans le département des Antiquités égyptiennes (1976)</item>
+                                <item>Climatisation des salles de peintures de la Cour Carrée (1976-1979)</item>
+                                <item>Appartement de fonction de l’Architecte des bâtiments de France (1976-1980)</item>
+                                <item>Chauffage et électricité  des ailes ouest et nord du 2ème étage de la Cour du Louvre (1977)</item>
+                                <item>Colonnes sèches (1977)</item>
+                                <item>Couverture et aménagement de l’aile nord de la Cour Carrée (1977-1978)</item>
+                                <item>Etude de constructibilité d’un parking souterrain (1977)</item>
+                                <item>Remplacement d’un ascenseur (1977)</item>
+                                <item>Restauration de la couverture du dôme Richelieu (1977)</item>
+                                <item>Réaménagement du département des Antiquités grecques et romaines (1977)</item>
+                                <item>Réserves de la direction de l’architecture, aile et pavillon Mollien (1977-1978)</item>
+                                <item>Relevés de géomètres (1977-1979)</item>
+                                <item>Fontis sur égout au droit de l’aile de Flore (1977-1980)</item>
+                                <item>Fuites d’eau dans plusieurs bâtiments, dont le pavillon de Flore (1978)</item>
+                                <item>Travaux d’architecture dans les sous-sols de l’aile de Marsan (1978)</item>
+                                <item>Etat des cours (1978)</item>
+                                <item>Sécurité au pavillon de Flore (1978-1979)</item>
+                                <item>Renforcement de la sécurité, portes et fenêtres de la Cour Carrée (1979)</item>
+                                <item>Restauration du pavillon Richelieu (1979)</item>
+                                <item>Attentat à la bombe au ministère de l’Economie (1979)</item>
+                                <item>Sinistre au ministère du Budget, remise en état porte cochère rue de Rivoli (1979)</item><item>Stationnement de voitures sur le terre-plein du Carrousel (1979)</item>
+                                <item>Vendeurs à la sauvette aux abords du musée (1979)</item>
+                                <item>Amélioration des conditions de travail des surveillants militaires (1979)</item>
+                                <item>Réfection des couvertures du pavillon Colbert (1979)</item>
+                                <item>Sécurité incendie (1979-1980)</item>
+                                <item>Incendie du 4 décembre 1980 (1981)</item>
+                                <item>Bureau du jardinier en chef (1981)</item>
+                                <item>Exposition Charles V (1981)</item>
+                                <item>Chute de pierres (1981)</item>
+                                <item>Effectifs et attributions du Service départemental de l’architecture et du patrimoine (1986)</item>
+                                <item>Strict entretien (1986)</item>
+                                <item>Sécurité incendie et risques de panique au musée (1986)</item>
+                                <item>Jardin des Tuileries (1969-1986).
+                            </list>
+                        </scopecontent>
+                    </c>
+                    <c level="recordgrp">
+                        <did>
+                            <unitid type="identifiant">20110282/7</unitid>
+                            <unittitle>Palais-Royal</unittitle>
+                            <unitdate normal="1968/1987">1968-1987</unitdate>
+                        </did>
+                        <scopecontent>
+                            <list>
+                                <item>Comédie française (1969-1986)</item>
+                                <item>Conseil d'Etat (1971-1986)</item>
+                                <item>Conseil constitutionnel (1974-1987)</item>
+                                <item>Palais de Tokyo - Musée d'art moderne (1969-1977).</item>
                             </list>
                         </scopecontent>
                     </c>
