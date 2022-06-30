@@ -626,63 +626,143 @@
                         </did>
                         <c level="recordgrp">
                             <did>
-                                <unittitle>Hôtel de Rohan </unittitle>
-                                <unitdate normal=""><!--compléter--></unitdate>
+                                <unittitle>Hôtel de Rohan</unittitle>
+                                <unitdate normal="1982/1988">1982-1988</unitdate>
                             </did>
                             <scopecontent>
                                 <list>
                                     <item>Dorure de la grille principale (1982).</item>
                                     <item>Réfection du parquet des salons (1982).</item>
-                                    <!--compléter la liste-->
+                                    <item>Réfection des brisis et lucarnes des anciennes écuries (1982-1984).</item>
+                                    <item>Cour des Chevaux du Soleil : réfection des couvertures (1983).</item>
+                                    <item>Réalisation d’études archéologiques à la suite des découvertes faites lors de la dépose des panneaux (1983).</item>
+                                    <item>Rénovation des salles de classement au rez-de-chaussée (1983-1984).</item>
+                                    <item>Installation d’un monte-charge au minutier des notaires (1983-1984).</item>
+                                    <item>Réfection des salles de lecture, bureaux et dégagements du minutier des notaires (1984-1985).</item>
+                                    <item>Pavage de l’ancienne ruelle de la Roche au sud du jardin de Rohan (1983-1985).</item>
+                                    <item>Restauration des peintures et dorures au 1er étage (1984-1987)</item>
+                                    <item>Aménagement du service des missions au rez-de-chaussée et au deuxième étage sud (1984-1985).</item>
+                                    <item>Réfection des peintures des dégagements du rez-de-chaussée et du portail sur la rue Vieille du Temple (1985).</item>
+                                    <item>Restauration des façades (1985).</item>
+                                    <item>Achèvement de la restauration du Cabinet des Singes (1987).</item>
+                                    <item>Remise en état des jardins (1987-1988).</item>
+                                    <item>Rénovation des services de la section contemporaine au 3ème étage (1987-1988).</item>
+                                    <item>Nettoyage, remise en état et doublage de la tapisserie « L’Oiseleur » (1988). </item>
+                                    <item>Réfection des peintures extérieures du bâtiment central (1988).</item>
                                 </list>
                             </scopecontent>
                         </c>
                         <c level="recordgrp">
                             <did>
                                 <unittitle>Hôtel de Soubise </unittitle>
-                                <unitdate normal=""><!--compléter--></unitdate>
+                                <unitdate normal="1981/1990">1981-1990</unitdate>
                             </did>
                             <scopecontent>
                                 <list>
-                                    <item><!-- compléter la liste --></item>
+                                    <item>Réfection des couvertures, versant nord (1981-1982).</item>
+                                    <item>Réfection des chéneaux et brisis à l’aplomb des appartements de la princesse, versant sud et ouest sur chéneau encaissé côté cour de Clisson. (1981-1985).</item>
+                                    <item>Transfert des ateliers de menuiserie et de peinture (1982-1983).</item>
+                                    <item>Réfection du pavage de la cour d’honneur (1982-1984).</item>
+                                    <item>Réfection du parquet des salons (1983-1984).</item>
+                                    <item>Restauration des peintures et dorures du Salon ovale au premier étage (1984).</item>
+                                    <item>Etude sur les désordres de la façade principale (1986).</item>
+                                    <item>Réaménagement des locaux au rez-de-chaussée du musée de l’Histoire de France (1988).</item>
+                                    <item>Restauration de la chambre de la princesse (1988).</item>
+                                    <item>Couverture cour de Clisson (1988).</item>
+                                    <item>Réfection de la cheminée dans la chambre de la princesse (1989-1990).</item>
                                 </list>
                             </scopecontent>
                         </c>
                         <c level="recordgrp">
                             <did>
                                 <unittitle>Hôtels d'Assy, de Breteuil et de Fontenay</unittitle>
-                                <unitdate normal=""><!--compléter--></unitdate>
+                                <unitdate normal="1983/1988">1983-1988</unitdate>
                             </did>
+                            <scopecontent>
+                                <list>
+                                    <item>Remise en état des façades sur cour (1983).</item>
+                                    <item>Réfection de la terrasse et du bassin dans le jardin du directeur (1983-1985).</item>
+                                    <item>Restauration de l’escalier en pierre de l’Hôtel d’Assy (1984).</item>
+                                    <item>Rénovation des locaux des sections ancienne et contemporaine (1985-1988).</item>
+                                </list>
+                            </scopecontent>
                         </c>
                         <c level="recordgrp">
                             <did>
                                 <unittitle>Hôtel de Boisgelin </unittitle>
-                                <unitdate normal=""><!--compléter--></unitdate>
+                                <unitdate normal="1982/1984">1982-1984</unitdate>
                             </did>
+                            <scopecontent>
+                                <list>
+                                    <item>Travaux de chauffage (1982).</item>
+                                    <item>Réfection des brisis et lucarnes (1984).</item>
+                                </list>
+                            </scopecontent>
                         </c>
                         <c level="recordgrp">
                             <did>
                                 <unittitle>Hôtel de Jaucourt </unittitle>
-                                <unitdate normal=""><!--compléter--></unitdate>
+                                <unitdate normal="1987/1988">1987-1988</unitdate>
                             </did>
+                            <scopecontent>
+                                <list>
+                                    <item>Construction d’un dépôt sous les jardins de Jaucourt (1987).</item>
+                                    <item>Réfection des marches de l’escalier est et ouest (1988).</item>
+                                </list>
+                            </scopecontent>
                         </c>
                         <c level="recordgrp">
                             <did>
                                 <unittitle>Grands dépôts</unittitle>
-                                <unitdate normal=""><!--compléter--></unitdate>
+                                <unitdate normal="1982/1989">1982-1989</unitdate>
                             </did>
+                            <scopecontent>
+                                <list>
+                                    <item>Extension du service des cartes et plans (1982-1983).</item>
+                                    <item>Installation du service de restauration au rez-de-chaussée (1983).</item>
+                                    <item>Réfection des chéneaux et bandeaux versant cour des Marronniers (1982-1983)</item>
+                                    <item>Reconstitution du pignon sud sur les jardins de Rohan (1983-1986).</item>
+                                    <item>Installation d’une alarme sonore (1983-1984).</item>
+                                    <item>Réfection de la couverture (1984). Remise en état des parties anciennes du service des cartes et plans (1984).</item>
+                                    <item>Restauration des salles d’archives au 1er étage du dépôt Louis-Philippe (1984-1985).</item>
+                                    <item>Aménagement du rez-de-chaussée (1984-1985).</item>
+                                    <item>Restauration d’une porte cochère sur la rue des Archives (1987-1988).</item>
+                                    <item>Réfection de la couverture du pavillon d’angle des dépôts Louis-Philippe (1987-1989).</item>
+                                    <item>Installation d’un dépôt d’archives provisoire dans la cour des Marronniers (1982) et transfert à Fontainebleau (1988).</item>
+                                </list>
+                            </scopecontent>
                         </c>
                         <c level="recordgrp">
                             <did>
                                 <unittitle>Galeries de liaison souterraines</unittitle>
-                                <unitdate normal=""><!--compléter--></unitdate>
+                                <unitdate normal="1983/1988">1983-1988</unitdate>
                             </did>
+                            <scopecontent>
+                                <list>
+                                    <item>Complément du maillage des galeries souterraines (1983-1984), étanchéité et finition (1987-1988).</item>
+                                </list>
+                            </scopecontent>
                         </c>
                         <c level="recordgrp">
                             <did>
                                 <unittitle>Centre d'accueil et de recherche des Archives nationales (CARAN)</unittitle>
-                                <unitdate normal=""><!--compléter--></unitdate>
+                                <unitdate normal="1974/1998">1974-1998</unitdate>
                             </did>
+                            <scopecontent>
+                                <list>
+                                    <item>Démolition des immeubles 3, 5, 7, 9 et 11 rue des Quatre Fils (1974-1983).</item>
+                                    <item>Programme architectural (1983). Sondages (1984). Marché de maîtrise d’œuvre (1984).</item>
+                                    <item>Permis de construire, plans (1984). APD (1984).</item>
+                                    <item>Suivi du chantier : notes, correspondance, comptes rendus de réunion bilans, rapport de fin de travaux (1985-1988).</item>
+                                    <item>Mission de contrôle technique : marché, rapports (1984-1987).</item>
+                                    <item>1% décoration : APS, projets choisis (Mecarelli, Gaucher, Theimer et Old), marchés (1984-1989).</item>
+                                    <item>Suivi des travaux, par lot (1986-1989).</item>
+                                    <item>DOE (1986-1988).</item>
+                                    <item>Désordres et dysfonctionnements : couverture et façades (1988-1997), système de chauffage et de ventilation (1988-1995), mobilier intégré (1987-1992), plafonds et planchers (1991), spots (1991-1992).</item>
+                                    <item>Expertise judiciaire sur les désordres affectant le bâtiment (1996-1998).</item>
+                                    <item>Paiement des honoraires de la maîtrise d’œuvre et du BET (1991-1993).</item>
+                                </list>
+                            </scopecontent>
                         </c>
                     </c>
                     <!-- Groupe 3 : fin de l'encodage -->
