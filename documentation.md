@@ -70,7 +70,8 @@ Les différents types de versements liés au fonds décrit dans l'instrument de 
 
 - Le second est l'élément `<relatedmaterial>` : il concerne les autres versements liés au fonds décrit, mais avec un producteur différent.
 
-Enfin, l'élément`<processinfo>` permet de donner des informations sur le traitement des archives physiques, par exemple sur des éliminations ou des opérations de tri. Chaque type d'information est donné dans un `<p>` distinct.
+- L'élément`<processinfo>` permet de donner des informations sur le traitement des archives physiques, par exemple sur des éliminations ou des opérations de tri. Chaque type d'information est donné dans un `<p>` distinct.
+
 
 ## Le dsc
 
@@ -256,8 +257,6 @@ Les sous-dossiers et articles faisant partie des dossiers (dans les longs parapg
 ### Les composants : après la transformation avec XSLT
 
 Les choix d'encodage qui ont été faits et appliqués sur l'instrument de recherche ont fait l'objet de nombreuses discussions, en particulier le `<scopecontent>` contenant les listes d'items qui semblait peu adapté à l'ISAD(G) et à l'EAD. Le choix a donc été fait de transformer automatiquement les productions des groupes en une version encodée de l'instrument de recherche qui paraissait plus adaptée.
-
-Les principales modifications effectuées
 
 ### Exemples : après la transformation avec XSLT
 
