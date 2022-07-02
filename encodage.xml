@@ -623,7 +623,7 @@
                         <did>
                             <unitid type="cote-de-consultation">20110282/42</unitid>
                             <unittitle>Musée Nissim de Camondo</unittitle>
-                            <unitdate normal=""/>
+                            <unitdate normal="1984/1987">1984-1987</unitdate>
                         </did>
                         <scopecontent>
                             <list>
@@ -639,7 +639,7 @@
                         <did>
                             <unitid type="cote-de-consultation">20110282/42</unitid>
                             <unittitle>Musée Rodin</unittitle>
-                            <unitdate normal=""/>
+                            <unitdate normal="1982/1988">1982-1988</unitdate>
                         </did>
                         <scopecontent>
                             <list>
@@ -677,7 +677,7 @@
                         <did>
                             <unitid type="cote-de-consultation">20110282/43</unitid>
                             <unittitle>Opéra Comique, Salle Favart</unittitle>
-                            <unitdate normal=""/>
+                            <unitdate normal="1982/1989">1982-1989</unitdate>
                         </did>
                         <scopecontent>
                             <list>
@@ -704,7 +704,7 @@
                         <did>
                             <unitid type="identifiant">20110282/43-20110282/44</unitid>
                             <unittitle>Opéra Garnier</unittitle>
-                            <unitdate normal=""/>
+                            <unitdate normal="1977/1990">1977-1990</unitdate>
                         </did>
                         <c level="recordgrp">
                             <did>
@@ -774,13 +774,13 @@
                         <did>
                             <unitid type="identifiant">20110282/45-20110282/46</unitid>
                             <unittitle>Palais de Chaillot</unittitle>
-                            <unitdate normal=""/>
+                            <unitdate normal="1878/1989">1978-1989</unitdate>
                         </did>
                         <c level="recordgrp">
                             <did>
                                 <unitid type="cote-de-consultation">20110282/45</unitid>
                                 <unittitle>Parvis</unittitle>
-                                <unitdate normal=""/>
+                                <unitdate normal="1982/1988">1982-1988</unitdate>
                             </did>
                             <scopecontent>
                                 <list>
@@ -798,7 +798,7 @@
                             <did>
                                 <unitid type="cote-de-consultation">20110282/45</unitid>
                                 <unittitle>Aile de Paris </unittitle>
-                                <unitdate normal=""/>
+                                <unitdate normal="1980/1987">1980-1987</unitdate>
                             </did>
                             <scopecontent>
                                 <list>
@@ -815,6 +815,7 @@
                             <c level="recordgrp">
                                 <did>
                                     <unittitle>Musée des monuments français</unittitle>
+                                    <unitdate normal="1984-1989">1984-1989</unitdate>
                                 </did>
                                 <scopecontent>
                                     <list>
@@ -861,8 +862,8 @@
                         <c level="recordgrp">
                             <did>
                                 <unitid type="cote-de-consultation">20110282/46</unitid>
-                                <unittitle>Aile de Passy </unittitle>
-                                <unitdate normal=""/>
+                                <unittitle>Aile de Passy</unittitle>
+                                <unitdate normal="1978-1988">1978-1988</unitdate>
                             </did>
                             <scopecontent>
                                 <list>
@@ -894,7 +895,7 @@
                         <did>
                             <unitid type="cote-de-consultation">20110282/47</unitid>
                             <unittitle>Palais de l'Alma</unittitle>
-                            <unitdate normal=""/>
+                            <unitdate normal="1982/1991">1982-1991</unitdate>
                         </did>
                         <scopecontent>
                             <list>
@@ -947,7 +948,7 @@
                         <did>
                             <unitid type="cote-de-consultation">20110282/48</unitid>
                             <unittitle>Palais-Royal</unittitle>
-                            <unitdate normal=""/>
+                            <unitdate normal="1980/1990">1980-1990</unitdate>
                         </did>
                         <scopecontent>
                             <list>
@@ -969,7 +970,7 @@
                         <c level="recordgrp">
                             <did>
                                 <unittitle>Comédie Française</unittitle>
-                                <unitdate normal=""/>
+                                <unitdate normal="1982/1989">1982-1989</unitdate>
                             </did>
                             <scopecontent>
                                 <list>
@@ -984,7 +985,7 @@
                         <c level="recordgrp">
                             <did>
                                 <unittitle>Conseil constitutionnel</unittitle>
-                                <unitdate normal=""/>
+                                <unitdate normal="1982/1983">1982-1983</unitdate>
                             </did>
                             <scopecontent>
                                 <list>
@@ -997,7 +998,7 @@
                         <c level="recordgrp">
                             <did>
                                 <unittitle>Conseil d'Etat</unittitle>
-                                <unitdate normal=""/>
+                                <unitdate normal="1982/1983">1982-1983</unitdate>
                             </did>
                             <scopecontent>
                                 <list>
@@ -1035,7 +1036,7 @@
                         <did>
                             <unitid type="identifiant">20110282/49-20110282/53</unitid>
                             <unittitle>Palais du Louvre et Tuileries</unittitle>
-                            <unitdate normal=""></unitdate>
+                            <unitdate normal="1975/1988">1975-1988</unitdate>
                         </did>
                         <c level="recordgrp">
                             <did>
@@ -1071,7 +1072,7 @@
                             <did>
                                 <unitid type="cote-de-consultation">20110282/50</unitid>
                                 <unittitle>Aile Rivoli-Finances</unittitle>
-                                <unitdate normal=""></unitdate>
+                                <unitdate normal="1980/1983">1980-1983</unitdate>
                             </did>
                             <scopecontent>
                                 <list>
@@ -1090,6 +1091,7 @@
                                 <did>
                                     <unitid type="cote-de-consultation">20110282/50</unitid>
                                     <unittitle>Interventions diverses</unittitle>
+                                    <unitdate normal="1979/1985">1979-1985</unitdate>
                                 </did>
                                 <scopecontent>
                                     <list>
@@ -1135,6 +1137,7 @@
                                 <did>
                                     <unitid type="cote-de-consultation">20110282/51</unitid>
                                     <unittitle>Couvertures</unittitle>
+                                    <unitdate normal="1981/1985">1981-1985</unitdate>
                                 </did>
                                 <scopecontent>
                                     <list>
@@ -1161,6 +1164,7 @@
                                 <did>
                                     <unitid type="cote-de-consultation">20110282/51</unitid>
                                     <unittitle>Façades</unittitle>
+                                    <unitdate normal="1981/1984">1981-1984</unitdate>
                                 </did>
                                 <scopecontent>
                                     <list>
@@ -1230,7 +1234,7 @@
                             <did>
                                 <unitid type="cote-de-consultation">20110282/53</unitid>
                                 <unittitle>Jardin des Tuileries</unittitle>
-                                <unitdate normal=""/>
+                                <unitdate normal="1979/1987">1979-1987</unitdate>
                             </did>
                             <scopecontent>
                                 <list>
@@ -1268,7 +1272,7 @@
                         <did>
                             <unitid type="cote-de-consultation">20110282/54</unitid>
                             <unittitle>Palais de Tokyo</unittitle>
-                            <unitdate normal=""/>
+                            <unitdate normal="1980/1986">1980-1986</unitdate>
                         </did>
                         <scopecontent>
                             <list>
@@ -1288,7 +1292,7 @@
                         <did>
                             <unitid type="identifiant">20110282/54-20110282/55</unitid>
                             <unittitle>Panthéon</unittitle>
-                            <unitdate normal=""></unitdate>
+                            <unitdate normal="1980/1988">1980-1988</unitdate>
                         </did>
                         <c level="recordgrp">
                             <did>
@@ -1318,6 +1322,7 @@
                             <did>
                                 <unitid type="cote-de-consultation">20110282/55</unitid>
                                 <unittitle/>
+                                <unitdate normal="1986/1988">1986-1988</unitdate>
                             </did>
                             <scopecontent>
                                 <list>
@@ -1381,7 +1386,7 @@
                         <did>
                             <unitid type="identifiant">20110282/56-58</unitid>
                             <unittitle>Théâtre de l'Est parisien (TEP)</unittitle>
-                            <unitdate normal=""/>
+                            <unitdate normal="1978/1994">1978-1994</unitdate>
                         </did>
                         <c level="recordgrp">
                             <did>
@@ -1436,7 +1441,7 @@
                         <did>
                             <unitid type="cote-de-consultation">20110282/59</unitid>
                             <unittitle>Théâtre national de l'Odéon</unittitle>
-                            <unitdate normal=""/>
+                            <unitdate normal="1982/1986">1982-1986</unitdate>
                         </did>
                         <scopecontent>
                             <list>
@@ -1456,7 +1461,7 @@
                         <did>
                             <unitid type="cote-de-consultation">20110282/59</unitid>
                             <unittitle>Val-de-Grâce</unittitle>
-                            <unitdate normal=""/>
+                            <unitdate normal="1978/1990">1978-1990</unitdate>
                         </did>
                         <scopecontent>
                             <list>
