@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE ead SYSTEM "./schemas/ead_sia.dtd">
 <ead>
-    <!-- Groupe 1 : début de l'encodage -->
+    <!-- Groupe 1 : début de l'encodage -->
     <eadheader>
         <eadid>20110282_CRMHIDF</eadid>
         <filedesc>
             <titlestmt>
-                <titleproper>Conservation régionale des monuments historiques d'Île-de-France :  programmation et conduite de travaux sur des édifices publics (1956-1993)</titleproper>
+                <titleproper>Conservation régionale des monuments historiques d'Île-de-France :  programmation et conduite de travaux sur des édifices publics (1956-1993)</titleproper>
                 <subtitle>Répertoire numérique</subtitle>
                 <author>Établi par Arnaud de Castelbaiac, Service interministériel des archives de France; Danièle Kriser, Service national des travaux; Marie Castaing;  Anne Briqueler; Audrey Poirier</author>
             </titlestmt>
@@ -35,12 +35,12 @@
             </change>
         </revisiondesc>
     </eadheader>
-    <!-- Groupe 1 : fin de l'encodage -->
-    <!-- Groupe 2 : début de l'encodage -->
+    <!-- Groupe 1 : fin de l'encodage -->
+    <!-- Groupe 2 : début de l'encodage -->
     <archdesc level="series">
         <did>
             <unitid type="cote-de-consultation">20110282/1-20110282/74</unitid>            <!-- quel type choisir ? -->
-            <unittitle>Conservation régionale des monuments historiques d'Île-de-France :  programmation et conduite de travaux sur des édifices publics.</unittitle>
+            <unittitle>Conservation régionale des monuments historiques d'Île-de-France :  programmation et conduite de travaux sur des édifices publics.</unittitle>
             <unitdate normal="1956/1993">XXe siècle</unitdate>
             <origination>
                 <corpname>Conservation régionale des monuments historiques d'Île-de-France, N1 = 5181</corpname>                <!-- A quoi correspond N1 = 5181 ?-->
@@ -72,11 +72,11 @@
             <p>C'est la suppression du service qui a déclenché le versement des archives de la CRMH aux Archives nationales.</p>
         </custodhist>
         <arrangement>
-            <p>Ce versement contient :</p>            <!-- élément p potentiellement à supprimer -->
+            <p>Ce versement contient :</p>            <!-- élément p potentiellement à supprimer -->
             <list>
                 <item>Les dossiers sont classés par ordre minéralogique de département, puis par ordre alphabétique de ville et de  nom d'édifice, puis chronologiquement.</item>
                 <item>les dossiers de programmation des travaux, qui retracent les choix faits par le service  en fonction de l'état des immeubles à restaurer ou à construire : correspondance, notes,  comptes rendus de réunion, tableaux chiffrés (art. 1-13).</item>
-                <item>les dossiers de maîtrise d'ouvrage et de conduite de travaux : projets architecturaux, cahiers des clauses techniques particulières, plans, photographies, comptes rendus de chantier, notes, correspondance (art. 14-74).</item>
+                <item>les dossiers de maîtrise d'ouvrage et de conduite de travaux : projets architecturaux, cahiers des clauses techniques particulières, plans, photographies, comptes rendus de chantier, notes, correspondance (art. 14-74).</item>
             </list>
         </arrangement>
         <separatedmaterial>
@@ -243,9 +243,9 @@
             <geogname>Pavillon de Marsan</geogname>
             <geogname>Palais de Charles V</geogname>
         </controlaccess>
-        <!-- Groupe 2 : fin de l'encodage -->
+        <!-- Groupe 2 : fin de l'encodage -->
         <dsc>
-            <!-- Groupe 3 : début de l'encodage -->
+            <!-- Groupe 3 : début de l'encodage -->
             <c level="series">
                 <did>
                     <unitid type="identifiant">                        <!--compléter--></unitid>
@@ -304,7 +304,7 @@
                                 <item>Gare d'Orsay (1974-1980)</item>
                                 <item>Hôtel de Béthune-Sully (1967-1974)</item>
                                 <item>Hôtel de Castries (1968-1978)</item>
-                                <item>Hôtel national des Invalides : Institution nationale des Invalides (1970-1975) et Musée des plans-reliefs (1971-1981)</item>
+                                <item>Hôtel national des Invalides : Institution nationale des Invalides (1970-1975) et Musée des plans-reliefs (1971-1981)</item>
                                 <item>Hôtel de la Marine et annexes avenue Octave Gérard et avenue de Suffren (1968-1976)</item>
                                 <item>Hôtel Montesquiou-Fezensac (1969-1977)</item>
                                 <item>Hôtel de Noirmoutier (1968-1970)</item>
@@ -320,7 +320,7 @@
                     <c level="recordgrp">
                         <did>
                             <unitid type="identifiant">20110282/3</unitid>
-                            <unittitle>Hôtel national des Invalides </unittitle>
+                            <unittitle>Hôtel national des Invalides</unittitle>
                             <unitdate normal="1967/1988">1967-1988</unitdate>
                         </did>
                         <scopecontent>
@@ -338,13 +338,13 @@
                         </did>
                         <scopecontent>
                             <list>
-                                <item>Ministère des Affaires culturelles :  Association technique pour l'action culturelle 19 rue du Renard (1968-1988), Palais-Royal (1970-1982), 35 rue Saint-Didier (1975), 15 rue du Colonel Driant (1974), 4 rue de la Banque (1976-1982), 4 rue d'Aboukir (1972-1986), 2 rue Jean Lantier (1983), 1 rue d'Ulm (1972-1984), Hôtel Kunsky 53 rue Saint-Dominique (1969-1988)</item>
-                                <item>Ministère des Affaires étrangères : Hôtel du Quai d'Orsay (1970-1982)</item>
-                                <item>Ministère du Commerce et de l'artisanat : Hôtel de Seignelay (1984-1985)</item>
+                                <item>Ministère des Affaires culturelles :  Association technique pour l'action culturelle 19 rue du Renard (1968-1988), Palais-Royal (1970-1982), 35 rue Saint-Didier (1975), 15 rue du Colonel Driant (1974), 4 rue de la Banque (1976-1982), 4 rue d'Aboukir (1972-1986), 2 rue Jean Lantier (1983), 1 rue d'Ulm (1972-1984), Hôtel Kunsky 53 rue Saint-Dominique (1969-1988)</item>
+                                <item>Ministère des Affaires étrangères : Hôtel du Quai d'Orsay (1970-1982)</item>
+                                <item>Ministère du Commerce et de l'artisanat : Hôtel de Seignelay (1984-1985)</item>
                                 <item>Ministère des Anciens combattants 37 rue de Bellechasse (1970-1975)</item>
-                                <item> Ministère de l'Equipement : 244 boulevard Saint-Germain, dont Hôtel de Roquelaure et Hôtel Le Play (1968-1975), Ecole nationale des Ponts et Chaussées 28 rue des Saints-Pères (1968) et Commissariat au tourisme 8 avenue de l’Opéra (1968)</item>
+                                <item> Ministère de l'Equipement : 244 boulevard Saint-Germain, dont Hôtel de Roquelaure et Hôtel Le Play (1968-1975), Ecole nationale des Ponts et Chaussées 28 rue des Saints-Pères (1968) et Commissariat au tourisme 8 avenue de l’Opéra (1968)</item>
                                 <item>Ministère de la Santé 8, avenue de Ségur (1977)</item>
-                                <item>Ministère de la Justice : bâtiments divers (photographies) (1968-1978)</item>
+                                <item>Ministère de la Justice : bâtiments divers (photographies) (1968-1978)</item>
                                 <item>Ministère de la Défense – Ilot Saint-Germain-Saint-Dominique (1970-1979)</item>
                                 <item>Mobilier national (1968-1984) et Manufacture des Gobelins (1969-1986)</item>
                             </list>
@@ -417,9 +417,9 @@
                                 <item>Musée Nissim de Camondo (1969-1985)</item>
                                 <item>Musée Rodin (1968-1983)</item>
                                 <item>Muséum national d'histoire naturelle (1969-1984)</item>
-                                <item>Observatoire de Paris : ateliers d'artistes (1977-1988)</item>
-                                <item>Opéra Garnier (1969-1984), Opéra Comique (1968-1974), magasins de décor de l'Opéra, de l'Opéra Comique et du Théâtre de l'Odéon situés Boulevard Berthier (1968-1980), Opéra Bastille : locaux de la mission de préfiguration (1982-1983)</item>
-                                <item>Palais de Chaillot : Théâtre national populaire et Cinémathèque française (1969-1975), Musée des monuments français (1968-1983).</item>
+                                <item>Observatoire de Paris : ateliers d'artistes (1977-1988)</item>
+                                <item>Opéra Garnier (1969-1984), Opéra Comique (1968-1974), magasins de décor de l'Opéra, de l'Opéra Comique et du Théâtre de l'Odéon situés Boulevard Berthier (1968-1980), Opéra Bastille : locaux de la mission de préfiguration (1982-1983)</item>
+                                <item>Palais de Chaillot : Théâtre national populaire et Cinémathèque française (1969-1975), Musée des monuments français (1968-1983).</item>
                             </list>
                         </scopecontent>
                     </c>
@@ -445,7 +445,7 @@
                         <scopecontent>
                             <list>
                                 <item>Palais d'Iéna - Conseil économique et social (1968-1982)</item>
-                                <item>Palais de Justice : Cour de cassation (1968-1979) et Cour d'appel (1968-1975)</item>
+                                <item>Palais de Justice : Cour de cassation (1968-1979) et Cour d'appel (1968-1975)</item>
                             </list>
                         </scopecontent>
                     </c>
@@ -453,7 +453,7 @@
                         <did>
                             <unitid type="identifiant">20110282/7</unitid>
                             <unittitle>Palais du Louvre</unittitle>
-                            <unitdate normal="1968/1987">1968-1987</unitdate>                            <!-- j'ai une date différente dans le doc : (1975-1986), j'en fait quoi ? -->
+                            <unitdate normal="1968/1987">1968-1987</unitdate>                            <!-- j'ai une date différente dans le doc : (1975-1986), j'en fait quoi ? -->
                         </did>
                         <scopecontent>
                             <list>
@@ -492,7 +492,8 @@
                                 <item>Effectifs et attributions du Service départemental de l’architecture et du patrimoine (1986)</item>
                                 <item>Strict entretien (1986)</item>
                                 <item>Sécurité incendie et risques de panique au musée (1986)</item>
-                                <item>Jardin des Tuileries (1969-1986). </list>
+                                <item>Jardin des Tuileries (1969-1986).</item> 
+                            </list>
                             </scopecontent>
                         </c>
                         <c level="recordgrp">
@@ -519,7 +520,7 @@
                             <scopecontent>
                                 <list>
                                     <item>Parc zoologique de Paris, 1974.</item>
-                                    <item>Résidences présidentielles : dossier général (1969-1986), Palais de l'Elysée (1968-1984), Hôtel Marigny (1972-1977), 2 et 14 rue de l’Elysée (1971-1977), Palais de l'Alma (1969-1985).</item>
+                                    <item>Résidences présidentielles : dossier général (1969-1986), Palais de l'Elysée (1968-1984), Hôtel Marigny (1972-1977), 2 et 14 rue de l’Elysée (1971-1977), Palais de l'Alma (1969-1985).</item>
                                     <item>Statue de Jeanne d’Arc place des Pyramides (1986-1989).</item>
                                     <item>Théâtre de l'Est parisien (1969-1986) et magasins de décor (1969-1983).</item>
                                     <item>Théâtre national de l'Odéon (1969-1988).</item>
@@ -543,7 +544,7 @@
                             </did>
                             <scopecontent>
                                 <list>
-                                    <item>Fontainebleau : Archives nationales - Cité interministérielle des archives (1974-1984).</item>
+                                    <item>Fontainebleau : Archives nationales - Cité interministérielle des archives (1974-1984).</item>
                                     <item>Domaine national (1958-1990).</item>
                                 </list>
                             </scopecontent>
@@ -556,8 +557,8 @@
                             </did>
                             <scopecontent>
                                 <list>
-                                    <item>Champs-sur-Marne : château (photographies) (1967-1986).</item>
-                                    <item>Melun : cité administrative (1967-1978).</item>
+                                    <item>Champs-sur-Marne : château (photographies) (1967-1986).</item>
+                                    <item>Melun : cité administrative (1967-1978).</item>
                                 </list>
                             </scopecontent>
                         </c>
@@ -576,12 +577,12 @@
                             </did>
                             <scopecontent>
                                 <list>
-                                    <item>Magny-les-Hameaux : Musée national des Granges de Port-Royal (photographies) (1957-1987).</item>
-                                    <item>Maisons-Laffitte : château et domaine (1967-1987).</item>
-                                    <item>Marly-le-Roi : Domaine national (1967-1986).</item>
-                                    <item>Montigny-le-Bretonneux : Fort de Saint-Cyr (1981-1987).</item>
-                                    <item>Poissy : Villa Savoye (1970-1987).</item>
-                                    <item>Rambouillet : domaine national (1966-1977).</item>
+                                    <item>Magny-les-Hameaux : Musée national des Granges de Port-Royal (photographies) (1957-1987).</item>
+                                    <item>Maisons-Laffitte : château et domaine (1967-1987).</item>
+                                    <item>Marly-le-Roi : Domaine national (1967-1986).</item>
+                                    <item>Montigny-le-Bretonneux : Fort de Saint-Cyr (1981-1987).</item>
+                                    <item>Poissy : Villa Savoye (1970-1987).</item>
+                                    <item>Rambouillet : domaine national (1966-1977).</item>
                                 </list>
                             </scopecontent>
                         </c>
@@ -593,9 +594,9 @@
                             </did>
                             <scopecontent>
                                 <list>
-                                    <item>Saint-Germain-en-Laye : Domaine national (1966-1988), Musée des Antiquités nationales (1978-1988) et Pavillon de la Muette (1967-1987) ; Centre de protection des œuvres d'art (1966-1985).</item>
-                                    <item>Thiverval-Grignon : Institut national de la recherche agronomique et Institut national agronomique Paris-Grignon (1967-1987).</item>
-                                    <item>Versailles : Domaine national (1957-1991), dont Pavillon de la Lanterne, 1966-1989, Domaine de Chèvreloup, 1968-1989, annexe de la Bibliothèque nationale à la Grande Ecurie, 1957-1981, et une liste des documents concernant les jardins de Versailles et des Trianons conservés aux service d'architecture du château, s.d. ; Lycée Hoche (1957-1973).</item>
+                                    <item>Saint-Germain-en-Laye : Domaine national (1966-1988), Musée des Antiquités nationales (1978-1988) et Pavillon de la Muette (1967-1987) ; Centre de protection des œuvres d'art (1966-1985).</item>
+                                    <item>Thiverval-Grignon : Institut national de la recherche agronomique et Institut national agronomique Paris-Grignon (1967-1987).</item>
+                                    <item>Versailles : Domaine national (1957-1991), dont Pavillon de la Lanterne, 1966-1989, Domaine de Chèvreloup, 1968-1989, annexe de la Bibliothèque nationale à la Grande Ecurie, 1957-1981, et une liste des documents concernant les jardins de Versailles et des Trianons conservés aux service d'architecture du château, s.d. ; Lycée Hoche (1957-1973).</item>
                                 </list>
                             </scopecontent>
                         </c>
@@ -614,10 +615,10 @@
                             </did>
                             <scopecontent>
                                 <list>
-                                    <item>Châtenay-Malabry : Ecole nationale supérieure de l’éducation physique (ENSEP) (1969-1974).</item>
-                                    <item>Meudon : Observatoire, orangerie et grande perspective (1967-1985) ; Hangar Y, création d'un musée de l'aérostation (1982) ; Domaine de Chalais (1971-1974) ; Villa des Brillants (annexe du musée Rodin) (1956-1984).</item>
-                                    <item>Nanterre : Unité pédagogique d'architecture (1970-1981).</item>
-                                    <item>Rueil-Malmaison : Domaine national de Malmaison, château de Bois-Préau (1959-1988).</item>
+                                    <item>Châtenay-Malabry : Ecole nationale supérieure de l’éducation physique (ENSEP) (1969-1974).</item>
+                                    <item>Meudon : Observatoire, orangerie et grande perspective (1967-1985) ; Hangar Y, création d'un musée de l'aérostation (1982) ; Domaine de Chalais (1971-1974) ; Villa des Brillants (annexe du musée Rodin) (1956-1984).</item>
+                                    <item>Nanterre : Unité pédagogique d'architecture (1970-1981).</item>
+                                    <item>Rueil-Malmaison : Domaine national de Malmaison, château de Bois-Préau (1959-1988).</item>
                                 </list>
                             </scopecontent>
                         </c>
@@ -629,9 +630,9 @@
                             </did>
                             <scopecontent>
                                 <list>
-                                    <item>Saint-Cloud : Domaine national (dont photographies des dégâts d'un orage, 1982, et dossier sur les travaux forestiers dans les domaines nationaux) (1964-1989).</item>
-                                    <item>Sèvres : Manufacture et Musée national de la Céramique (1965-1987).</item>
-                                    <item>Vaucresson : Pavillon du Butard (1966-1968).</item>
+                                    <item>Saint-Cloud : Domaine national (dont photographies des dégâts d'un orage, 1982, et dossier sur les travaux forestiers dans les domaines nationaux) (1964-1989).</item>
+                                    <item>Sèvres : Manufacture et Musée national de la Céramique (1965-1987).</item>
+                                    <item>Vaucresson : Pavillon du Butard (1966-1968).</item>
                                 </list>
                             </scopecontent>
                         </c>
@@ -650,9 +651,9 @@
                             </did>
                             <scopecontent>
                                 <list>
-                                    <item>Charenton : ancien séminaire, projet d'implantation d'une unité pédagogique d'architecture (1978-1979).</item>
-                                    <item>Nogent-sur-Marne : Maison nationale des artistes (1969-1982).</item>
-                                    <item>Saint-Maur : Observatoire (1968). Vincennes : château (1985-1990).</item>
+                                    <item>Charenton : ancien séminaire, projet d'implantation d'une unité pédagogique d'architecture (1978-1979).</item>
+                                    <item>Nogent-sur-Marne : Maison nationale des artistes (1969-1982).</item>
+                                    <item>Saint-Maur : Observatoire (1968). Vincennes : château (1985-1990).</item>
                                 </list>
                             </scopecontent>
                         </c>
@@ -671,8 +672,8 @@
                             </did>
                             <scopecontent>
                                 <list>
-                                    <item>Cergy-Pontoise : antenne pédagogique / Ecole nationale d’arts (1969-1978).</item>
-                                    <item>Ecouen : Château (1986-1988).</item>
+                                    <item>Cergy-Pontoise : antenne pédagogique / Ecole nationale d’arts (1969-1978).</item>
+                                    <item>Ecouen : Château (1986-1988).</item>
                                 </list>
                             </scopecontent>
                         </c>
@@ -724,7 +725,7 @@
                                     <item>Remise en état des fosses à fleurs (1987).</item>
                                     <item>Etudes destinées à assurer la stabilité et à permettre la restauration de l’édifice (1987-1988).</item>
                                     <item>Ravalement et restauration des façades et des voûtes (1987-1988).</item>
-                                    <item>Etudes préparatoires à la restauration de l’édifice : étude géotechnique, investigations topographiques, mesures de vibration, mesures altimétriques, auscultation, procès-verbaux d’essais (1987-1989).</item>
+                                    <item>Etudes préparatoires à la restauration de l’édifice : étude géotechnique, investigations topographiques, mesures de vibration, mesures altimétriques, auscultation, procès-verbaux d’essais (1987-1989).</item>
                                 </list>
                             </scopecontent>
                         </c>
@@ -794,8 +795,8 @@
                                 </did>
                             </c>
                         </c>
-                        <!-- Groupe 3 : fin de l'encodage -->
-                        <!-- Groupe 4 : début de l'encodage -->
+                        <!-- Groupe 3 : fin de l'encodage -->
+                        <!-- Groupe 4 : début de l'encodage -->
                         <!-- Esteban -->
                         <c level="file">
                             <did>
@@ -964,7 +965,7 @@
                         <c level="file">
                             <did>
                                 <unitid type="cote-de-consultation">20110282/27</unitid>
-                                <!--attention : note de bas de page-->
+                                <!--attention : note de bas de page-->
                                 <unittitle>Ecole militaire[^3]</unittitle>
                                 <unitdate normal="1970-1989">1970-1989</unitdate>
                             </did>
@@ -1098,7 +1099,7 @@
                         </did>
                         <scopecontent>
                             <list>
-                                <item>Modernisation du laboratoire de biochimie : plans (1987).</item>
+                                <item>Modernisation du laboratoire de biochimie : plans (1987).</item>
                             </list>
                         </scopecontent>
                         <c level="file">
@@ -1129,7 +1130,7 @@
                                 </did>
                                 <scopecontent>
                                     <list>
-                                        <item>Remise en état et aménagement de la bibliothèque et des archives des monuments historiques : CCTP (1985), DOE (1988).</item>
+                                        <item>Remise en état et aménagement de la bibliothèque et des archives des monuments historiques : CCTP (1985), DOE (1988).</item>
                                     </list>
                                 </scopecontent>
                             </c>
@@ -1142,7 +1143,7 @@
                             </did>
                             <scopecontent>
                                 <list>
-                                    <item>Façade sur jardin : ravalement (1983) et restauration de deux statues sur le perron (1982-1984).</item>
+                                    <item>Façade sur jardin : ravalement (1983) et restauration de deux statues sur le perron (1982-1984).</item>
                                 </list>
                             </scopecontent>
                         </c>
@@ -1160,7 +1161,7 @@
                                     <item>Restauration des statues de Mars et de Minerve, par Coustou (1982-1984).</item>
                                     <item>Relogement de l’Inspection de l’armement nucléaire (1981).</item>
                                     <item>Restauration des groupes de chevaux aux angles sud-ouest et sud-est de la cour d’honneur (1982-1984).</item>
-                                    <item>Réfection des toitures et superstructures : secteur I2B dans l’aile située au sud de la cour de la Valeur (1984), secteurs F1, F3, E1, E3 (1982), H1 et H2 (1984-1987), D2 N1O1 (1982), I1B et I2 (1983-1985), secteur M aile Robert de Cotte (1983).</item>
+                                    <item>Réfection des toitures et superstructures : secteur I2B dans l’aile située au sud de la cour de la Valeur (1984), secteurs F1, F3, E1, E3 (1982), H1 et H2 (1984-1987), D2 N1O1 (1982), I1B et I2 (1983-1985), secteur M aile Robert de Cotte (1983).</item>
                                     <item>Restauration des pavillons d’entrée 6 boulevard des Invalides et réaménagement de l’entrée principale de l’Institution nationale des Invalides, d'un logement et d'un pavillon (1985-1986).</item>
                                     <item>Restauration du décor de la coupole centrale du dôme et de ses pendentifs (1989).</item>
                                     <item>Aménagement de l’angle sud-est des Invalides (1989).</item>
@@ -1438,8 +1439,8 @@
                             </scopecontent>
                         </c>
                         <!--Teresa-->
-                        <!-- Groupe 4 : fin de l'encodage -->
-                        <!-- Groupe 5 : début de l'encodage -->
+                        <!-- Groupe 4 : fin de l'encodage -->
+                        <!-- Groupe 5 : début de l'encodage -->
                         <c level="file">
                             <did>
                                 <unitid type="identifiant">                                    <!--compléter--></unitid>
@@ -1645,8 +1646,8 @@
                             </c>
                         </c>
                     </c>
-                    <!-- Groupe 5 : fin de l'encodage -->
-                    <!-- Groupe 6 : début de l'encodage -->
+                    <!-- Groupe 5 : fin de l'encodage -->
+                    <!-- Groupe 6 : début de l'encodage -->
                     <c level="subseries">
                         <did>
                             <unitid type="identifiant">20110282/60-20110282/63</unitid>
@@ -1802,7 +1803,7 @@
                                     <item>Construction d’un bâtiment de laboratoires (1981-1984) (photographies, s.d.).</item>
                                     <item>Construction de cellules de stockage de films nitrate (1983, 1986-1990).</item>
                                     <item>Travaux de sécurité (1988).</item>
-                                    <item>Réhabilitation du casernement central : étude de programmation (1985), étude de faisabilité, DCE : plans et correspondance (1988-1991).</item>
+                                    <item>Réhabilitation du casernement central : étude de programmation (1985), étude de faisabilité, DCE : plans et correspondance (1988-1991).</item>
                                 </list>
                             </scopecontent>
                         </c>
@@ -2303,7 +2304,7 @@
                         </c>
                     </c>
                 </c>
-                <!-- Groupe 6 : fin de l'encodage -->
+                <!-- Groupe 6 : fin de l'encodage -->
             </dsc>
         </archdesc>
     </ead>
