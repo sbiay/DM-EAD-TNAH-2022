@@ -76,7 +76,7 @@ Enfin, l'élément`<processinfo>` permet de donner des informations sur le trait
 
 L'élément `<dsc>` (description des sous-composants) contient les éléments `<c>` (composant) qui servent à retranscrire la hiérarchie du plan de classement.
 
-### Les composants
+### Les composants : avant la transformation avec XSLT
 
 Chaque élément `<c>` a un attribut `@type` qui précise le niveau de l'élément. 
 
@@ -100,13 +100,15 @@ Chaque élément `<c>` a un attribut `@type` qui précise le niveau de l'éléme
 
 - Les composants `<c level="recordgrp">` s'insèrent ou dans les **subseries**, ou dans les **dossiers** selon le niveau de description. Ils servent à décrire les groupes de documents, qui ne correspondent ni à des dossiers, ni à des pièces. Leur contenu sera renseigné dans un élément `<scopecontent>`, qui contiendra une `<list>` de tous ses `<items>`.
 
+- Des sous-dossiers peuvent exister dans les `<c level="recordgrp">` (par exemple une sous-division concernant le parc et le château d'un même édifice), dans ce cas des `<c level="subgrp">` seront créés.
+
 - *Les composants `<c level="item">` ne sont pas utilisés ici car ils servent à décrire les articles (les pièces) qui composent un dossier, ce qui correspond au plus petit niveau de description du plan de classement à encoder. Le niveau de description du fonds de l'instrument de recherche ne va pas jusqu'à la pièce, et s'arrête à des groupes de documents.*
 
 	> Article : Ensemble de *pièces* de même *provenance*, se rapportant à un même *objet* ou à une même affaire et dont l'importance matérielle n'excède pas la capacité d'une *unité matérielle de conditionnement*. L'article  constitue tout à la fois une *unité (intellectuelle) de description* et l'*unité (matérielle)* pour la *cotation*, le *rangement* et la *communication* des *documents d'archives*. 
 	> Pièce : La plus petite *unité de description* indivisible à la fois matériellement et intellectuellement (feuillet simple ou double, plusieurs feuillets agrafés, cahier, registre...) (*DTA*).
 
 
-### Exemples
+### Exemples : avant la transformation avec XSLT
 
 *Les exemples seront enrichis avec les productions des groupes*
 
@@ -226,15 +228,16 @@ Chaque élément `<c>` a un attribut `@type` qui précise le niveau de l'éléme
 </c>
 ```
 
-### La description des composants
+
+### La description des composants : avant la transformation avec XSLT
 #### Le did
 Il est important d'éviter la redondance des informations, ainsi on préfèrera préciser un maximum de choses au plus haut niveau (composant) possible, sans les répéter - sauf si c'est nécessaire - dans ses composants internes. 
 
 La description des composants `<c>` se fait principalement dans l'élément `<did>` (identification et description), qui s'y place en première position. Il contient obligatoirement au moins un élément `<unitid>` ou un élément `<unittitle>`.
 
-- L'élément `<unitid>` contient une cote, ou identifiant. On peut y renseigner les cotes extrêmes d'un regroupement de dossiers par exemple, ou la cote d'un dossier dans lequel on trouvera plusieurs items. S'il s'agit d'un intervalle de cotes (par exemple : "20110282/15-20110282/21"), on ajoutera un attribut `@type="identifiant` à l'`<unitid>`. S'il s'agit d'une cote simple (par exempe : "20110282/15"), on ajoutera un attribut `@type="cote-de-consultation"`.
+- L'élément `<unitid>` contient une cote, ou identifiant. On peut y renseigner les cotes extrêmes d'un regroupement de dossiers par exemple, ou la cote d'un dossier dans lequel on trouvera plusieurs items. S'il s'agit d'un intervalle de cotes (par exemple : "20110282/15-20110282/21"), on ajoutera un attribut `@type="identifiant` à l'`<unitid>`. S'il s'agit d'une cote simple (par exemple : "20110282/15"), on ajoutera un attribut `@type="cote-de-consultation"`.
 
-- L'élément `<unittitle>` sert à renseigner l'intitulé de l'élément décrit. Par exemple, dans le cas de "Dorure de la grille principale (1982)", l'intitulé sera: "Dorure de la grille principale", et la date sera placée dans un élément `<unitdate>`.
+- L'élément `<unittitle>` sert à renseigner l'intitulé de l'élément décrit. Par exemple, dans le cas des Archives nationales à Paris, l'intitulé sera: "Archives nationales".
 
 - L'élément `<unitdate>` correspond à une date (pour un item sur une date précise par exemple), ou à des dates extrêmes (par exemple sur toute l'étendue d'un dossier). Il est à utiliser une seule fois par composant. Les dates sont aussi à préciser dans son attribut `@normal` selon la norme [ISO 8601](https://fr.wikipedia.org/wiki/ISO_8601#La_notation_abr%C3%A9g%C3%A9e) (par exemple AAAA-MM-JJ pour un jour particulier ou AAAA/AAAA pour un intervalle de dates).
 
@@ -248,8 +251,40 @@ Les composants `<c>` sont à imbriquer à la suite du `<did>`, ainsi que des inf
 
 Les sous-dossiers et articles faisant partie des dossiers (dans les longs parapgraphes sous forme d'énumération d'items) sont à renseigner dans une `<list>` dans un `<scopecontent>` au sein du composant concerné. Chaque élément distinct correspond à un `<item>`. *Pour illustration, voir les exemples ci-dessus.*
 
+
+
+### Les composants : après la transformation avec XSLT
+
+Les choix d'encodage qui ont été faits et appliqués sur l'instrument de recherche ont fait l'objet de nombreuses discussions, en particulier le `<scopecontent>` contenant les listes d'items qui semblait peu adapté à l'ISAD(G) et à l'EAD. Le choix a donc été fait de transformer automatiquement les productions des groupes en une version encodée de l'instrument de recherche qui paraissait plus adaptée.
+
+Les principales modifications effectuées
+
+### Exemples : après la transformation avec XSLT
+
+
+#### Structure de dossier pour la série Programmation
+
+```XML
+```
+
+#### Structure de dossier pour la série Dossiers de travaux
+
+##### Quand un dossier ne comporte qu'un édifice
+
+```xml
+```
+
+##### Quand un dossier comporte plusieurs édifices
+
+```XML
+```
+
+
+### La description des composants : après la transformation avec XSLT
+#### Le did
+#### Après le did
+
+- Les notes de pas de page sont renseignées dans des paragraphes `<p>` dans un éléments `<scopecontent>`.
+
+
 # Documentation de l'encodage : le fichier EAC-CPF
-
-Norme ISAAR(CPF) : https://www.ica.org/sites/default/files/CBPS_Guidelines_ISAAR_Second-edition_FR.pdf
-
-EAC-CPF Tag Library : https://eac.staatsbibliothek-berlin.de/schema/taglibrary/cpfTagLibrary2019_EN.html

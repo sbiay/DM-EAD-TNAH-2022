@@ -26,3 +26,7 @@ Merci de nommer les branches sur le modèle suivant : `groupeN`, le "N" correspo
 # Issues
 
 Si vous rencontrez des problèmes ou si vous avez des questions, n'hésitez pas à ouvrir un nouvelle issue sur le dépôt et à y échanger vos idées !
+
+# Transformation
+
+Une fois que tous les groupes auront rendu leurs productions, l'instrument de recherche fera l'objet d'une transformation XSLT afin de mieux correspondre aux exigences de l'EAD.
