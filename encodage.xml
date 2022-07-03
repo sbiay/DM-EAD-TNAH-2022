@@ -450,7 +450,7 @@
                         <did>
                             <unitid type="cote-de-consultation">20110282/7</unitid>
                             <unittitle>Palais du Louvre</unittitle>
-                            <unitdate normal="1968/1987">1968-1987</unitdate>                            <!-- j'ai une date différente dans le doc : (1975-1986), j'en fait quoi ? -->
+                            <unitdate normal="1968/1987">1968-1987</unitdate>
                         </did>
                         <scopecontent>
                             <list>
@@ -864,7 +864,7 @@
                             </did>
                             <scopecontent>
                                 <list>
-                                    <item>Démolition des immeubles 3, 5, 7, 9 et 11 rue des Quatre Fils (1974-1983)</item>
+                                    <item>Démolition des immeubles 3, 5, 7, 9 et 11 rue des Quatre Fils</item>
                                 </list>
                             </scopecontent>
                         </c>
@@ -892,11 +892,11 @@
                         <did>
                             <unitid type="cote-de-consultation">20110282/23</unitid>
                             <unittitle>Bibliothèque de l'Arsenal</unittitle>
-                            <unitdate normal="1970/1988">1970-1988</unitdate>
+                            <unitdate normal="1982/1984">1982-1984</unitdate>
                         </did>
                         <scopecontent>
                             <list>
-                                <item>Ravalement de la façade sur le boulevard Morland (1982-1984). </item>
+                                <item>Ravalement de la façade sur le boulevard Morland</item>
                             </list>
                         </scopecontent>
                     </c>
@@ -904,7 +904,7 @@
                         <did>
                             <unitid type="cote-de-consultation">20110282/23</unitid>
                             <unittitle>Cathédrale Notre-Dame de Paris </unittitle>
-                            <unitdate normal="1970/1988">1970-1988</unitdate>
+                            <unitdate normal="1980/1988">1980-1988</unitdate>
                         </did>
                         <scopecontent>
                             <list>
@@ -921,7 +921,7 @@
                         <did>
                             <unitid type="cote-de-consultation">20110282/23</unitid>
                             <unittitle>Chapelle expiatoire</unittitle>
-                            <unitdate normal="1970/1988">1970-1988</unitdate>
+                            <unitdate normal="1982/1984">1982-1984</unitdate>
                         </did>
                         <scopecontent>
                             <list>
@@ -934,7 +934,7 @@
                         <did>
                             <unitid type="cote-de-consultation">20110282/23</unitid>
                             <unittitle>Collège de France</unittitle>
-                            <unitdate normal="1970/1988">1970-1988</unitdate>
+                            <unitdate normal="1970/1985">1970-1985</unitdate>
                         </did>
                         <scopecontent>
                             <list>
@@ -952,7 +952,7 @@
                         </did>
                         <scopecontent>
                             <list>
-                                <item>Restauration et réaménagement de la partie révolutionnaire (dossier photographique) (1987-1988)</item>
+                                <item>Restauration et réaménagement de la partie révolutionnaire (dossier photographique)</item>
                             </list>
                         </scopecontent>
                     </c>
@@ -1002,7 +1002,7 @@
                             </did>
                             <scopecontent>
                                 <list>
-                                    <item>Marchés de travaux (exercices 1984 à 1987)</item>
+                                    <item>Marchés de travaux</item>
                                 </list>
                             </scopecontent>
                         </c>
@@ -1014,7 +1014,7 @@
                             </did>
                             <scopecontent>
                                 <list>
-                                    <item>Marchés de travaux et réception des travaux (exercices 1988 à 1990)</item>
+                                    <item>Marchés de travaux et réception des travaux</item>
                                 </list>
                             </scopecontent>
                         </c>
@@ -1134,7 +1134,7 @@
                             </did>
                             <scopecontent>
                                 <list>
-                                    <item>Programmation, études et travaux (1969-1988)</item>
+                                    <item>Programmation, études et travaux</item>
                                 </list>
                             </scopecontent>
                         </c>
@@ -1160,19 +1160,18 @@
                             </scopecontent>
                         </c>
                     </c>
-                </c>
-                <c level="subseries">
-                    <did>
-                        <!-- cet identifiant est-il correct?-->
-                        <unitid type="identifiant">20110282/32-</unitid>
-                        <unittitle>Hôpital de la Salpêtrière</unittitle>
-                        <unitdate normal="1982/1990">1982-1990</unitdate>
-                    </did>
-                    <scopecontent>
-                        <list>
-                            <item>Modernisation du laboratoire de biochimie : plans (1987)</item>
-                        </list>
-                    </scopecontent>
+                    <c level="file">
+                        <did>
+                            <unitid type="identifiant">20110282/31</unitid>
+                            <unittitle>Hôpital de la Salpêtrière</unittitle>
+                            <unitdate normal="1987">1987</unitdate>
+                        </did>
+                        <scopecontent>
+                            <list>
+                                <item>Modernisation du laboratoire de biochimie : plans</item>
+                            </list>
+                        </scopecontent>
+                    </c>
                     <c level="file">
                         <did>
                             <unitid type="identifiant">20110282/32-20110282/33</unitid>
@@ -1258,7 +1257,7 @@
                             </did>
                             <scopecontent>
                                 <list>
-                                    <item>Restauration du dôme, du lanternon et de la flèche (couverture et dorure) (1988-1989)</item>
+                                    <item>Restauration du dôme, du lanternon et de la flèche (couverture et dorure)</item>
                                 </list>
                             </scopecontent>
                         </c>
@@ -1293,7 +1292,7 @@
                             </did>
                             <scopecontent>
                                 <list>
-                                    <item>Construction du musée national Picasso : DOE 2/2 (1985-1986)</item>
+                                    <item>Construction du musée national Picasso : DOE 2/2</item>
                                 </list>
                             </scopecontent>
                         </c>
@@ -1320,7 +1319,7 @@
                         </did>
                         <scopecontent>
                             <list>
-                                <item>Restauration du salon : rapports, correspondance, devis, plans, photographies (1983-1984)</item>
+                                <item>Restauration du salon : rapports, correspondance, devis, plans, photographies</item>
                             </list>
                         </scopecontent>
                     </c>
@@ -1346,7 +1345,7 @@
                         </did>
                         <scopecontent>
                             <list>
-                                <item>Remise en état des corniches et des moulures (1987-1989)</item>
+                                <item>Remise en état des corniches et des moulures</item>
                             </list>
                         </scopecontent>
                     </c>
@@ -1375,7 +1374,7 @@
                             </did>
                             <scopecontent>
                                 <list>
-                                    <item>Projet de création de bureaux et de salles de réunion (1982-1984)</item>
+                                    <item>Projet de création de bureaux et de salles de réunion</item>
                                 </list>
                             </scopecontent>
                         </c>
@@ -1386,7 +1385,7 @@
                             </did>
                             <scopecontent>
                                 <list>
-                                    <item>Projet d’aménagement d’un immeuble (1987-1989)</item>
+                                    <item>Projet d’aménagement d’un immeuble</item>
                                 </list>
                             </scopecontent>
                         </c>
@@ -1399,7 +1398,7 @@
                         </did>
                         <scopecontent>
                             <list>
-                                <item>Travaux de grosses réparations et travaux sur l’escalier du jardin (1984)</item>
+                                <item>Travaux de grosses réparations et travaux sur l’escalier du jardin</item>
                             </list>
                         </scopecontent>
                     </c>
@@ -1411,7 +1410,7 @@
                         </did>
                         <scopecontent>
                             <list>
-                                <item>Remise en état du jardin intérieur (1987)</item>
+                                <item>Remise en état du jardin intérieur</item>
                             </list>
                         </scopecontent>
                     </c>
@@ -1442,7 +1441,7 @@
                         </did>
                         <scopecontent>
                             <list>
-                                <item>Réfection des portes d’entrée (1988)</item>
+                                <item>Réfection des portes d’entrée</item>
                             </list>
                         </scopecontent>
                     </c>
@@ -1454,7 +1453,7 @@
                         </did>
                         <scopecontent>
                             <list>
-                                <item>Réfection des portes d’entrée (1988)</item>
+                                <item>Réfection des portes d’entrée</item>
                             </list>
                         </scopecontent>
                     </c>
@@ -1485,7 +1484,7 @@
                         </did>
                         <scopecontent>
                             <list>
-                                <item>Travaux d’assainissement (1987-1988)</item>
+                                <item>Travaux d’assainissement</item>
                             </list>
                         </scopecontent>
                     </c>
@@ -1507,9 +1506,8 @@
                     <!-- Groupe 5 : début de l'encodage -->
                     <c level="file">
                         <did>
-                            <unitid type="identifiant">20110282/41</unitid>
+                            <unitid type="cote-de-consultation">20110282/41</unitid>
                             <unittitle>Musée national du Moyen-Age, Thermes et Hôtel de Cluny</unittitle>
-                            <!-- note de bas de page? -->
                             <unitdate normal="1978/1989">1978-1989</unitdate>
                         </did>
                         <scopecontent>
@@ -1672,7 +1670,7 @@
                         <c level="recordgrp">
                             <did>
                                 <unitid type="cote-de-consultation">20110282/45</unitid>
-                                <unittitle>Aile de Paris </unittitle>
+                                <unittitle>Aile de Paris</unittitle>
                                 <unitdate normal="1980/1987">1980-1987</unitdate>
                             </did>
                             <scopecontent>
@@ -2015,7 +2013,7 @@
                             </did>
                             <scopecontent>
                                 <list>
-                                    <item>Entretien et rénovation du jardin (1979-1987) : plan d’aménagement directeur du jardin, règlement et surveillance du jardin, vols et dégradations, abattage et plantation d’arbres, réfection des allées, des bassins, des statues, protection des abords, aménagement de la place du Louvre et statue du Bernin, arc de triomphe du Carrousel, projet de passerelle Louvre-Orsay. </item>
+                                    <item>Entretien et rénovation du jardin : plan d’aménagement directeur du jardin, règlement et surveillance du jardin, vols et dégradations, abattage et plantation d’arbres, réfection des allées, des bassins, des statues, protection des abords, aménagement de la place du Louvre et statue du Bernin, arc de triomphe du Carrousel, projet de passerelle Louvre-Orsay</item>
                                 </list>
                             </scopecontent>
                         </c>
@@ -2149,7 +2147,7 @@
                             </did>
                             <scopecontent>
                                 <list>
-                                    <item>Transformation en salle de spectacle : DCE-PEO (1984)</item>
+                                    <item>Transformation en salle de spectacle : DCE-PEO</item>
                                 </list>
                             </scopecontent>
                         </c>
@@ -2230,11 +2228,11 @@
                     <did>
                         <unitid type="identifiant">20110282/60-20110282/63</unitid>
                         <unittitle>Seine-et-Marne (77)</unittitle>
-                        <unitdate normal="1970/1988">1970-1988</unitdate>
+                        <unitdate normal="1970/1988">1962-1988</unitdate>
                     </did>
                     <c level="file">
                         <did>
-                            <unitid type="identifiant">20110282/60</unitid>
+                            <unitid type="cote-de-consultation">20110282/60</unitid>
                             <unittitle>Champs-sur-Marne -- Domaine national</unittitle>
                             <unitdate normal="1979/1985">1979-1985</unitdate>
                         </did>
@@ -2250,64 +2248,102 @@
                     </c>
                     <c level="file">
                         <did>
-                            <unitid type="identifiant">20110282/61</unitid>
+                            <unitid type="identifiant">20110282/60-20110282/61</unitid>
                             <unittitle>Fontainebleau -- Archives nationales, Cité interministérielle des archives, puis Cité des archives contemporaines</unittitle>
                             <unitdate normal="1962/1988">1962-1988</unitdate>
                         </did>
-                        <scopecontent>
-                            <list>
-                                <item>Choix du site et de l’architecte, programme, financement (1962, 1967-1982)</item>
-                                <item>Construction d’un dépôt d’archives provisoire (1970-1972) et construction de l’unité 1 de stockage des archives (1974-1975) : suivi des travaux</item>
-                                <item>Construction de l’unité 2 : DCE, présentation à la CSM, suivi des travaux (1980-1985)</item>
-                                <item>Transfert d’un bâtiment d’archives provisoire des Archives nationales (Paris) à la Cité des archives contemporaines (1988)</item>
-                            </list>
-                        </scopecontent>
-                    </c>
-                    <c level="file">
-                        <did>
-                            <unitid type="identifiant">20110282/62-20110282/63</unitid>
-                            <unittitle>Fontainebleau -- Domaine national</unittitle>
-                            <unitdate normal="1979/1988">1979-1988</unitdate>
-                        </did>
                         <c level="recordgrp">
                             <did>
-                                <unitid type="identifiant">20110282/62-20110282/63</unitid>
-                                <unittitle>Château</unittitle>
+                                <unitid type="cote-de-consultation">20110282/60</unitid>
+                                <unittitle></unittitle>
+                                <unitdate normal="1962/1985">1962-1985</unitdate>
                             </did>
                             <scopecontent>
                                 <list>
-                                    <item>Restauration des façades et couvertures du pavillon de Maintenon, porte Dorée (1979-1980). </item>
-                                    <item>Reconstitution de la grille de la loggia au 1er étage de la porte Dorée (1980)</item>
-                                    <item>Restauration des croisées de la façade du Fer à Cheval (1981)</item>
-                                    <item>Couverture de l’aile des Reines Mères (1981-1983)</item>
-                                    <item>Ravalement de la Cour des Princes (1981-1983)</item>
-                                    <item>Aile des Princes : aménagement des réserves au 2ème étage (1981-1984)</item>
-                                    <item>Aile Maintenon : réfection de la loggia de l’appartement de Madame de Maintenon (1982)</item>
-                                    <item>Création d’un poste de transformation dans l’aile des Reines Mères (1984-1987)</item>
-                                    <item>Réhabilitation de divers locaux sur la Cour ovale, Cour des Princes et aménagement de circulation (1980-1983)</item>
-                                    <item>Aménagement des réserves au deuxième étage de l’aile des Princes (1984)</item>
-                                    <item>Pavillon de Maintenon – Porte Dorée, restauration des façades et couvertures (1979-1980)</item>
-                                    <item>Réfection de la loggia de l’appartement de Madame de Maintenon (1982-1983)</item>
-                                    <item>Façade du Fer à Cheval : travaux de couverture et restauration des croisées (1981-1983)</item>
-                                    <item>Restauration du salon des laques (1980-1982)</item>
-                                    <item>Restitution de l’estrade de la salle de bal (1982-1983)</item>
-                                    <item>Nettoyage et aménagement de locaux au quartier Henri IV (1983)</item>
-                                    <item>Réparation du fronton du pavillon central (1983-1984)</item>
-                                    <item>Restauration du porche devant la nouvelle sortie des visiteurs (1984)</item>
-                                    <item>Boudoir de la Reine, restauration du trumeau à glace sans tain (1985-1987)</item>
-                                    <item>Restauration de l’appartement du Pape (1987-1989)</item>
-                                    <item>Chapelle de la Trinité : repose des vitraux du premier étage côté jardin de Diane et projet d’étude préalable sur les stalles de la tribune (1985-1987)</item>
-                                    <item>Restauration du pavillon des orgues, deuxième tranche (1987)</item>
-                                    <item>Aile des ministres : restauration du pavillon des orgues (1987-1989). </item>
-                                    <item>Refixage des fresques de la salle de bal (1988)</item>
-                                    <item>Aménagement du Musée napoléonien dans l’aile Louis XV (1980-1985)</item>
+                                    <item>Choix du site et de l’architecte, programme, financement (1962, 1967-1982)</item>
+                                    <item>Construction d’un dépôt d’archives provisoire (1970-1972) et construction de l’unité 1 de stockage des archives (1974-1975) : suivi des travaux</item>
                                 </list>
                             </scopecontent>
                         </c>
                         <c level="recordgrp">
                             <did>
-                                <unitid type="identifiant">20110282/63</unitid>
+                                <unitid type="cote-de-consultation">20110282/61</unitid>
+                                <unittitle></unittitle>
+                                <unitdate normal="1980/1988">1980-1988</unitdate>
+                            </did>
+                            <scopecontent>
+                                <list>
+                                    <item>Construction de l’unité 2 : DCE, présentation à la CSM, suivi des travaux (1980-1985)</item>
+                                    <item>Transfert d’un bâtiment d’archives provisoire des Archives nationales (Paris) à la Cité des archives contemporaines (1988)</item>
+                                </list>
+                            </scopecontent>
+                        </c>
+                    </c>
+                    <c level="file">
+                        <did>
+                            <unitid type="identifiant">20110282/62-20110282/63</unitid>
+                            <unittitle>Fontainebleau -- Domaine national</unittitle>
+                            <unitdate normal="1979/1988">1979-1989</unitdate>
+                        </did>
+                        <c level="recordgrp">
+                            <did>
+                                <unitid type="identifiant">20110282/62-20110282/63</unitid>
+                                <unittitle>Château</unittitle>
+                                <unitdate normal="1979-1989"></unitdate>
+                            </did>
+                            <c level="subgrp">
+                                <did>
+                                    <unitid type="cote-de-consultation">20110282/62</unitid>
+                                    <unittitle></unittitle>
+                                    <unitdate normal="1979/1989">1979-1989</unitdate>
+                                </did>
+                                <scopecontent>
+                                    <list>
+                                        <item>Restauration des façades et couvertures du pavillon de Maintenon, porte Dorée (1979-1980). </item>
+                                        <item>Reconstitution de la grille de la loggia au 1er étage de la porte Dorée (1980)</item>
+                                        <item>Restauration des croisées de la façade du Fer à Cheval (1981)</item>
+                                        <item>Couverture de l’aile des Reines Mères (1981-1983)</item>
+                                        <item>Ravalement de la Cour des Princes (1981-1983)</item>
+                                        <item>Aile des Princes : aménagement des réserves au 2ème étage (1981-1984)</item>
+                                        <item>Aile Maintenon : réfection de la loggia de l’appartement de Madame de Maintenon (1982)</item>
+                                        <item>Création d’un poste de transformation dans l’aile des Reines Mères (1984-1987)</item>
+                                        <item>Réhabilitation de divers locaux sur la Cour ovale, Cour des Princes et aménagement de circulation (1980-1983)</item>
+                                        <item>Aménagement des réserves au deuxième étage de l’aile des Princes (1984)</item>
+                                        <item>Pavillon de Maintenon – Porte Dorée, restauration des façades et couvertures (1979-1980)</item>
+                                        <item>Réfection de la loggia de l’appartement de Madame de Maintenon (1982-1983)</item>
+                                        <item>Façade du Fer à Cheval : travaux de couverture et restauration des croisées (1981-1983)</item>
+                                        <item>Restauration du salon des laques (1980-1982)</item>
+                                        <item>Restitution de l’estrade de la salle de bal (1982-1983)</item>
+                                        <item>Nettoyage et aménagement de locaux au quartier Henri IV (1983)</item>
+                                        <item>Réparation du fronton du pavillon central (1983-1984)</item>
+                                        <item>Restauration du porche devant la nouvelle sortie des visiteurs (1984)</item>
+                                        <item>Boudoir de la Reine, restauration du trumeau à glace sans tain (1985-1987)</item>
+                                        <item>Restauration de l’appartement du Pape (1987-1989)</item>
+                                        <item>Chapelle de la Trinité : repose des vitraux du premier étage côté jardin de Diane et projet d’étude préalable sur les stalles de la tribune (1985-1987)</item>
+                                        <item>Restauration du pavillon des orgues, deuxième tranche (1987)</item>
+                                        <item>Aile des ministres : restauration du pavillon des orgues (1987-1989). </item>
+                                        <item>Refixage des fresques de la salle de bal (1988)</item>
+                                    </list>
+                                </scopecontent>
+                            </c>
+                            <c level="subgrp">
+                                <did>
+                                    <unitid type="cote-de-consultation">20110282/63</unitid>
+                                    <unittitle></unittitle>
+                                    <unitdate normal="1980/1985">1980-1985</unitdate>
+                                </did>
+                                <scopecontent>
+                                    <list>
+                                        <item>Aménagement du Musée napoléonien dans l’aile Louis XV</item>
+                                    </list>
+                                </scopecontent>
+                            </c>
+                        </c>
+                        <c level="recordgrp">
+                            <did>
+                                <unitid type="cote-de-consultation">20110282/63</unitid>
                                 <unittitle>Parc</unittitle>
+                                <unitdate normal="1981/1987">1981-1987</unitdate>
                             </did>
                             <scopecontent>
                                 <list>
@@ -2326,19 +2362,19 @@
                     </c>
                     <c level="file">
                         <did>
-                            <unitid type="identifiant">20110282/63</unitid>
+                            <unitid type="cote-de-consultation">20110282/63</unitid>
                             <unittitle>Jossigny -- Château</unittitle>
                             <unitdate normal="1983/1985">1983-1985</unitdate>
                         </did>
                         <scopecontent>
                             <list>
-                                <item>Restauration du décor du fronton de la grille principale de la cour d’honneur (1983-1985)</item>
+                                <item>Restauration du décor du fronton de la grille principale de la cour d’honneur</item>
                             </list>
                         </scopecontent>
                     </c>
                     <c level="file">
                         <did>
-                            <unitid type="identifiant">20110282/63</unitid>
+                            <unitid type="cote-de-consultation">20110282/63</unitid>
                             <unittitle>Meaux -- Cathédrale</unittitle>
                             <unitdate normal="1972/1982">1972-1982</unitdate>
                         </did>
@@ -2351,7 +2387,7 @@
                     </c>
                     <c level="file">
                         <did>
-                            <unitid type="identifiant">20110282/63</unitid>
+                            <unitid type="cote-de-consultation">20110282/63</unitid>
                             <unittitle>Provins -- Ancien couvent des Cordelières (Bibliothèque nationale)</unittitle>
                             <unitdate normal="1982/1988">1982-1988</unitdate>
                         </did>
@@ -2375,19 +2411,37 @@
                             <unittitle>Bois d'Arcy -- Batterie (Centre national de la cinématographie)</unittitle>
                             <unitdate normal="1979/1991">1979-1991</unitdate>
                         </did>
-                        <scopecontent>
-                            <list>
-                                <item>Construction d’une réserve de films (bâtiment D) (1979-1980)</item>
-                                <item>Construction d’un bâtiment de laboratoires (1981-1984) (photographies, s.d.)</item>
-                                <item>Construction de cellules de stockage de films nitrate (1983, 1986-1990)</item>
-                                <item>Travaux de sécurité (1988)</item>
-                                <item>Réhabilitation du casernement central : étude de programmation (1985), étude de faisabilité, DCE : plans et correspondance (1988-1991)</item>
-                            </list>
-                        </scopecontent>
+                        <c level="recordgrp">
+                            <did>
+                                <unitid type="cote-de-consultation">20110282/64</unitid>
+                                <unittitle></unittitle>
+                                <unitdate normal="1979/1980">1979-1980</unitdate>
+                            </did>
+                            <scopecontent>
+                                <list>
+                                    <item>Construction d’une réserve de films (bâtiment D) (1979-1980)</item>
+                                    <item>Construction d’un bâtiment de laboratoires (1981-1984) (photographies, s.d.)</item>
+                                </list>
+                            </scopecontent>
+                        </c>
+                        <c level="recordgrp">
+                            <did>
+                                <unitid type="cote-de-consultation">20110282/65</unitid>
+                                <unittitle></unittitle>
+                                <unitdate normal="1983/1991">1983-1991</unitdate>
+                            </did>
+                            <scopecontent>
+                                <list>
+                                    <item>Construction de cellules de stockage de films nitrate (1983, 1986-1990)</item>
+                                    <item>Travaux de sécurité (1988)</item>
+                                    <item>Réhabilitation du casernement central : étude de programmation (1985), étude de faisabilité, DCE : plans et correspondance (1988-1991)</item>
+                                </list>
+                            </scopecontent>
+                        </c>
                     </c>
                     <c level="file">
                         <did>
-                            <unitid type="identifiant">20110282/66</unitid>
+                            <unitid type="cote-de-consultation">20110282/66</unitid>
                             <unittitle>Magny-les-Hameaux -- Musée des Granges de Port-Royal</unittitle>
                             <unitdate normal="1982/1989">1982-1989</unitdate>
                         </did>
@@ -2403,7 +2457,7 @@
                     </c>
                     <c level="file">
                         <did>
-                            <unitid type="identifiant">20110282/66</unitid>
+                            <unitid type="cote-de-consultation">20110282/66</unitid>
                             <unittitle>Marly-le-Roi -- Domaine national</unittitle>
                             <unitdate normal="1985/1988">1985-1988</unitdate>
                         </did>
@@ -2422,18 +2476,19 @@
                         </did>
                         <c level="recordgrp">
                             <did>
+                                <unitid type="cote-de-consultation">20110282/66</unitid>
                                 <unittitle>Archives photographiques</unittitle>
                                 <unitdate normal="1981/1989">1981-1989</unitdate>
                             </did>
                             <scopecontent>
                                 <list>
-                                    <item>Archives photographiques</item>
                                     <item>Aménagement de la photothèque : DCE, marchés de travaux (1981-1984)</item>
                                 </list>
                             </scopecontent>
                         </c>
                         <c level="recordgrp">
                             <did>
+                                <unitid type="cote-de-consultation">20110282/67</unitid>
                                 <unittitle>Centre national de la cinématographie</unittitle>
                                 <unitdate normal="1983/1991">1983-1991</unitdate>
                             </did>
@@ -2446,22 +2501,40 @@
                         </c>
                         <c level="recordgrp">
                             <did>
+                                <unitid type="identifiant">20110282/67-20110282/68</unitid>
                                 <unittitle>Centre de calcul du ministère de la Culture</unittitle>
                                 <unitdate normal="1984/1987">1984-1987</unitdate>
                             </did>
-                            <scopecontent>
-                                <list>
-                                    <item>Programmation, marché de maîtrise d’œuvre, permis de construire, suivi du projet (1984)</item>
-                                    <item>DCE : pièces écrites et plans (1984)</item>
-                                    <item>Marchés de travaux (1984-1987)</item>
-                                    <item>DOE : plans (1985)</item>
-                                </list>
-                            </scopecontent>
+                            <c level="subgrp">
+                                <did>
+                                    <unitid type="cote-de-consultation">20110282/67</unitid>
+                                    <unittitle></unittitle>
+                                </did>
+                                <scopecontent>
+                                    <list>
+                                        <item>Programmation, marché de maîtrise d’œuvre, permis de construire, suivi du projet (1984)</item>
+                                        <item>DCE : pièces écrites et plans (1984)</item>
+                                        <item>Marchés de travaux (1984-1987)</item>
+                                    </list>
+                                </scopecontent>
+                            </c>
+                            <c level="subgrp">
+                                <did>
+                                    <unitid type="cote-de-consultation">20110282/68</unitid>
+                                    <unittitle></unittitle>
+                                </did>
+                                <scopecontent>
+                                    <list>
+                                        <item>Marchés de travaux (1984-1987)</item>
+                                        <item>DOE : plans (1985)</item>
+                                    </list>
+                                </scopecontent>
+                            </c>
                         </c>
                     </c>
                     <c level="file">
                         <did>
-                            <unitid type="identifiant">20110282/68</unitid>
+                            <unitid type="cote-de-consultation">20110282/68</unitid>
                             <unittitle>Poissy -- Villa Savoye</unittitle>
                             <unitdate normal="1988/1989">1988-1989</unitdate>
                         </did>
@@ -2474,7 +2547,7 @@
                     </c>
                     <c level="file">
                         <did>
-                            <unitid type="identifiant">20110282/68</unitid>
+                            <unitid type="cote-de-consultation">20110282/68</unitid>
                             <unittitle>Rambouillet - Château</unittitle>
                             <unitdate normal="1983/1989">1983-1989</unitdate>
                         </did>
@@ -2492,7 +2565,7 @@
                     </c>
                     <c level="file">
                         <did>
-                            <unitid type="identifiant">20110282/69</unitid>
+                            <unitid type="cote-de-consultation">20110282/69</unitid>
                             <unittitle>Saint-Arnoult-en-Yvelines -- Moulin de Villeneuve (Fondation Elsa Triolet -- Aragon)</unittitle>
                             <unitdate normal="1949/1989">1949-1989</unitdate>
                         </did>
@@ -2505,7 +2578,7 @@
                     </c>
                     <c level="file">
                         <did>
-                            <unitid type="identifiant">20110282/69</unitid>
+                            <unitid type="cote-de-consultation">20110282/69</unitid>
                             <unittitle>Saint-Germain-en-Laye -- Domaine national</unittitle>
                             <unitdate normal="1980/1989">1980-1989</unitdate>
                         </did>
@@ -2522,32 +2595,32 @@
                     </c>
                     <c level="file">
                         <did>
-                            <unitid type="identifiant">20110282/69</unitid>
+                            <unitid type="cote-de-consultation">20110282/69</unitid>
                             <unittitle>Thiverval-Grignon -- Institut national agronomique</unittitle>
                             <unitdate normal="1979/1990">1979-1990</unitdate>
                         </did>
                         <scopecontent>
                             <list>
-                                <item>Expéditions d’actes notariés, dont l’achat du moulin par Elsa Kagan (1949, 1966)</item>
-                                <item>Travaux de restauration et d’aménagement des bâtiments, du par cet du système hydraulique  notes, correspondance, étude de faisabilité, APS et relevés de géomètre (1986-1989)</item>
+                                <item>Réfection et peinture des menuiseries extérieures du château (1979-1982)</item>
+                                <item>Projet d’aménagement des abords du château (1987)</item>
                             </list>
                         </scopecontent>
                     </c>
                     <c level="file">
                         <did>
-                            <unitid type="identifiant">20110282/70</unitid>
+                            <unitid type="cote-de-consultation">20110282/70</unitid>
                             <unittitle>Versailles -- Camp de Satory </unittitle>
-                            <unitdate normal="1968/1989">1968-1989</unitdate>
+                            <unitdate normal="1984">1984</unitdate>
                         </did>
                         <scopecontent>
                             <list>
-                                <item>Restauration du Mur des Fédérés (1984)</item>
+                                <item>Restauration du Mur des Fédérés</item>
                             </list>
                         </scopecontent>
                     </c>
                     <c level="file">
                         <did>
-                            <unitid type="identifiant">20110282/70</unitid>
+                            <unitid type="cote-de-consultation">20110282/70</unitid>
                             <unittitle>Versailles -- Domaine national</unittitle>
                             <unitdate normal="1968/1989">1968-1989</unitdate>
                         </did>
@@ -2593,44 +2666,42 @@
                 </c>
                 <c level="subseries">
                     <did>
-                        <unitid type="identifiant">20110282/71</unitid>
+                        <unitid type="cote-de-consultation">20110282/71</unitid>
                         <unittitle>Essonne (91)</unittitle>
-                        <unitdate normal="1975/1993">1975-1993</unitdate>
+                        <unitdate normal="1980/1983">1980-1983</unitdate>
                     </did>
                     <c level="file">
                         <did>
-                            <unitid type="identifiant">20110282/71</unitid>
                             <unittitle>Chamarande - Château</unittitle>
-                            <unitdate normal="1975/1993">1975-1993</unitdate>
+                            <unitdate normal="1975/1993">1980</unitdate>
                         </did>
                         <scopecontent>
                             <list>
-                                <item>Clos et couvert : DCE (1980)</item>
+                                <item>Clos et couvert : DCE</item>
                             </list>
                         </scopecontent>
                     </c>
                     <c level="file">
                         <did>
-                            <unitid type="identifiant">20110282/71</unitid>
                             <unittitle>Souzy-la-Briche -- Château (RP)</unittitle>
-                            <unitdate normal="1975/1993">1975-1993</unitdate>
+                            <unitdate normal="1983">1983</unitdate>
                         </did>
                         <scopecontent>
                             <list>
-                                <item>Rénovation du comble (1983)</item>
+                                <item>Rénovation du comble</item>
                             </list>
                         </scopecontent>
                     </c>
                 </c>
                 <c level="subseries">
                     <did>
-                        <unitid type="identifiant">20110282/71</unitid>
+                        <unitid type="identifiant">20110282/71-20110282/72</unitid>
                         <unittitle>Hauts-de-Seine (92)</unittitle>
                         <unitdate normal="1975/1993">1975-1993</unitdate>
                     </did>
                     <c level="file">
                         <did>
-                            <unitid type="identifiant">20110282/71></unitid>
+                            <unitid type="cote-de-consultation">20110282/71></unitid>
                             <unittitle>Meudon -- Domaine national</unittitle>
                             <unitdate normal="1975/1993">1975-1993</unitdate>
                         </did>
@@ -2643,28 +2714,21 @@
                     </c>
                     <c level="file">
                         <did>
-                            <unitid type="identifiant">20110282/71</unitid>
+                            <unitid type="cote-de-consultation">20110282/71</unitid>
                             <unittitle>Meudon -- Villa des Brillants</unittitle>
-                            <unitdate normal="1975/1993">1975-1993</unitdate>
+                            <unitdate normal="1989">1989</unitdate>
                         </did>
                         <scopecontent>
                             <list>
-                                <item>Nettoyage des fresques de la salle de bain (1989)</item>
+                                <item>Nettoyage des fresques de la salle de bain</item>
                             </list>
                         </scopecontent>
                     </c>
-                    <!-- <c level="file">
-                        <did>
-                        <unitid type="identifiant"><-compléter-></unitid>
-                        <unittitle></unittitle>
-                        <unitdate normal=""><-compléter-></unitdate>
-                        </did>
-                        </c> -->
                     <c level="file">
                         <did>
-                            <unitid type="identifiant">201102802/71</unitid>
+                            <unitid type="cote-de-consultation">201102802/71</unitid>
                             <unittitle>Rueil-Malmaison -- Domaine national de Malmaison</unittitle>
-                            <unitdate normal="1975/1993">1975-1993</unitdate>                            <!-- on peut faire remonter au niveau de la sous-série -->
+                            <unitdate normal="1975/1993">1975-1993</unitdate>
                         </did>
                         <scopecontent>
                             <list>
@@ -2688,7 +2752,7 @@
                     </c>
                     <c level="file">
                         <did>
-                            <unitid type="identifiant">20110282/72</unitid>
+                            <unitid type="cote-de-consultation">20110282/72</unitid>
                             <unittitle>Saint-Cloud -- Domaine national</unittitle>
                             <unitdate normal="1973/1990">1973-1990</unitdate>
                         </did>
@@ -2706,7 +2770,7 @@
                     </c>
                     <c level="file">
                         <did>
-                            <unitid type="identifiant">20110282/72</unitid>
+                            <unitid type="cote-de-consultation">20110282/72</unitid>
                             <unittitle>Sèvres -- Manufacture</unittitle>
                             <unitdate normal="1973/1990">1973-1990</unitdate>
                         </did>
@@ -2721,7 +2785,7 @@
                     </c>
                     <c level="file">
                         <did>
-                            <unitid type="identifiant">20110282/72</unitid>
+                            <unitid type="cote-de-consultation">20110282/72</unitid>
                             <unittitle>Suresnes -- Fort du Mont-Valérien</unittitle>
                             <unitdate normal="1973/1990">1973-1990</unitdate>
                         </did>
@@ -2734,17 +2798,18 @@
                 </c>
                 <c level="subseries">
                     <did>
+                        <unitid type="cote-de-consultation">20110282/73</unitid>
                         <unittitle>Val-de-Marne (94)</unittitle>
                         <unitdate normal="1969/1988">1969-1988</unitdate>
                     </did>
                     <c level="file">
                         <did>
-                            <unitid type="identifiant">20110282/73</unitid>
                             <unittitle>Vincennes -- Château</unittitle>
                         </did>
                         <c level="recordgrp">
                             <did>
                                 <unittitle>Donjon</unittitle>
+                                <unitdate normal="1970/1988">1970-1988</unitdate>
                             </did>
                             <scopecontent>
                                 <list>
@@ -2763,6 +2828,7 @@
                         <c level="recordgrp">
                             <did>
                                 <unittitle>Sainte-Chapelle</unittitle>
+                                <unitdate normal="1970/1987">1970-1987</unitdate>
                             </did>
                             <scopecontent>
                                 <list>
@@ -2777,16 +2843,18 @@
                         <c level="recordgrp">
                             <did>
                                 <unittitle>Tour du Roi</unittitle>
+                                <unitdate normal="1982/1985">1982-1985</unitdate>
                             </did>
                             <scopecontent>
                                 <list>
-                                    <item>Travaux de restauration sur les façades (1982-1985)</item>
+                                    <item>Travaux de restauration sur les façades</item>
                                 </list>
                             </scopecontent>
                         </c>
                         <c level="recordgrp">
                             <did>
                                 <unittitle>Tour du Village</unittitle>
+                                <unitdate normal="1970/1987">1970-1987</unitdate>
                             </did>
                             <scopecontent>
                                 <list>
@@ -2798,6 +2866,7 @@
                         <c level="recordgrp">
                             <did>
                                 <unittitle>Pavillon de la Reine</unittitle>
+                                <unitdate normal="1979/1987">1979-1987</unitdate>
                             </did>
                             <scopecontent>
                                 <list>
@@ -2809,6 +2878,7 @@
                         <c level="recordgrp">
                             <did>
                                 <unittitle>Pavillon du Roi</unittitle>
+                                <unitdate normal="1969/1988">1969-1988</unitdate>
                             </did>
                             <scopecontent>
                                 <list>
@@ -2827,13 +2897,14 @@
                 </c>
                 <c level="subseries">
                     <did>
+                        <unitid type="cote-de-consultation">20110282/74</unitid>
                         <unittitle>Val-d'Oise (95)</unittitle>
                         <unitdate normal="1975/1989">1975-1989</unitdate>
                     </did>
                     <c level="file">
                         <did>
-                            <unitid type="identifiant">20110282/74</unitid>
                             <unittitle>Ecouen -- Château</unittitle>
+                            <unitdate normal="1977/1989">1977-1989</unitdate>
                         </did>
                         <scopecontent>
                             <list>
@@ -2860,23 +2931,23 @@
                     </c>
                     <c level="file">
                         <did>
-                            <unitid type="identifiant">20110282/74</unitid>
                             <unittitle>Ecouen -- Fort</unittitle>
+                            <unitdate normal="1975/1982">1975-1982</unitdate>
                         </did>
                         <scopecontent>
                             <list>
-                                <item>Construction d’un logement de gardien (1975-1982)</item>
+                                <item>Construction d’un logement de gardien</item>
                             </list>
                         </scopecontent>
                     </c>
                     <c level="file">
                         <did>
-                            <unitid type="identifiant">20110282/74</unitid>
                             <unittitle>Saint-Ouen-l'Aumône -- Abbaye de Maubuisson</unittitle>
+                            <unitdate normal="1979">1979</unitdate>
                         </did>
                         <scopecontent>
                             <list>
-                                <item>Plans (1979)</item>
+                                <item>Plans</item>
                             </list>
                         </scopecontent>
                     </c>
