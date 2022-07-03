@@ -153,7 +153,7 @@ Chaque élément `<c>` a un attribut `@type` qui précise le niveau de l'éléme
 	            </list>
 	        </scopecontent>
 	    </c>
-	</c>
+	</c
 </c>
 ```
 
