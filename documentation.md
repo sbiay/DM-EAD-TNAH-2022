@@ -48,7 +48,7 @@ Il comprend en premier lieu un élément `<did>` dans lequel se trouvent les pri
 
 - L'élément `<unitdate>` sert à indiquer les dates du fonds, ou la période qui le concerne, avec les dates extrêmes, dont la forme normalisée est donnée par l'attribut `@normal`.
 
-- Dans un élément `<origination>`, on décrit le producteur. Celui du présent fonds étant une organisation et non une personne physique, c'est l'élément `<corpname>` qui a été utilisé pour le décrire.
+- Dans un élément `<origination>`, on décrit le producteur. Celui du présent fonds étant une organisation et non une personne physique, c'est l'élément `<corpname>` qui a été utilisé pour le décrire. Il prend un attribut `@authfilenumber` qui permet de le lier à la notice EAC-CPF du producteur : ici `<corpname authfilenumber="FRAN_NP_005412">Conservation régionale des monuments historiques d'Île-de-France</corpname>`
 
 - Dans le `<physdesc>`, on décrit les documents physiques et leur conditionnement: dans le cas présent, on utilise un élément `<extent>` pour donner des informations sur l'importance matérielle du fonds, et un élément `<dimensions>` pour en préciser les dimensions en mètres linéaires. 
 
@@ -58,7 +58,7 @@ Les conditions d'utilisations sont ensuite précisées dans un autre élément `
 
 L'élément `<acqinfo>` sert à décrire l'historique des versements du fonds aux Archives nationales. Chaque versement y est indiqué dans un élément `<p>` distinct s'il y a besoin d'en indiquer plusieurs, et les dates de versements sont indiquées dans des éléments `<date>`.
 
-L'élément `<bioghist>` sert à donner des renseignements sur l'histoire du producteur. Le texte y est structuré en un ou plusieurs paragraphes `<p>` au sein de cet élément.
+L'élément `<bioghist>` sert à donner des renseignements sur l'histoire du producteur. Le texte y est structuré en un ou plusieurs paragraphes `<p>` au sein de cet élément. Il peut sembler redondant avec la notice EAC-CPF qui décrit aussi le producteur : cette question a fait l'objet de discussions entre les groupes, et il a été décidé de conserver le `<bioghist>` en plus de la notice en EAC-CPF. En effet, un utilisateur peut ne consulter que l'instrument de recherche et non la notice sur le producteur, ces informations peuvent donc lui être utiles. De même, il est utile de fournir ces informations aussi dans la notice EAC-CPF, car un utilisateur peut la consulter sans nécessairement chercher des informations dans cet instrument de recherche en particulier.
 
 L'élément `<custodhist>` sert à retracer l'historique de la conservation des documents avant leur versement aux Archives nationales. Chaque étape est indiquée dans un `<p>` distinct.
 
@@ -254,9 +254,14 @@ Les sous-dossiers et articles faisant partie des dossiers (dans les longs parapg
 
 
 
-### Les composants : après la transformation avec XSLT
+### Les composants et la description des composants : après la transformation avec XSLT
 
-Les choix d'encodage qui ont été faits et appliqués sur l'instrument de recherche ont fait l'objet de nombreuses discussions, en particulier le `<scopecontent>` contenant les listes d'items qui semblait peu adapté à l'ISAD(G) et à l'EAD. Le choix a donc été fait de transformer automatiquement les productions des groupes en une version encodée de l'instrument de recherche qui paraissait plus adaptée.
+Les choix d'encodage qui ont été faits et appliqués sur l'instrument de recherche ont fait l'objet de nombreuses discussions, en particulier le `<scopecontent>` contenant les listes d'items qui semblait peu adapté aux exigences de l'ISAD(G) et de l'EAD. Le choix a donc été fait de transformer automatiquement avec XSLT les productions des groupes en une version encodée de l'instrument de recherche qui paraissait plus adaptée.
+
+En effet, ces listes d'items (correspondant aux paragraphes dans l'instrument de recherche) correspondaient à des sous-niveaux qui pouvaient être structurés plus finement en EAD à l'aide de `<c level="subgroup">`. Ils se présente sous une forme régulière ("Nom de lieu" suivi de ":", et listes d'items régulières grâce au travail des groupes) qui permet leur traitement de façon automatisée. Ainsi, les longues listes de lieux et dossiers deviennent des composants plus précis, avec une description plus fine qui leur est propre (notamment grâce aux `<unitdate>` qui peuvent maintenant être renseignés). Ce travail avait été commencé dans les productions des groupes (voir pour cela l'issue #10), mais des contraintes de temps nous ont imposé de préférer l'automatisation de la transformation.
+
+
+Ces modifications nous ont permis aussi de renseigner les notes de bas de page dans des éléments `<scopecontent>` avec des paragraphes `<p>`.
 
 ### Exemples : après la transformation avec XSLT
 
@@ -277,13 +282,6 @@ Les choix d'encodage qui ont été faits et appliqués sur l'instrument de reche
 
 ```XML
 ```
-
-
-### La description des composants : après la transformation avec XSLT
-#### Le did
-#### Après le did
-
-- Les notes de pas de page sont renseignées dans des paragraphes `<p>` dans un éléments `<scopecontent>`.
 
 
 # Documentation de l'encodage : le fichier EAC-CPF
