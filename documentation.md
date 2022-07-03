@@ -38,9 +38,7 @@ Chaque modification devra y être indiquée dans un élément `<change>`, dans l
 
 ## Le archdesc :  description de l'ensemble documentaire
 
-L'élément `<archdesc>` sert à décrire le fonds dans son ensemble. Il prend un attribut `@level` (obligatoire) qui permet de préciser le niveau description du fonds: dans le cas de la présente édition, le niveau choisi est celui des séries organiques d'après la structure du plan de classement, qui correspond à la définition qu'en donne l'*Abrégé d'archivistique*:
-
-> La **série organique** est une division organique, constituée par un ensemble de dossiers ou de documents (pièces) réunis ensemble et maintenus groupés parce qu'ils résultent d'une même activité, se rapportent à une même fonction ou à un même sujet ou revêtent une même forme. 
+L'élément `<archdesc>` sert à décrire le fonds dans son ensemble. Il prend un attribut `@level` (obligatoire) qui permet de préciser le niveau description : dans le cas de la présente édition, il s'agit d'une description au niveau du fonds. L'élément se présente donc ainsi : `<archdesc level="fonds">`.
 
 Il comprend en premier lieu un élément `<did>` dans lequel se trouvent les principales informations de description du fonds:
 
@@ -50,7 +48,7 @@ Il comprend en premier lieu un élément `<did>` dans lequel se trouvent les pri
 
 - L'élément `<unitdate>` sert à indiquer les dates du fonds, ou la période qui le concerne, avec les dates extrêmes, dont la forme normalisée est donnée par l'attribut `@normal`.
 
-- Dans un élément `<origination>`, on décrit le producteur. Celui du présent fonds étant une organisation et non une personne physique, c'est l'élément `<corpname>` qui a été utilisé pour le décrire.
+- Dans un élément `<origination>`, on décrit le producteur. Celui du présent fonds étant une organisation et non une personne physique, c'est l'élément `<corpname>` qui a été utilisé pour le décrire. Il prend un attribut `@authfilenumber` qui permet de le lier à la notice EAC-CPF du producteur : ici `<corpname authfilenumber="FRAN_NP_005412">Conservation régionale des monuments historiques d'Île-de-France</corpname>`
 
 - Dans le `<physdesc>`, on décrit les documents physiques et leur conditionnement: dans le cas présent, on utilise un élément `<extent>` pour donner des informations sur l'importance matérielle du fonds, et un élément `<dimensions>` pour en préciser les dimensions en mètres linéaires. 
 
@@ -60,7 +58,7 @@ Les conditions d'utilisations sont ensuite précisées dans un autre élément `
 
 L'élément `<acqinfo>` sert à décrire l'historique des versements du fonds aux Archives nationales. Chaque versement y est indiqué dans un élément `<p>` distinct s'il y a besoin d'en indiquer plusieurs, et les dates de versements sont indiquées dans des éléments `<date>`.
 
-L'élément `<bioghist>` sert à donner des renseignements sur l'histoire du producteur. Le texte y est structuré en un ou plusieurs paragraphes `<p>` au sein de cet élément.
+L'élément `<bioghist>` sert à donner des renseignements sur l'histoire du producteur. Le texte y est structuré en un ou plusieurs paragraphes `<p>` au sein de cet élément. Il peut sembler redondant avec la notice EAC-CPF qui décrit aussi le producteur : cette question a fait l'objet de discussions entre les groupes, et il a été décidé de conserver le `<bioghist>` en plus de la notice en EAC-CPF. En effet, un utilisateur peut ne consulter que l'instrument de recherche et non la notice sur le producteur, ces informations peuvent donc lui être utiles. De même, il est utile de fournir ces informations aussi dans la notice EAC-CPF, car un utilisateur peut la consulter sans nécessairement chercher des informations dans cet instrument de recherche en particulier.
 
 L'élément `<custodhist>` sert à retracer l'historique de la conservation des documents avant leur versement aux Archives nationales. Chaque étape est indiquée dans un `<p>` distinct.
 
@@ -72,13 +70,14 @@ Les différents types de versements liés au fonds décrit dans l'instrument de 
 
 - Le second est l'élément `<relatedmaterial>` : il concerne les autres versements liés au fonds décrit, mais avec un producteur différent.
 
-Enfin, l'élément`<processinfo>` permet de donner des informations sur le traitement des archives physiques, par exemple sur des éliminations ou des opérations de tri. Chaque type d'information est donné dans un `<p>` distinct.
+- L'élément`<processinfo>` permet de donner des informations sur le traitement des archives physiques, par exemple sur des éliminations ou des opérations de tri. Chaque type d'information est donné dans un `<p>` distinct.
+
 
 ## Le dsc
 
 L'élément `<dsc>` (description des sous-composants) contient les éléments `<c>` (composant) qui servent à retranscrire la hiérarchie du plan de classement.
 
-### Les composants
+### Les composants : avant la transformation avec XSLT
 
 Chaque élément `<c>` a un attribut `@type` qui précise le niveau de l'élément. 
 
@@ -102,13 +101,15 @@ Chaque élément `<c>` a un attribut `@type` qui précise le niveau de l'éléme
 
 - Les composants `<c level="recordgrp">` s'insèrent ou dans les **subseries**, ou dans les **dossiers** selon le niveau de description. Ils servent à décrire les groupes de documents, qui ne correspondent ni à des dossiers, ni à des pièces. Leur contenu sera renseigné dans un élément `<scopecontent>`, qui contiendra une `<list>` de tous ses `<items>`.
 
+- Des sous-dossiers peuvent exister dans les `<c level="recordgrp">` (par exemple une sous-division concernant le parc et le château d'un même édifice), dans ce cas des `<c level="subgrp">` seront créés.
+
 - *Les composants `<c level="item">` ne sont pas utilisés ici car ils servent à décrire les articles (les pièces) qui composent un dossier, ce qui correspond au plus petit niveau de description du plan de classement à encoder. Le niveau de description du fonds de l'instrument de recherche ne va pas jusqu'à la pièce, et s'arrête à des groupes de documents.*
 
 	> Article : Ensemble de *pièces* de même *provenance*, se rapportant à un même *objet* ou à une même affaire et dont l'importance matérielle n'excède pas la capacité d'une *unité matérielle de conditionnement*. L'article  constitue tout à la fois une *unité (intellectuelle) de description* et l'*unité (matérielle)* pour la *cotation*, le *rangement* et la *communication* des *documents d'archives*. 
 	> Pièce : La plus petite *unité de description* indivisible à la fois matériellement et intellectuellement (feuillet simple ou double, plusieurs feuillets agrafés, cahier, registre...) (*DTA*).
 
 
-### Exemples
+### Exemples : avant la transformation avec XSLT
 
 *Les exemples seront enrichis avec les productions des groupes*
 
@@ -127,7 +128,7 @@ Chaque élément `<c>` a un attribut `@type` qui précise le niveau de l'éléme
     	</did>
     	<c level="recordgrp">
             <did>
-                <unitid type="identifiant">20110282/1</unitid>
+                <unitid type="cote-de-consultation">20110282/1</unitid>
                 <unittitle></unittitle>
                 <unitdate normal=""><!--compléter--></unitdate>
             </did>
@@ -141,7 +142,7 @@ Chaque élément `<c>` a un attribut `@type` qui précise le niveau de l'éléme
         </c>
 	    <c level="recordgrp">
 	        <did>
-	            <unitid>20110282/2</unitid>
+	            <unitid type="cote-de-consultation">20110282/2</unitid>
 	            <unittitle></unittitle>
 				<unitdate normal=""><!--compléter--></unitdate>
 	        </did>
@@ -168,13 +169,13 @@ Chaque élément `<c>` a un attribut `@type` qui précise le niveau de l'éléme
     </did>
     <c level="file">
         <did>
-            <unitid type="identifiant">20110282/14</unitid>
+            <unitid type="cote-de-consultation">20110282/14</unitid>
             <unittitle>Arc de Triomphe </unittitle>
             <unitdate normal=""><!--compléter--></unitdate>
         </did>
         <scopecontent>
             <list>
-                <item>Crypte Kléber, comptoir de vente et rénovation des circulations (1972).</item>
+                <item>Crypte Kléber, comptoir de vente et rénovation des circulations (1972.</item>
                 <item>Plaque commémorative pour les militaires morts en Afrique du Nord (1972).</item>
                 <!--Compléter la liste-->
             </list>
@@ -196,7 +197,7 @@ Chaque élément `<c>` a un attribut `@type` qui précise le niveau de l'éléme
 		</did>
 		<c level="file">
 			<did>
-				<unitid>20110282/15-20110282/21</unitid>
+				<unitid type="identifiant">20110282/15-20110282/21</unitid>
 				<unittitle>Archives nationales</unittitle>
 			</did>
 			<c level="recordgrp">
@@ -228,22 +229,59 @@ Chaque élément `<c>` a un attribut `@type` qui précise le niveau de l'éléme
 </c>
 ```
 
-### La description des composants
 
+### La description des composants : avant la transformation avec XSLT
+#### Le did
 Il est important d'éviter la redondance des informations, ainsi on préfèrera préciser un maximum de choses au plus haut niveau (composant) possible, sans les répéter - sauf si c'est nécessaire - dans ses composants internes. 
 
 La description des composants `<c>` se fait principalement dans l'élément `<did>` (identification et description), qui s'y place en première position. Il contient obligatoirement au moins un élément `<unitid>` ou un élément `<unittitle>`.
 
-- L'élément `<unitid>` contient une cote, ou identifiant. On peut y renseigner les cotes extrêmes d'un regroupement de dossiers par exemple, ou la cote d'un dossier dans lequel on trouvera plusieurs items.
+- L'élément `<unitid>` contient une cote, ou identifiant. On peut y renseigner les cotes extrêmes d'un regroupement de dossiers par exemple, ou la cote d'un dossier dans lequel on trouvera plusieurs items. S'il s'agit d'un intervalle de cotes (par exemple : "20110282/15-20110282/21"), on ajoutera un attribut `@type="identifiant` à l'`<unitid>`. S'il s'agit d'une cote simple (par exemple : "20110282/15"), on ajoutera un attribut `@type="cote-de-consultation"`.
 
-- L'élément `<unittitle>` sert à renseigner l'intitulé de l'élément décrit. Par exemple, dans le cas de "Dorure de la grille principale (1982)", l'intitulé sera: "Dorure de la grille principale", et la date sera placée dans un élément `<unitdate>`.
+- L'élément `<unittitle>` sert à renseigner l'intitulé de l'élément décrit. Par exemple, dans le cas des Archives nationales à Paris, l'intitulé sera: "Archives nationales".
 
 - L'élément `<unitdate>` correspond à une date (pour un item sur une date précise par exemple), ou à des dates extrêmes (par exemple sur toute l'étendue d'un dossier). Il est à utiliser une seule fois par composant. Les dates sont aussi à préciser dans son attribut `@normal` selon la norme [ISO 8601](https://fr.wikipedia.org/wiki/ISO_8601#La_notation_abr%C3%A9g%C3%A9e) (par exemple AAAA-MM-JJ pour un jour particulier ou AAAA/AAAA pour un intervalle de dates).
 
 - D'autres éléments peuvent aussi y être utilisés si nécessaire: `<langmaterial>` (langue des unités documentaires), `<materialspec>` (particularités de certains types de documents), `<origination>` (origine des documents, comme un producteur), `<physdesc>` (description physique des documents), `<physloc>` (localisation physique des documents), `<repository>` (organisme responsable de l'accès intellectuel).
 
+#### Après le did
+
 Après le `<did>`, il est possible, si nécessaire, d'ajouter des informations complémentaires dans les éléments suivants : `<accessrestrict>` (restrictions d'accès), `<accruals>` (accroissements), `<acqinfo>` (informations sur les modalités d'entrée), `<altformavail>` (documents de susbtitution), `<appraisal>` (informations sur l'évaluation des documents), `<arrangement>` (classement), `<bibliography>` (bibliographie), `<bioghist>` (biographie ou histoire), `<controlaccess>` (vedettes et accès contrôlés), `<custodhist>` (historique de la conservation), `<originalsloc>` (existence et lieu de conservation des documents originaux), `<otherfindaid>` (autre instrument de recherche), `<phystech>` (caractéristiques matérielles et contraintes techniques), `<processinfo>` (informations sur le traitement), `<relatedmaterial>` (documents en relation),`<scopecontent>` (présentation du contenu),  `<separatedmaterial>` (documents séparés), `<userestrict>` (restrictions d'utilisation). L'encodage doit cependant rester le plus léger possible : dans la plupart des cas, ces éléments ne sont pas utilisés car ces informations sont renseignées à un plus haut niveau. En cas d'information complémentaire, il est souvent plus simple de se contenter d'un `<scopecontent>`.
 
 Les composants `<c>` sont à imbriquer à la suite du `<did>`, ainsi que des informations complémentaires s'il y en a.
+
+Les sous-dossiers et articles faisant partie des dossiers (dans les longs parapgraphes sous forme d'énumération d'items) sont à renseigner dans une `<list>` dans un `<scopecontent>` au sein du composant concerné. Chaque élément distinct correspond à un `<item>`. *Pour illustration, voir les exemples ci-dessus.*
+
+
+
+### Les composants et la description des composants : après la transformation avec XSLT
+
+Les choix d'encodage qui ont été faits et appliqués sur l'instrument de recherche ont fait l'objet de nombreuses discussions, en particulier le `<scopecontent>` contenant les listes d'items qui semblait peu adapté aux exigences de l'ISAD(G) et de l'EAD. Le choix a donc été fait de transformer automatiquement avec XSLT les productions des groupes en une version encodée de l'instrument de recherche qui paraissait plus adaptée.
+
+En effet, ces listes d'items (correspondant aux paragraphes dans l'instrument de recherche) correspondaient à des sous-niveaux qui pouvaient être structurés plus finement en EAD à l'aide de `<c level="subgroup">`. Ils se présente sous une forme régulière ("Nom de lieu" suivi de ":", et listes d'items régulières grâce au travail des groupes) qui permet leur traitement de façon automatisée. Ainsi, les longues listes de lieux et dossiers deviennent des composants plus précis, avec une description plus fine qui leur est propre (notamment grâce aux `<unitdate>` qui peuvent maintenant être renseignés). Ce travail avait été commencé dans les productions des groupes (voir pour cela l'issue #10), mais des contraintes de temps nous ont imposé de préférer l'automatisation de la transformation.
+
+
+Ces modifications nous ont permis aussi de renseigner les notes de bas de page dans des éléments `<scopecontent>` avec des paragraphes `<p>`.
+
+### Exemples : après la transformation avec XSLT
+
+
+#### Structure de dossier pour la série Programmation
+
+```XML
+```
+
+#### Structure de dossier pour la série Dossiers de travaux
+
+##### Quand un dossier ne comporte qu'un édifice
+
+```xml
+```
+
+##### Quand un dossier comporte plusieurs édifices
+
+```XML
+```
+
 
 # Documentation de l'encodage : le fichier EAC-CPF
