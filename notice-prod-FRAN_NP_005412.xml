@@ -4,7 +4,7 @@
  <control>
   <recordId>FRAN_NP_005412</recordId>
   <otherRecordId localType="Ancien_identifiant">5181</otherRecordId>
-  <maintenanceStatus>derived</maintenanceStatus>
+  <maintenanceStatus>revised</maintenanceStatus>
   <maintenanceAgency>
    <agencyName>Archives nationales de France</agencyName>
   </maintenanceAgency>
@@ -13,10 +13,30 @@
    <script scriptCode="Latn"/>
   </languageDeclaration>
   <conventionDeclaration>
-   <citation>Notice établie conformément à la norme ICA-ISAAR (CPF) 2004, aux normes ISO 8601 pour
-    le système de normalisation des dates utilisé, ainsi que AFNOR NF Z 44-061, juin 1986.
-    Catalogage : forme et structure des vedettes noms de personne, des vedettes titres, des
+   <abbreviation>ISAAR (CPF)</abbreviation>
+   <citation>Notice établie conformément à la norme ICA-ISAAR (CPF) 2004.</citation>
+  </conventionDeclaration>
+  <conventionDeclaration>
+   <abbreviation>ISO 8601</abbreviation>
+   <citation>Notice établie conformément à la norme ISO 8601.</citation>
+  </conventionDeclaration>
+  <conventionDeclaration>
+   <abbreviation>NF Z 44-061</abbreviation>
+   <citation>Notice établie conformément à la norme AFNOR NF Z 44-061, juin 1986 Catalogage : forme et structure des vedettes noms de personne, des vedettes titres, des
     rubriques de classement et des titres forgés.</citation>
+  </conventionDeclaration>
+  <conventionDeclaration>
+   <abbreviation>NF Z 44-060</abbreviation>
+   <citation>Notice établie conformément à la norme AFNOR NF Z 44-060, Décembre 1996 Documentation - Catalogue d’auteurs et d’anonymes - Forme et structure des vedettes de collectivités-auteurs.</citation>
+  </conventionDeclaration>
+  <conventionDeclaration>
+   <citation>Indexation des lieux associés au producteur réalisée conformément au référentiel des lieux des Archives nationales (FRAN_RI_005.xml).</citation>
+  </conventionDeclaration>
+  <conventionDeclaration>
+   <citation>Indexation des activités du producteur réalisée conformément au référentiel des statuts juridiques des collectivités des Archives nationales (FRAN_RI_104.xml).</citation>
+  </conventionDeclaration>
+  <conventionDeclaration>
+   <citation>Indexation des activités du producteur réalisée conformément au référentiel des fonctions des collectivités des Archives nationales (FRAN_RI_011.xml).</citation>
   </conventionDeclaration>
   <localControl localType="niveau_de_detail">
    <term>Moyenne</term>
@@ -28,30 +48,150 @@
     <agentType>machine</agentType>
     <agent>Import_SIA</agent>
    </maintenanceEvent>
+    <maintenanceEvent>
+    <eventType>updated</eventType>
+    <eventDateTime>2022-07-08</eventDateTime>
+    <agentType>human</agentType>
+    <agent>Céard, Lien. Lebreton, Fanny. Sajdak, Cécile.</agent>
+    <eventDescription>Corrections et enrichissements de la notice d'autorité réalisés par des étudiantes du Master 2 Technologies numériques appliquées à l'histoire 
+      (École nationale des chartes), dans le cadre
+     de l'évaluation du module ENC2408 "Signalement et description structurés des documents : la
+     description archivistique".</eventDescription>
+   </maintenanceEvent>
   </maintenanceHistory>
+  <sources>
+   <source xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://aaf.ica-atom.org/region-conservation-regionale-des-monuments-historiques">
+    <sourceEntry>Notice d'AtoM (Référentiel pour l'administration locale) [consultée le 02/07/2022]</sourceEntry>
+     <descriptiveNote>
+       <p>Informations sur l'historique, le statut légal, les fonctions, et l'organisation interne de la Conservation régionale des monuments historiques.</p>
+     </descriptiveNote>
+   </source>
+   <source xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://www.culture.gouv.fr/Regions/Drac-Ile-de-France/Patrimoines-Architecture/Monuments-Historiques">
+    <sourceEntry>Page du site du ministère de la Culture consacrée aux Monuments Historiques [consultée le 02/07/2022]</sourceEntry>
+      <descriptiveNote>
+       <p>Informations sur les missions de la Conservation régionale des monuments historiques.</p>
+     </descriptiveNote>
+   </source>
+    <source xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://aaf.ica-atom.org/france-conservation-regionale-des-batiments-de-france-commune-chef-lieu-du-ressort">
+    <sourceEntry>Notice d'AtoM (Référentiel pour l'administration locale) [consultée le 02/07/2022]</sourceEntry>
+      <descriptiveNote>
+       <p>Informations sur l'historique et les entités associées de la Conservation régionale des bâtiments de France (commune chef-lieu du ressort).</p>
+     </descriptiveNote>
+   </source>
+    <source xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://fr.wikipedia.org/wiki/Inspection_g%C3%A9n%C3%A9rale_des_monuments_historiques">
+    <sourceEntry>Page du site Wikipedia consacrée à l'Inspection générale des monuments historiques [consultée le 02/07/2022]</sourceEntry>
+      <descriptiveNote>
+       <p>Informations sur l'historique de l'Inspection générale des monuments historiques.</p>
+     </descriptiveNote>
+   </source>
+   <source xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://fr.wikipedia.org/wiki/Conservation_r%C3%A9gionale_des_monuments_historiques">
+    <sourceEntry>Page du site Wikipedia consacrée à la Conservation régionale des monuments historiques [consultée le 02/07/2022]</sourceEntry>
+      <descriptiveNote>
+       <p>Informations sur les missions de la Conservation régionale des monuments historiques.</p>
+     </descriptiveNote>
+   </source> 
+    <source xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://fr.wikipedia.org/wiki/Service_territorial_de_l%27Architecture_et_du_Patrimoine">
+    <sourceEntry>Page du site Wikipedia consacrée au Service territorial de l'Architecture et du Patrimoine [consultée le 02/07/2022]</sourceEntry>
+      <descriptiveNote>
+       <p>Informations sur l'historique du Service territorial de l'Architecture et du Patrimoine.</p>
+     </descriptiveNote>
+   </source>
+  </sources>
  </control>
  <cpfDescription>
   <identity>
    <entityType>corporateBody</entityType>
    <nameEntry localType="autorisée" scriptCode="Latn" xml:lang="fre">
+    <part>Île-de-France. Conservation régionale des monuments historiques (1948-...)</part>
+   </nameEntry>
+   <nameEntry>
     <part>Conservation régionale des monuments historiques d'Île-de-France</part>
+     <useDates>
+       <dateRange>
+	     <fromDate standardDate="1976-01-01">1976</fromDate>
+      </dateRange>
+   </useDates>
    </nameEntry>
    <nameEntry>
     <part>Conservation régionale des bâtiments de France de la région parisienne</part>
+    <useDates>
+       <dateRange>
+	     <fromDate standardDate="1948-01-01">1948</fromDate>
+         <toDate standardDate="1979-12-31">1979</toDate>
+      </dateRange>
+   </useDates>
    </nameEntry>
   </identity>
   <description>
    <existDates>
     <dateRange>
-     <fromDate standardDate="1976-01-01">1976</fromDate>
-     <toDate standardDate="1990-12-31">1990</toDate>
+     <fromDate standardDate="1948-01-01">1948</fromDate>
     </dateRange>
    </existDates>
+   <places>
+    <place>
+     <placeRole>Lieu général</placeRole>
+     <placeEntry localType="nomLieu">98 rue de Charonne, 75011 Paris</placeEntry>
+     <placeEntry localType="lieu" vocabularySource="d5bdppt147--176wwvjcctrx0">Paris (France)</placeEntry>
+     <descriptiveNote>
+      <p>Siège de la CMRH</p>
+     </descriptiveNote>
+    </place>
+   </places>
    <legalStatuses>
     <legalStatus>
      <term vocabularySource="d5bloohyrt--1xjp5y3h0mvzu">service extérieur</term>
+     <dateRange>
+		<fromDate standardDate="1948-01-01">1948</fromDate>
+		<toDate standardDate="1992-02-06">1992</toDate>
+	</dateRange>
+    </legalStatus>
+    <legalStatus>
+     <term vocabularySource="d5blokqczv--1ijs4336zzm9y">service déconcentré de l'Etat</term>
+     <dateRange>
+		<fromDate standardDate="1992-02-06">1992</fromDate>
+	</dateRange>
     </legalStatus>
    </legalStatuses>
+  <functions>
+    <function>
+     <term vocabularySource="d5bhviikk9--y6te63k761ib">culture</term>
+    </function>
+    <function>
+     <term vocabularySource="d3nyuh17x9-p3lv1gh3hjbu">contrôle technique</term>
+    </function>
+   </functions>
+   <mandates localType="restructured">
+    <mandate><term>Loi du 30 mars 1887 précisant les critères et les procédures de classement des monuments historiques.</term></mandate>
+    <mandate>
+     <citation xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000000315319">Loi du 31 décembre 1913 sur les monuments historiques</citation>
+    </mandate>
+    <mandate>
+     <citation xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000000690395">Décret n°77-115 du 3 février 1977 portant création de directions régionales des affaires culturelles</citation>
+    </mandate>
+    <mandate>
+     <citation xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000022324484">Décret n°2010-633 du 8 juin 2010 relatif à l'organisation et aux missions des directions régionales des affaires culturelles</citation>
+    </mandate>
+   </mandates>
+    <biogHist> 
+      <abstract>La conservation régionale des monuments historiques d'Île-de-France, service déconcentré de l’État, veille à l’importance historique, le mérite d’art et la conservation d’édifices.</abstract>
+     <p>En 1830, un poste d’inspecteur général des monuments historiques est créé à la demande du ministre de l’Intérieur, François Guizot. Il a pour rôle de classer les édifices et de répartir les crédits d'entretien et de restauration. 
+       En 1837, la commission des monuments historiques est créée, et est chargée d’assister l’inspecteur général des monuments historiques et le bureau des monuments historiques. Elle effectue un travail d’inventaire, de classement et 
+       d'attribution des crédits. Elle constitue les prémices du service des monuments historiques.</p>
+      <p>Ce service des monuments historiques, dont les fondements sont exposés par la loi du 31 décembre 1913, est composé d’institutions qui ont évoluées par la suite. Les premières conservations régionales des bâtiments de France ont été 
+        instituées par la loi de finances du 21 décembre 1948, mais ont été supprimées par décret du 6 mars 1979. Elles ont laissé place aux services territoriaux de l'architecture et du patrimoine, anciennement appelés services départementaux 
+        de l'architecture et du patrimoine. En parallèle de cela, la conservation régionale des monuments historiques d’Île-de-France a été créée en 1976 et intégrée au sein des directions régionales des Affaires culturelles en 1981.</p>
+      <p>La conservation régionale des monuments historiques d’Île-de-France est un service déconcentré du ministère de la Culture, et est intégrée au sein de la direction régionale des Affaires culturelles (DRAC) de sa région. Elle est 
+        constituée d'une équipe administrative, scientifique, technique ainsi que financière et est dirigée par un conservateur régional des monuments historiques.</p>
+      <p>La conservation régionale des monuments historiques d’Île-de-France veille à la protection, la conservation, la restauration et la mise en valeur des monuments historiques présents sur le territoire d’Île-de-France. Ses missions 
+        sont les suivantes : elle inventorie et classe les immeubles « dont la conservation présente, au point de vue de l’histoire ou de l’art, un intérêt public » comme monuments historiques (loi du 31 décembre 1913). Elle est donc chargée 
+        d’instruire et de présenter les dossiers de protection des monuments à la commission régionale du patrimoine et des sites (CRPS), et des objets mobiliers aux commissions départementales des objets mobiliers (CDOM). Elle élabore 
+        également les programmes de travaux sur les monuments historiques classés sur le plan technique, juridique et financier, et elle assure la conduite et le contrôle de ces opérations. Elle valorise les monuments classés à l’aide de 
+        publications et d’expositions. Enfin, elle peut éventuellement subventionner les travaux de restauration des monuments inscrits à l’inventaire supplémentaire.</p>
+      <p>Pour effectuer ses missions, la conservation régionale des monuments historiques d’Île-de-France peut être assistée par la commission nationale des monuments historiques pour les classements, par la commission régionale du patrimoine 
+        et des sites (CRPS) ainsi que par la commission départementale des objets mobiliers en ce qui concerne les inscriptions, et par le service territorial de l'architecture et du patrimoine (STAP) pour le conseil, le contrôle ainsi que la 
+        protection des biens protégés.</p>
+   </biogHist>
   </description>
   <relations>
    <cpfRelation xmlns:xlink="http://www.w3.org/1999/xlink" cpfRelationType="temporal-later"
@@ -65,11 +205,28 @@
    <cpfRelation xmlns:xlink="http://www.w3.org/1999/xlink" cpfRelationType="hierarchical-parent"
     xlink:href="FRAN_NP_000005" xlink:type="simple">
     <relationEntry>Ministère de la Culture</relationEntry>
-    <dateRange>
-     <fromDate standardDate="1976-01-01">1976</fromDate>
-     <toDate standardDate="1990-12-31">1990</toDate>
-    </dateRange>
    </cpfRelation>
+    <cpfRelation xmlns:xlink="http://www.w3.org/1999/xlink" cpfRelationType="identity" xlink:href="https://catalogue.bnf.fr/ark:/12148/cb14449112p" xlink:type="simple">
+        <relationEntry>Île-de-France. Conservation régionale des monuments historiques</relationEntry>
+        <dateRange>
+	     <fromDate standardDate="1948-01-01">1948</fromDate>
+      </dateRange>
+        <descriptiveNote>
+          <p>Notice BnF n° FRBNF14449112</p>
+        </descriptiveNote>
+      </cpfRelation>
+    <cpfRelation xmlns:xlink="http://www.w3.org/1999/xlink" cpfRelationType="identity" xlink:href="http://viaf.org/viaf/151559655" xlink:type="simple">
+        <relationEntry>Île-de-France. Conservation régionale des monuments historiques</relationEntry>
+        <dateRange>
+	     <fromDate standardDate="1948-01-01">1948</fromDate>
+      </dateRange>
+        <descriptiveNote>
+          <p>Identifiant VIAF : 151559655 (Collectivité)</p>
+        </descriptiveNote>
+      </cpfRelation>
+   <resourceRelation xmlns:xlink="http://www.w3.org/1999/xlink" resourceRelationType="creatorOf" xlink:href="?" xlink:type="simple">
+    <relationEntry localType="archival">?</relationEntry>
+   </resourceRelation>
    <resourceRelation xmlns:xlink="http://www.w3.org/1999/xlink" resourceRelationType="subjectOf"
     xlink:href="FRAN_IR_008895" xlink:type="simple">
     <relationEntry localType="archival">Culture ; Conservation régionale des bâtiments de France de
@@ -77,7 +234,7 @@
    </resourceRelation>
    <resourceRelation xmlns:xlink="http://www.w3.org/1999/xlink" resourceRelationType="subjectOf"
     xlink:href="FRAN_IR_008894" xlink:type="simple">
-    <relationEntry localType="archival">Culture ; Conservation régionale des bâtiments de France de
+    <relationEntry localType="archival">Culture ; Conservation régionale des bâtiments de France de
      la région parisienne (1954-1988)</relationEntry>
    </resourceRelation>
   </relations>
