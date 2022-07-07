@@ -305,6 +305,10 @@ SYSTEM "./schemas/ead_sia.dtd">
                                 <unittitle>Colonne de Juillet, place de la Bastille</unittitle>
                                 <unitdate normal="1971/1986">1971-1986</unitdate>
                             </did>
+                            <scopecontent>
+                                <p>Photographies [1983] conservées à la photothèque de 
+                                    l'Opérateur du patrimoine et des projets immobiliers de la Culture.</p>
+                            </scopecontent>
                         </c>
                     </c>
                     <c level="recordgrp">
@@ -1961,13 +1965,129 @@ SYSTEM "./schemas/ead_sia.dtd">
                         </c>
                         <c level="recordgrp">
                             <did>
-                                <unitid type="cote-de-consultation">20110282/16</unitid>
+                                <unitid type="identifiant">20110282/16-20110282/21</unitid>
                                 <unittitle>Centre d'accueil et de recherche des Archives nationales (CARAN)</unittitle>
-                                <unitdate normal="1974-1989" calendar="gregorian" era="ce">1974-1989</unitdate>
+                                <unitdate normal="1974-1989" calendar="gregorian" era="ce">1974-1998</unitdate>
                             </did>
                             <c level="subgrp">
                                 <did>
+                                    <unitid type="cote-de-consultation">20110282/16</unitid>
                                     <unittitle>Démolition des immeubles 3, 5, 7, 9 et 11 rue des Quatre Fils</unittitle>
+                                    <unitdate normal="1974/1989">1974-1989</unitdate>
+                                </did>
+                            </c>
+                            <c level="subgrp">
+                                <did>
+                                    <unitid type="cote-de-consultation">20110282/17</unitid>
+                                    <unittitle>Programme architectural</unittitle>
+                                    <unitdate normal="1983">1983</unitdate>
+                                </did>
+                            </c>
+                            <c level="subgrp">
+                                <did>
+                                    <unitid type="cote-de-consultation">20110282/17</unitid>
+                                    <unittitle>Sondages</unittitle>
+                                    <unitdate normal="1984"></unitdate>
+                                </did>
+                            </c>
+                            <c level="subgrp">
+                                <did>
+                                    <unitid type="cote-de-consultation">20110282/17</unitid>
+                                    <unittitle>Marché de maîtrise d’œuvre</unittitle>
+                                    <unitdate normal="1984">1984</unitdate>
+                                </did>
+                            </c>
+                            <c level="subgrp">
+                                <did>
+                                    <unitid type="cote-de-consultation">20110282/17</unitid>
+                                    <unittitle>Permis de construire, plans</unittitle>
+                                    <unitdate normal="1984">1984</unitdate>
+                                </did>
+                            </c>
+                            <c level="subgrp">
+                                <did>
+                                    <unitid type="cote-de-consultation">20110282/17</unitid>
+                                    <unittitle>APD</unittitle>
+                                    <unitdate normal="1984">1984</unitdate>
+                                </did>
+                            </c>
+                            <c level="subgrp">
+                                <did>
+                                    <unitid type="cote-de-consultation">20110282/18</unitid>
+                                    <unittitle>Suivi de chantier : notes, correspondance, comptes rendus de réunion, bilans, 
+                                    rapport de fin de travaux</unittitle>
+                                    <unitdate normal="1985/1988">1985-1988</unitdate>
+                                </did>
+                            </c>
+                            <c level="subgrp">
+                                <did>
+                                    <unitid type="cote-de-consultation">20110282/18</unitid>
+                                    <unittitle>Mission de contrôle technique : marché, rapports</unittitle>
+                                    <unitdate normal="1984/1987">1984-1987</unitdate>
+                                </did>
+                            </c>
+                            <c level="subgrp">
+                                <did>
+                                    <unitid type="cote-de-consultation">20110282/18</unitid>
+                                    <unittitle>1% décoration</unittitle>
+                                    <unitdate normal="1984/1989">1984-1989</unitdate>
+                                </did>
+                                <scopecontent>
+                                    <list>
+                                        <item>APS</item>
+                                        <item>projets choisis (Mecarelli, Gaucher, Theimer et Old)</item>
+                                        <item>marchés</item>
+                                    </list>
+                                </scopecontent>
+                            </c>
+                            <c level="subgrp">
+                                <did>
+                                    <unitid type="cote-de-consultation">20110282/19</unitid>
+                                    <unittitle>Suivi des travaux, par lot</unittitle>
+                                    <unitdate normal="1986/1989">1986-1989</unitdate>
+                                </did>
+                            </c>
+                            <c level="subgrp">
+                                <did>
+                                    <unitid type="cote-de-consultation">20110282/20</unitid>
+                                    <unittitle>DOE</unittitle>
+                                    <unitdate normal="1986/1988">1986-1988</unitdate>
+                                </did>
+                            </c>
+                            <c level="subgrp">
+                                <did>
+                                    <unitid type="cote-de-consultation">20110282/21</unitid>
+                                    <unittitle>Désordres et dysfonctionnements</unittitle>
+                                    <unitdate normal="1988/1997">1988-1997</unitdate>
+                                </did>
+                                <scopecontent>
+                                    <list>
+                                        <item>couverture et façades (1988-1997)</item>
+                                        <item>système de chauffage et de ventilation (1988-1995)</item>
+                                        <item>mobilier intégré (1987-1992)</item>
+                                        <item>plafonds et planchers (1991)</item>
+                                        <item>spots (1991-1992)</item>
+                                    </list>
+                                </scopecontent>
+                            </c>
+                            <c level="subgrp">
+                                <did>
+                                    <unitid type="cote-de-consultation">20110282/21</unitid>
+                                    <unittitle>Expertise judiciaire sur les désordres affectant le bâtiment</unittitle>
+                                    <unitdate normal="1996/1998">1996-1998</unitdate>
+                                </did>
+                                <scopecontent>
+                                    <p>20110282/21 : Cet article contient des dossiers postérieurs au transfert de la conduite des travaux 
+                                        de la Conservation régionale des monuments historiques au Service national des travaux 
+                                        créé en 1990 mais comme il s'agit des suites du chantier de construction du CARAN il a
+                                        paru plus normal de les classer dans ce versement.</p>
+                                </scopecontent>
+                            </c>
+                            <c level="subgrp">
+                                <did>
+                                    <unitid type="cote-de-consultation">20110282/21</unitid>
+                                    <unittitle>Paiement des honoraires de la maîtrise d’œuvre et du BET</unittitle>
+                                    <unitdate normal="1991/1993">1991-1993</unitdate>
                                 </did>
                             </c>
                         </c>

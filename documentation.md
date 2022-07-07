@@ -260,8 +260,16 @@ Les choix d'encodage qui ont été faits et appliqués sur l'instrument de reche
 
 En effet, ces listes d'items (correspondant aux paragraphes dans l'instrument de recherche) correspondaient à des sous-niveaux qui pouvaient être structurés plus finement en EAD à l'aide de `<c level="subgroup">`. Ils se présente sous une forme régulière ("Nom de lieu" suivi de ":", et listes d'items régulières grâce au travail des groupes) qui permet leur traitement de façon automatisée. Ainsi, les longues listes de lieux et dossiers deviennent des composants plus précis, avec une description plus fine qui leur est propre (notamment grâce aux `<unitdate>` qui peuvent maintenant être renseignés). Ce travail avait été commencé dans les productions des groupes (voir pour cela l'issue #10), mais des contraintes de temps nous ont imposé de préférer l'automatisation de la transformation.
 
+Le nouvel encodage se structure :
 
-Ces modifications nous ont permis aussi de renseigner les notes de bas de page dans des éléments `<scopecontent>` avec des paragraphes `<p>`.
+- `<c level="series>` : 
+- `<c level="subseries">` : 
+- `<c level="recordgrp">` : 
+- `<c level="file">` : 
+- `<c level="subgrp">` : 
+- `<scopecontent>/<list>/<item>` : 
+
+Ces modifications nous ont permis aussi d'ajouter les notes de bas de page dans des éléments `<scopecontent>` avec des paragraphes `<p>`.
 
 ### Exemples : après la transformation avec XSLT
 
