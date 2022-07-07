@@ -15,13 +15,12 @@ SYSTEM "./schemas/ead_sia.dtd">
                 <author>Établi par Arnaud de Castelbaiac, Service interministériel des archives de France; Danièle Kriser, Service national des travaux; Marie Castaing; Anne Briqueler; Audrey Poirier</author>
             </titlestmt>
             <editionstmt>
-                <edition>1ere édition électronique</edition>
+                <edition>Première édition électronique</edition>
             </editionstmt>
             <publicationstmt>
                 <publisher>Archives nationales</publisher>
                 <address>
-                    <addressline>2 rue des Archives, 77300 Fontainebleau</addressline>
-                    <!-- adresse de la localisation physique ? utiliser plutôt un physloc ? -->
+                    <addressline>59 rue Guynemer, 93380 Pierrefitte-sur-Seine</addressline>
                 </address>
                 <date normal="2011" calendar="gregorian" era="ce">2011</date>
             </publicationstmt>
