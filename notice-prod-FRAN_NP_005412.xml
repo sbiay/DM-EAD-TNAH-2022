@@ -89,11 +89,17 @@
                 <descriptiveNote>
                     <p>Informations sur les missions de la Conservation régionale des monuments historiques.</p>
                 </descriptiveNote>
-            </source> 
+            </source>             
             <source xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://fr.wikipedia.org/wiki/Service_territorial_de_l%27Architecture_et_du_Patrimoine">
                 <sourceEntry>Page du site Wikipedia consacrée au Service territorial de l'Architecture et du Patrimoine [consultée le 02/07/2022]</sourceEntry>
                 <descriptiveNote>
                     <p>Informations sur l'historique du Service territorial de l'Architecture et du Patrimoine.</p>
+                </descriptiveNote>
+            </source>
+            <source xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://francearchives.fr/fr/agent/18960211">
+                <sourceEntry>Notice producteur de France Archives consacrée à la Conservation régionale des monuments historiques d'Île-de-France [consultée le 02/07/2022]</sourceEntry>
+                <descriptiveNote>
+                    <p>Pistes de datation.</p>
                 </descriptiveNote>
             </source>
         </sources>
