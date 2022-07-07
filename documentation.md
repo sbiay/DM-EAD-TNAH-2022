@@ -1,7 +1,5 @@
 # Documentation de l'encodage : le fichier EAD
 
-*En cours de rédaction*
-
 La documentation de l'encodage de l'instrument de recherche en XML-EAD et EAC-CPF selon les normes ISAD(G) et ISAAR(CPF) se base sur l'*Abrégé d'archivistique. Principes et pratiques du métier d'archiviste*, 4e édition, refondue et augmentée, Association des archivistes français, Paris, 2020, et l'[*Encoded Archival Description Tag Library*](https://francearchives.fr/file/0def64f5a10f3f1ae03fdea59399a3e0755ef157/static_1066.pdf), version 2002, Society of American Archivists, 2004
 
 ## Le eadheader
@@ -110,8 +108,6 @@ Chaque élément `<c>` a un attribut `@type` qui précise le niveau de l'éléme
 
 
 ### Exemples : avant la transformation avec XSLT
-
-*Les exemples seront enrichis avec les productions des groupes*
 
 #### Structure de dossier pour la série Programmation
 
