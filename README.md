@@ -2,27 +2,27 @@ TNAH 2022 : devoir collectif d'EAD
 ==================================
 
 # Contenu du dépôt
-- **consignes.docx** : consignes générales du devoir
-- **documentation.md** : documentation de l'encodage de l'instrument de recherche
-- **encodage.xml** : encodage XML-EAD de l'instrument de recherche instr-rech-20110282_CRMHIDF.odt
-- **instr-rech-20110282_CRMHIDF.odt** : instrument de recherche archivistique à convertir en EAD
-- **notice-prod-FRAN_NP_005412.xml** : notice de producteur à enrichir selon le schéma [EAC-CPF](./schemas/cpf.xsd)
-- **referentiels/** : référentiels à utiliser pour l’indexation
+- (referentiels/)[https://github.com/sbiay/DM-EAD-TNAH-2022/tree/main/referentiels] : Ce dossier **référentiels** contient les référentiels utilisés pour l’indexation
+- (schemas/)[https://github.com/sbiay/DM-EAD-TNAH-2022/tree/main/schemas] : Ce dossier contient les schémas utilisés pour l'instrument de recherche en EAD et la notice en EAC-CPF
+- (consignes.docx)[https://github.com/sbiay/DM-EAD-TNAH-2022/blob/main/consignes.docx] : Le document **consignes.docx**consignes générales du devoir
+- (documentation.md)[https://github.com/sbiay/DM-EAD-TNAH-2022/blob/main/documentation.md] : Le document **documentation.md** contient la documentation de l'encodage de l'instrument de recherche en Markdown
+- (encodage.xml)[https://github.com/sbiay/DM-EAD-TNAH-2022/blob/main/encodage.xml] : Le fichier **encodage.xml** contient le premier encodage XML-EAD de l'instrument de recherche instr-rech-20110282_CRMHIDF.odt
+- (encodage2.xml)[https://github.com/sbiay/DM-EAD-TNAH-2022/blob/main/encodage2.xml] : Le fichier **encodage2.xml** contient la deuxième version de l'encodage de l'instrument de recherche, suite à la transformation avec XSLT.
+- (instr-rech-20110282_CRMHIDF.odt)[https://github.com/sbiay/DM-EAD-TNAH-2022/blob/main/instr-rech-20110282_CRMHIDF.odt] : Le document **instr-rech-20110282_CRMHIDF.odt** contient instrument de recherche archivistique à convertir en EAD
+- (notice-prod-FRAN_NP_005412.xml)[https://github.com/sbiay/DM-EAD-TNAH-2022/blob/main/notice-prod-FRAN_NP_005412.xml] : Le fichier **notice-prod-FRAN_NP_005412.xml** contient la notice de producteur enrichie selon le schéma [EAC-CPF](./schemas/cpf.xsd)
 
 # Branches
 
-Le fonctionnement des branches se fera de la façon suivante: chaque groupe aura une branche sur laquelle il pourra déposer son travail, ce qui permettra une meilleure gestion des différents travaux. Libre à vous de vous organiser comme vous le souhaitez pour avancer au mieux au sein de votre groupe !
+Chaque groupe a déposé son travail sur une branche distincte, nommée les branches sur le modèle suivant : `groupeN`, le "N" correspondant au numéro de groupe.
 
-Merci de nommer les branches sur le modèle suivant : `groupeN`, le "N" correspondant à votre numéro de groupe.
-
-=> Ex: `groupe2`, `groupe3` ...
+**Les nombreuses fusions des branches ont entraîné de conflits, le travail de certains groupes n'a pas pu être ajouté dans son intégralité lors de leur intégration dans l'encodage général. Les travaux sont cependant bien présents et consultables sur les branches. Il n'est pas impossible qu'il manque certains éléments dans le fichier de regroupement de encodages (première version) qui sont cependant bien présents dans les productions des groupes.**
 
 # Fonctionnement de l'encodage en groupe
-- L'encodage en EAD sera à faire entièrement dans le document **encodage.xml** afin d'éviter d'avoir trop de fichiers à gérer (sauf pour l'EAC-CPF). Le fait qu'on travaille tous sur des parties différentes devrait éviter les conflits. S'il y a trop de problèmes, on envisagera une autre solution. Chaque groupe a sa partie notée en commentaires afin de mieux s'y repérer.
-- Pour le groupe 2: il peut se lancer dans l'encodage du `<archdesc>`, en se focalisant en particulier sur l'indexation.
-- Pour les groupes 3 à 6 : Le groupe 1 a mis en place la structure de base du plan de classement dans le `<dsc>` avec les `<c>` qui semblent appropriés à l'aide d'un script Python. Ctte structure peut donc comporter un certain nombre d'erreurs qui seront à corriger par les groupes lors de leur travail d'encodage. Il s'agit donc d'un travail d'enrichissement et de correction.
-- Pour le groupe 7: il peut dès à présent commencer l'encodage de la notice EAC-CPF, étant donné qu'il est le seul groupe à travailler dessus. Une documentation sera à rédiger en collaboration avec le groupe 1.
+
+Suite à un accord sur la façon d'encoder l'instrument de recherche, celui-ci a été traité à l'aide d'un script Python afin d'en créer la structure de base, en particulier dans le cas des *séries* et *sous-séries*. Cela a permis de simplifier la répartition du travail entre les groupes et de réduire le nombre de conflits lors de la fusion de toutes les contributions.
+
+Lors de l'avancée des travaux, l'encodage général initialement prévu posé des difficultés lors de cas particuliers (structures complexes). C'est pourquoi il a été décidé, une fois les travaux des groupes ajoutés, de transformer l'encodage à l'aide de XSLT afin d'affiner la structuration de l'ensemble, et d'enrichir l'instrument de recherche. Cette transformation automatique n'aurait pu être réalisée sans le travail régulier des groupes.
 
 # Issues
 
-Si vous rencontrez des problèmes ou si vous avez des questions, n'hésitez pas à ouvrir un nouvelle issue sur le dépôt et à y échanger vos idées !
+Certaines questions d'encodage ont été discutées dans la partie (Issues)[https://github.com/sbiay/DM-EAD-TNAH-2022/issues] du dépôt Github, il est donc possible de suivre une partie des réflexions des groupes à cet endroit. 
