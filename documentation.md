@@ -1,3 +1,15 @@
+# Tableau de répartition des personnes par groupe
+
+|Groupe|Tâche|Composition des groupes|
+|------|-----|-----------------------|
+|Groupe 1|Fichier EAD : production de l’en-tête du fichier (élément <eadheader>) ; contrôle de cohérence et de qualité du fichier EAD ; rédaction d’un fichier externe de documentation explicitant les choix faits|Zoé Cappe, Sébastien Biay, Victor Boby|
+|Groupe 2|Fichier EAD : encodage des informations de description globale du versement (pages 2-4) ; indexation du fichier|Maxime Humeau, Virgile Reignier, Valentin De Craene|
+|Groupe 3|Fichier EAD : encodage de la description des dossiers conservés sous les cotes 20110282/1 à 20110282/21 inclus (p. 6-12)|Elsa Falcoz, Ariane Menu, Kelly Christensen|
+|Groupe 4|Fichier EAD : encodage de la description des dossiers conservés sous les cotes 20110282/22 à 20110828/40 inclus (p.12-18)|Baudoin Davoury, Esteban Sánchez Oeconomo, Teresa Knapowska|
+|Groupe 5|Fichier EAD : encodage de la description des dossiers conservés sous les cotes 20110282/41 à 20110282/59 inclus (p. 18-26)|Soline Doat, Margaux Faure, Anaïs Mazoué|
+|Groupe 6|Fichier EAD : encodage de la description des dossiers conservés sous les cotes 20110282/60 à 20110282/74 inclus (p. 26-33)|Anahi Haedo, Paul Kervegan, Kristina Konstantinova|
+|Groupe 7|Fichier EAC-CPF : enrichissement de la notice du producteur FRAN_NP_005412.xml|Lien Ceard, Fanny Lebreton, Cécile Sajdak|
+
 # Documentation de l'encodage : le fichier EAD
 
 La documentation de l'encodage de l'instrument de recherche en XML-EAD et EAC-CPF selon les normes ISAD(G) et ISAAR(CPF) se base sur l'*Abrégé d'archivistique. Principes et pratiques du métier d'archiviste*, 4e édition, refondue et augmentée, Association des archivistes français, Paris, 2020, et l'[*Encoded Archival Description Tag Library*](https://francearchives.fr/file/0def64f5a10f3f1ae03fdea59399a3e0755ef157/static_1066.pdf), version 2002, Society of American Archivists, 2004
