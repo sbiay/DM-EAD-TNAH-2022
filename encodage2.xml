@@ -306,10 +306,8 @@ SYSTEM "./schemas/ead_sia.dtd">
                                 <unitdate normal="1971/1986">1971-1986</unitdate>
                             </did>
                             <scopecontent>
-                                <list>
-                                    <item>Photographies [1983] conservées à la photothèque de 
-                                        l'Opérateur du patrimoine et des projets immobiliers de la Culture.</item>
-                                </list>
+                                <p>Photographies [1983] conservées à la photothèque de 
+                                    l'Opérateur du patrimoine et des projets immobiliers de la Culture.</p>
                             </scopecontent>
                         </c>
                     </c>
@@ -2147,12 +2145,10 @@ SYSTEM "./schemas/ead_sia.dtd">
                                     <unitdate normal="1996/1998">1996-1998</unitdate>
                                 </did>
                                 <scopecontent>
-                                    <list>
-                                        <item>20110282/21 : Cet article contient des dossiers postérieurs au transfert de la conduite des travaux 
+                                    <p>20110282/21 : Cet article contient des dossiers postérieurs au transfert de la conduite des travaux 
                                             de la Conservation régionale des monuments historiques au Service national des travaux 
                                             créé en 1990 mais comme il s'agit des suites du chantier de construction du CARAN il a
-                                            paru plus normal de les classer dans ce versement.</item>
-                                    </list>
+                                            paru plus normal de les classer dans ce versement.</p>
                                 </scopecontent>
                             </c>
                             <c level="subgrp">
@@ -2457,6 +2453,9 @@ SYSTEM "./schemas/ead_sia.dtd">
                             <unittitle>Ecole militaire</unittitle>
                             <unitdate normal="1970-1989" calendar="gregorian" era="ce">1970-1989</unitdate>
                         </did>
+                        <scopecontent>
+                            <p>Nombreuses photographies</p>
+                        </scopecontent>
                         <c level="subgrp">
                             <did>
                                 <unittitle>Travaux divers de rénovation</unittitle>
@@ -2944,6 +2943,9 @@ SYSTEM "./schemas/ead_sia.dtd">
                             <unittitle>Hôtel national des Invalides</unittitle>
                             <unitdate normal="1979/1989" calendar="gregorian" era="ce">1979-1989</unitdate>
                         </did>
+                        <scopecontent>
+                            <p>Photographies</p>
+                        </scopecontent>
                         <c level="subgrp">
                             <did>
                                 <unittitle>Extension des douves</unittitle>
@@ -3452,6 +3454,9 @@ SYSTEM "./schemas/ead_sia.dtd">
                             <unittitle>Musée national du Moyen-Age, Thermes et Hôtel de Cluny</unittitle>
                             <unitdate normal="1978/1989" calendar="gregorian" era="ce">1978-1989</unitdate>
                         </did>
+                        <scopecontent>
+                            <p>Photographies</p>
+                        </scopecontent>
                         <c level="subgrp">
                             <did>
                                 <unittitle>Cour de la Verrière, aménagement</unittitle>
