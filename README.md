@@ -35,4 +35,4 @@ Lors de l'avancée des travaux, l'encodage général initialement prévu posé d
 
 # Issues
 
-Certaines questions d'encodage ont été discutées dans la partie (Issues)[https://github.com/sbiay/DM-EAD-TNAH-2022/issues] du dépôt Github, il est donc possible de suivre une partie des réflexions des groupes à cet endroit. 
+Certaines questions d'encodage ont été discutées dans la partie [Issues](https://github.com/sbiay/DM-EAD-TNAH-2022/issues) du dépôt Github, il est donc possible de suivre une partie des réflexions des groupes à cet endroit. 
