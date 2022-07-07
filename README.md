@@ -6,6 +6,7 @@ TNAH 2022 : devoir collectif d'EAD
 - [schemas/](https://github.com/sbiay/DM-EAD-TNAH-2022/tree/main/schemas) : Ce dossier contient les schémas utilisés pour l'instrument de recherche en EAD et la notice en EAC-CPF
 - [consignes.docx](https://github.com/sbiay/DM-EAD-TNAH-2022/blob/main/consignes.docx) : Le document **consignes.docx**consignes générales du devoir
 - [documentation.md](https://github.com/sbiay/DM-EAD-TNAH-2022/blob/main/documentation.md) : Le document **documentation.md** contient la documentation de l'encodage de l'instrument de recherche en Markdown
+- [documentation.odt](https://github.com/sbiay/DM-EAD-TNAH-2022/blob/main/documentation.odt) : Le document **documentation.odt** contient la documentation de l'encodage de l'instrument de recherche en traitement de texte
 - [encodage.xml](https://github.com/sbiay/DM-EAD-TNAH-2022/blob/main/encodage.xml) : Le fichier **encodage.xml** contient le premier encodage XML-EAD de l'instrument de recherche instr-rech-20110282_CRMHIDF.odt
 - [encodage2.xml](https://github.com/sbiay/DM-EAD-TNAH-2022/blob/main/encodage2.xml) : Le fichier **encodage2.xml** contient la deuxième version de l'encodage de l'instrument de recherche, suite à la transformation avec XSLT.
 - [instr-rech-20110282_CRMHIDF.odt](https://github.com/sbiay/DM-EAD-TNAH-2022/blob/main/instr-rech-20110282_CRMHIDF.odt) : Le document **instr-rech-20110282_CRMHIDF.odt** contient instrument de recherche archivistique à convertir en EAD
