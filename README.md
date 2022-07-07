@@ -21,9 +21,9 @@ Chaque groupe a déposé son travail sur une branche distincte, nommée les bran
 Pour accéder à leurs travaux plus rapidement:
 - Le groupe 7 (EAC-CPF) : [groupe7](https://github.com/sbiay/DM-EAD-TNAH-2022/tree/groupe7)
 - Le groupe 6 (encodage) : [groupe6](https://github.com/sbiay/DM-EAD-TNAH-2022/tree/groupe6)
-- Le groupe 6 (encodage) : [groupe5](https://github.com/sbiay/DM-EAD-TNAH-2022/tree/groupe5)
-- Le groupe 6 (encodage) : [groupe4](https://github.com/sbiay/DM-EAD-TNAH-2022/tree/groupe4)
-- Le groupe 6 (encodage) : [groupe3](https://github.com/sbiay/DM-EAD-TNAH-2022/tree/groupe3)
+- Le groupe 5 (encodage) : [groupe5](https://github.com/sbiay/DM-EAD-TNAH-2022/tree/groupe5)
+- Le groupe 4 (encodage) : [groupe4](https://github.com/sbiay/DM-EAD-TNAH-2022/tree/groupe4)
+- Le groupe 3 (encodage) : [groupe3](https://github.com/sbiay/DM-EAD-TNAH-2022/tree/groupe3)
 - Le groupe 2 (archdesc et indexation) : [groupe2](https://github.com/virgile-reignier/DM-EAD-TNAH-2022/tree/groupe2)
 - Le groupe 1 (header, gestion des groupes et de l'encodage) : [groupe1](https://github.com/sbiay/DM-EAD-TNAH-2022/tree/groupe1-Zoe)et [groupe1-xsl](https://github.com/sbiay/DM-EAD-TNAH-2022/tree/groupe1-xsl)
 
