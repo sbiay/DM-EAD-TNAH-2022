@@ -11,7 +11,7 @@ TNAH 2022 : devoir collectif d'EAD
 - [documentation.odt](https://github.com/sbiay/DM-EAD-TNAH-2022/blob/main/documentation.odt) : contient la documentation de l'encodage de l'instrument de recherche en traitement de texte
 - [encodage-initial.xml](https://github.com/sbiay/DM-EAD-TNAH-2022/blob/main/encodage-initial.xml) : contient le premier encodage XML-EAD de l'instrument de recherche 20110282_CRMHIDF.odt
 - [20110282_CRMHIDF.xml](https://github.com/sbiay/DM-EAD-TNAH-2022/blob/main/20110282_CRMHIDF.xml) : contient la deuxième version de l'encodage de l'instrument de recherche, suite à la transformation avec XSLT.
-- [20110282_CRMHIDF.odt](https://github.com/sbiay/DM-EAD-TNAH-2022/blob/main/20110282_CRMHIDF.odt) : contient instrument de recherche archivistique à convertir en EAD
+- [20110282_CRMHIDF.odt](https://github.com/sbiay/DM-EAD-TNAH-2022/blob/main/20110282_CRMHIDF.odt) : contient instrument de recherche archivistique à convertir en [EAD](https://github.com/sbiay/DM-EAD-TNAH-2022/blob/main/schemas/ead_sia.dtd) selon la DTD utilisée dans le SIA des Archives nationales
 - [FRAN_NP_005412.xml](https://github.com/sbiay/DM-EAD-TNAH-2022/blob/main/FRAN_NP_005412.xml) : contient la notice de producteur enrichie selon le schéma [EAC-CPF](./schemas/cpf.xsd)
 
 # Branches
