@@ -18,7 +18,7 @@ Chaque groupe a déposé son travail sur une branche distincte, nommée les bran
 
 **Les nombreuses fusions des branches ont entraîné de conflits, le travail de certains groupes n'a pas pu être ajouté dans son intégralité lors de leur intégration dans l'encodage général. Les travaux sont cependant bien présents et consultables sur les branches. Il n'est pas impossible qu'il manque certains éléments dans le fichier de regroupement de encodages (première version) qui sont cependant bien présents dans les productions des groupes.**
 
-Pour accéder à leurs travaux plus rapidement:
+Pour accéder aux productions des groupes séparément :
 - Le groupe 7 (EAC-CPF) : [groupe7](https://github.com/sbiay/DM-EAD-TNAH-2022/tree/groupe7)
 - Le groupe 6 (encodage) : [groupe6](https://github.com/sbiay/DM-EAD-TNAH-2022/tree/groupe6)
 - Le groupe 5 (encodage) : [groupe5](https://github.com/sbiay/DM-EAD-TNAH-2022/tree/groupe5)
