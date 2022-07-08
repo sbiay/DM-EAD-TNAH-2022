@@ -25,7 +25,7 @@ Pour accéder aux productions des groupes séparément :
 - Le groupe 4 (encodage) : [groupe4](https://github.com/sbiay/DM-EAD-TNAH-2022/tree/groupe4)
 - Le groupe 3 (encodage) : [groupe3](https://github.com/sbiay/DM-EAD-TNAH-2022/tree/groupe3)
 - Le groupe 2 (archdesc et indexation) : [groupe2](https://github.com/virgile-reignier/DM-EAD-TNAH-2022/tree/groupe2)
-- Le groupe 1 (header, gestion des groupes et de l'encodage) : [groupe1](https://github.com/sbiay/DM-EAD-TNAH-2022/tree/groupe1-Zoe) et [groupe1-xsl](https://github.com/sbiay/DM-EAD-TNAH-2022/tree/groupe1-xsl)
+- Le groupe 1 (header, gestion des groupes et de l'encodage) : [groupe1](https://github.com/sbiay/DM-EAD-TNAH-2022/tree/groupe1)
 
 
 # Fonctionnement de l'encodage en groupe
