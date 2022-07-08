@@ -125,53 +125,53 @@ Chaque élément `<c>` a un attribut `@type` qui précise le niveau de l'éléme
 
 ```XML
 <c level="series">
+  <did>
+    <unitid type="identifiant">20110282/1-20110282/13</unitid>
+    <unittitle>Programmation</unittitle>
+    <unitdate normal="1956/1991">1956-1991</unitdate>
+  </did>
+  <c level="subseries">
     <did>
-      <unitid type="identifiant">20110282/1-20110282/13</unitid>
-      <unittitle>Programmation</unittitle>
-      <unitdate normal="1956/1991">1956-1991</unitdate>
+      <unitid type="identifiant">20110282/1-20110282/8</unitid>
+      <unittitle>Paris</unittitle>
+      <unitdate normal="1966/1989">1966-1989</unitdate>
     </did>
-    <c level="subseries">
+    <c level="recordgrp">
       <did>
-        <unitid type="identifiant">20110282/1-20110282/8</unitid>
-        <unittitle>Paris</unittitle>
-        <unitdate normal="1966/1989">1966-1989</unitdate>
+        <unitid type="cote-de-consultation">20110282/1</unitid>
+        <unittitle></unittitle>
+        <unitdate normal="1967/1987">1967-1987</unitdate>
       </did>
-      <c level="recordgrp">
-        <did>
-          <unitid type="cote-de-consultation">20110282/1</unitid>
-          <unittitle></unittitle>
-          <unitdate normal="1967/1987">1967-1987</unitdate>
-        </did>
-        <scopecontent>
-          <list>
-            <item>Arc de triomphe (1968-1987)</item>
-            <item>Archives nationales (1968-1987)</item>
-            <item>Bibliothèque nationale (1970-1985)</item>
-            <item>Chapelle expiatoire (1983-1986)</item>
-            <item>Collège de France (1967-1984)</item>
-            <item>Colonne d'Austerlitz, place Vendôme (1969-1981)</item>
-            <item>Colonne de Juillet, place de la Bastille (1971-1986)</item>
-          </list>
-        </scopecontent>
-      </c>
-      <c level="recordgrp">
-        <did>
-          <unitid type="cote-de-consultation">20110282/2</unitid>
-          <unittitle></unittitle>
-          <unitdate normal="1968/1988">1968-1988</unitdate>
-        </did>
-        <scopecontent>
-          <list>
-            <item>Conservatoire national supérieur de musique (1970-1986)</item>
-            <item>Conservatoire national des arts et métiers (photographies) (1970-1981)</item>
-            <item>Conservatoire national supérieur d'art dramatique (1968-1985)</item>
-            <item>Cour des comptes (1968-1977)</item>
-            <item>Ecole nationale supérieure des arts décoratifs (ENSAD) (1969-1986)</item>
-            <item>Ecole nationale supérieure des Beaux-Arts, porte du château d'Anet et vestiges de l'Hôtel de la Trémoille (1969-1988)</item>
-          </list>
-        </scopecontent>
-      </c>
-    </c>  
+      <scopecontent>
+        <list>
+          <item>Arc de triomphe (1968-1987)</item>
+          <item>Archives nationales (1968-1987)</item>
+          <item>Bibliothèque nationale (1970-1985)</item>
+          <item>Chapelle expiatoire (1983-1986)</item>
+          <item>Collège de France (1967-1984)</item>
+          <item>Colonne d'Austerlitz, place Vendôme (1969-1981)</item>
+          <item>Colonne de Juillet, place de la Bastille (1971-1986)</item>
+        </list>
+      </scopecontent>
+    </c>
+    <c level="recordgrp">
+      <did>
+        <unitid type="cote-de-consultation">20110282/2</unitid>
+        <unittitle></unittitle>
+        <unitdate normal="1968/1988">1968-1988</unitdate>
+      </did>
+      <scopecontent>
+        <list>
+          <item>Conservatoire national supérieur de musique (1970-1986)</item>
+          <item>Conservatoire national des arts et métiers (photographies) (1970-1981)</item>
+          <item>Conservatoire national supérieur d'art dramatique (1968-1985)</item>
+          <item>Cour des comptes (1968-1977)</item>
+          <item>Ecole nationale supérieure des arts décoratifs (ENSAD) (1969-1986)</item>
+          <item>Ecole nationale supérieure des Beaux-Arts, porte du château d'Anet et vestiges de l'Hôtel de la Trémoille (1969-1988)</item>
+        </list>
+      </scopecontent>
+    </c>
+  </c>  
 </c>
 ```
 
@@ -212,54 +212,54 @@ Chaque élément `<c>` a un attribut `@type` qui précise le niveau de l'éléme
 ##### Quand un dossier comporte plusieurs édifices
 
 ```XML
-	<c level="series">
+<c level="series">
+  <did>
+    <unitid type="identifiant">20110282/14-20110282/74</unitid>
+    <unittitle>Dossiers de travaux</unittitle>
+    <unitdate normal="1962/1993">1962-1998</unitdate>
+  </did>
+  <c level="subseries">
     <did>
-      <unitid type="identifiant">20110282/14-20110282/74</unitid>
-      <unittitle>Dossiers de travaux</unittitle>
-      <unitdate normal="1962/1993">1962-1998</unitdate>
+      <unitid type="identifiant">20110282/14-20110282/59</unitid>
+      <unittitle>Paris</unittitle>
+      <unitdate normal="1970/1994">1970-1998</unitdate>
     </did>
-    <c level="subseries">
+    <c level="file">
       <did>
-        <unitid type="identifiant">20110282/14-20110282/59</unitid>
-        <unittitle>Paris</unittitle>
-        <unitdate normal="1970/1994">1970-1998</unitdate>
+        <unitid type="identifiant">20110282/15-20110282/21</unitid>
+        <unittitle>Archives nationales</unittitle>
+        <unitdate normal="1974/1998">1974-1998</unitdate>
       </did>
-      <c level="file">
+      <c level="recordgrp">
         <did>
-          <unitid type="identifiant">20110282/15-20110282/21</unitid>
-          <unittitle>Archives nationales</unittitle>
-          <unitdate normal="1974/1998">1974-1998</unitdate>
+          <unitid type="cote-de-consultation">20110282/15</unitid>
+          <unittitle>Hôtel de Rohan</unittitle>
+          <unitdate normal="1982/1988">1982-1988</unitdate>
         </did>
-        <c level="recordgrp">
-          <did>
-            <unitid type="cote-de-consultation">20110282/15</unitid>
-            <unittitle>Hôtel de Rohan</unittitle>
-            <unitdate normal="1982/1988">1982-1988</unitdate>
-          </did>
-          <scopecontent>
-            <list>
-              <item>Dorure de la grille principale (1982)</item>
-              <item>Réfection du parquet des salons (1982)</item>
-              <!-- ... -->
-            </list>
-          </scopecontent>
-        </c>
-        <c level="recordgrp">
-          <did>
-            <unitid type="cote-de-consultation">20110282/15</unitid>
-            <unittitle>Hôtel de Soubise </unittitle>
-            <unitdate normal="1981/1990">1981-1990</unitdate>
-          </did>
-          <scopecontent>
-            <list>
-              <item>Réfection des couvertures, versant nord (1981-1982)</item>
-              <item>Réfection des chéneaux et brisis à l’aplomb des appartements de la princesse, versant sud et ouest sur chéneau encaissé côté cour de Clisson. (1981-1985)</item>
-              <!-- ... -->
-            </list>
-          </scopecontent>
-        </c>
+        <scopecontent>
+          <list>
+            <item>Dorure de la grille principale (1982)</item>
+            <item>Réfection du parquet des salons (1982)</item>
+            <!-- ... -->
+          </list>
+        </scopecontent>
+      </c>
+      <c level="recordgrp">
+        <did>
+          <unitid type="cote-de-consultation">20110282/15</unitid>
+          <unittitle>Hôtel de Soubise </unittitle>
+          <unitdate normal="1981/1990">1981-1990</unitdate>
+        </did>
+        <scopecontent>
+          <list>
+            <item>Réfection des couvertures, versant nord (1981-1982)</item>
+            <item>Réfection des chéneaux et brisis à l’aplomb des appartements de la princesse, versant sud et ouest sur chéneau encaissé côté cour de Clisson. (1981-1985)</item>
+            <!-- ... -->
+          </list>
+        </scopecontent>
       </c>
     </c>
+  </c>
 </c>
 ```
 
