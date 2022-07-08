@@ -125,53 +125,53 @@ Chaque élément `<c>` a un attribut `@type` qui précise le niveau de l'éléme
 
 ```XML
 <c level="series">
+    <did>
+      <unitid type="identifiant">20110282/1-20110282/13</unitid>
+      <unittitle>Programmation</unittitle>
+      <unitdate normal="1956/1991">1956-1991</unitdate>
+    </did>
+    <c level="subseries">
+      <did>
+        <unitid type="identifiant">20110282/1-20110282/8</unitid>
+        <unittitle>Paris</unittitle>
+        <unitdate normal="1966/1989">1966-1989</unitdate>
+      </did>
+      <c level="recordgrp">
         <did>
-          <unitid type="identifiant">20110282/1-20110282/13</unitid>
-          <unittitle>Programmation</unittitle>
-          <unitdate normal="1956/1991">1956-1991</unitdate>
+          <unitid type="cote-de-consultation">20110282/1</unitid>
+          <unittitle></unittitle>
+          <unitdate normal="1967/1987">1967-1987</unitdate>
         </did>
-        <c level="subseries">
-          <did>
-            <unitid type="identifiant">20110282/1-20110282/8</unitid>
-            <unittitle>Paris</unittitle>
-            <unitdate normal="1966/1989">1966-1989</unitdate>
-          </did>
-          <c level="recordgrp">
-            <did>
-              <unitid type="cote-de-consultation">20110282/1</unitid>
-              <unittitle></unittitle>
-              <unitdate normal="1967/1987">1967-1987</unitdate>
-            </did>
-            <scopecontent>
-              <list>
-                <item>Arc de triomphe (1968-1987)</item>
-                <item>Archives nationales (1968-1987)</item>
-                <item>Bibliothèque nationale (1970-1985)</item>
-                <item>Chapelle expiatoire (1983-1986)</item>
-                <item>Collège de France (1967-1984)</item>
-                <item>Colonne d'Austerlitz, place Vendôme (1969-1981)</item>
-                <item>Colonne de Juillet, place de la Bastille (1971-1986)</item>
-              </list>
-            </scopecontent>
-          </c>
-          <c level="recordgrp">
-            <did>
-              <unitid type="cote-de-consultation">20110282/2</unitid>
-              <unittitle></unittitle>
-              <unitdate normal="1968/1988">1968-1988</unitdate>
-            </did>
-            <scopecontent>
-              <list>
-                <item>Conservatoire national supérieur de musique (1970-1986)</item>
-                <item>Conservatoire national des arts et métiers (photographies) (1970-1981)</item>
-                <item>Conservatoire national supérieur d'art dramatique (1968-1985)</item>
-                <item>Cour des comptes (1968-1977)</item>
-                <item>Ecole nationale supérieure des arts décoratifs (ENSAD) (1969-1986)</item>
-                <item>Ecole nationale supérieure des Beaux-Arts, porte du château d'Anet et vestiges de l'Hôtel de la Trémoille (1969-1988)</item>
-              </list>
-            </scopecontent>
-          </c>
-        </c>  
+        <scopecontent>
+          <list>
+            <item>Arc de triomphe (1968-1987)</item>
+            <item>Archives nationales (1968-1987)</item>
+            <item>Bibliothèque nationale (1970-1985)</item>
+            <item>Chapelle expiatoire (1983-1986)</item>
+            <item>Collège de France (1967-1984)</item>
+            <item>Colonne d'Austerlitz, place Vendôme (1969-1981)</item>
+            <item>Colonne de Juillet, place de la Bastille (1971-1986)</item>
+          </list>
+        </scopecontent>
+      </c>
+      <c level="recordgrp">
+        <did>
+          <unitid type="cote-de-consultation">20110282/2</unitid>
+          <unittitle></unittitle>
+          <unitdate normal="1968/1988">1968-1988</unitdate>
+        </did>
+        <scopecontent>
+          <list>
+            <item>Conservatoire national supérieur de musique (1970-1986)</item>
+            <item>Conservatoire national des arts et métiers (photographies) (1970-1981)</item>
+            <item>Conservatoire national supérieur d'art dramatique (1968-1985)</item>
+            <item>Cour des comptes (1968-1977)</item>
+            <item>Ecole nationale supérieure des arts décoratifs (ENSAD) (1969-1986)</item>
+            <item>Ecole nationale supérieure des Beaux-Arts, porte du château d'Anet et vestiges de l'Hôtel de la Trémoille (1969-1988)</item>
+          </list>
+        </scopecontent>
+      </c>
+    </c>  
 </c>
 ```
 
@@ -180,87 +180,87 @@ Chaque élément `<c>` a un attribut `@type` qui précise le niveau de l'éléme
 ##### Quand un dossier ne comporte qu'un édifice
 
 ```xml
-		<c level="subseries">
-          <did>
-            <unitid type="identifiant">20110282/14-20110282/59</unitid>
-            <unittitle>Paris</unittitle>
-            <unitdate normal="1970/1994">1970-1998</unitdate>
-          </did>
-          <c level="file">
-            <did>
-              <unitid type="cote-de-consultation">20110282/14</unitid>
-              <unittitle>Arc de Triomphe</unittitle>
-              <unitdate normal="1970/1989">1970-1989</unitdate>
-            </did>
-            <scopecontent>
-              <list>
-                <item>Crypte Kléber, comptoir de vente et rénovation des circulations (1972)</item>
-                <item>Plaque commémorative pour les militaires morts en Afrique du Nord (1972)</item>
-                <item>Protection anti-suicide (1970-1974)</item>
-                <item>Pavage de l'esplanade (1984)</item>
-                <item>Restauration des grilles et chéneaux en pierre de la terrasse (1986-1987)</item>
-                <item>Remise en état des fosses à fleurs (1987)</item>
-                <item>Etudes destinées à assurer la stabilité et à permettre la restauration de l’édifice (1987-1988)</item>
-                <item>Ravalement et restauration des façades et des voûtes (1987-1988)</item>
-                <item>Etudes préparatoires à la restauration de l’édifice : étude géotechnique, investigations topographiques, mesures de vibration, mesures altimétriques, auscultation, procès-verbaux d’essais (1987-1989)</item>
-              </list>
-            </scopecontent>
-          </c>
-        </c>
+<c level="subseries">
+  <did>
+    <unitid type="identifiant">20110282/14-20110282/59</unitid>
+    <unittitle>Paris</unittitle>
+    <unitdate normal="1970/1994">1970-1998</unitdate>
+  </did>
+  <c level="file">
+    <did>
+      <unitid type="cote-de-consultation">20110282/14</unitid>
+      <unittitle>Arc de Triomphe</unittitle>
+      <unitdate normal="1970/1989">1970-1989</unitdate>
+    </did>
+    <scopecontent>
+      <list>
+        <item>Crypte Kléber, comptoir de vente et rénovation des circulations (1972)</item>
+        <item>Plaque commémorative pour les militaires morts en Afrique du Nord (1972)</item>
+        <item>Protection anti-suicide (1970-1974)</item>
+        <item>Pavage de l'esplanade (1984)</item>
+        <item>Restauration des grilles et chéneaux en pierre de la terrasse (1986-1987)</item>
+        <item>Remise en état des fosses à fleurs (1987)</item>
+        <item>Etudes destinées à assurer la stabilité et à permettre la restauration de l’édifice (1987-1988)</item>
+        <item>Ravalement et restauration des façades et des voûtes (1987-1988)</item>
+        <item>Etudes préparatoires à la restauration de l’édifice : étude géotechnique, investigations topographiques, mesures de vibration, mesures altimétriques, auscultation, procès-verbaux d’essais (1987-1989)</item>
+      </list>
+    </scopecontent>
+  </c>
+</c>
 ```
 
 ##### Quand un dossier comporte plusieurs édifices
 
 ```XML
 	<c level="series">
+    <did>
+      <unitid type="identifiant">20110282/14-20110282/74</unitid>
+      <unittitle>Dossiers de travaux</unittitle>
+      <unitdate normal="1962/1993">1962-1998</unitdate>
+    </did>
+    <c level="subseries">
+      <did>
+        <unitid type="identifiant">20110282/14-20110282/59</unitid>
+        <unittitle>Paris</unittitle>
+        <unitdate normal="1970/1994">1970-1998</unitdate>
+      </did>
+      <c level="file">
         <did>
-          <unitid type="identifiant">20110282/14-20110282/74</unitid>
-          <unittitle>Dossiers de travaux</unittitle>
-          <unitdate normal="1962/1993">1962-1998</unitdate>
+          <unitid type="identifiant">20110282/15-20110282/21</unitid>
+          <unittitle>Archives nationales</unittitle>
+          <unitdate normal="1974/1998">1974-1998</unitdate>
         </did>
-        <c level="subseries">
+        <c level="recordgrp">
           <did>
-            <unitid type="identifiant">20110282/14-20110282/59</unitid>
-            <unittitle>Paris</unittitle>
-            <unitdate normal="1970/1994">1970-1998</unitdate>
+            <unitid type="cote-de-consultation">20110282/15</unitid>
+            <unittitle>Hôtel de Rohan</unittitle>
+            <unitdate normal="1982/1988">1982-1988</unitdate>
           </did>
-          <c level="file">
-            <did>
-              <unitid type="identifiant">20110282/15-20110282/21</unitid>
-              <unittitle>Archives nationales</unittitle>
-              <unitdate normal="1974/1998">1974-1998</unitdate>
-            </did>
-            <c level="recordgrp">
-              <did>
-                <unitid type="cote-de-consultation">20110282/15</unitid>
-                <unittitle>Hôtel de Rohan</unittitle>
-                <unitdate normal="1982/1988">1982-1988</unitdate>
-              </did>
-              <scopecontent>
-                <list>
-                  <item>Dorure de la grille principale (1982)</item>
-                  <item>Réfection du parquet des salons (1982)</item>
-                  <!-- ... -->
-                </list>
-              </scopecontent>
-            </c>
-            <c level="recordgrp">
-              <did>
-                <unitid type="cote-de-consultation">20110282/15</unitid>
-                <unittitle>Hôtel de Soubise </unittitle>
-                <unitdate normal="1981/1990">1981-1990</unitdate>
-              </did>
-              <scopecontent>
-                <list>
-                  <item>Réfection des couvertures, versant nord (1981-1982)</item>
-                  <item>Réfection des chéneaux et brisis à l’aplomb des appartements de la princesse, versant sud et ouest sur chéneau encaissé côté cour de Clisson. (1981-1985)</item>
-                  <!-- ... -->
-                </list>
-              </scopecontent>
-            </c>
-          </c>
+          <scopecontent>
+            <list>
+              <item>Dorure de la grille principale (1982)</item>
+              <item>Réfection du parquet des salons (1982)</item>
+              <!-- ... -->
+            </list>
+          </scopecontent>
         </c>
+        <c level="recordgrp">
+          <did>
+            <unitid type="cote-de-consultation">20110282/15</unitid>
+            <unittitle>Hôtel de Soubise </unittitle>
+            <unitdate normal="1981/1990">1981-1990</unitdate>
+          </did>
+          <scopecontent>
+            <list>
+              <item>Réfection des couvertures, versant nord (1981-1982)</item>
+              <item>Réfection des chéneaux et brisis à l’aplomb des appartements de la princesse, versant sud et ouest sur chéneau encaissé côté cour de Clisson. (1981-1985)</item>
+              <!-- ... -->
+            </list>
+          </scopecontent>
+        </c>
+      </c>
     </c>
+</c>
 ```
 
 
@@ -311,67 +311,69 @@ Ces modifications précisent la structuration des dossiers entre eux, et ainsi l
 
 ```XML
 <c level="series">
+    <did>
+        <unitid type="identifiant">20110282/1-20110282/13</unitid>
+        <unittitle>Programmation</unittitle>
+        <unitdate normal="1956/1991" calendar="gregorian" era="ce">1956-1991</unitdate>
+    </did>
+    <c level="subseries">
+        <did>
+            <unitid type="identifiant">20110282/1-20110282/8</unitid>
+            <unittitle>Paris</unittitle>
+            <unitdate normal="1966/1989" calendar="gregorian" era="ce">1966-1989</unitdate>
+        </did>
+        <c level="recordgrp">
+            <did>
+                <unitid type="cote-de-consultation">20110282/1</unitid>
+                <unittitle/>
+                <unitdate normal="1967/1987" calendar="gregorian" era="ce">1967-1987</unitdate>
+            </did>
+            <c level="subgrp">
                 <did>
-                    <unitid type="identifiant">20110282/1-20110282/13</unitid>
-                    <unittitle>Programmation</unittitle>
-                    <unitdate normal="1956/1991" calendar="gregorian" era="ce">1956-1991</unitdate>
+                    <unittitle>Arc de triomphe</unittitle>
+                    <unitdate normal="1968/1987">1968-1987</unitdate>
                 </did>
-                <c level="subseries">
-                    <did>
-                        <unitid type="identifiant">20110282/1-20110282/8</unitid>
-                        <unittitle>Paris</unittitle>
-                        <unitdate normal="1966/1989" calendar="gregorian" era="ce">1966-1989</unitdate>
-                    </did>
-                    <c level="recordgrp">
-                        <did>
-                            <unitid type="cote-de-consultation">20110282/1</unitid>
-                            <unittitle/>
-                            <unitdate normal="1967/1987" calendar="gregorian" era="ce">1967-1987</unitdate>
-                        </did>
-                        <c level="subgrp">
-                            <did>
-                                <unittitle>Arc de triomphe</unittitle>
-                                <unitdate normal="1968/1987">1968-1987</unitdate>
-                            </did>
-                        </c>
-                        <!-- ... -->
-                        <c level="subgrp">
-                            <did>
-                                <unittitle>Colonne de Juillet, place de la Bastille</unittitle>
-                                <unitdate normal="1971/1986">1971-1986</unitdate>
-                            </did>
-                            <scopecontent>
-                                <p>Photographies [1983] conservées à la photothèque de 
-                                    l'Opérateur du patrimoine et des projets immobiliers de la Culture.</p>
-                            </scopecontent>
-                        </c>
-                    </c>
-                    <c level="recordgrp">
-                        <did>
-                            <unitid type="cote-de-consultation">20110282/2</unitid>
-                            <unittitle/>
-                            <unitdate normal="1968/1988" calendar="gregorian" era="ce">1968-1988</unitdate>
-                        </did>
-                        <c level="subgrp">
-                            <did>
-                                <unittitle>Conservatoire national supérieur de musique</unittitle>
-                                <unitdate normal="1970/1986">1970-1986</unitdate>
-                            </did>
-                        </c>
-                        <c level="subgrp">
-                            <did>
-                                <unittitle>Conservatoire national des arts et métiers (photographies)</unittitle>
-                                <unitdate normal="1970/1981">1970-1981</unitdate>
-                            </did>
-                        </c>
-                        <!-- ... -->
-                        <c level="subgrp">
-                            <did>
-                                <unittitle>Ecole nationale supérieure des Beaux-Arts, porte du château d'Anet et vestiges de l'Hôtel de la Trémoille</unittitle>
-                                <unitdate normal="1969/1988">1969-1988</unitdate>
-                            </did>
-                        </c>
-                    </c>
+            </c>
+            <!-- ... -->
+            <c level="subgrp">
+                <did>
+                    <unittitle>Colonne de Juillet, place de la Bastille</unittitle>
+                    <unitdate normal="1971/1986">1971-1986</unitdate>
+                </did>
+                <scopecontent>
+                    <p>Photographies [1983] conservées à la photothèque de 
+                        l'Opérateur du patrimoine et des projets immobiliers de la Culture.</p>
+                </scopecontent>
+            </c>
+        </c>
+        <c level="recordgrp">
+            <did>
+                <unitid type="cote-de-consultation">20110282/2</unitid>
+                <unittitle/>
+                <unitdate normal="1968/1988" calendar="gregorian" era="ce">1968-1988</unitdate>
+            </did>
+            <c level="subgrp">
+                <did>
+                    <unittitle>Conservatoire national supérieur de musique</unittitle>
+                    <unitdate normal="1970/1986">1970-1986</unitdate>
+                </did>
+            </c>
+            <c level="subgrp">
+                <did>
+                    <unittitle>Conservatoire national des arts et métiers (photographies)</unittitle>
+                    <unitdate normal="1970/1981">1970-1981</unitdate>
+                </did>
+            </c>
+            <!-- ... -->
+            <c level="subgrp">
+                <did>
+                    <unittitle>Ecole nationale supérieure des Beaux-Arts, porte du château d'Anet et vestiges de l'Hôtel de la Trémoille</unittitle>
+                    <unitdate normal="1969/1988">1969-1988</unitdate>
+                </did>
+            </c>
+        </c>
+    </c>
+</c>
 ```
 
 #### Structure de dossier pour la série Dossiers de travaux
@@ -379,102 +381,102 @@ Ces modifications précisent la structuration des dossiers entre eux, et ainsi l
 ##### Quand un dossier ne comporte qu'un édifice
 
 ```xml
-                <c level="subseries">
-                    <did>
-                        <unitid type="identifiant">20110282/14-20110282/59</unitid>
-                        <unittitle>Paris</unittitle>
-                        <unitdate normal="1970/1994" calendar="gregorian" era="ce">1970-1998</unitdate>
-                    </did>
-                    <c level="file">
-                        <did>
-                            <unitid type="cote-de-consultation">20110282/14</unitid>
-                            <unittitle>Arc de Triomphe</unittitle>
-                            <unitdate normal="1970/1989" calendar="gregorian" era="ce">1970-1989</unitdate>
-                        </did>
-                        <c level="subgrp">
-                            <did>
-                                <unittitle>Crypte Kléber, comptoir de vente et rénovation des circulations</unittitle>
-                                <unitdate normal="1972">1972</unitdate>
-                            </did>
-                        </c>
-                        <!-- ... -->
-                        <c level="subgrp">
-                            <did>
-                                <unittitle>Etudes préparatoires à la restauration de l’édifice</unittitle>
-                                <unitdate normal="1987/1989">1987-1989</unitdate>
-                            </did>
-                            <scopecontent>
-                                <p>Étude géotechnique, investigations topographiques, mesures de vibration, mesures altimétriques, auscultation, procès-verbaux d’essais.</p>
-                            </scopecontent>
-                        </c>
-                    </c>
-                </c>
+<c level="subseries">
+    <did>
+        <unitid type="identifiant">20110282/14-20110282/59</unitid>
+        <unittitle>Paris</unittitle>
+        <unitdate normal="1970/1994" calendar="gregorian" era="ce">1970-1998</unitdate>
+    </did>
+    <c level="file">
+        <did>
+            <unitid type="cote-de-consultation">20110282/14</unitid>
+            <unittitle>Arc de Triomphe</unittitle>
+            <unitdate normal="1970/1989" calendar="gregorian" era="ce">1970-1989</unitdate>
+        </did>
+        <c level="subgrp">
+            <did>
+                <unittitle>Crypte Kléber, comptoir de vente et rénovation des circulations</unittitle>
+                <unitdate normal="1972">1972</unitdate>
+            </did>
+        </c>
+        <!-- ... -->
+        <c level="subgrp">
+            <did>
+                <unittitle>Etudes préparatoires à la restauration de l’édifice</unittitle>
+                <unitdate normal="1987/1989">1987-1989</unitdate>
+            </did>
+            <scopecontent>
+                <p>Étude géotechnique, investigations topographiques, mesures de vibration, mesures altimétriques, auscultation, procès-verbaux d’essais.</p>
+            </scopecontent>
+        </c>
+    </c>
+</c>
 ```
 
 ##### Quand un dossier comporte plusieurs édifices
 
 ```XML
-            <c level="series">
+<c level="series">
+    <did>
+        <unitid type="identifiant">20110282/14-20110282/74</unitid>
+        <unittitle>Dossiers de travaux</unittitle>
+        <unitdate normal="1962/1993" calendar="gregorian" era="ce">1962-1998</unitdate>
+    </did>
+    <c level="subseries">
+        <did>
+            <unitid type="identifiant">20110282/14-20110282/59</unitid>
+            <unittitle>Paris</unittitle>
+            <unitdate normal="1970/1994" calendar="gregorian" era="ce">1970-1998</unitdate>
+        </did>
+        <!-- ... -->
+        <c level="file">
+            <did>
+                <unitid type="identifiant">20110282/15-20110282/21</unitid>
+                <unittitle>Archives nationales</unittitle>
+                <unitdate normal="1974/1998" calendar="gregorian" era="ce">1974-1998</unitdate>
+            </did>
+            <c level="recordgrp">
                 <did>
-                    <unitid type="identifiant">20110282/14-20110282/74</unitid>
-                    <unittitle>Dossiers de travaux</unittitle>
-                    <unitdate normal="1962/1993" calendar="gregorian" era="ce">1962-1998</unitdate>
+                    <unitid type="cote-de-consultation">20110282/15</unitid>
+                    <unittitle>Hôtel de Rohan</unittitle>
+                    <unitdate normal="1982/1988" calendar="gregorian" era="ce">1982-1988</unitdate>
                 </did>
-                <c level="subseries">
+                <c level="subgrp">
                     <did>
-                        <unitid type="identifiant">20110282/14-20110282/59</unitid>
-                        <unittitle>Paris</unittitle>
-                        <unitdate normal="1970/1994" calendar="gregorian" era="ce">1970-1998</unitdate>
+                        <unittitle>Dorure de la grille principale</unittitle>
+                        <unitdate normal="1982">1982</unitdate>
                     </did>
-                    <!-- ... -->
-                    <c level="file">
-                        <did>
-                            <unitid type="identifiant">20110282/15-20110282/21</unitid>
-                            <unittitle>Archives nationales</unittitle>
-                            <unitdate normal="1974/1998" calendar="gregorian" era="ce">1974-1998</unitdate>
-                        </did>
-                        <c level="recordgrp">
-                            <did>
-                                <unitid type="cote-de-consultation">20110282/15</unitid>
-                                <unittitle>Hôtel de Rohan</unittitle>
-                                <unitdate normal="1982/1988" calendar="gregorian" era="ce">1982-1988</unitdate>
-                            </did>
-                            <c level="subgrp">
-                                <did>
-                                    <unittitle>Dorure de la grille principale</unittitle>
-                                    <unitdate normal="1982">1982</unitdate>
-                                </did>
-                            </c>
-                            <c level="subgrp">
-                                <did>
-                                    <unittitle>Réfection du parquet des salons</unittitle>
-                                    <unitdate normal="1982">1982</unitdate>
-                                </did>
-                            </c>
-                            <!-- ... -->
-                        </c>
-                        <c level="recordgrp">
-                            <did>
-                                <unitid type="cote-de-consultation">20110282/15</unitid>
-                                <unittitle>Hôtel de Soubise </unittitle>
-                                <unitdate normal="1981/1990" calendar="gregorian" era="ce">1981-1990</unitdate>
-                            </did>
-                            <c level="subgrp">
-                                <did>
-                                    <unittitle>Réfection des couvertures, versant nord</unittitle>
-                                    <unitdate normal="1981/1982">1981-1982</unitdate>
-                                </did>
-                            </c>
-                            <c level="subgrp">
-                                <did>
-                                    <unittitle>Réfection des chéneaux et brisis à l’aplomb des appartements de la princesse, versant sud et ouest sur chéneau encaissé côté cour de Clisson.</unittitle>
-                                    <unitdate normal="1981/1985">1981-1985</unitdate>
-                                </did>
-                            </c>
-                        </c>
-                    </c>
                 </c>
-            </c>        
+                <c level="subgrp">
+                    <did>
+                        <unittitle>Réfection du parquet des salons</unittitle>
+                        <unitdate normal="1982">1982</unitdate>
+                    </did>
+                </c>
+                <!-- ... -->
+            </c>
+            <c level="recordgrp">
+                <did>
+                    <unitid type="cote-de-consultation">20110282/15</unitid>
+                    <unittitle>Hôtel de Soubise </unittitle>
+                    <unitdate normal="1981/1990" calendar="gregorian" era="ce">1981-1990</unitdate>
+                </did>
+                <c level="subgrp">
+                    <did>
+                        <unittitle>Réfection des couvertures, versant nord</unittitle>
+                        <unitdate normal="1981/1982">1981-1982</unitdate>
+                    </did>
+                </c>
+                <c level="subgrp">
+                    <did>
+                        <unittitle>Réfection des chéneaux et brisis à l’aplomb des appartements de la princesse, versant sud et ouest sur chéneau encaissé côté cour de Clisson.</unittitle>
+                        <unitdate normal="1981/1985">1981-1985</unitdate>
+                    </did>
+                </c>
+            </c>
+        </c>
+    </c>
+</c>        
 ```
 
 
