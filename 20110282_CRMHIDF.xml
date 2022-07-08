@@ -47,7 +47,7 @@ SYSTEM "./schemas/ead_sia.dtd">
             <unittitle>Conservation régionale des monuments historiques d'Île-de-France : programmation et conduite de travaux sur des édifices publics.</unittitle>
             <unitdate normal="1956/1993" calendar="gregorian" era="ce">XXe siècle</unitdate>
             <origination>
-                <corpname authfilenumber="FRAN_NP_005412">Conservation régionale des monuments historiques d'Île-de-France</corpname>
+                <corpname authfilenumber="FRAN_NP_005412">Île-de-France. Conservation régionale des monuments historiques (1948-...)</corpname>
             </origination>
             <physdesc>
                 <extent>74 cartons de type dimab</extent>
