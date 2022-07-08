@@ -7,10 +7,10 @@ TNAH 2022 : devoir collectif d'EAD
 - [consignes.docx](https://github.com/sbiay/DM-EAD-TNAH-2022/blob/main/consignes.docx) : Le document **consignes.docx**consignes générales du devoir
 - [documentation.md](https://github.com/sbiay/DM-EAD-TNAH-2022/blob/main/documentation.md) : Le document **documentation.md** contient la documentation de l'encodage de l'instrument de recherche en Markdown
 - [documentation.odt](https://github.com/sbiay/DM-EAD-TNAH-2022/blob/main/documentation.odt) : Le document **documentation.odt** contient la documentation de l'encodage de l'instrument de recherche en traitement de texte
-- [encodage.xml](https://github.com/sbiay/DM-EAD-TNAH-2022/blob/main/encodage.xml) : Le fichier **encodage.xml** contient le premier encodage XML-EAD de l'instrument de recherche instr-rech-20110282_CRMHIDF.odt
-- [encodage2.xml](https://github.com/sbiay/DM-EAD-TNAH-2022/blob/main/encodage2.xml) : Le fichier **encodage2.xml** contient la deuxième version de l'encodage de l'instrument de recherche, suite à la transformation avec XSLT.
-- [instr-rech-20110282_CRMHIDF.odt](https://github.com/sbiay/DM-EAD-TNAH-2022/blob/main/instr-rech-20110282_CRMHIDF.odt) : Le document **instr-rech-20110282_CRMHIDF.odt** contient instrument de recherche archivistique à convertir en EAD
-- [notice-prod-FRAN_NP_005412.xml](https://github.com/sbiay/DM-EAD-TNAH-2022/blob/main/notice-prod-FRAN_NP_005412.xml) : Le fichier **notice-prod-FRAN_NP_005412.xml** contient la notice de producteur enrichie selon le schéma [EAC-CPF](./schemas/cpf.xsd)
+- [encodage-initial.xml](https://github.com/sbiay/DM-EAD-TNAH-2022/blob/main/encodage-initial) : Le fichier **encodage-initial.xml** contient le premier encodage XML-EAD de l'instrument de recherche 20110282_CRMHIDF.odt
+- [20110282_CRMHIDF.xml](https://github.com/sbiay/DM-EAD-TNAH-2022/blob/main/20110282_CRMHIDF.xml) : Le fichier **20110282_CRMHIDF.xml** contient la deuxième version de l'encodage de l'instrument de recherche, suite à la transformation avec XSLT.
+- [20110282_CRMHIDF.odt](https://github.com/sbiay/DM-EAD-TNAH-2022/blob/main/20110282_CRMHIDF.odt) : Le document **20110282_CRMHIDF.odt** contient instrument de recherche archivistique à convertir en EAD
+- [FRAN_NP_005412.xml](https://github.com/sbiay/DM-EAD-TNAH-2022/blob/main/FRAN_NP_005412.xml) : Le fichier **FRAN_NP_005412.xml** contient la notice de producteur enrichie selon le schéma [EAC-CPF](./schemas/cpf.xsd)
 
 # Branches
 
