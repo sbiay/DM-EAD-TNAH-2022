@@ -34,7 +34,7 @@ Pour accéder aux productions des groupes séparément :
 
 Suite à un accord sur la façon d'encoder l'instrument de recherche, celui-ci a été traité à l'aide d'un script [Python](./py/planMD.py) afin d'en créer la structure de base, en particulier dans le cas des *séries* et *sous-séries*. Cela a permis de simplifier la répartition du travail entre les groupes et de réduire le nombre de conflits lors de la fusion de toutes les contributions.
 
-Lors de l'avancée des travaux, l'encodage général initialement prévu posé des difficultés lors de cas particuliers (structures complexes). C'est pourquoi il a été décidé, une fois les travaux des groupes ajoutés, de transformer l'encodage à l'aide de XSLT afin d'affiner la structuration de l'ensemble, et d'enrichir l'instrument de recherche. Cette transformation automatique n'aurait pu être réalisée sans le travail régulier des groupes.
+Lors de l'avancée des travaux, l'encodage général initialement prévu posé des difficultés lors de cas particuliers (structures complexes). C'est pourquoi il a été décidé, une fois les travaux des groupes ajoutés, de transformer l'encodage à l'aide de [XSLT](./xsl/ead-subgrp-01.xsl) afin d'affiner la structuration de l'ensemble, et d'enrichir l'instrument de recherche. Cette transformation automatique n'aurait pu être réalisée sans le travail régulier des groupes.
 
 # Issues
 
