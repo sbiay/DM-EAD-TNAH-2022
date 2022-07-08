@@ -76,7 +76,7 @@ L'élément `<arrangement>` sert à donner des informations sur la façon dont l
 
 Les différents types de versements liés au fonds décrit dans l'instrument de recherche sont répartis dans deux types d'éléments:
 
-- Le premier est l'élément `<separatedmaterial>` : il concerne les autres versements liés au fonds décrit qui ont le même producteur.
+- Le premier est l'élément `<separatedmaterial>` : il concerne les autres versements liés au fonds décrit qui ont le même producteur. Les divers items ont été placés dans des paragraphes `<p>` au lieu d'une liste afin de créer des liens vers les instruments de recherche existant en ligne, dans les cas où ils ont pu être trouvés. Une liste aurait été plus adaptée pour ce cas mais selon la DTD il n'est pas autorisé d'insérer des `<ref>` dans des `<item>`. Nous avons donc été contraints de choisir la forme d'une suite de paragraphes `<p>`.
 
 - Le second est l'élément `<relatedmaterial>` : il concerne les autres versements liés au fonds décrit, mais avec un producteur différent.
 

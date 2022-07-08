@@ -82,11 +82,9 @@ SYSTEM "./schemas/ead_sia.dtd">
         </arrangement>
         <separatedmaterial>
             <p>Autres versements d'archives de la Conservation régionale des bâtiments de France, puis Conservation régionale des monuments historiques aux Archives nationales :</p>
-            <list>
-                <item>19760342 : dossiers du bureau du contrôle des travaux des bâtiments civils. s.d. (accessible par un fichier cote 20060196 et par un fichier informatique)</item>
-                <item>19950177, art. 1 : dossiers individuels d'agents ayant quitté leurs fonctions de 1954 à 1988</item>
-                <item>19950178, art. 1-11: service départemental d'architecture de Paris : devis et règlements pour travaux d'entretien des bâtiments de France. 1946-1988</item>
-            </list>
+            <p>19760342 : dossiers du bureau du contrôle des travaux des bâtiments civils. s.d. (accessible par un fichier cote 20060196 et par un fichier informatique)</p>
+            <p><ref role="IR"><archref href="FRAN_IR_008894">19950177, art. 1 : dossiers individuels d'agents ayant quitté leurs fonctions de 1954 à 1988</archref></ref></p>
+            <p><ref role="IR"><archref href="FRAN_IR_008895">19950178, art. 1-11: service départemental d'architecture de Paris : devis et règlements pour travaux d'entretien des bâtiments de France. 1946-1988</archref></ref></p>
         </separatedmaterial>
         <relatedmaterial>
             <p>Versements d'archives de la Conservation régionale des bâtiments de France, puis Conservation régionale des monuments historiques effectués par le Service national des travaux aux Archives de Paris :</p>
