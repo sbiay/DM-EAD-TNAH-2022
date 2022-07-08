@@ -230,8 +230,8 @@
                     <p>Identifiant VIAF : 151559655 (Collectivité)</p>
                 </descriptiveNote>
             </cpfRelation>
-            <resourceRelation xmlns:xlink="http://www.w3.org/1999/xlink" resourceRelationType="creatorOf" xlink:href="?" xlink:type="simple">
-                <relationEntry localType="archival">?</relationEntry>
+            <resourceRelation xmlns:xlink="http://www.w3.org/1999/xlink" resourceRelationType="creatorOf" xlink:href="20110282_CRMHIDF" xlink:type="simple">
+                <relationEntry localType="archival">Conservation régionale des monuments historiques d'Île-de-France : programmation et conduite de travaux sur des édifices publics (1956-1993)</relationEntry>
             </resourceRelation>
             <resourceRelation xmlns:xlink="http://www.w3.org/1999/xlink" resourceRelationType="subjectOf"
                 xlink:href="FRAN_IR_008895" xlink:type="simple">
