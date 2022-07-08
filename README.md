@@ -3,7 +3,9 @@ TNAH 2022 : devoir collectif d'EAD
 
 # Contenu du dépôt
 - [referentiels/](https://github.com/sbiay/DM-EAD-TNAH-2022/tree/main/referentiels) : Ce dossier **référentiels** contient les référentiels utilisés pour l’indexation
+- [py/](./py/) : Ce dossier contient les scripts python utilisé pour une première structuration de la description par niveau et le post-traitement XSLT
 - [schemas/](https://github.com/sbiay/DM-EAD-TNAH-2022/tree/main/schemas) : Ce dossier contient les schémas utilisés pour l'instrument de recherche en EAD et la notice en EAC-CPF
+- [xsl/](./xsl/) : Ce dossier contient la feuille XSL utilisée pour la transformation de l'encodage
 - [consignes.docx](https://github.com/sbiay/DM-EAD-TNAH-2022/blob/main/consignes.docx) : contient les consignes générales du devoir
 - [documentation.md](https://github.com/sbiay/DM-EAD-TNAH-2022/blob/main/documentation.md) : contient la documentation de l'encodage de l'instrument de recherche en Markdown
 - [documentation.odt](https://github.com/sbiay/DM-EAD-TNAH-2022/blob/main/documentation.odt) : contient la documentation de l'encodage de l'instrument de recherche en traitement de texte
@@ -30,7 +32,7 @@ Pour accéder aux productions des groupes séparément :
 
 # Fonctionnement de l'encodage en groupe
 
-Suite à un accord sur la façon d'encoder l'instrument de recherche, celui-ci a été traité à l'aide d'un script Python afin d'en créer la structure de base, en particulier dans le cas des *séries* et *sous-séries*. Cela a permis de simplifier la répartition du travail entre les groupes et de réduire le nombre de conflits lors de la fusion de toutes les contributions.
+Suite à un accord sur la façon d'encoder l'instrument de recherche, celui-ci a été traité à l'aide d'un script [Python](./py/planMD.py) afin d'en créer la structure de base, en particulier dans le cas des *séries* et *sous-séries*. Cela a permis de simplifier la répartition du travail entre les groupes et de réduire le nombre de conflits lors de la fusion de toutes les contributions.
 
 Lors de l'avancée des travaux, l'encodage général initialement prévu posé des difficultés lors de cas particuliers (structures complexes). C'est pourquoi il a été décidé, une fois les travaux des groupes ajoutés, de transformer l'encodage à l'aide de XSLT afin d'affiner la structuration de l'ensemble, et d'enrichir l'instrument de recherche. Cette transformation automatique n'aurait pu être réalisée sans le travail régulier des groupes.
 
