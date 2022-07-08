@@ -18,8 +18,6 @@ TNAH 2022 : devoir collectif d'EAD
 
 Chaque groupe a déposé son travail sur une branche distincte, nommée les branches sur le modèle suivant : `groupeN`, le "N" correspondant au numéro de groupe.
 
-**Les nombreuses fusions des branches ont entraîné de conflits, le travail de certains groupes n'a pas pu être ajouté dans son intégralité lors de leur intégration dans l'encodage général. Les travaux sont cependant bien présents et consultables sur les branches. Il n'est pas impossible qu'il manque certains éléments dans le fichier de regroupement de encodages (première version) qui sont cependant bien présents dans les productions des groupes.**
-
 Pour accéder aux productions des groupes séparément :
 - Le groupe 7 (EAC-CPF) : [groupe7](https://github.com/sbiay/DM-EAD-TNAH-2022/tree/groupe7)
 - Le groupe 6 (encodage) : [groupe6](https://github.com/sbiay/DM-EAD-TNAH-2022/tree/groupe6)
@@ -27,7 +25,7 @@ Pour accéder aux productions des groupes séparément :
 - Le groupe 4 (encodage) : [groupe4](https://github.com/sbiay/DM-EAD-TNAH-2022/tree/groupe4)
 - Le groupe 3 (encodage) : [groupe3](https://github.com/sbiay/DM-EAD-TNAH-2022/tree/groupe3)
 - Le groupe 2 (archdesc et indexation) : [groupe2](https://github.com/virgile-reignier/DM-EAD-TNAH-2022/tree/groupe2)
-- Le groupe 1 (header, gestion des groupes et de l'encodage) : [groupe1](https://github.com/sbiay/DM-EAD-TNAH-2022/tree/groupe1-Zoe)et [groupe1-xsl](https://github.com/sbiay/DM-EAD-TNAH-2022/tree/groupe1-xsl)
+- Le groupe 1 (header, gestion des groupes et de l'encodage) : [groupe1](https://github.com/sbiay/DM-EAD-TNAH-2022/tree/groupe1-Zoe) et [groupe1-xsl](https://github.com/sbiay/DM-EAD-TNAH-2022/tree/groupe1-xsl)
 
 
 # Fonctionnement de l'encodage en groupe
